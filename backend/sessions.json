@@ -30,5 +30,21 @@
         "client": "Agreed (no comment)"
       }
     ]
+  },
+  "1774349412872-i5p4kc": {
+    "id": "1774349412872-i5p4kc",
+    "model": "deepseek",
+    "query": "tỉ lệ trẻ em bị mắc bệnh ung thư máu là bao nhiêu",
+    "status": "pending",
+    "history": [
+      {
+        "llm": "Đây là câu trả lời cho câu hỏi: \"tỉ lệ trẻ em bị mắc bệnh ung thư máu là bao nhiêu\". Bạn có đồng ý với câu trả lời này không?",
+        "client": null
+      },
+      {
+        "llm": "Đây là câu trả lời cho câu hỏi: \"tỉ lệ trẻ em bị mắc bệnh ung thư máu là bao nhiêu\". Bạn có đồng ý với câu trả lời này không?",
+        "client": null
+      }
+    ]
   }
 }

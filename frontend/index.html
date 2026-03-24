@@ -139,6 +139,32 @@
             vertical-align: middle;
         }
 
+        .retrieval-badge {
+            display: inline-block;
+            background: #e7f8ee;
+            color: #0f7a3f;
+            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .retrieval-snippets {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px dashed #d5d9de;
+            border-radius: 10px;
+            background: #fafcfe;
+            font-size: 12px;
+            color: #34495e;
+        }
+
+        .retrieval-item {
+            margin-top: 6px;
+            line-height: 1.4;
+        }
+
         .message-time {
             font-size: 12px;
             color: #999;
@@ -285,7 +311,7 @@
         }
 
         // Helper: Add message to chat
-        function addMessage(text, type, timestamp = new Date(), model = null) {
+        function addMessage(text, type, timestamp = new Date(), model = null, retrieval = null) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${type}`;
             
@@ -293,12 +319,34 @@
             if (type === 'ai' && model) {
                 modelBadge = `<span class="model-badge">${getModelDisplayName(model)}</span>`;
             }
+
+            let retrievalBadge = '';
+            let retrievalSnippetHtml = '';
+            if (type === 'ai' && retrieval) {
+                const status = retrieval.retrieval_status || 'unknown';
+                const topK = Number(retrieval.top_k || 0);
+                retrievalBadge = `<span class="retrieval-badge">RAG: ${status} | top-${topK}</span>`;
+
+                if (Array.isArray(retrieval.snippets) && retrieval.snippets.length > 0) {
+                    const snippetLines = retrieval.snippets
+                        .map((item, idx) => {
+                            const sourceId = item.doc_id || 'unknown';
+                            const score = Number(item.score || 0).toFixed(3);
+                            return `<div class="retrieval-item"><strong>[${idx + 1}] ${escapeHtml(sourceId)}</strong> (${score}): ${escapeHtml(item.snippet || '')}</div>`;
+                        })
+                        .join('');
+
+                    retrievalSnippetHtml = `<div class="retrieval-snippets"><strong>Retrieved context</strong>${snippetLines}</div>`;
+                }
+            }
             
             messageDiv.innerHTML = `
                 <div class="message-content">
                     ${escapeHtml(text)}
                     ${modelBadge}
+                    ${retrievalBadge}
                 </div>
+                ${retrievalSnippetHtml}
                 <div class="message-time">${timestamp.toLocaleTimeString()}</div>
             `;
             chatMessages.appendChild(messageDiv);
@@ -376,7 +424,7 @@
                     sendBtn.disabled = false;
                 } else if (action === 'disagree' && data.response) {
                     // Add the new AI response
-                    const newAIMessage = addMessage(data.response, 'ai', new Date(), currentModel);
+                    const newAIMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                     addFeedbackButtons(newAIMessage, messageIndex + 1);
                     waitingForFeedback = false;
                 }
@@ -423,7 +471,7 @@
                 currentSessionId = data.session_id;
                 
                 // Add AI response with model badge
-                const aiMessage = addMessage(data.response, 'ai', new Date(), currentModel);
+                const aiMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                 addFeedbackButtons(aiMessage, 0);
                 
             } catch (error) {

@@ -1,0 +1,34 @@
+{
+  "1774345571825-74wb2l": {
+    "id": "1774345571825-74wb2l",
+    "model": "gpt-3.5",
+    "query": "hello",
+    "status": "agreed",
+    "history": [
+      {
+        "llm": "Đây là câu trả lời cho câu hỏi: \"hello\". Bạn có đồng ý với câu trả lời này không?",
+        "client": "hggfyhbn"
+      },
+      {
+        "llm": "Cảm ơn phản hồi của bạn: \"hggfyhbn\". Đây là câu trả lời đã được cập nhật dựa trên góp ý của bạn.",
+        "client": "hghgfhgfh"
+      }
+    ]
+  },
+  "1774345642538-ylum5g": {
+    "id": "1774345642538-ylum5g",
+    "model": "gpt-3.5",
+    "query": "tdtfhgfhf",
+    "status": "agreed",
+    "history": [
+      {
+        "llm": "Đây là câu trả lời cho câu hỏi: \"tdtfhgfhf\". Bạn có đồng ý với câu trả lời này không?",
+        "client": "tdhdhdhdgfdg"
+      },
+      {
+        "llm": "Cảm ơn phản hồi của bạn: \"tdhdhdhdgfdg\". Đây là câu trả lời đã được cập nhật dựa trên góp ý của bạn.",
+        "client": "Agreed (no comment)"
+      }
+    ]
+  }
+}

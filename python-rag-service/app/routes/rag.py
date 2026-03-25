@@ -1,8 +1,9 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 
 from app.schemas.models import AnswerRequest, AnswerResponse, HealthResponse, IngestResponse
 from app.services.rag_service import rag_service
 from app.settings import settings
+from app.utils.text_chunking import SemanticChunkingError
 
 router = APIRouter(prefix='/rag', tags=['rag'])
 
@@ -23,7 +24,11 @@ def health() -> HealthResponse:
 
 @router.post('/ingest', response_model=IngestResponse)
 def ingest() -> IngestResponse:
-    documents, chunks = rag_service.ingest(reset=True)
+    try:
+        documents, chunks = rag_service.ingest(reset=True)
+    except SemanticChunkingError as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
     return IngestResponse(
         status='ok',
         documents=documents,

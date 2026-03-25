@@ -7,6 +7,8 @@ from pathlib import Path
 
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 
 from app.settings import settings
@@ -32,6 +34,24 @@ class RagService:
             base_url=settings.ollama_base_url,
             temperature=0,
         )
+        self._prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    'system',
+                    'Ban la tro ly y te su dung bo context duoc truy hoi de tra loi. '
+                    'Chi dua tren context khi dua ra ket luan thuc te. '
+                    'Neu context khong du, hay noi ro thong tin chua day du thay vi phan doan. '
+                    'Luon nhac rang day khong thay the tu van bac si.',
+                ),
+                (
+                    'human',
+                    'Cau hoi nguoi dung: {query}\n\n'
+                    'Context retrieve:\n{context_block}\n\n'
+                    'Yeu cau: tra loi ngan gon, ro rang, uu tien thong tin trong context va khong bịa them su that.',
+                ),
+            ]
+        )
+        self._qa_chain = self._prompt | self._chat | StrOutputParser()
 
     def _vector_store(self) -> Chroma:
         settings.vector_db_dir.mkdir(parents=True, exist_ok=True)
@@ -68,6 +88,7 @@ class RagService:
                 text=content,
                 chunk_size=settings.chunk_size,
                 chunk_overlap=settings.chunk_overlap,
+                embeddings=self._embeddings,
             )
             for idx, chunk in enumerate(parts):
                 chunks.append(
@@ -85,24 +106,14 @@ class RagService:
 
         return len(docs), len(chunks)
 
-    def _build_prompt(self, query: str, contexts: list[RetrievalItem]) -> str:
-        context_block = 'Khong co context nao duoc retrieve tu kho tai lieu.'
-        if contexts:
-            context_block = '\n\n'.join(
-                [
-                    f"[Context {idx + 1}] Source={item.doc_id}; Score={item.score:.3f}\n{item.text}"
-                    for idx, item in enumerate(contexts)
-                ]
-            )
-
-        return (
-            'Ban la tro ly y te su dung bo context duoc truy hoi de tra loi. '
-            'Chi dua tren context khi dua ra ket luan thuc te. '
-            'Neu context khong du, hay noi ro thong tin chua day du thay vi phan doan. '
-            'Luon nhac rang day khong thay the tu van bac si.\n\n'
-            f'Cau hoi nguoi dung: {query}\n\n'
-            f'Context retrieve:\n{context_block}\n\n'
-            'Yeu cau: tra loi ngan gon, ro rang, uu tien thong tin trong context va khong bịa them su that.'
+    def _context_block(self, contexts: list[RetrievalItem]) -> str:
+        if not contexts:
+            return 'Khong co context nao duoc retrieve tu kho tai lieu.'
+        return '\n\n'.join(
+            [
+                f"[Context {idx + 1}] Source={item.doc_id}; Score={item.score:.3f}\n{item.text}"
+                for idx, item in enumerate(contexts)
+            ]
         )
 
     def _retrieve(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
@@ -139,9 +150,12 @@ class RagService:
         started = time.time()
         try:
             selected, status, score_summary = self._retrieve(query)
-            prompt = self._build_prompt(query, selected)
-            output = self._chat.invoke(prompt)
-            text = output.content if hasattr(output, 'content') else str(output)
+            text = self._qa_chain.invoke(
+                {
+                    'query': query,
+                    'context_block': self._context_block(selected),
+                }
+            )
 
             snippets = [
                 {
@@ -154,7 +168,7 @@ class RagService:
             ]
 
             return {
-                'response': text.strip(),
+                'response': str(text).strip(),
                 'retrieval': {
                     'retrieval_status': status,
                     'top_k': len(selected),

@@ -4,7 +4,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_BACKEND_ROOT = PROJECT_ROOT / 'backend'
+DEFAULT_DATA_ROOT = PROJECT_ROOT / 'data'
+DEFAULT_PDF_SOURCE_ROOT = PROJECT_ROOT / 'Documents' / 'VietNam'
 
 
 class Settings(BaseSettings):
@@ -22,9 +23,10 @@ class Settings(BaseSettings):
     chunk_size: int = Field(default=900, alias='RAG_CHUNK_SIZE')
     chunk_overlap: int = Field(default=180, alias='RAG_CHUNK_OVERLAP')
 
-    backend_root: Path = Field(default=DEFAULT_BACKEND_ROOT, alias='RAG_BACKEND_ROOT')
-    data_raw_dir: Path = Field(default=DEFAULT_BACKEND_ROOT / 'data' / 'raw', alias='RAG_DATA_RAW_DIR')
-    vector_db_dir: Path = Field(default=DEFAULT_BACKEND_ROOT / 'data' / 'chroma', alias='RAG_VECTOR_DB_DIR')
+    data_root: Path = Field(default=DEFAULT_DATA_ROOT, alias='RAG_DATA_ROOT')
+    data_raw_dir: Path = Field(default=DEFAULT_DATA_ROOT / 'raw', alias='RAG_DATA_RAW_DIR')
+    vector_db_dir: Path = Field(default=DEFAULT_DATA_ROOT / 'chroma', alias='RAG_VECTOR_DB_DIR')
+    pdf_source_dir: Path = Field(default=DEFAULT_PDF_SOURCE_ROOT, alias='RAG_PDF_SOURCE_DIR')
 
     request_timeout_seconds: int = Field(default=120, alias='RAG_REQUEST_TIMEOUT_SECONDS')
 

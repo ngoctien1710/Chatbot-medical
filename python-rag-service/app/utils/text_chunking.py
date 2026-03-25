@@ -1,52 +1,68 @@
 from __future__ import annotations
 
-
-def split_semantic_blocks(text: str) -> list[str]:
-    return [block.strip() for block in text.split('\n\n') if block.strip()]
-
-
-def split_sentence_like(block: str) -> list[str]:
-    parts = []
-    current = []
-    for ch in block:
-        current.append(ch)
-        if ch in '.!?\n':
-            piece = ''.join(current).strip()
-            if piece:
-                parts.append(piece)
-            current = []
-    tail = ''.join(current).strip()
-    if tail:
-        parts.append(tail)
-    return parts if parts else [block.strip()]
+import importlib
+from typing import Any
 
 
-def semantic_chunk_text(text: str, chunk_size: int, chunk_overlap: int) -> list[str]:
-    blocks = split_semantic_blocks(text)
-    if not blocks:
+class SemanticChunkingError(RuntimeError):
+    pass
+
+
+def _window_text(text: str, chunk_size: int, chunk_overlap: int) -> list[str]:
+    content = text.strip()
+    if not content:
         return []
+    if len(content) <= chunk_size:
+        return [content]
 
     chunks: list[str] = []
-    current = ''
+    start = 0
+    step = max(1, chunk_size - chunk_overlap)
+    while start < len(content):
+        end = min(len(content), start + chunk_size)
+        piece = content[start:end].strip()
+        if piece:
+            chunks.append(piece)
+        if end >= len(content):
+            break
+        start += step
+    return chunks
 
-    for block in blocks:
-        for sentence in split_sentence_like(block):
-            candidate = f"{current} {sentence}".strip() if current else sentence
-            if len(candidate) <= chunk_size:
-                current = candidate
-                continue
 
-            if current:
-                chunks.append(current.strip())
+def semantic_chunk_text(text: str, chunk_size: int, chunk_overlap: int, embeddings: Any) -> list[str]:
+    content = text.strip()
+    if not content:
+        return []
 
-            overlap = current[max(0, len(current) - chunk_overlap) :].strip() if current else ''
-            current = f"{overlap} {sentence}".strip() if overlap else sentence
+    # Split very large documents into safe pre-segments to avoid embedding context overflow.
+    pre_segments = _window_text(
+        content,
+        chunk_size=max(1500, chunk_size * 2),
+        chunk_overlap=max(120, chunk_overlap),
+    )
 
-            while len(current) > chunk_size:
-                chunks.append(current[:chunk_size].strip())
-                current = current[max(0, chunk_size - chunk_overlap) :].strip()
+    try:
+        module = importlib.import_module('langchain_experimental.text_splitter')
+        semantic_chunker_cls = getattr(module, 'SemanticChunker')
+        splitter = semantic_chunker_cls(embeddings=embeddings)
+    except Exception as exc:
+        raise SemanticChunkingError('Khong the khoi tao LangChain SemanticChunker.') from exc
 
-    if current.strip():
-        chunks.append(current.strip())
+    chunks: list[str] = []
+
+    for segment in pre_segments:
+        try:
+            documents = splitter.create_documents([segment])
+        except Exception as exc:
+            raise SemanticChunkingError('LangChain SemanticChunker that bai khi tao semantic segments.') from exc
+
+        if not documents:
+            raise SemanticChunkingError('LangChain SemanticChunker khong tao duoc segment nao.')
+
+        for doc in documents:
+            chunks.extend(_window_text(doc.page_content, chunk_size=chunk_size, chunk_overlap=chunk_overlap))
+
+    if not chunks:
+        raise SemanticChunkingError('Khong tao duoc chunk hop le tu ket qua semantic chunking.')
 
     return chunks

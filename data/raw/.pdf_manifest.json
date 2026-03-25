@@ -1,0 +1,23 @@
+{
+  "D:\\BAI_LAB\\Chatbot-medical\\Documents\\VietNam\\HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.pdf": {
+    "sha256": "68ab7c7b9a81b984c45f9d5ecbca4de9e45f0d6bb1435d293353fc557223eb36",
+    "output_md": "D:\\BAI_LAB\\Chatbot-medical\\data\\raw\\HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+    "used_ocr_pages": "0",
+    "total_pages": "528",
+    "updated_at_utc": "2026-03-25T06:42:17.973017+00:00"
+  },
+  "D:\\BAI_LAB\\Chatbot-medical\\Documents\\VietNam\\NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.pdf": {
+    "sha256": "5311dc40378047889a3ad4ff9cafa25ee70748055bbf33141f62395d1a47396c",
+    "output_md": "D:\\BAI_LAB\\Chatbot-medical\\data\\raw\\NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+    "used_ocr_pages": "0",
+    "total_pages": "181",
+    "updated_at_utc": "2026-03-25T06:42:18.188374+00:00"
+  },
+  "D:\\BAI_LAB\\Chatbot-medical\\Documents\\VietNam\\TinhHuongLamSangBachCauCapOTreEm.pdf": {
+    "sha256": "682e25bb8cfd9fd706976c3fbb935f33f9bf805d1652fdf9e4c04d81d7a690d5",
+    "output_md": "D:\\BAI_LAB\\Chatbot-medical\\data\\raw\\TinhHuongLamSangBachCauCapOTreEm.md",
+    "used_ocr_pages": "10",
+    "total_pages": "26",
+    "updated_at_utc": "2026-03-25T06:43:22.271025+00:00"
+  }
+}

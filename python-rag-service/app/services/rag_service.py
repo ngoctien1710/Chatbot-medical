@@ -162,7 +162,7 @@ class RagService:
                     'id': item.chunk_id,
                     'doc_id': item.doc_id,
                     'score': round(item.score, 4),
-                    'snippet': item.text[:180].replace('\n', ' ').strip() + ('...' if len(item.text) > 180 else ''),
+                    'snippet': item.text,
                 }
                 for item in selected
             ]

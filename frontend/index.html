@@ -21,15 +21,127 @@
         }
 
         .chat-container {
-            width: 90%;
-            max-width: 800px;
+            width: 95%;
+            max-width: 1200px;
             height: 90vh;
             background: white;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            grid-template-rows: 1fr;
+            overflow: hidden;
+        }
+
+        .session-panel {
+            background: #1f2937;
+            color: #f3f4f6;
             display: flex;
             flex-direction: column;
+            border-right: 1px solid #374151;
+            min-height: 0;
+        }
+
+        .session-panel-header {
+            padding: 16px;
+            border-bottom: 1px solid #374151;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .session-panel-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .session-panel-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .session-date-input {
+            width: 100%;
+            border: 1px solid #4b5563;
+            border-radius: 8px;
+            background: #111827;
+            color: #e5e7eb;
+            padding: 8px;
+            font-size: 12px;
+        }
+
+        .session-action-btn {
+            border: none;
+            border-radius: 8px;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .session-action-btn.new {
+            background: #10b981;
+            color: white;
+        }
+
+        .session-action-btn.refresh {
+            background: #3b82f6;
+            color: white;
+            flex: 1;
+        }
+
+        .session-list {
+            flex: 1;
+            min-height: 0;
+            padding: 10px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .session-item {
+            border: 1px solid #4b5563;
+            border-radius: 10px;
+            background: #111827;
+            color: #e5e7eb;
+            padding: 10px;
+            text-align: left;
+            cursor: pointer;
+        }
+
+        .session-item.active {
+            border-color: #34d399;
+            box-shadow: 0 0 0 1px #34d399 inset;
+        }
+
+        .session-item-id {
+            font-size: 12px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .session-item-query {
+            font-size: 11px;
+            color: #cbd5e1;
+            line-height: 1.4;
+            max-height: 34px;
             overflow: hidden;
+        }
+
+        .session-empty {
+            border: 1px dashed #4b5563;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 12px;
+            color: #9ca3af;
+        }
+
+        .chat-main {
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            min-height: 0;
         }
 
         .chat-header {
@@ -82,7 +194,9 @@
 
         .chat-messages {
             flex: 1;
+            min-height: 0;
             overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
             padding: 20px;
             background: #f8f9fa;
         }
@@ -259,35 +373,65 @@
             cursor: pointer;
             font-size: 12px;
         }
+
+        @media (max-width: 900px) {
+            .chat-container {
+                grid-template-columns: 1fr;
+            }
+
+            .session-panel {
+                max-height: 220px;
+                border-right: none;
+                border-bottom: 1px solid #374151;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="chat-container">
-        <div class="chat-header">
-            <div class="header-left">
-                <div class="model-selector">
-                    <label>🤖 Model:</label>
-                    <select id="modelSelect">
-                        <option value="deepseek">DeepSeek</option>
-                        <option value="gpt-3.5">GPT-3.5 Turbo</option>
-                        <option value="gpt-4">GPT-4</option>
-                        <option value="claude-2">Claude 2</option>
-                        <option value="gemini-pro">Gemini Pro</option>
-                    </select>
+        <aside class="session-panel">
+            <div class="session-panel-header">
+                <div class="session-panel-title">Chat Sessions</div>
+                <input id="sessionDateInput" class="session-date-input" placeholder="DD-MM-YYYY">
+                <div class="session-panel-actions">
+                    <button id="newSessionBtn" class="session-action-btn new">+ New Session</button>
+                    <button id="refreshSessionsBtn" class="session-action-btn refresh">Load</button>
                 </div>
             </div>
-            <span>AI Assistant</span>
-        </div>
-        <div id="chatMessages" class="chat-messages"></div>
-        <div class="input-area">
-            <input type="text" id="messageInput" placeholder="Nhập tin nhắn của bạn...">
-            <button id="sendBtn">Gửi</button>
+            <div id="sessionList" class="session-list"></div>
+        </aside>
+
+        <div class="chat-main">
+            <div class="chat-header">
+                <div class="header-left">
+                    <div class="model-selector">
+                        <label>🤖 Model:</label>
+                        <select id="modelSelect">
+                            <option value="deepseek">DeepSeek</option>
+                            <option value="gpt-3.5">GPT-3.5 Turbo</option>
+                            <option value="gpt-4">GPT-4</option>
+                            <option value="claude-2">Claude 2</option>
+                            <option value="gemini-pro">Gemini Pro</option>
+                        </select>
+                    </div>
+                </div>
+                <span>AI Assistant</span>
+            </div>
+            <div id="chatMessages" class="chat-messages"></div>
+            <div class="input-area">
+                <input type="text" id="messageInput" placeholder="Nhập tin nhắn của bạn...">
+                <button id="sendBtn">Gửi</button>
+            </div>
         </div>
     </div>
 
     <script>
         const API_BASE = 'http://localhost:3000';
         let currentSessionId = null;
+        let currentSessionStatus = 'idle';
+        let selectedSessionId = null;
+        let sessionSummaries = [];
+        let selectedDate = null;
         let waitingForFeedback = false;
         let currentMessageIndex = null;
         let currentModel = 'deepseek';
@@ -297,6 +441,52 @@
         const messageInput = document.getElementById('messageInput');
         const sendBtn = document.getElementById('sendBtn');
         const modelSelect = document.getElementById('modelSelect');
+        const sessionList = document.getElementById('sessionList');
+        const newSessionBtn = document.getElementById('newSessionBtn');
+        const refreshSessionsBtn = document.getElementById('refreshSessionsBtn');
+        const sessionDateInput = document.getElementById('sessionDateInput');
+
+        function getTodayDateKey() {
+            const now = new Date();
+            const day = String(now.getDate()).padStart(2, '0');
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const year = String(now.getFullYear());
+            return `${day}-${month}-${year}`;
+        }
+
+        function isValidDateKey(value) {
+            return /^\d{2}-\d{2}-\d{4}$/.test(value);
+        }
+
+        function setComposerEnabled(enabled) {
+            messageInput.disabled = !enabled;
+            sendBtn.disabled = !enabled;
+        }
+
+        function resetSessionState() {
+            currentSessionId = null;
+            currentSessionStatus = 'idle';
+            selectedSessionId = null;
+            waitingForFeedback = false;
+            currentMessageIndex = null;
+        }
+
+        function clearChatView() {
+            chatMessages.innerHTML = '';
+        }
+
+        function showWelcomeMessage() {
+            addMessage('Xin chào! Tôi là trợ lý AI. Hãy chọn model và nhập câu hỏi của bạn để bắt đầu.', 'ai');
+        }
+
+        function startNewSessionView() {
+            resetSessionState();
+            clearChatView();
+            showWelcomeMessage();
+            setComposerEnabled(true);
+            messageInput.focus();
+            renderSessionList();
+        }
 
         // Helper: Get model display name
         function getModelDisplayName(modelId) {
@@ -356,6 +546,7 @@
 
         // Helper: Add feedback buttons to AI message
         function addFeedbackButtons(messageDiv, messageIndex) {
+            messageDiv.querySelectorAll('.feedback-buttons').forEach((node) => node.remove());
             const buttonsDiv = document.createElement('div');
             buttonsDiv.className = 'feedback-buttons';
             buttonsDiv.innerHTML = `
@@ -384,6 +575,7 @@
 
         // Handle Agree button click
         window.handleAgree = (messageIndex) => {
+            document.querySelectorAll('.comment-box').forEach((node) => node.remove());
             addCommentInput(messageIndex, true);
             waitingForFeedback = true;
             currentMessageIndex = messageIndex;
@@ -391,13 +583,109 @@
 
         // Handle Disagree button click
         window.handleDisagree = (messageIndex) => {
+            document.querySelectorAll('.comment-box').forEach((node) => node.remove());
             addCommentInput(messageIndex, false);
             waitingForFeedback = true;
             currentMessageIndex = messageIndex;
         };
 
+        async function fetchSessionList() {
+            if (!isValidDateKey(selectedDate)) {
+                selectedDate = getTodayDateKey();
+                sessionDateInput.value = selectedDate;
+            }
+
+            try {
+                const response = await fetch(`${API_BASE}/chat/sessions?date=${encodeURIComponent(selectedDate)}`);
+                if (!response.ok) {
+                    throw new Error(`Session list failed (${response.status})`);
+                }
+                const payload = await response.json();
+                sessionSummaries = Array.isArray(payload.sessions) ? payload.sessions : [];
+            } catch (error) {
+                console.error('Error loading sessions:', error);
+                sessionSummaries = [];
+            }
+
+            renderSessionList();
+        }
+
+        function renderSessionList() {
+            const html = [];
+            if (sessionSummaries.length === 0) {
+                sessionList.innerHTML = '<div class="session-empty">Chưa có session cho ngày này.</div>';
+                return;
+            }
+
+            for (const session of sessionSummaries) {
+                const isActive = selectedSessionId && selectedSessionId === session.session_id;
+                const itemClass = isActive ? 'session-item active' : 'session-item';
+                html.push(`
+                    <button class="${itemClass}" data-session-id="${escapeHtml(session.session_id || '')}">
+                        <div class="session-item-id">${escapeHtml(session.file_name || session.session_id || 'session')}</div>
+                        <div class="session-item-query">${escapeHtml(session.query || '')}</div>
+                    </button>
+                `);
+            }
+
+            sessionList.innerHTML = html.join('');
+            sessionList.querySelectorAll('.session-item').forEach((node) => {
+                node.addEventListener('click', () => {
+                    const sessionId = node.getAttribute('data-session-id');
+                    if (sessionId) {
+                        loadSession(sessionId);
+                    }
+                });
+            });
+        }
+
+        async function loadSession(sessionId) {
+            try {
+                const response = await fetch(`${API_BASE}/chat/${encodeURIComponent(sessionId)}`);
+                if (!response.ok) {
+                    throw new Error(`Session load failed (${response.status})`);
+                }
+                const session = await response.json();
+
+                selectedSessionId = session.id;
+                currentSessionId = session.id;
+                currentSessionStatus = session.status || 'pending';
+                currentModel = session.model || currentModel;
+
+                clearChatView();
+                addMessage(`Session ${session.file_name || session.id}`, 'ai');
+                addMessage(session.query || '', 'user');
+
+                let lastAiMessage = null;
+                const history = Array.isArray(session.history) ? session.history : [];
+
+                history.forEach((item) => {
+                    lastAiMessage = addMessage(item.llm || '', 'ai', new Date(), session.model || currentModel, item.retrieval || null);
+                    if (item.client) {
+                        addMessage(`Feedback: ${item.client}`, 'user');
+                    }
+                });
+
+                if (currentSessionStatus === 'pending' && lastAiMessage) {
+                    addFeedbackButtons(lastAiMessage, Math.max(0, history.length - 1));
+                }
+
+                setComposerEnabled(true);
+                waitingForFeedback = false;
+                renderSessionList();
+            } catch (error) {
+                console.error('Error loading session:', error);
+                alert('Không thể tải session. Vui lòng thử lại.');
+            }
+        }
+
         // Submit feedback
         window.submitFeedback = async (messageIndex, isAgree) => {
+            if (!currentSessionId) {
+                alert('Bạn chưa chọn session để feedback.');
+                return;
+            }
+
             const commentInput = document.getElementById(`commentInput${messageIndex}`);
             const feedback = commentInput ? commentInput.value : '';
             
@@ -419,15 +707,17 @@
                 if (action === 'agree') {
                     addMessage('✓ Bạn đã đồng ý với câu trả lời', 'user');
                     waitingForFeedback = false;
-                    currentSessionId = null;
-                    messageInput.disabled = false;
-                    sendBtn.disabled = false;
+                    currentSessionStatus = 'agreed';
+                    setComposerEnabled(true);
                 } else if (action === 'disagree' && data.response) {
                     // Add the new AI response
                     const newAIMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                     addFeedbackButtons(newAIMessage, messageIndex + 1);
                     waitingForFeedback = false;
+                    currentSessionStatus = 'pending';
                 }
+
+                await fetchSessionList();
                 
                 // Remove comment box
                 if (commentInput) {
@@ -442,6 +732,11 @@
 
         // Send message to start new session
         async function sendMessage() {
+            if (currentSessionStatus === 'pending' && currentSessionId) {
+                alert('Session hiện tại đang pending. Hãy Agree/Disagree hoặc bấm New Session để tạo phiên mới.');
+                return;
+            }
+
             const query = messageInput.value.trim();
             if (!query) return;
             
@@ -453,6 +748,7 @@
             sendBtn.disabled = true;
             
             // Add user message
+            clearChatView();
             addMessage(query, 'user');
             messageInput.value = '';
             
@@ -469,10 +765,16 @@
                 
                 const data = await response.json();
                 currentSessionId = data.session_id;
+                selectedSessionId = data.session_id;
+                currentSessionStatus = 'pending';
+                selectedDate = getTodayDateKey();
+                sessionDateInput.value = selectedDate;
                 
                 // Add AI response with model badge
                 const aiMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                 addFeedbackButtons(aiMessage, 0);
+
+                await fetchSessionList();
                 
             } catch (error) {
                 console.error('Error:', error);
@@ -496,11 +798,24 @@
         messageInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') sendMessage();
         });
+        newSessionBtn.addEventListener('click', startNewSessionView);
+        refreshSessionsBtn.addEventListener('click', async () => {
+            const rawDate = sessionDateInput.value.trim();
+            if (!isValidDateKey(rawDate)) {
+                alert('Ngày phải theo format DD-MM-YYYY');
+                return;
+            }
+            selectedDate = rawDate;
+            selectedSessionId = null;
+            await fetchSessionList();
+        });
         
-        // Welcome message
-        setTimeout(() => {
-            addMessage('Xin chào! Tôi là trợ lý AI. Hãy chọn model và nhập câu hỏi của bạn để bắt đầu.', 'ai');
-        }, 500);
+        (async () => {
+            selectedDate = getTodayDateKey();
+            sessionDateInput.value = selectedDate;
+            startNewSessionView();
+            await fetchSessionList();
+        })();
     </script>
 </body>
 </html>

@@ -1,0 +1,63 @@
+{
+  "model": "deepseek",
+  "query": "Các triệu chứng lâm sàng phổ biến của ALL ở trẻ em bao gồm những dấu hiệu nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Câu hỏi của bạn là: Các triệu chứng lâm sàng phổ biến của ALL ở trẻ em bao gồm những dấu hiệu nào?\n\nDựa trên các Context đã cung cấp, tôi sẽ trả lời câu hỏi này như sau:\n\nCác triệu chứng lâm sàng phổ biến của Acute Lymphoblastic Leukemia (ALL) ở trẻ em bao gồm:\n\n- Hội chứng thiếu máu.\n\nVì vậy, đáp án đúng là: \"Hội chứng thiếu máu\".",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:828",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7011,
+            "snippet": "NGUYÊN NHÂN \nNguyên nhân gây LXM tủy cấp trẻ em chưa được sáng tỏ. Tuy nhiên, các yếu tố \nđược cho là nguy cơ gây LXM tủy cấp ở trẻ bao gồm: Tia xạ, hóa chất, yếu tố di truyền \n(hội chứng Down, thiếu máu Fanconi…), cách sống của bố mẹ (nghiện rượu, thuốc lá…). 3. CHẨN ĐOÁN \n3.1. Triệu chứng lâm sàng \n- Hội chứng thiếu máu."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:411",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6311,
+            "snippet": "iều trị tốt để có thể sống chung với bệnh. Việc quản lý bao gồm: \n- Lập hồ sơ quản lý. - Cấp thẻ người bệnh bao gồm các thông tin về chẩn đoán, mức độ bệnh, tình trạng \ncó chất ức chế yếu tố đông máu. - Tư vấn về bệnh và tư vấn di truyền."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:837",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6191,
+            "snippet": "em, dựa trên các hóa chất cơ \nbản như: Daunorubicin (Idarubicin), Cytarabine, Etoposide, Mitoxantrone, Fludarabine… \ntrải qua các giai đoạn: tấn công, củng cố, duy trì. Nhiều thuốc điều trị mới cũng đang được \nthử nghiệm điều trị trên LXM tủy cấp trẻ em, đặc biệt trên nhóm bệnh nhi nguy cơ cao, tái \nphát/ kháng thuốc. Một số phác đồ đang được áp dụng: \na."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1277",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6041,
+            "snippet": "Theo dõi di chứng lâu dài \nNói chung, tất cả bệnh nhân nên được theo dõi sức khỏe suốt đời. Các xét nghiệm \nbao gồm: Xét nghiệm chức năng tuyến giáp cho bệnh nhân xạ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:827",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5975,
+            "snippet": "ệnh bạch cầu cấp dòng tủy trẻ em) \n \n \n1. ĐẠI CƯƠNG \nLơ xê mi (LXM) tuỷ cấp là một nhóm bệnh máu ác tính. Đặc trưng của bệnh là sự \ntăng sinh một loại tế bào non ác tính (tế bào blast) có nguồn gốc dòng tủy tại tuỷ xương. Ở trẻ em, LXM tủy cấp hiếm gặp hơn LXM lympho cấp, chiếm khoảng 18% các \nLXM ở trẻ em, tỷ lệ gặp cao nhất ở trẻ dưới 1 tuổi. 2."
+          }
+        ],
+        "score_summary": {
+          "max": 0.7011,
+          "min": 0.5975,
+          "avg": 0.6306
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 6893,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "26-03-2026-session-002",
+  "date_folder": "26-03-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-03-26T06:12:44.419Z",
+  "updated_at": "2026-03-26T06:12:44.419Z"
+}

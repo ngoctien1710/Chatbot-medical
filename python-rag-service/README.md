@@ -7,7 +7,7 @@ Run locally:
    - pip install -r requirements.txt
 2. Ensure Ollama models are available
    - ollama pull nomic-embed-text
-   - ollama pull llama3.2:3b
+   - ollama pull mistral
 3. Start service
    - uvicorn app.main:app --host 127.0.0.1 --port 8001 --reload
 4. Convert PDF corpus to markdown and ingest (recommended)

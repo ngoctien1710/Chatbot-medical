@@ -34,8 +34,36 @@ class RagService:
             base_url=settings.ollama_base_url,
             temperature=0,
         )
+        system_prompt = (
+            'Bạn là chuyên gia y khoa.\n\n'
+            'NHIỆM VỤ:\n'
+            '- Trả lời câu hỏi người dùng dựa trên thông tin trong context.\n'
+            '- CÓ thể sử dụng kiến thức bên ngoài nếu context không đề cập.\n\n'
+            'QUY TẮC QUAN TRỌNG:\n\n'
+            '1. Grounding\n'
+            '- Mọi kết luận thực tế phải có cơ sở trong context.\n'
+            '- Không suy đoán hoặc bịa thêm.\n\n'
+            '2. Thiếu thông tin\n'
+            '- Nếu context không đủ → nói rõ: "Thông tin trong tài liệu truy hồi chưa đủ để kết luận."\n\n'
+            '3. Format trả lời\n'
+            '- Đầy đủ, chi tiết\n'
+            '- Sát với thông tin trong context\n'
+            '4. Luôn kết thúc bằng:\n'
+            '"Thông tin trên chỉ mang tính tham khảo và không thay thế tư vấn y khoa từ bác sĩ."'
+        )
+        human_prompt = (
+            'CÂU HỎI:\n'
+            '{query}\n\n'
+            'CONTEXT:\n'
+            '{context_block}\n\n'
+            'HÃY THỰC HIỆN:\n\n'
+            'Bước 1: Xác định thông tin liên quan trong context\n'
+            'Bước 2: Tổng hợp câu trả lời sát với context\n'
+            'TRẢ LỜI:'
+        )
         self._prompt = ChatPromptTemplate.from_messages(
             [
+<<<<<<< HEAD
                 (
                     'system',
                     """Bạn là một trợ lý y tế AI chuyên nghiệp, cẩn trọng và đáng tin cậy. Nhiệm vụ của bạn là phân tích thông tin được cung cấp và trả lời câu hỏi của người dùng.
@@ -55,6 +83,10 @@ Câu hỏi của người dùng: {query}
 
 Hãy suy nghĩ từng bước để đối chiếu câu hỏi với Context trước khi đưa ra câu trả lời cuối cùng."""
                 ),
+=======
+                ('system', system_prompt),
+                ('human', human_prompt),
+>>>>>>> 4178c4d (d:\BAI_LAB\Chatbot-medical\.venv\Scripts\activate.bat)
             ]
         )
         self._qa_chain = self._prompt | self._chat | StrOutputParser()

@@ -407,6 +407,7 @@
                     <div class="model-selector">
                         <label>🤖 Model:</label>
                         <select id="modelSelect">
+                            <option value="mistral">Mistral</option>
                             <option value="deepseek">DeepSeek</option>
                             <option value="gpt-3.5">GPT-3.5 Turbo</option>
                             <option value="gpt-4">GPT-4</option>
@@ -434,7 +435,7 @@
         let selectedDate = null;
         let waitingForFeedback = false;
         let currentMessageIndex = null;
-        let currentModel = 'deepseek';
+        let currentModel = 'mistral';
 
         // DOM elements
         const chatMessages = document.getElementById('chatMessages');
@@ -491,6 +492,7 @@
         // Helper: Get model display name
         function getModelDisplayName(modelId) {
             const models = {
+                'mistral': 'Mistral',
                 'deepseek': 'DeepSeek',
                 'gpt-3.5': 'GPT-3.5',
                 'gpt-4': 'GPT-4',

@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "C�c tri?u ch?ng l�m s�ng ph? bi?n c?a ALL ? tr? em l� g�?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Các biểu hiện lâm sàng của tai biến truyền máu thường không đặc trưng, nhưng rất giá trị giúp định hướng thực hiện các thăm khám, kiểm tra, chỉ định xét nghiệm nhằm xác định chẩn đoán, xử trí phù hợp với từng loại tai biến. Một số lưu đồ định hướng chẩn đoán, giúp định hướng loại tai biến truyền máu cấp được trình bày trong Phụ lục 1.\n\nNhững dấu hiệu sớm về lâm sàng của tai biến truyền máu thường không đặc trưng, nhưng rất giá trị giúp định hướng thực hiện các thăm khám, kiểm tra, chỉ định xét nghiệm nhằm xác định chẩn đoán, xử trí phù hợp với từng loại tai biến. Một số lưu đồ định hướng chẩn đoán, giúp định hướng loại tai biến truyền máu cấp được trình bày trong Phụ lục 1.\n\nMột số dấu hiệu sớm về lâm sàng của tai biến truyền máu có thể gồm:\n- Triệu chứng thiếu máu (anemia)\n- Xuất huyết (hemorrhage)\n- Nhiễm trùng (infection)\n- Hội chứng thâm nhiễm (septic shock)\n- Triệu chứng viêm phế quản tắc nghẽn (acute renal failure)\n- Viêm cơ, viêm hoặc đau khớp (musculoskeletal pain or inflammation)\n- Giảm tiểu cầu (hypokalemia)\n- Tăng bạch cầu ưa acid (hyperuricemia)\n- Tăng hoặc giảm globulin.\n\nNhững dấu hiệu này có thể xảy ra do nhiều yếu tố khác ngoài tai biến truyền máu, nhưng rất quan trọng để định hướng cho việc kiểm tra và xét nghiệm phù hợp.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:587",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6017,
+            "snippet": "phat và \nLDH nếu nguy cơ cao. Theo dõi trước, trong và ít nhất 3 ngày sau kết thúc hóa trị liệu. - Bù dịch: Bù dịch đường tĩnh mạch, bắt đầu 24-48 giờ trước hóa trị liệu và tiếp tục \nđến 48-72 giờ sau kết thúc hóa trị liệu. Lượng dịch khoảng 4-5 L/ngày (3 L/m2/ngày). - Lợi tiểu: Có thể sử dụng Furosemid uống, với liều 40-80 mg/ngày, bảo đảm lượng \nnước tiểu ít nhất 3 L/ngày. - Kiềm hóa nước tiểu: Dung dịch natri bicarbonate 1,4% truyền tĩnh mạch. Theo dõi \ncác chỉ số pH niệu, bicarbonate huyết thanh, acid uric m"
+          },
+          {
+            "id": "TinhHuongLamSangBachCauCapOTreEm.md:15",
+            "doc_id": "TinhHuongLamSangBachCauCapOTreEm.md",
+            "score": 0.5998,
+            "snippet": "achving co\nBS.CKI DThj Diem Phuong\n-Bac sy dieu tri:\nBS.CKI. Do ThjDiem Phurong\n-Bic sy dieu trji\nKETQUASIEU AM\nKETQUA SIEU AM\nTuyenmang taiTuyenmang taihaibencocau truckemdong dang\nGAN:Gan traiKT#130mm,gan phaiKT#184mm,boducu\ntruc dong dang,khong sang thuomg khu tru. tang sinh mach. Tuyen duoiham,tuyen duoiluoiKhong to,chumo dong dang\n-MAT:\n+Tai mit Khong to,thanh khong day,khong soi. khong u,khong viem. +DuongmitDuongmat tronggan:Khonggian,khong soi\n-Hachco:Vung co conhieu cau truc echo kem hinh bau ducKT lon\nOMC khonggin,khong soi\nnhat #26x13mm,cau truc ron hach(+/-). TUY:Khong to,cautric dongnht\nLACH:to KT#177mm,cau tric dong nhat\nTHAN TRAI:Khong soikhong ir nuoc,chumo phan biet vo-tiy ro. THANPHAIKhong soihongiuoc,chumophanbietvotiy\nro. BANG QUANG:Thanh khong day,khong soi\nTUCUNGNg toc,DAP#27mmoimac6mm，cau r\ndong dangit dichtui cung\n-PHAN PHU:Canh phai tir cung co 1 cau truc echo ke"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:167",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5838,
+            "snippet": "- Tổng phân tích tế bào máu: Thấy giảm hồng cầu; có thể giảm bạch cầu, tiểu cầu \nvà hồng cầu lưới. - LDH, bilirubin huyết thanh tăng. - Tuỷ đồ, sinh thiết tuỷ xương: Có thể có hình ảnh giảm sinh hoặc rối loạn sinh tủy. - Phân tích di truyền tế bào: Có thể có bất thường trong rối loạn sinh tủy. 3. XẾP LOẠI \nBảng 3: xếp loại đái huyết sắc tố kịch phát ban đêm của nhóm nghiên cứu thế giới \nnhư sau: \nXếp loại \nPNH cổ điển \nPNH kết hợp tổn \nthương tủy xương \nPNH không có biểu \nhiện lâm sàng \nMức độ tan máu \ntrong lòng mạch \nNước tiểu đỏ rõ \n(đái huyết sắc tố đại \nthể thường xuyên \nvà kéo dài) \nNhẹ đến trung bình \n(đái huyết sắc tố đại \nthể thường xuyên và \nkéo dài) \nKhông có bằng chứng \nlâm sàng hay xét \nnghiệm hóa sinh có tan \nmáu trong lòng mạch. Tỷ lệ tan máu \ntrong lòng mạch \nNước tiểu đỏ (đái \nmáu đại thể, tăng \ncao LDH) \nMức độ nhẹ (các xét \nnghiệm tan máu \nthường biểu hiện b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1601",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.58,
+            "snippet": "- Bất thường về ý thức: Bồn chồn, lo âu, lơ mơ, mất tri giác. - Thay đổi về cảm giác cơ thể: Khó chịu, bất an, đánh trống ngực, đau lưng, đau \nbụng, đau đầu, đau vùng tiêm,… \n3.2. Định hướng chẩn đoán \n- Việc điều trị kịp thời tai biến truyền máu cấp là rất cần thiết, không thể chờ đợi \ntới khi triệu chứng tai biến đã thể hiện quá rõ ràng, có đầy đủ tiêu chuẩn chẩn đoán. - Các dấu hiệu, biểu hiện sớm về lâm sàng của tai biến truyền máu thường không \nđặc hiệu, chưa cho phép xác định chẩn đoán, nhưng rất giá trị giúp định hướng thực \nhiện các thăm khám, kiểm tra, chỉ định xét nghiệm nhằm xác định chẩn đoán, xử trí phù \nhợp với từng loại tai biến. - Một số lưu đồ định hướng chẩn đoán, giúp định hướng loại tai biến truyền máu \ncấp được trình bày trong Phụ lục 1. - Các chẩn đoán bệnh lý cụ thể cần được khẳng định khi tiếp tục tìm kiếm các \nbằng chứng lâm sàng, xét nghiệm phù hợp"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:143",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5775,
+            "snippet": "iệu quả trên \nngười bệnh thể trung bình). 3.3. Điều trị hỗ trợ \na. Truyền máu: \n- Truyền khối hồng cầu khi huyết sắc tố dưới 80g/L, duy trì ở mức 90-100g/L. - Truyền khối tiểu cầu khi tiểu cầu < 10G/L hoặc có tình trạng xuất huyết trên lâm \nsàng; tốt nhất là truyền tiểu cầu từ 1 người cho. - Nếu có kế hoạch ghép tế bào gốc thì cần truyền chế phẩm máu được chiếu xạ, lọc \nbạch cầu và xét nghiệm CMV IgM âm tính. b. Dự phòng và điều trị nhiễm trùng \n- Người bệnh nằm phòng sạch, cách ly với những người bệnh nhiễm trùng khác. - Dự phòng kháng sinh (nhóm quinolon, colistin, neomycin,… chống nấm đường \nuống (Itraconazole, voriconazole hoặc posaconazole,…). - Khi có biểu hiện nhiễm trùng người bệnh cần được sử dụng kháng sinh phổ rộng \nsớm đồng thời với việc phân lập vi khuẩn hoặc nấm từ những bệnh phẩm nghi ngờ. - Truyền khối bạch cầu hạt trong trường hợp nhiễm trùng quá nặng, đe doạ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:877",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5774,
+            "snippet": "m thính giác…). - Biểu hiện của bệnh Goute do tăng axit uric máu gặp trên một số người bệnh. b. Giai đoạn tăng tốc \n- Biểu hiện lâm sàng nặng lên (thiếu máu, xuất huyết, nhiễm trùng). - Lách to không đáp ứng với điều trị. c. Giai đoạn chuyển lơ xê mi cấp \n- Trong giai đoạn này thường gặp biểu hiện lâm sàng đặc trưng cho lơ xê mi cấp \nnhư triệu chứng thiếu máu, xuất huyết, nhiễm trùng, hội chứng thâm nhiễm. 3.2. Xét nghiệm \na. Giai đoạn mạn tính \n- Máu ngoại vi: (1) Thiếu máu bình sắc, kích thước hồng cầu bình thường; (2) Số \nlượng bạch cầu tăng cao (trung bình 80 G/l); (3) Gặp đủ các tuổi dòng bạch cầu hạt trong \nmáu ngoại vi; (4) Tỷ lệ tế bào blast thường < 2%; (5) Tăng số lượng bạch cầu đoạn ưa acid \nvà bạch cầu đoạn ưa base; (6) Số lượng tiểu cầu tăng trên 450 G/l (gặp trong khoảng 50- \n70% trường hợp). - Tuỷ xương: (1) Tuỷ giàu tế bào (số lượng tế bào tuỷ trên 100 G/l); (2)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1760",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5713,
+            "snippet": "g bilirubin, tăng men gan; \n+ Phổi: Viêm phế quản tắc nghẽn; \n+ Cơ, khớp và dây chằng: Xơ cứng khớp, viêm cơ, viêm hoặc đau khớp; \n+ Hệ máu và miễn dịch: Giảm tiểu cầu, tăng bạch cầu ưa acid; tăng hoặc giảm globulin. 4.4.2."
+          }
+        ],
+        "score_summary": {
+          "max": 0.6017,
+          "min": 0.5713,
+          "avg": 0.5845
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 18798,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-005",
+  "date_folder": "27-03-2026",
+  "sequence": 5,
+  "file_name": "session_005.json",
+  "created_at": "2026-03-27T07:47:07.601Z",
+  "updated_at": "2026-03-27T07:47:07.601Z"
+}

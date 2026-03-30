@@ -9,7 +9,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_ollama import ChatOllama
 
 from app.settings import settings
 from app.utils.text_chunking import semantic_chunk_text
@@ -24,31 +25,40 @@ class RetrievalItem:
 
 
 class RagService:
+    _ingest_batch_size = 1
+
     def __init__(self) -> None:
-        self._embeddings = OllamaEmbeddings(
-            model=settings.embedding_model,
-            base_url=settings.ollama_base_url,
+        self._embeddings = HuggingFaceEmbeddings(
+            model_name=settings.embedding_model,
+            model_kwargs={'trust_remote_code': True},
         )
         self._chat = ChatOllama(
             model=settings.chat_model,
             base_url=settings.ollama_base_url,
             temperature=0,
         )
+        system_prompt = (
+            'Bạn là chuyên gia y khoa.\n\n'
+            '1. NHIỆM VỤ:\n'
+            '- Trả lời câu hỏi người dùng.\n'
+            '- Luôn đối chiếu với thông tin trong context để trả lời. Sử dụng thông tin trong context làm nguồn thông tin bổ sung cho câu trả lời của bạn.\n'
+            '2. Format trả lời\n'
+            '- Đầy đủ, chi tiết\n'
+            '- Trình bày câu trả lời rõ ràng, mạch lạc\n'
+            '- Sử dụng gạch đầu dòng cho các ý chính. Nếu context có nhiều ý phức tạp, hãy tổng hợp chúng một cách logic\n'
+            '- Sát với thông tin trong context\n'
+        )
+        human_prompt = (
+            'CÂU HỎI NGƯỜI DÙNG:\n'
+            '{query}\n\n'
+            'CONTEXT:\n'
+            '{context_block}\n\n'
+            'TRẢ LỜI:'
+        )
         self._prompt = ChatPromptTemplate.from_messages(
             [
-                (
-                    'system',
-                    'Ban la tro ly y te su dung bo context duoc truy hoi de tra loi. '
-                    'Chi dua tren context khi dua ra ket luan thuc te. '
-                    'Neu context khong du, hay noi ro thong tin chua day du thay vi phan doan. '
-                    'Luon nhac rang day khong thay the tu van bac si.',
-                ),
-                (
-                    'human',
-                    'Cau hoi nguoi dung: {query}\n\n'
-                    'Context retrieve:\n{context_block}\n\n'
-                    'Yeu cau: tra loi ngan gon, ro rang, uu tien thong tin trong context va khong bịa them su that.',
-                ),
+                ('system', system_prompt),
+                ('human', human_prompt),
             ]
         )
         self._qa_chain = self._prompt | self._chat | StrOutputParser()
@@ -86,9 +96,9 @@ class RagService:
         for doc_id, content in docs:
             parts = semantic_chunk_text(
                 text=content,
-                chunk_size=settings.chunk_size,
-                chunk_overlap=settings.chunk_overlap,
-                embeddings=self._embeddings,
+                chunk_size=settings.chunk_token_size,
+                chunk_overlap=settings.chunk_token_overlap,
+                min_chunk_chars=settings.min_chunk_chars,
             )
             for idx, chunk in enumerate(parts):
                 chunks.append(
@@ -102,7 +112,8 @@ class RagService:
                 )
 
         if chunks:
-            vector_store.add_documents(chunks)
+            for start in range(0, len(chunks), self._ingest_batch_size):
+                vector_store.add_documents(chunks[start:start + self._ingest_batch_size])
 
         return len(docs), len(chunks)
 

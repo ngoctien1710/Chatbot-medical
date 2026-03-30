@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Các triệu chứng lâm sàng phổ biến của ALL ở trẻ em bao gồm những dấu hiệu nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Các triệu chứng lâm sàng phổ biến của ALL (Leukemia đột biểu) ở trẻ em bao gồm:\n\n1. Sốt, ho, mệt mỏi, dịu không lâm sàng.\n2. Tăng số lượng hạch to (blasts) trong máu đột biểu, thường lên tới 70-90% của tổng số erythrocytes (huyết đơn).\n3. Tăng số lượng tiểu cầu trong máu (thrombocytopenia) và giảm chất lượng của nó.\n4. Anemia (giảm số erythrocytes).\n5. Tăng số lượng NST (Numerical Chromosome Abnormalities) trong huyết đơn, thường từ 51-68 NST.\n6. Các bất thường nhiễm sắc thể khác, như +4, +10, +17, và +X.\n7. Tăng số lượng hạch to trong cơ quan trọng yếu (osses marrow, spleen, liver).\n8. Các tổn thương hiện có ở các cơ quan trọng yếu.\n9. Suy giảm miễn dịch tiên phát ở trẻ em, suy giảm miễn dịch thứ phát do HIV/AIDS, do điều trị hóa chất, tia xạ hoặc thuốc ức chế miễn dịch khác.\n10. Cần khảo sát đánh giá tình trạng miễn dịch khác (nhiễm khuẩn, sau tiêm vắc xin...).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:786",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5925,
+            "snippet": "năm. - Với mỗi lần tái khám: + Khám lâm sàng: Chú ý các triệu chứng lâm sàng, hạch to, hội chứng B; + Xét nghiệm: Tổng phân tích tế bào máu ngoại vi; Sinh hóa máu (bao gồm LDH, chức năng gan, thận, beta2-microglobulin, điện giải đồ...), máu lắng; Đông máu huyết tương; Chức năng tuyến giáp (đặc biệt nếu có xạ trị vùng trước đó); Chức năng tim (siêu âm tim màu, siêu âm doppler , điện tâm đồ...), chức năng phổi ( đo chức năng hô hấp, XQ phổi, CT phổi...)...; CT bụng ngực; PET, PET/CT mỗi 6 tháng trong 2 năm đầu, sau đó chụp khi có biểu hiện lâm sàng, Xét nghiệm tủy đồ ít nhất 2 năm/ lần; + Làm lại sinh thiết khi xuất hiện hạch to trở lại hoặc có tổn thương mới. 5.4. Theo dõi di chứng lâu dài Nói chung, tất cả bệnh nhân nên được theo dõi sức khỏe suốt đời. Các xét nghiệm bao gồm: Xét nghiệm chức năng tuyến giáp cho bệnh nhân xạ trị vùng cổ, hormon sinh ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 325 328"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1138",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5778,
+            "snippet": "1. ĐÁNH GIÁ GIAI ĐOẠN CẦM MÁU KỲ ĐẦU Giai đoạn cầm máu kỳ đầu với sự tham gia của thành mạch, tiểu cầu và yếu tố von Willebrand để tạo nút tiểu cầu cầm máu. Các xét nghiệm đánh giá giai đoạn cầm máu kỳ đầu bao gồm: - Xét nghiệm đếm số lượng tiểu cầu. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 465 466"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:362",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.577,
+            "snippet": "chế phẩm máu. - Các chế phẩm máu thường dùng bao gồm: Khối hồng cầu; Khối tiểu cầu; Huyết tương tươi đông lạnh; Tủa lạnh; Chế phẩm máu chiếu xạ. Ngoài ra còn có biện pháp truyền máu phenotype, tức là truyền chế phẩm máu hòa hợp không chỉ hệ nhóm máu ABO và Rh mà còn phù hợp với các hệ nhóm máu khác."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:29",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5607,
+            "snippet": "Tại Việt Nam, nhiều nghiên cứu về ALL trẻ em đặc biệt các nghiên cứu về đánh giá kết quả điều trị đã được tiến hành cho thấy hiệu quả điều trị ALL ở trẻ em tại Việt Nam cũng ngày càng được nâng cao [11],[12],[13]. Một số nghiên cứu ứng dụng các kỹ thuật trong chẩn đoán và xác định tồn dư tối thiểu của bệnh ALL cũng đã góp phần nâng cao hiệu quả chẩn đoán và điều trị bệnh nhi [3],[4],[14]. Tuy nhiên, tại Việt Nam còn ít các nghiên cứu chuyên sâu về biến đổi di truyền các thể ALL trẻ em và mối liên quan của các biến đổi di truyền tới kết quả điều trị. Để góp phần tìm hiểu những đặc điểm sinh học, biến đổi di truyền ở trẻ mắc ALL tại Việt Nam, đánh giá hiệu quả phác đồ điều trị và mối liên quan với các biến đổi di truyền đặc trưng nhằm góp phần nâng cao hiệu quả điều trị, chúng tôi thực hiện đề tài: “Nghiên cứu một số biến đổi di truyền và liên quan tới kết quả điều trị sớm ở bệnh lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000” với hai mục tiêu sau: 1. Xác định các bất thường nhiễm sắc thể và đột biến dung hợp một số gen liên quan đến bệnh lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ương trong thời gian 2016 – 2019. 2. Đánh"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:946",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5561,
+            "snippet": "thể chỉ định truyền khi số lượng tiểu cầu còn cao trên 50G/L. - Trường hợp người bệnh chưa có xuất huyết, cần xem xét chỉ định truyền khối tiểu cầu khi giảm số lượng tiểu cầu dưới 10G/L. Trong trường hợp số lượng tiểu cầu chưa giảm dưới 50G/L, cần cân nhắc chỉ định truyền nếu đồng thời có giảm chất lượng tiểu cầu của người bệnh và các yếu tố nguy cơ kèm theo như sốt, nhiễm trùng, rối loạn đông máu; nhu cầu phẫu thuật, thủ thuật có nguy cơ chảy máu; các tổn thương hiện có ở các cơ quan trọng yếu trong hộp sọ, lồng ngực, ổ bụng,..."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:63",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5552,
+            "snippet": "a. Trên lƣỡng bội nhiễm sắc thể (> 46 NST) Trong ALL trẻ em, bất thường trên lưỡng bội NST có thể gặp là trên lưỡng bội tăng ít NST (47-50 NST), trên lưỡng bội tăng nhiều NST (51-68 NST), tăng bội NST (tam bội, tứ bội). Bất thường trên lưỡng bội tăng nhiều NST (thường từ 51-68 NST) là bất thường hay gặp nhất trong ALL trẻ em (20-22%) [49]. Đây cũng là bất thường có tiên lượng tốt nhất trong các bất thường về số lượng NST [49]. Đột biến trên lưỡng bội NST gặp ở trẻ em nhiều hơn người lớn với tỷ lệ lần lượt là 15% ở trẻ em và 6% ở người lớn [1],[46],[47]. Các nhiễm sắc thể cộng thêm thường gặp là: +4 (78%), +6 (85%), +10 (63%), +14 (84%), +17 (68%), +18 (76%), +21 (99%), và +X (89%) [50],[51],[52]. Thêm nhiễm sắc thể 4, 10, và 17 liên quan đến tiên lượng tốt trong ALL trẻ em với xác suất sống thêm không sự kiện lên tới gần 90% [52]. Các bệnh nhi có đột biến trên lưỡng bội nhiễm sắc thể thường có đáp ứng tốt với methotrexate liều cao [52]. b. Dƣới lƣỡng bội nhiễm sắc thể (<46 NST) Bất thường dưới lưỡng bội NST có thể gặp là gần đơn bội (24-29 NST), dưới lưỡng bội thấp (33-39 NST), dưới lưỡng bội cao (40-43 NST) và gần lưỡng bội (44 NST). Nhóm có số lượng NST gần một nửa lưỡng bội (24-"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1204",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5534,
+            "snippet": "- Suy giảm miễn dịch tiên phát ở trẻ em. - Suy giảm miễn dịch thứ phát do HIV/AIDS, do điều trị hóa chất, tia xạ hoặc thuốc ức chế miễn dịch khác. - Các trường hợp cần khảo sát đánh giá tình trạng miễn dịch khác (nhiễm khuẩn, sau tiêm vắc xin…). 5.5..3. Lấy mẫu xét nghiệm 2 ml máu ngoại vi chống đông bằng EDTA, mẫu cũng phải được xử lý trong vòng 24 giờ sau lấy máu. 5.5.4. Nhận định kết quả Giá trị bình thường:"
+          }
+        ],
+        "score_summary": {
+          "max": 0.5925,
+          "min": 0.5534,
+          "avg": 0.5675
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 13751,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-017",
+  "date_folder": "27-03-2026",
+  "sequence": 17,
+  "file_name": "session_017.json",
+  "created_at": "2026-03-27T09:31:31.448Z",
+  "updated_at": "2026-03-27T09:31:31.448Z"
+}

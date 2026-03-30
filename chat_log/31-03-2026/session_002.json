@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là gì và nguyên nhân gây bệnh thường gặp là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "The provided texts are about Acute Lymphoblastic Leukemia (ALL), a type of cancer that affects the blood and bone marrow. It is the most common type of leukemia in children under 15 years old, accounting for about 75% of all leukemias in this age group.\n\nThe texts discuss various aspects of ALL, including its causes, symptoms, diagnosis, and treatment. Some texts focus on the role of genetic mutations (biological changes passed from parent to offspring) in the development of ALL, while others discuss the differences between ALL in children and adults.\n\nOne text mentions that ALL can be divided into two main types: T-ALL (T-cell acute lymphoblastic leukemia) and B-ALL (B-cell acute lymphoblastic leukemia), based on the type of immune cells affected.\n\nAnother text discusses the symptoms of ALL, which can include fatigue, frequent infections, swollen lymph nodes, and easy bruising or bleeding. The text also mentions that a high white blood cell count (more than 50 G/L) is often a sign of a poor prognosis for treatment.\n\nOverall, the texts provide information about the causes, symptoms, and treatment options for ALL, as well as some of the current research being conducted in this field.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:41",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7514,
+            "snippet": "1.2. TỔNG QUAN VỀ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.2.1. Dịch tễ học Theo thống kê trên thế giới cũng như ở Viẹ t Nam, ALL là bẹ nh ung thư hay gạ p nhất ở trẻ em. Sự xuất hiẹ n của bẹ nh được mô tả lần đầu ở nước Anh vào những na m 1920, tiếp sau đó là ở Mỹ vào những na m 1940 và ở Nhạ t Bản vào những na m 1960. Sự xuất hiẹ n của bẹ nh vào những mốc thời gian trên là những thời gian tưo ng ứng với những giai đoạn phát triển công nghiẹ p hóa của những nước này gợi ý sự xuất hiẹ n của những yếu tố môi trường mới gây ung thư máu [25]. Tỷ lẹ mắc hàng na m của ALL trẻ em trên toàn thế giới khoảng 1 đến 4 ca/100.000 trẻ dưới 15 tuổi, tỷ lẹ mắc mới của ALL gạ p nhiều nhất ở lứa tuổi từ 2 - 5 tuổi, gạ p ở trẻ nam nhiều ho n trẻ nữ, đạ c biẹ t ở lứa tuổi dạ y thì [1],[26]. ALL gạ p ở trẻ da trắng nhiều ho n da đen. Bẹ nh ALL thường phổ biến ho n ở Trung Quốc, Ấn Độ tuy nhiên vẫn còn ít ho n ở các nước công nghiẹ p phưo ng Tây [27]. các vùng địa lý khác nhau người ta thấy các kiểu hình miễn dịch của ALL khác nhau, ở các nước đang phát triển chủ yếu gạ p ALL tế bào B trong khi ở các nước công nghiẹ p thì lại gạ p tỷ lẹ ALL tế bào T nhiều ho n, điều này cho thấy trẻ ở các nước công nghiẹ p ph"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:43",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7246,
+            "snippet": "theo Nguyễn Công Khanh, bẹ nh ALL chiếm 45,2% các bẹ nh ung thư trẻ em, mỗi na m có khoảng 170 bẹ nh nhi mới vào viẹ n và tỷ lẹ bẹ nh ALL chiếm 67,5% [31]. Nghiên cứu của tác giả Mai Lan năm 2016 tại Viện Huyết học – Truyền máu Trung ương, ALL là bệnh lý phổ biến nhất trong các bệnh máu ác tính ở trẻ em [32]. 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện: ## Page 23 8"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:32",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6616,
+            "snippet": "nh và hậu quả của ALL giữa quần thể người lớn và trẻ em càng cho thấy sự khác biệt giữa các nhóm sinh học, qua đó khẳng định vai trò của các biến đổi di truyền trong bệnh sinh ALL ở trẻ em [15], [16],[17]. Tuy nhiên, các biến đổi về di truyền này không đủ gây ra bệnh mà phải có sự tương tác với các yếu tố tác động từ môi trường. Có hơn 50 biến đổi ở các vùng ADN đã được xác định, trong đó chủ yếu là ảnh hưởng tới các gen trong quá trình phát triển bình thường của dòng lympho như: Các gen chi phối các yếu tố điều hoà phiên mã phát triển dòng lympho (PAX5, IKZF1, EBF1, LEF1), yếu tố ức chế khối u (CDKN2A, CDKN2B, RB1, TP53), các ## Page 19 4"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:58",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6608,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]. Ngoài ra, các thuốc ức chế Proteasome (Bortezomib), thuốc ức chế JAK (Ruxolitinib), thuốc làm giảm quá trình Methyl hoá (Decitabine), thuốc ức chế PI3K/mTOR cũng đang bắt đầu với các thử nghiệm lâm sàng pha 2, pha 3. Liệu pháp miễn dịch tế bào CAR – Ts (Chemeric Antigen Receptor T cells) cũng là một trong các liệu pháp đang được lựa chọn sử dụng cho các bệnh nhi kháng trị/tái phát [43], [44]. 1.2.5. Một số yếu tố tiên lƣợng lơ xê mi cấp dòng lympho trẻ em Trong hơn nửa thập kỷ vừa qua, đ"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:31",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6407,
+            "snippet": "1.1. BỆNH SINH LƠ XÊ MI CẤP DÒNG LYMPHO Các giả thuyết về bệnh sinh ALL chủ yếu tập trung vào hai yếu tố là biến đổi di truyền và môi trường sống. Cũng giống như các lơ xê mi (LXM) cấp khác, ALL phát sinh từ các đột biến di truyền của các tế bào tiền thân tế bào gốc tạo máu, tác động đến quá trình sinh trưởng và biệt hoá bình thường của các tế bào dòng lympho. Các tế bào tiền thân bị biến đổi này gọi là các tế bào khởi đầu LXM. Các tế bào tiền thân này cũng quy định loại tế bào định hướng phát triển theo dòng, đặc tính chức năng hay dấu ấn trên bề mặt các tế bào LXM. 1.1.1. Vai trò của biến đổi di truyền trong bệnh sinh lơ xê mi cấp dòng lympho trẻ em Quá trình phát triển của LXM cấp được kiểm soát thông qua hoạt động của các yếu tố phiên mã và lựa chọn thông qua chức năng của các con đường dẫn truyền tín hiệu. LXM cấp dòng lympho B hay T là bệnh lý ác tính đơn dòng lympho, phát sinh từ các bất thường di truyền làm ngừng quá trình biệt hoá của dòng lympho, làm cho các tế bào lympho bất thường tăng sinh và tồn tại. So sánh quá trình bệnh và hậu quả của ALL giữa quần thể người lớn và trẻ em càng cho thấy sự khác biệt giữa các nhóm sinh học, qua đó khẳng định vai trò của các biến đổi"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6322,
+            "snippet": "# UngThuBachCauCapDongLymphoBVNguyenTriPhuong - Source PDF: UngThuBachCauCapDongLymphoBVNguyenTriPhuong.pdf - Total pages: 10 - Converted at (UTC): 2026-03-27T07:07:58.909072+00:00 ## Page 1 Trang chủ/ Khoa Nhi / ️ Ung thư bạch cầu cấp dòng lympho ️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:217",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6228,
+            "snippet": "uất hiện các triệu chứng cũng tương đương nhau [13],[72]. Như vậy, nghiên cứu này và một số nghiên cứu trước đó đều nhận thấy, triệu chứng lâm sàng không có sự khác biệt giữa các nhóm biến đổi di truyền. c. Đặc điểm về số lƣợng bạch cầu tại thời điểm chẩn đoán Số lượng bạch cầu tại thời điểm chẩn đoán mang ý nghĩa tiên lượng độc lập trong ALL trẻ em. Theo đó, khi số lượng bạch cầu ≥ 50 G/L thường mang ý nghĩa tiên lượng xấu trong điều trị. Do đó, những bệnh nhi có bạch cầu ≥ 50 G/L được xếp vào nhóm nguy cơ cao, đáp ứng kém với điều trị [1],[34]. Trong nghiên cứu này, độ biến thiên về số lượng bạch cầu ở các nhóm đều rất lớn. Trung vị số lượng bạch cầu cao nhất ở nhóm T-ALL (121,0 G/L). Trong các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B, nhóm"
+          }
+        ],
+        "score_summary": {
+          "max": 0.7514,
+          "min": 0.6228,
+          "avg": 0.6706
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8957,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "31-03-2026-session-002",
+  "date_folder": "31-03-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-03-30T17:43:35.093Z",
+  "updated_at": "2026-03-30T17:43:35.093Z"
+}

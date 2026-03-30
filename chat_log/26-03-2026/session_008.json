@@ -1,0 +1,173 @@
+{
+  "model": "mistral",
+  "query": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là gì và nguyên nhân gây bệnh thường gặp là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là một loại ung thư miễn dịch, nằm trong nhóm ung thư lymphoma. Nguyên nhân gây bệnh thường gặp là các biến đổi di truyền tạo ra các tế bào lympho mạn thường dương tính với CD5, CD19, CD23; dương tính yếu với CD20, CD79b, immunoglobulin bề mặt và một trong hai loại chuỗi nhẹ kappa hoặc lambda.\n\nTrong context, có thông tin về các biến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương, nhằm kết luận về đặc điểm lâm sàng, xét nghiệm và đáp ứng điều trị tấn công LXM cấp dòng lympho trẻ em.\n\nThông tin trên chỉ mang tính tham khảo và không thay thế tư vấn y khoa từ bác sĩ.",
+      "client": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là gì và nguyên nhân gây bệnh thường gặp là gì?",
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 10,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:462",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8845,
+            "snippet": "ghiệm và \nđáp ứng điều trị tấn công  Lơ xê mi cấp dòng lympho trẻ em có một số \nbiến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận \nvăn thạc sỹ y học."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1096",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.8483,
+            "snippet": "lympho niêm mạc \nU lympho tế bào T, EBV+ hệ thống ở trẻ \n(MALT) \nem \nU lympho vùng rìa tại hạch \nLơ xê mi/ U lympho tế bào T người lớn \nU lympho vùng rìa tại lách \nU lympho tế bào T/NK ngoài hạch, thể \nLơ xê mi/u lympho tại lách, không đặc hiệu. mũi \nU lympho tế bào áo nang \nU lympho tế bào T liên quan đến bệnh lý \nU lympho thể nang \nđường ruột \nU lympho thể nang type trẻ em \nU lympho tế bào T biểu mô đơn hình thái \nU lympho dạng lymphoplasmatic \nở ruột \nU lympho trung tâm nang ở da tiên phát."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1935",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.8339,
+            "snippet": "5.5.1. Khái niệm \nBạch cầu lympho và tế bào giết tự nhiên (NK) là thành phần tế bào chính của hệ \nmiễn dịch, c"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:461",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8044,
+            "snippet": "36(7), 534-40. ## Page 171\n\n75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và \nđáp ứng điều trị tấn công  Lơ xê mi cấp dòng lympho trẻ em có một số \nbiến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận \nvăn thạc sỹ y học. Đại học Y"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:80",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7791,
+            "snippet": "## Page 27\n\n12 \n \nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B \nDòng B (CD19++, \nvà/hoặc CD79a++, \nvà/hoặc CD22+) \nB sớm \nHLA-DR+; TdT+; CD19++; CD10-, CyIg- \nB chung HL"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1294",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7595,
+            "snippet": "ạch \nCấu trúc hạch bị phá hủy bởi sự xâm lấn của các tế bào lympho nhỏ hình dạng như \ntrong máu ngoại vi. Mô bệnh học hạch tương tự như u lympho độ ác tính thấp. d. Xét nghiệm miễn dịch \n- Các tế bào lơ xê mi lympho mạn thường dương tính mạnh với CD5, CD19, CD23; \ndương tính yếu với CD20, CD79b, immunoglobulin bề mặt và một trong hai loại chuỗi nhẹ \nkappa hoặc lambda;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1094",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7587,
+            "snippet": "Chẩn đoán thể bệnh \na. Xếp loại u lympho không Hodgkin theo Tổ chức y tế thế giới (WHO 2016) \nDựa trên ứng dụng miễn dịch và di truyền học, Tổ chức y tế thế giới (WHO) đã \nđưa r"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:78",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7533,
+            "snippet": "M kinh dòng lympho và \nu lympho ác tính). Bảng xếp loại này được cập nhật năm 2008 và gần đây \nnhất là năm 2016, ngày càng chú trọng đến vai trò của các biến đổi di truyền. Đặc biệt, phân nhóm LXM cấp dòng lympho B (B-ALL) có các dưới nhóm \nđược xếp loại theo các tổn thương di truyền tái diễn. Xếp loại LXM cấp dòng \nlympho theo WHO 2016 được mô tả dưới đây [36]:\n\n## Page 26\n\n11 \n \nBảng 1.2. Xếp loại lơ xê mi cấp dòng lympho theo WHO 2016 \nLXM cấp/u lympho tế bào B \nLXM cấp/u lympho tế bào T \nLXM cấp/ u lympho tế bào B, không xếp loại \nLơ xê mi cấp tế bào T sớm \nLXM cấp/ u lympho tế bào B với bất thường \ndi truyền tái diễn: \n- LXM cấp/ u lympho tế bào B với trên lưỡng \nbội NST; \n- LXM cấp/ u lympho tế bào B với dưới \nlưỡng bội NST; \n- LXM cấp/ u lympho tế bào B với chuyển đoạn  \nt(9;22)(q34.1;q11.2) tạo gen lai BCR-ABL1; \n- LXM cấp/ u lympho tế bào B với chuyển \nđoạn t(v;11q23.3): cấu trú"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:75",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7532,
+            "snippet": "c. Chẩn đoán xác định \n- Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm \nhoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng \nlympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% \ntế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. - Một số phác đồ điều trị trên thế giới lấy ngưỡng NBLP để chẩn đoán và \nđiều trị ALL trẻ em là NBLP chiếm trên 25% tế bào có nhân trong tuỷ (Phác \nđồ BFM-ALL, phác đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em \na. Xếp loại theo FAB 1986 \n Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc \nđiểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]:\n\n## Page 25\n\n10 \n \nBảng 1.1. Xếp loại lơ xê mi cấp dòng lympho theo FAB 1986 \nHình thái TB \nL1 \nL2 \nL3 \nKích thước \nNhỏ chiếm đa số Lớn, không đều \nTB lớn, không đều \nChất"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1914",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7486,
+            "snippet": "thể lympho T (T-CD3, T-CD4, T-CD8), quần thể lympho B \n(CD19), quần thể tế bào giết tự nhiên - NK (CD56) trong các bệnh lý miễn dịch (chỉ định \ntrong suy giảm miễn dịch, bệnh tự miễn, lupus ban đỏ…). - Xác"
+          }
+        ],
+        "score_summary": {
+          "max": 0.8845,
+          "min": 0.7486,
+          "avg": 0.7923
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 19565,
+        "context_used": 10,
+        "error": null
+      }
+    },
+    {
+      "llm": "The given contexts describe various types of lymphoma, which are a type of cancer that originates in the immune system. Here's a summary of some key points:\n\n1. Burkitt lymphoma (BL) is an aggressive non-Hodgkin lymphoma that primarily affects children and young adults. It often presents with rapid enlargement of one or more lymph nodes, as well as tumors in the abdomen, jaw, or other organs.\n2. Hodgkin lymphoma (HL) is another type of lymphoma that can affect both children and adults. It is characterized by the presence of Reed-Sternberg cells in affected tissues. HL can present with painless enlargement of lymph nodes, fever, weight loss, and night sweats.\n3. Diffuse large B-cell lymphoma (DLBCL) is a common type of non-Hodgkin lymphoma that can occur at any age. It often presents with painless enlargement of lymph nodes, as well as tumors in other organs such as the liver, spleen, or kidneys.\n4. Chronic lymphocytic leukemia (CLL) is a type of cancer that affects the white blood cells called lymphocytes. It often presents with enlarged lymph nodes, fatigue, and anemia.\n5. Multiple myeloma is a type of cancer that affects plasma cells, which are a type of white blood cell found in bone marrow. It often presents with bone pain, fatigue, and anemia.\n6. Mycosis fungoides is a type of T-cell lymphoma that can present as a rash or skin lesions. It can progress to affect other organs such as the lymph nodes, spleen, and liver.\n7. Lymphoblastic lymphoma (LL) is an aggressive type of non-Hodgkin lymphoma that primarily affects children and young adults. It often presents with rapid enlargement of one or more lymph nodes, as well as tumors in the chest or abdomen.\n8. Castleman disease is a rare benign lymphoproliferative disorder that can present with enlarged lymph nodes, fever, and weight loss. It can be associated with other conditions such as HIV infection and autoimmune disorders.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 10,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1903",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7503,
+            "snippet": "o T và lympho B của người cho sau đó phát hiện và đánh giá mức độ \nphản ứng giữa kháng thể đặc hiệu có trong huyết thanh người nhận với HLA có trên bề \nmặt tế bào lympho người cho. 2.2. Chỉ định xét nghiệm đọ chéo lympho \n- Khi đã tìm được cặp người cho và người nhận cho ghép tạng (gan, thận, tim, \ntụy…). Xét nghiệm này được làm càng gần với ngày ghép bao nhiêu càng tốt bấy nhiêu, \nđặc biệt khi người nhận được truyền máu nhiều lần hoặc người nhận là nữ có tiền sử chửa, \nđẻ nhiều lần. - Chỉ cần chỉ định làm xét nghiệm với người nhận, tuy nhiên mẫu phải lấy ở cả \nngười cho và người nhận."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:314",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7305,
+            "snippet": "b. Chia nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng \nlympho B \nBiến đổi di truyền có vai trò quan trọng trong tiên lượng điều trị ALL trẻ \nem, đặc biệt là lơ xê mi cấp dòng lympho B. Vì vậy, việc chia nhóm nguy cơ \ntheo biến đổi di truyền lơ xê mi cấp dòng lympho B giúp cho các nhà lâm \nsàng đánh giá tiên lượng, lập kế hoạch điều trị để có thể đạt được hiệu quả tốt \nnhất cho bệnh nhi. Nghiên cứu có 244 bệnh nhi mang dấu ấn tế bào B (bao \ngồm cả lơ xê mi cấp thể lai). Dựa trên kết quả phân tích NST và đột biến gen \nđược khảo sát trong nghiên cứu, các bệnh nhi này được chia thành 3 nhóm \nnguy cơ: nhóm nguy cơ thấp chiếm tỷ lệ 19,7%, nhóm nguy cơ trung bình \nchiếm tỷ lệ cao nhất với 66,0% và nhóm nguy cơ cao chiếm 14,3% (bảng \n3.8). Tổng hợp kết quả điều trị các nhóm nguy cơ theo biến đổi di truyền B-\nALL ở một số nghiên cứu áp dụng phác đồ ALL97/99 và ALL2003 của tác \ngiả A.V.Mo"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:405",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7175,
+            "snippet": "n quan giữa một số biến đổi di truyền lơ xê mi cấp dòng lympho \nB đến kết quả điều trị sớm ở bệnh nhi cho thấy vai trò của một số biến \nđổi di truyền và xếp nhóm nguy cơ theo di truyền: \n+ \nCó khác biệt về kết quả đáp ứng sớm, đáp ứng sau điều trị tấn công, OS \nvà EFS giữa các nhóm nguy cơ theo biến đổi di truyền B-ALL: Nhóm \nnguy cơ cao có OS và EFS thấp nhất tro"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:70",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7157,
+            "snippet": "1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em \na. Triệu chứng lâm sàng \nĐặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai \nđoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các \ntriệu chứng thâm nhiễm [33],[34], biểu hiện:\n\n## Page 23\n\n8 \n \n- \nTriệu chứng toàn thân: \n+ Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng \ncầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy \nmáu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, \nnội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: \n+ Hạch to khu trú hoặc toàn thân"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:717",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7119,
+            "snippet": "ge 174\n\n177 \n \n21. LƠ XÊ MI LYMPHO CẤP Ở TRẺ EM \n(Bệnh bạch cầu cấp dòng lympho ở trẻ em) \n \n \n1. ĐẠI CƯƠNG \nLơ xê mi lympho cấp (bệnh bạch cầu cấp dòng lympho) là bệnh lý tăng sinh ác tính \ncác tế bào dòng lympho của hệ thống tạo máu. Bệnh chiếm tỉ lệ khoảng 75% bệnh máu ác \ntính và khoảng 25-30% ung thư ở trẻ em. Tần suất bệnh khoảng 3-4 trường hợp/ 100.000 em \nbé da trắng và khoảng 2.500-3.000 trường hợp phát hiện mới/ năm tại Hoa Kỳ. Bệnh thường \ngặp ở nhóm từ 2-5 tuổi. Hầu hết các trường hợp không do di truyền mà do thay đổi di truyền \nsomatic. Cho đến nay, với sự tiến bộ của khoa học trong việc chẩn đoán sớm, xếp loại nguy \ncơ theo đặc điểm tế bào - sinh học phân tử và hóa trị liệu, chăm sóc hồi sức huyết học đã \ngiúp cho bệnh lơ xê mi lympho cấp có khả năng được chữa khỏi. 2."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:226",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.711,
+            "snippet": "b. Tỷ lệ phát hiện bất thường nhiễm sắc thể và một số đột biến dung \nhợp gen các nhóm lơ xê mi cấp dòng lympho B \nBảng 3.11. Tỷ lệ phát hiện bất thƣờng nhiễm sắc thể và một số đột biến \ndung hợp gen theo xếp loại miễn dịch các nhóm lơ xê mi cấp dòng \nlympho B (n=244) \nBất thƣờng NST  \nvà gen \nNhóm \nKhông phát hiện \nbất thƣờng  \nCó phát hiện \nbất thƣờng  \nn \n% \nn \n% \nB sớm \n8 \n88,9 \n1 \n11,1 \nB chung \n97 \n60,6 \n63 \n39,4 \nTiền B \n46 \n65,3 \n24 \n34,7 \nLơ xê mi cấp thể lai \ncó dấu ấn lympho B \n3 \n60,0 \n2 \n40,0 \nTổng \n154 \n63,1 \n90 \n36,9 \nNhận xét: Tỷ lệ bệnh nhi có phát hiện bất thường di truyền ở các dưới nhóm \nlơ xê mi cấp mang dấu ấn lympho B là 36,9% và tương đương nhau ở các \nnhóm: B chung, tiền B (39,4% và 34,7%). Nhóm B sớm chỉ phát hiện 1/9 \nbệnh nhi có bất thường di truyền. Nhóm lơ xê mi cấp thể lai có dấu ấn lympho \nB phát hiện 2/5 bệnh nhi có bất thường di truyền. ## Page 86\n\n71"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1214",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7107,
+            "snippet": "- Hai khối u ngoài hạch có hay không có hạch cùng bên cơ hoành. - U đường tiêu hóa, thường ở vị trí iléocaecale (gốc hồi manh tràng), có \nhoặc không có các hạch mạc treo có thể cắt bỏ được. III \n- Hai khối u ngoài hạch ở mỗi bên cơ hoành có sự tham gia của hai hay \nnhiều hạch ở hai bên cơ hoành. - Các khối u ở ngực (trung thất, phổi, tuyến ức) \n- Tất cả các khối u lan rộng ở bụng và không thể phẫu thuật được. - Tất cả các khối u gần xương sống hay ngoài màng cứng \nIV \n- Xâm lấn não, dịch não tủy hay tủy xương. Bảng 36: Chẩn đoán giai đoạn theo FAB ((French- American- Bristish) cho \nDLBCL, BL, BLL ( Burkitt- like lymphoma) trẻ em . Nhóm A: giai đoạn I và II theo Murphy (tổn thương đã cắt bỏ hoàn toàn). ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 306\n\n309 \n \n \n \n2.4. Chẩn đoán phân biệt \n- U lympho Hodgkin: Trên hạch đồ và sinh thiết hạch tìm thấy tế bào Reed- \nStern"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1056",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7095,
+            "snippet": "hiếm gặp nhưng khá đặc hiệu như: Đau do rượu (đau \nxương hoặc ở vị trí hạch xảy ra sau vài phút sử dụng rượu dù với lượng nhỏ); tổn thương \nda (Mày đay, hồng ban, nốt ban đỏ, vết loét...); hội chứng thận hư do sự giải phóng các \nlymphokine như IL-3. - Bệnh lan tràn đầu tiên là các hạch kế cận (theo đường bạch huyết đặc biệt là ống \nngực), sau đó là các cơ quan khác như lách, tủy xương. Ở giai đoạn muộn của bệnh, thường \nxuất hiện các biểu hiện chèn ép, xâm lấn của tổ chức lympho, u trung thất như: Hội chứng \ntrung thất, chèn ép tĩnh mạch chủ trên, tràn dịch màng phổi...; có thể xuất hiện thiếu máu, \nnhiễm khuẩn hoặc xuất huyết. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 261\n\n264 \n \nb. Cận lâm sàng \n- Hạch đồ: Hạch tăng sinh, đa hình thái, ngoài dòng lympho còn gặp nhiều bạch \ncầu đoạn trung tính, bạch cầu đoạn ưa acid, tế bào plasmo, đại thực bào, tế bào xơ."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1216",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7074,
+            "snippet": "̣t \n- U lympho Hodgkin: Trên hạch đồ và sinh thiết hạch tìm thấy tế bào Reed- \nSternberg hoặc các biến thể. - Hạch tăng sinh phản ứng: Hạch to, thường đau, ở gần nơi tổn thương. Hạch to diễn \nbiến cấp nhưng lành tính và trở lại bình thường sau khi khỏi bệnh chính. - Hạch lao: Thường gặp chuỗi hạch dọc cơ ức đòn chũm, không đau, nếu kéo dài \nthường vỡ và chảy chất bã đậu. Hạch đồ và sinh thiết hạch thường thấy tổn thương gồm: \ntế bào bán liên, tế bào khổng lồ Langerhans, chất hoại tử bã đậu. - Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào ung \nthư: kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, đôi \nkhi có hốc chế tiết, thường đứng thành đám. Đa số trường hợp có thể phát hiện được cơ \nquan ung thư nguyên phát. 3. ĐIỀU TRỊ \n3.1. Điều trị cấp cứu \nBa biểu hiện lâm sàng cần được chú ý ngay lập tức bao gồm: \n- Hội chứng tĩn"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1689",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.706,
+            "snippet": ", U lympho ác tính \nHodgkin). - Hội chứng rối loạn sinh tuỷ (Thể RA; RAEB, CMML...). - Hội chứng thực bào tế bào máu. - Hội chứng tăng sinh tuỷ (Xơ tuỷ, đa hồng cầu, tăng tiểu cầu tiên phát...). 2.2. Một số bệnh máu"
+          }
+        ],
+        "score_summary": {
+          "max": 0.7503,
+          "min": 0.706,
+          "avg": 0.7171
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 19008,
+        "context_used": 10,
+        "error": null
+      }
+    }
+  ],
+  "id": "26-03-2026-session-008",
+  "date_folder": "26-03-2026",
+  "sequence": 8,
+  "file_name": "session_008.json",
+  "created_at": "2026-03-26T09:40:12.787Z",
+  "updated_at": "2026-03-26T09:44:53.699Z"
+}

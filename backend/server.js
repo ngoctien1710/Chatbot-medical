@@ -270,7 +270,7 @@ const buildPromptFromFeedback = (query, feedback = null) => {
  */
 app.post('/chat/start', async (req, res) => {
     try {
-        const { query, model = 'deepseek' } = req.body;
+        const { query, model = 'mistral' } = req.body;
         
         if (!query || query.trim() === '') {
             return res.status(400).json({ error: 'Query is required' });

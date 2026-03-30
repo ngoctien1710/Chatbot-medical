@@ -1,0 +1,137 @@
+{
+  "model": "mistral",
+  "query": "máu tôi bị thiếu vitamin D thì nên xử lý như nào",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Nếu máu tối ưu của bạn thiếu vitamin D, nhưng không có dấu hiệu suy gan hoặc rối loạn chảy máu, bạn có thể sử dụng chế phẩm bổ sung vitamin D theo hướng dẫn của bác sĩ. Tuy nhiên, trường hợp này không được coi là một rối loạn chảy máu vì vitamin D chỉ có tác dụng quan trọng cho việc chấm dứt chảy máu, không phải là yếu tố chính sự gây rối loạn.\n\nThông tin trên chỉ mang tính tham khảo và không thay thế tư vấn y khoa từ bác sĩ.",
+      "client": "Câu trả lời trên chưa đáp ứng tốt câu hỏi của người dùng vì nội dung còn lạc đề và chứa thông tin y khoa chưa chính xác. Việc đề cập đến rối loạn chảy máu và vai trò của vitamin D trong quá trình cầm máu là không phù hợp với câu hỏi về xử trí khi thiếu vitamin D, đồng thời có thể gây hiểu nhầm về chức năng thực sự của vitamin này. Ngoài ra, câu trả lời cũng thiếu tính thực tiễn, không đưa ra hướng dẫn cụ thể như cách bổ sung vitamin D, điều chỉnh chế độ ăn, phơi nắng hay khi nào cần đi khám. Mặc dù có nhấn mạnh việc tham khảo ý kiến bác sĩ là điểm tích cực về mặt an toàn, tổng thể câu trả lời vẫn cần được cải thiện về độ chính xác, tính liên quan và giá trị hướng dẫn cho người dùng.",
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:474",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7173,
+            "snippet": "b_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 116\n\n119 \n \nBình thường, các yếu tố II, VIII, IX và X được tổng hợp ở dạng tiền chất và chưa \ncó hoạt tính đông máu. Với sự có mặt của vitamin K trong vai trò chất xúc tác, các tiền \nchất này được chuyển thành các chất có hoạt tính đông máu bởi sự chuyển acid glutamic \ngần acid amin cuối cùng thành Gama-carboxyglutamyl. Quá trình chuyển hóa này xảy ra \nở gan, do gen nằm trên nhiễm sắc thể thường, di truyền lặn quy định."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:478",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7094,
+            "snippet": "Xét nghiệm \n- Cả PT và APTT đều kéo dài. - Giảm nồng độ II, VII, IX, X, PC, PS; mức độ nặng: < 5%. - Cần loại trừ các nguyên nhân thiếu hụt vitamin K mắc phải và tiếp xúc với các \nthuốc kháng vitamin K. 9.2. Điều trị \n- Bổ sung vitamin K đường uống hoặc đường tiêm, liều 5- 15mg/ngày. - Trường hợp nặng: Truyền huyết tương, huyết tương tươi đông lạnh, phức hợp \nprothrombin cô đặc. 10. VẤN ĐỀ QUẢN LÝ NGƯỜI BỆNH BỊ RỐI LOẠN CHẢY MÁU BẨM \nSINH DI TRUYỀN \nGiống như Hemophilia, các rối loạn chảy máu bẩm sinh di truyền hiện nay đều chưa \nchữa khỏi được, người bệnh cần được quản lý, tư vấn, điều trị tốt để có thể sống chung với \nbệnh. Việc quản lý bao gồm: \n- Lập hồ sơ quản lý. - Cấp thẻ người bệnh bao gồm các thông tin về chẩn đoán, mức độ bệnh, tình trạng \ncó chất ức chế yếu tố đông máu. - Tư vấn về bệnh và tư vấn di truyền. - Điều trị chảy máu và dự phòng chảy máu: Sử dụng chế p"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:365",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7031,
+            "snippet": "ưới da. Theo dõi bằng anti Xa (duy trì anti \nXa 0,5-1 U/ml). - Đối với những trường hợp vẫn xuất hiện tắc mạch khi đang điều trị dự phòng bằng \nkháng vitamin K thì cần điều chỉnh: \n+ Tăng liều kháng vitamin K, duy trì INR 3- 4; hoặc \n+ Phối hợp với Aspirin liều thấp 70-100 mg/ngày; hoặc \nngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 91\n\n91 \n \n \n+ Đổi sang LWMH 20 - 40mg/ngày tiêm dưới da 1 lần/ngày (liều dự phòng). - Có thể cân nhắc điều trị"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:45",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6881,
+            "snippet": "m tra định kỳ hàng tháng đến hết phác đồ. b. Thiếu máu do thiếu acid folic và/hoặc vitamin B12 \n- Tìm và điều trị nguyên nhân: Tổn thương gan do rượu, cắt đoạn dạ dày… \n- Chế độ ăn: Rau xanh, đậu đỗ, các loại nấm, chuối, dưa hấu, thịt, cá, gan, trứng. - Bổ sung chế phẩm acid folic: 5mg hàng ngày trong vòng 4-6 tháng; vitamin B12: \n1mg tiêm bắp 3 lần/tuần, tổng liều 10mg; sau đó duy trì 1mg/tháng. - Xét nghiệm tế bào máu ngoại vi định kỳ hàng tháng để theo dõi và đánh giá kết \nquả điều trị."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:364",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6793,
+            "snippet": "APS toàn phát (thê thảm): Phân biệt với đông máu nội mạch rải rác (DIC), \nxuất huyết giảm tiểu cầu huyết khối (TTP). 5. ĐIỀU TRỊ \n5.1. Điều trị và dự phòng huyết khối \nSử dụng heparin tiêu chuẩn hoặc heparin trọng lượng phân tử thấp, sau đó chuyển \nsang kháng vitamin K (Wafarin) hoặc aspirin (70 - 100 mg/ngày) tùy thuộc vào từng bệnh \nnhân, dùng lâu dài. INR thông thường duy trì ở mức 2-3. Liều điều trị tắc mạch: \n- Heparin tiêu chuẩn (5.000-10.000 U/12h tiêm dưới da hoặc tiêm tĩnh mạch, khởi \nđầu 5.000U, sau đó truyền tĩnh mạch liên tục 1.000-2.000 U/giờ. Duy trì rAPTT 1,5 - 2,0. - Heparin trọng lượng phân tử thấp (Low Molecular Weigh Heparin = LMWH): 1,5 \nmg/kg/ngày hoặc 1mg/kg x 2 lần/ngày, tiêm dưới da. Theo dõi bằng anti Xa (duy trì anti \nXa 0,5-1 U/ml). - Đối với những trường hợp vẫn xuất hiện tắc mạch khi đang điều trị dự phòng bằng \nkháng vitamin K thì cần điều chỉnh"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1857",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6692,
+            "snippet": "ạch, xuất huyết không rõ nguyên nhân. - Người bệnh có/ hoặc không có triệu chứng lâm sàng, có/ hoặc không có tiền sử \nchảy máu, kết quả xét nghiệm bất thường: \n- Tùy theo xét nghiệm bất thường để hướng đến các loại rối loạn thường gặp, cụ thể: \n+ PT kéo dài (PT% giảm) các xét nghiệm còn lại đều bình thường: \n Thiếu yếu tố VII; \n Suy gan; \n Giai đoạn đầu điều trị kháng vitamin K...; \n Có chất ức chế đông máu ngoại sinh. + APTT kéo dài, các xét nghiệm còn lại đều bình thường: \n Thiếu yếu tố VIII, IX, XI, XII, von Willebrand; \n Có chất ức chế đông máu đường nội sinh (thường gặp: Lupus anticoagulant)... + PT và APTT kéo dài, các xét nghiệm còn lại bình thường: \n Suy gan nặng; \n Thiếu vitamin K; \n Điều trị kháng vitamin K; \n Thiếu yếu tố V kết hợp thiếu yếu tố VIII; \n Thiếu yếu tố II kết hợp"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1011",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6547,
+            "snippet": "h thái hơn. - Thiếu máu hồng cầu to do thiếu axit folic và vitamin B12: Thường có nguyên nhân \ngây thiếu axit folic và vitamin B12 như cắt dạ dày, nhiễm trùng ruột nặng, thể tích hồng cầu \nrất to (trên 130fl), giảm axit folic và vitamin B12 trong huyết thanh, điều trị thử bằng axit \nfolic và vitamin B12 có cải thiện tốt. - Thiếu máu có sideroblast bẩm sinh: Thường ở trẻ em, MCV nhỏ, không bất thường \nvề hình thái đối với các dòng tế bào khác. 2.4. Xếp loại thể bệnh hội chứng rối loạn sinh tủy: Tùy khả năng thực hiện một số \nxét nghiệm của cơ sở y tế mà lựa chọn cách xếp loại cho phù hợp sau đây."
+          }
+        ],
+        "score_summary": {
+          "max": 0.7173,
+          "min": 0.6547,
+          "avg": 0.6887
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 7449,
+        "context_used": 7,
+        "error": null
+      }
+    },
+    {
+      "llm": "Một bệnh nhân có rối loạn đông máu (Disseminated Intravascular Coagulation, DIC) do viêm tim. Để điều trị, bệnh nhân cần được truyền huyết tương đông lạnh (Fresh Frozen Plasma, FFP). Huyết tương tươi đông lạnh được điều chế bằng cách chiết tách từ máu toàn phần hoặc tách bằng máy tách thành phần máu tự động, làm đông nhanh đến -25oC hoặc lạnh hơn trong thời gian 18 giờ kể từ lúc lấy máu hay tách huyết tương. Một đơn vị huyết tương tươi đông lạnh có thể tích khoảng 200-300ml, chứa các protein huyết tương bao gồm các yếu tố đông máu, albumin và immunoglobulin.\n\nĐể truyền FFP cho bệnh nhân, một đơn vị máu và bộ dây truyền phải bàn giao ngay cho đơn vị cấp phát máu để thực hiện điều tra nguyên nhân tai biến. Duy trì đường truyền tĩnh mạch bằng dung dịch muối NaCl 0,9%.\n\nTrong quá trình điều chế và bảo quản các chế phẩm hồng cầu, nhiều phản ứng bất lợi có thể xảy ra cho người bệnh khi truyền chế phẩm còn tồn dư nhiều bạch cầu. Mỗi đơn vị chế phẩm hồng cầu có thể tích khoảng 20 - 100 ml huyết tương, do vậy thường không đủ để bổ sung thể tích tuần hoàn trong trường hợp giảm khối lượng tuần hoàn, có thiếu hụt hoặc rối loạn đông.\n\nVì vậy, để điều trị bệnh nhân có rối loạn đông máu do viêm tim, cần truyền huyết tương đông lạnh (Fresh Frozen Plasma, FFP) cho bệnh nhân.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:601",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.715,
+            "snippet": "ĐIỀU TRỊ HỖ TRỢ NÂNG CAO THỂ TRẠNG, BẢO VỆ GAN THẬN VÀ \nĐƯỜNG TIÊU HÓA \n2.1. Điều trị hỗ trợ nâng cao thể trạng \nBảo đảm cân bằng và đủ chất dinh dưỡng như chất đạm, chất béo, tinh bột. Thức ăn \ncho người bệnh suy giảm miễn dịch cần vô trùng tối đa bằng cách ăn thức ăn mềm, nấu \nchín, hoa quả rửa sạch và gọt vỏ, nhúng qua nước sôi nếu cần. Nếu người bệnh tổn thương \nniêm mạc đường tiêu hóa không nuốt được hoặc không hấp thu được, thì cần nuôi dưỡng \nđường tĩnh mạch. 2.2. Điều trị hỗ trợ bảo vệ gan và thận \nBù dịch bằng cách uống nhiều nước hoặc bù dịch đường tĩnh mạch. 2.3. Điều trị hỗ trợ bảo vệ niêm mạc đường tiêu hóa \nDự phòng loét dạ dày do stress bằng thuốc bọc niêm mạc và thuốc giảm tiết acid. Vệ sinh miệng họng bằng cách đánh răng sạch, súc miệng bằng dung dịch sát khuẩn, điều \ntrị kháng sinh và thuốc chống viêm giảm đau dạng gel. Bổ sung vitamin C. Dùng thuốc \nbọc ni"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:474",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7137,
+            "snippet": "b_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 116\n\n119 \n \nBình thường, các yếu tố II, VIII, IX và X được tổng hợp ở dạng tiền chất và chưa \ncó hoạt tính đông máu. Với sự có mặt của vitamin K trong vai trò chất xúc tác, các tiền \nchất này được chuyển thành các chất có hoạt tính đông máu bởi sự chuyển acid glutamic \ngần acid amin cuối cùng thành Gama-carboxyglutamyl. Quá trình chuyển hóa này xảy ra \nở gan, do gen nằm trên nhiễm sắc thể thường, di truyền lặn quy định."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1548",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6999,
+            "snippet": "uyết tương đông lạnh là chế phẩm huyết tương điều chế từ máu toàn phần có thời \ngian bảo quản quá 18 giờ kể từ khi lấy máu, hoặc từ các đơn vị huyết tươi đông lạnh đã \nđược điều chế tủa lạnh. Huyết tương đông lạnh chứa phần lớn các thành phần như huyết \ntương tươi đông lạnh, ngoại trừ giảm thấp nồng độ các yếu tố đông máu không bền vững \nnhư yếu tố V, VIII. Huyết tương đông lạnh thường được bảo quản ở -18C hoặc lạnh hơn trong thời \ngian 1 năm. Huyết tương tươi đông lạnh sau khi phá đông, được vận chuyển trong điều \nkiện giữ nhiệt độ trong khoảng 2-6C và cần được truyền trong vòng 30 phút. Trong trường \nhợp chưa sử dụng ngay, phải được bảo quản trong tủ lạnh ở nhiệt độ 2-6C không quá 14 \nngày. Chỉ định truyền huyết tương đông lạnh: \n- Truyền máu khối lượng lớn: bổ sung với truyền khối hồng cầu. - Giảm áp lực keo. - Điều trị quá liều các thuốc kháng vitamin K. - Truyền hoặc thay"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:45",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.699,
+            "snippet": "m tra định kỳ hàng tháng đến hết phác đồ. b. Thiếu máu do thiếu acid folic và/hoặc vitamin B12 \n- Tìm và điều trị nguyên nhân: Tổn thương gan do rượu, cắt đoạn dạ dày… \n- Chế độ ăn: Rau xanh, đậu đỗ, các loại nấm, chuối, dưa hấu, thịt, cá, gan, trứng. - Bổ sung chế phẩm acid folic: 5mg hàng ngày trong vòng 4-6 tháng; vitamin B12: \n1mg tiêm bắp 3 lần/tuần, tổng liều 10mg; sau đó duy trì 1mg/tháng. - Xét nghiệm tế bào máu ngoại vi định kỳ hàng tháng để theo dõi và đánh giá kết \nquả điều trị."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:365",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6951,
+            "snippet": "ưới da. Theo dõi bằng anti Xa (duy trì anti \nXa 0,5-1 U/ml). - Đối với những trường hợp vẫn xuất hiện tắc mạch khi đang điều trị dự phòng bằng \nkháng vitamin K thì cần điều chỉnh: \n+ Tăng liều kháng vitamin K, duy trì INR 3- 4; hoặc \n+ Phối hợp với Aspirin liều thấp 70-100 mg/ngày; hoặc \nngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 91\n\n91 \n \n \n+ Đổi sang LWMH 20 - 40mg/ngày tiêm dưới da 1 lần/ngày (liều dự phòng). - Có thể cân nhắc điều trị"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1549",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6887,
+            "snippet": "truyền huyết tương đông lạnh: \n- Truyền máu khối lượng lớn: bổ sung với truyền khối hồng cầu. - Giảm áp lực keo. - Điều trị quá liều các thuốc kháng vitamin K. - Truyền hoặc thay huyết tương trong ban xuất huyết giảm tiểu cầu tắc mạch (TTP). - Điều trị người bệnh thiếu một trong các thành phần protein huyết tương (albumin, \nC1 inhibitor,…) trong khi không có các chế phẩm đặc hiệu thay thế. 6.2. Huyết tương tươi đông lạnh (Fresh Frozen Plasma) \nHuyết tương tươi đông lạnh được điều chế bằng cách chiết tách từ máu toàn phần \nhoặc tách bằng máy tách thành phần máu tự động, làm đông nhanh đến -25oC hoặc lạnh \nhơn trong thời gian 18 giờ kể từ lúc lấy máu hay tách huyết tương. Một đơn vị huyết tương \ntươi đông lạnh có thể tích khoảng 200-300ml có chứa các protein huyết tương bao gồm các \nyếu tố đông máu, albumin và immunoglobulin. Huyết tương tươi đông lạnh duy trì nồng \nđộ các yếu t"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1511",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6854,
+            "snippet": "đơn vị máu và bộ dây truyền mà phải bàn giao \nngay cho đơn vị cấp phát máu để thực hiện điều tra nguyên nhân tai biến. Duy trì đường \ntruyền tĩnh mạch bằng dung dịch muối NaCl 0,9%. 3. TRUYỀN CHẾ PHẨM HỒNG CẦU \nHồng cầu chứa hemoglobin có vai trò chính trong vận chuyển oxy cho các mô và tế \nbào. Thời gian bảo quản đơn vị chế phẩm tùy thuộc dạng chế phẩm và dung dịch chống \nđông - bảo quản. Quá trình điều chế, bảo quản các chế phẩm hồng cầu làm cho các các tế \nngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 383\n\n384 \n \nbào máu bị hủy hoại, mất chức năng và hơn nữa có nguy cơ gây nhiều phản ứng bất lợi cho \nngười bệnh khi truyền chế phẩm còn tồn dư nhiều bạch cầu. Mỗi đơn vị chế phẩm hồng \ncầu còn tồn dư khoảng 20 - 100 ml huyết tương và do vậy, thường không đủ để bổ sung \nthể tích tuần hoàn trong trường hợp giảm khối lượng tuần hoàn, có thiếu hụt hoặc rối loạn \nđông"
+          }
+        ],
+        "score_summary": {
+          "max": 0.715,
+          "min": 0.6854,
+          "avg": 0.6996
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 18930,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-008",
+  "date_folder": "27-03-2026",
+  "sequence": 8,
+  "file_name": "session_008.json",
+  "created_at": "2026-03-27T07:51:28.951Z",
+  "updated_at": "2026-03-27T07:54:35.422Z"
+}

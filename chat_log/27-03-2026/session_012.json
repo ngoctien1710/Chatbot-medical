@@ -1,0 +1,137 @@
+{
+  "model": "mistral",
+  "query": "triệu chứng lâm sàng của ung thư bạch cầu cấp dòng",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của ung thư bạch cầu cấp dòng có thể gồm nhiều triệu chứng khác nhau, tuy nhiên đây là một số triệu chứng phổ biến:\n\n1. Dài thường vỡ và chất bã đậu chảy ra ngoài (Hạch đồ và sinh thiết hạch thường thấy tổn thương gồm: Tế bào bán liên, tế bào khổng lồ Langerhans, chất hoại tử bã đậu).\n2. Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào ung thư kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, đôi khi có hốc chế tiết, thường đứng thành đám.\n3. Đau bụng, quặn và đầy hơi (Nôn).\n4. Mô bệnh học, hóa mô miễn dịch (hoặc đếm tế bào dòng chảy) hạch hoặc khối u thấy đảo lộn cáu trúc và dấu ấn.\n5. Tiểu máu: Chỉ có tiểu máu đại thể (từ nước tiểu màu đỏ đến màu hồng nhạt) không được giải thích bởi sự hiện diện của ung thư bạch cầu.\n\nNgoài ra, các triệu chứng khác có thể gặp phải như tiêu chảy, đau bụng, quặn và đầy hơi, nôn.\n\nĐể xác định triệu chứng lâm sàng của ung thư bạch cầu, cần thực hiện các kiểm tra và xét nghiệm phù hợp.",
+      "client": "bị nhầm sang bệnh lao hạch",
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1102",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5905,
+            "snippet": "dài thường vỡ và chất bã đậu chảy ra ngoài. Hạch đồ và sinh thiết hạch thường thấy \ntổn thương gồm: Tế bào bán liên, tế bào khổng lồ Langerhans, chất hoại tử bã đậu. - Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào \nung thư: kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, \nđôi khi có hốc chế tiết, thường đứng thành đám. Đa số trường hợp phát hiện được cơ \nquan ung thư nguyên phát. 3. ĐIỀU TRỊ. 3.1."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:508",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5299,
+            "snippet": "oặc sự xuất hiện của các tự kháng thể, và bệnh thường \nkhởi phát do những tác nhân như nhiễm trùng, ung thư, vắc xin, bệnh tự miễn… \nCác triệu chứng thường thấy như sau: \n- Thường gặp ở trẻ em. - Tiêu chảy, thường phân có máu. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 124\n\n127 \n \n- Đau bụng, quặn và đầy hơi. - Nôn."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1058",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.4905,
+            "snippet": "- Mô bệnh học, hóa mô miễn dịch (hoặc đếm tế bào dòng chảy) hạch hoặc khối \nu thấy đảo lộn cáu trúc và dấu ấn"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1375",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.4817,
+            "snippet": "Các xét nghiệm sử dụng trước và"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1456",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.4804,
+            "snippet": "- Đánh giá mức độ đáp ứng của IMWG dựa trên tồn dư bệnh tối"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1574",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.4612,
+            "snippet": "u cầu miễn dịch, thiếu máu \ntan máu tự miễn, các trường hợp thiếu hụt yếu tố đông máu có chất ức chế và một số bệnh \nmiễn dịch khác. - Điều trị các tình trạng thiếu hụt miễn dịch gây nhiễm trùng nặng. - Điều trị giảm immunoglobulin máu bẩm sinh hoặc thứ phát \n \nTÀI LIỆU THAM KHẢO \n1. Thông tư 26/2013/TT-BYT hướng dẫn hoạt động truyền máu."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:440",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.4577,
+            "snippet": "- Tiểu máu: Chỉ có tiểu máu đại thể (từ nước tiểu màu đỏ đến màu hồng nhạt) không được \ngiải thích bởi sự hiện diệ"
+          }
+        ],
+        "score_summary": {
+          "max": 0.5905,
+          "min": 0.4577,
+          "avg": 0.4988
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 14529,
+        "context_used": 7,
+        "error": null
+      }
+    },
+    {
+      "llm": "Câu hỏi của người dùng là về triệu chứng lâm sàng của ung thư bạch cầu cấp dòng. Tuy nhiên, trong context đã cho, không có thông tin chi tiết về triệu chứng lâm sàng của ung thư bạch cầu cấp dòng. Nhưng ta có thể tổng hợp thông tin trong context để giúp người dùng hiểu về triệu chứng lâm sàng ung thư bạch cầu:\n\n- Ung thư bạch cầu có thể gây ra nhiều biến đổi trong máu, ví dụ như tăng số hạch hoặc tăng số tế bào Reed-Sternberg.\n- Hạch của ung thư bạch cầu có thể là hạch to, thường đau và diễn biến theo trình tự: mềm dần, vỡ và chất bã đậu chảy ra ngoài.\n- Hạch của ung thư bạch cầu có thể gây ra nhiều phản ứng bất lợi cho người bệnh khi truyền chế phẩm hồng cầu.\n- Ung thư bạch cầu có thể gây ra rối loạn chức năng hệ tiêu hóa, cho ruột nghỉ trong ghép chống chủ cấp đường tiêu hóa.\n- Ung thư bạch cầu có thể gây ra sự suy dinh dưỡng nặng.\n\nTuy nhiên, để điều trị ung thư bạch cầu hiệu quả, người bệnh cần phải được chẩn đoán và điều tra chính xác bởi một chuyên gia y khoa.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "TinhHuongLamSangBachCauCapOTreEm.md:16",
+            "doc_id": "TinhHuongLamSangBachCauCapOTreEm.md",
+            "score": 0.6288,
+            "snippet": "hongiuoc,chumophanbietvotiy\nro. BANG QUANG:Thanh khong day,khong soi\nTUCUNGNg toc,DAP#27mmoimac6mm，cau r\ndong dangit dichtui cung\n-PHAN PHU:Canh phai tir cung co 1 cau truc echo kem KT #52 x46\nmm,bodeugiihano,khong tang sinah. -DM CHU BUNG:Khong phinh. OBUNG:Khong dich,khong hach,Cocard Sign（-)\n-CAC CO QUAN KHAC:Khong dichmang phoi hai ben\nKETLUAN\nKETLUAN\nGANTO. VIEMTUYENMANGTAI HAI BEN. LACHTO. ITDICH TUCUNG."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1511",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6278,
+            "snippet": "đơn vị máu và bộ dây truyền mà phải bàn giao \nngay cho đơn vị cấp phát máu để thực hiện điều tra nguyên nhân tai biến. Duy trì đường \ntruyền tĩnh mạch bằng dung dịch muối NaCl 0,9%. 3. TRUYỀN CHẾ PHẨM HỒNG CẦU \nHồng cầu chứa hemoglobin có vai trò chính trong vận chuyển oxy cho các mô và tế \nbào. Thời gian bảo quản đơn vị chế phẩm tùy thuộc dạng chế phẩm và dung dịch chống \nđông - bảo quản. Quá trình điều chế, bảo quản các chế phẩm hồng cầu làm cho các các tế \nngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 383\n\n384 \n \nbào máu bị hủy hoại, mất chức năng và hơn nữa có nguy cơ gây nhiều phản ứng bất lợi cho \nngười bệnh khi truyền chế phẩm còn tồn dư nhiều bạch cầu. Mỗi đơn vị chế phẩm hồng \ncầu còn tồn dư khoảng 20 - 100 ml huyết tương và do vậy, thường không đủ để bổ sung \nthể tích tuần hoàn trong trường hợp giảm khối lượng tuần hoàn, có thiếu hụt hoặc rối loạn \nđông"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1510",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6223,
+            "snippet": "quyết \nđịnh ngừng truyền máu, thì không được hủy đơn vị máu và bộ dây truyền mà phải bàn giao \nngay cho đơn vị cấp phát máu để thực hiện điều tra nguyên nhân tai biến. Duy trì đường \ntruyền tĩnh mạch bằng dung dịch muối NaCl 0,"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1165",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6108,
+            "snippet": "ào Reed-Sternberg hoặc các biến thể. - Hạch tăng sinh phản ứng: Hạch to, thường đau. Hạch diễn biến cấp nhưng lành \ntính và trở lại bình thường sau khi khỏi bệnh chính. - Hạch lao: Thường gặp hạch dọc cơ ức đòn chũm, thành chuỗi, không đau và \ndiễn biến theo trình tự: mềm dần, vỡ và chất bã đậu chảy ra ngoài. Hạch đồ và sinh thiết \nhạch thường thấy tổn thương đặc hiệu: tế bào bán liên, tế bào khổng lồ Langerhans, chất \nhoại tử bã đậu. - Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào \nung thư: kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, \nđôi khi có hốc"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1432",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6063,
+            "snippet": "inh tế các phác đồ, sự thuận tiện trong điều trị... - Ở những người bệnh trẻ tuổi tái phát, chỉ định ghép tự thân lần hai (tham khảo \nphác đồ ghép tự thân cho đa u tuỷ xương). b."
+          },
+          {
+            "id": "TinhHuongLamSangBachCauCapOTreEm.md:15",
+            "doc_id": "TinhHuongLamSangBachCauCapOTreEm.md",
+            "score": 0.6057,
+            "snippet": "achving co\nBS.CKI DThj Diem Phuong\n-Bac sy dieu tri:\nBS.CKI. Do ThjDiem Phurong\n-Bic sy dieu trji\nKETQUASIEU AM\nKETQUA SIEU AM\nTuyenmang taiTuyenmang taihaibencocau truckemdong dang\nGAN:Gan traiKT#130mm,gan phaiKT#184mm,boducu\ntruc dong dang,khong sang thuomg khu tru. tang sinh mach. Tuyen duoiham,tuyen duoiluoiKhong to,chumo dong dang\n-MAT:\n+Tai mit Khong to,thanh khong day,khong soi. khong u,khong viem. +DuongmitDuongmat tronggan:Khonggian,khong soi\n-Hachco:Vung co conhieu cau truc echo kem hinh bau ducKT lon\nOMC khonggin,khong soi\nnhat #26x13mm,cau truc ron hach(+/-). TUY:Khong to,cautric dongnht\nLACH:to KT#177mm,cau tric dong nhat\nTHAN TRAI:Khong soikhong ir nuoc,chumo phan biet vo-tiy ro. THANPHAIKhong soihongiuoc,chumophanbietvotiy\nro. BANG QUANG:Thanh khong day,khong soi\nTUCUNGNg toc,DAP#27mmoimac6mm，cau r\ndong dangit dichtui cung\n-PHAN PHU:Canh phai tir cung co 1 cau truc echo ke"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1784",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5965,
+            "snippet": "DINH DƯỠNG \nChế độ dinh dưỡng cho người bệnh được thực hiện theo nguyên tắc: \n- An toàn dinh dưỡng: Dinh dưỡng được đảm bảo vô trùng tuyệt đối. Tất cả thức ăn \nđều được đun nóng lại bằng lò vi sóng trước khi người bệnh ăn. - Chế độ ăn: Có tư vấn và xây dựng thực đơn dinh dưỡng theo tư vấn của chuyên gia \ndinh dưỡng. - Dinh dưỡng bằng truyền tĩnh mạch được chỉ định khi có biểu hiện: \n+ Rối loạn chức năng hệ tiêu hóa; \n+ Cho ruột nghỉ trong ghép chống chủ cấp đường tiêu hóa; \n+ Suy dinh dưỡng nặng. - Dung dịch nuôi dưỡng tĩnh mạch bao gồm: Albumin human; dung dịch đường, mỡ \nvà đạm (túi 2 ngăn và 3 ngăn). ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53\n\n## Page 452\n\n453 \n \n6. BẢNG THEO DÕI XÉT NGHIỆM SAU GHÉP \nXÉT NGHIỆM THEO DÕI SAU GHÉP TẾ BÀO GỐC ĐỒNG LOÀI ĐIỀU TRỊ \nLƠ XÊ MI CẤP, LƠ XÊ MI KINH \nXét nghiệm \nTháng sau ghép (từ ngày truyền TBG) \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10 \n11"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6288,
+          "min": 0.5965,
+          "avg": 0.614
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 14291,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-012",
+  "date_folder": "27-03-2026",
+  "sequence": 12,
+  "file_name": "session_012.json",
+  "created_at": "2026-03-27T08:17:37.392Z",
+  "updated_at": "2026-03-27T08:20:51.398Z"
+}

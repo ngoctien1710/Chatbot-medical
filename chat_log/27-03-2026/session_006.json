@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Các triệu chứng lâm sàng phổ biến của ALL ở trẻ em là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Các triệu chứng lâm sàng phổ biến của ALL (Lymphoma Xê Mi Tuỷ Cấp) ở trẻ em bao gồm:\n- Hôi chứng thiếu máu\n- Tiểu máu không được giải thích bởi sự hiện diện của sự sinh một tế bào blast có nguồn gốc dòng tủy tại tuỷ xương\n- Xét nghiệm sử dụng trước và sau khi điều trị\n\nThông tin trên chỉ mang tính tham khảo và không thay thế tư vấn y khoa từ bác sĩ.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:837",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6649,
+            "snippet": "em, dựa trên các hóa chất cơ \nbản như: Daunorubicin (Idarubicin), Cytarabine, Etoposide, Mitoxantrone, Fludarabine… \ntrải qua các giai đoạn: tấn công, củng cố, duy trì. Nhiều thuốc điều trị mới cũng đang được \nthử nghiệm điều trị trên LXM tủy cấp trẻ em, đặc biệt trên nhóm bệnh nhi nguy cơ cao, tái \nphát/ kháng thuốc. Một số phác đồ đang được áp dụng: \na."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:827",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6279,
+            "snippet": "ệnh bạch cầu cấp dòng tủy trẻ em) \n \n \n1. ĐẠI CƯƠNG \nLơ xê mi (LXM) tuỷ cấp là một nhóm bệnh máu ác tính. Đặc trưng của bệnh là sự \ntăng sinh một loại tế bào non ác tính (tế bào blast) có nguồn gốc dòng tủy tại tuỷ xương. Ở trẻ em, LXM tủy cấp hiếm gặp hơn LXM lympho cấp, chiếm khoảng 18% các \nLXM ở trẻ em, tỷ lệ gặp cao nhất ở trẻ dưới 1 tuổi. 2."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:828",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.615,
+            "snippet": "NGUYÊN NHÂN \nNguyên nhân gây LXM tủy cấp trẻ em chưa được sáng tỏ. Tuy nhiên, các yếu tố \nđược cho là nguy cơ gây LXM tủy cấp ở trẻ bao gồm: Tia xạ, hóa chất, yếu tố di truyền \n(hội chứng Down, thiếu máu Fanconi…), cách sống của bố mẹ (nghiện rượu, thuốc lá…). 3. CHẨN ĐOÁN \n3.1. Triệu chứng lâm sàng \n- Hội chứng thiếu máu."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:440",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5979,
+            "snippet": "- Tiểu máu: Chỉ có tiểu máu đại thể (từ nước tiểu màu đỏ đến màu hồng nhạt) không được \ngiải thích bởi sự hiện diệ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1375",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5957,
+            "snippet": "Các xét nghiệm sử dụng trước và"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:836",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5949,
+            "snippet": "tạp \nHidAC ≠ 2 \nGhép tế bào gốc đồng loài: \nTừ người cho cùng huyết \nthống, người cho không \ncùng huyết thống, từ tế bào \ngốc máu dây rốn \nHidAC ≠ 3 \nHidAC ≠ 2 \nADE ≠ 1 \n- Xếp loại LXM tủy cấp theo FAB 1986 có bổ sung. - Xếp loại theo WHO 2016. 4. ĐIỀU TRỊ \n4.1. Điều trị hóa chất \n4.1.1. Điều trị LXM tuỷ cấp trẻ em (trừ thể tiền tủy bào) \nHiện nay, có nhiều phác đồ điều trị LXM tủy cấp trẻ em, dựa trên các hóa chất cơ \nbản như: Daunorubicin (Idarubicin), Cytarabine, Etoposide, Mitoxantrone, Fludarabine… \ntrải qua các giai đoạn: tấn công, củng cố, duy trì. Nhiều thuố"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:47",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5765,
+            "snippet": "Theo các \nthống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường \ngặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ  [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn  \nmột nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 \ntuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di \ntruyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL \nhiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di \ntruyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt \n[6]. Các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện \nnay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp \nloại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để \nlựa"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6649,
+          "min": 0.5765,
+          "avg": 0.6104
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5876,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-006",
+  "date_folder": "27-03-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-03-27T07:47:14.933Z",
+  "updated_at": "2026-03-27T07:47:14.933Z"
+}

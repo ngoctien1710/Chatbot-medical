@@ -1,0 +1,137 @@
+{
+  "model": "mistral",
+  "query": "Các triệu chứng lâm sàng phổ biến của Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em bao gồm những dấu hiệu nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Các triệu chứng lâm sàng phổ biến của Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em bao gồm:\n\n1. Phát hiện tế bào lympho có kích thước lớn hơn 1,5 cm hoặc tổng số tế bào lympho trên một vùng nhỏ lớn hơn 2,5 cm.\n2. Phát hiện tế bào lympho có kích thước lớn hơn 1,5 cm hoặc tổng số tế bào lympho trên một vùng nhỏ lớn hơn 2,5 cm và các biomarker khác như CD10-, CyIg- (B sớm) hoặc HLA-DR+, TdT+, CD19++ (B chung).\n3. Phát hiện tế bào lympho trong các vùng không thường xuyên như ruột, da tiên phát, mũi.\n4. Phát hiện tế bào lympho có đặc điểm dạng lymphoplasmatic hoặc trung tâm nang.\n5. Phát hiện tế bào lympho liên quan đến bệnh lý khác như U lympho tế bào T, EBV+ hệ thống (MALT) hoặc U lympho vùng rìa tại hạch.\n6. Phát hiện tế bào lympho nhóm nguy cơ cao và nhóm lơ xê mi cấp dòng lympho T, được xét các phương án điều trị thay thế hoặc phối hợp các phương pháp như điều trị nhắm đích, ghép tế bào gốc nhằm đạt kết quả cao hơn, giảm tỷ lệ tái phát.\n7. Phát hiện tế bào lympho có biomarker CD19++, và/hoặc CD79a++, và/hoặc CD22+ trong dòng B (CD10-, CyIg-) hoặc HLA-DR+; TdT+; CD19++ trong dòng B chung.\n\nNgoài ra, các triệu chứng khác như đau, đau đầu, đau tim, ho hoặc viêm mũi có thể làm cho người bị bệnh phóng dự đoán. Nếu bạn hay có các triệu chứng này, hãy đến với y bác sĩ để được kiểm tra và điều trị.",
+      "client": "Các triệu chứng lâm sàng phổ biến của Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em bao gồm những dấu hiệu nào?",
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:462",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7969,
+            "snippet": "ghiệm và \nđáp ứng điều trị tấn công  Lơ xê mi cấp dòng lympho trẻ em có một số \nbiến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận \nvăn thạc sỹ y học."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1096",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7877,
+            "snippet": "lympho niêm mạc \nU lympho tế bào T, EBV+ hệ thống ở trẻ \n(MALT) \nem \nU lympho vùng rìa tại hạch \nLơ xê mi/ U lympho tế bào T người lớn \nU lympho vùng rìa tại lách \nU lympho tế bào T/NK ngoài hạch, thể \nLơ xê mi/u lympho tại lách, không đặc hiệu. mũi \nU lympho tế bào áo nang \nU lympho tế bào T liên quan đến bệnh lý \nU lympho thể nang \nđường ruột \nU lympho thể nang type trẻ em \nU lympho tế bào T biểu mô đơn hình thái \nU lympho dạng lymphoplasmatic \nở ruột \nU lympho trung tâm nang ở da tiên phát."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1903",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7625,
+            "snippet": "o T và lympho B của người cho sau đó phát hiện và đánh giá mức độ \nphản ứng giữa kháng thể đặc hiệu có trong huyết thanh người nhận với HLA có trên bề \nmặt tế bào lympho người cho. 2.2. Chỉ định xét nghiệm đọ chéo lympho \n- Khi đã tìm được cặp người cho và người nhận cho ghép tạng (gan, thận, tim, \ntụy…). Xét nghiệm này được làm càng gần với ngày ghép bao nhiêu càng tốt bấy nhiêu, \nđặc biệt khi người nhận được truyền máu nhiều lần hoặc người nhận là nữ có tiền sử chửa, \nđẻ nhiều lần. - Chỉ cần chỉ định làm xét nghiệm với người nhận, tuy nhiên mẫu phải lấy ở cả \nngười cho và người nhận."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:407",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7565,
+            "snippet": "ộc \nnhóm nguy cơ cao và nhóm lơ xê mi cấp dòng lympho T nên được xem \nxét các phương án điều trị thay thế hoặc phối hợp các phương pháp như \nđiều trị nhắm đích, ghép tế bào gốc nhằm đạt kết quả cao hơn, giảm tỷ \nlệ tái phát. ## Page 150\n\nPHỤ LỤC NGHIÊN CỨU \nMỘT SỐ HÌNH ẢNH NHIỄM SẮC THỂ BỆNH NHI NGHIÊN CỨU \n \n \nHình 1."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1935",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7495,
+            "snippet": "5.5.1. Khái niệm \nBạch cầu lympho và tế bào giết tự nhiên (NK) là thành phần tế bào chính của hệ \nmiễn dịch, c"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:77",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7399,
+            "snippet": "dịch và bất thường vật chất di truyền ở mức độ NST và \ngen. Năm 2001, WHO đưa ra xếp loại ALL trong khuôn khổ Bảng xếp loại \nbệnh lý ác tính dòng lympho (bao gồm LXM cấp, LXM kinh dòng lympho và \nu lympho ác tính). Bảng xếp loại này được cập nhật năm 2008 và gần đây \nnhất là năm 2016, ngày càng chú trọng đến vai trò của các biến đổi di truyền. Đặc bi"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:80",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7382,
+            "snippet": "## Page 27\n\n12 \n \nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B \nDòng B (CD19++, \nvà/hoặc CD79a++, \nvà/hoặc CD22+) \nB sớm \nHLA-DR+; TdT+; CD19++; CD10-, CyIg- \nB chung HL"
+          }
+        ],
+        "score_summary": {
+          "max": 0.7969,
+          "min": 0.7382,
+          "avg": 0.7616
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 22873,
+        "context_used": 7,
+        "error": null
+      }
+    },
+    {
+      "llm": "Các triệu chứng lâm sàng phổ biến của Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em bao gồm:\n\n1. Biểu hiện lâm sàng cần được chú yếu ngay lập tức, như hôi chứng tĩnh, hoặc biểu hiện khác như:\n   - Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào ung thư, kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, đôi khi có hốc chế tiết, thường đứng thành đám.\n   - Hạch tăng sinh phản ứng: Hạch to, thường đau, ở gần nơi tổn thương. Hạch to diễn biến cấp nhưng lành tính và trở lại bình thường sau khi khỏi bệnh chính.\n   - Hạch lao: Thường gặp chuỗi hạch dọc cơ ức đòn chũm, không đau, nếu kéo dài thường vỡ và chảy chất bã đậu.\n\n2. Biểu hiện khác như:\n   - Tăng cường số lượng tế bào trong máu, thiết bị và mũi họng.\n   - Chảy máu ổ bụng.\n   - Nhiễm mắc vi khuẩn hoặc trùng ung thư khác.\n   - Tăng cường số lượng tế bào trong hạch đồ và sinh thiết hạch.\n   - Chất rộng, nhiễm mắc vi khuẩn hoặc ung thư trong máu.\n\n3. Các biểu hiện phục tạo:\n   - Sốt, đau và đau đầu.\n   - Nhiễm mắc vi khuẩn hoặc ung thư trong họng hàn.\n   - Tăng cường số lượng tế bào trong máu, thiết bị và mũi họng.\n   - Chảy máu ổ bụng.\n   - Nhiễm mắc vi khuẩn hoặc ung thư trong máu.\n   - Tăng cường số lượng tế bào trong hạch đồ và sinh thiết hạch.\n   - Chất rộng, nhiễm mắc vi khuẩn hoặc ung thư trong máu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1903",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7565,
+            "snippet": "o T và lympho B của người cho sau đó phát hiện và đánh giá mức độ \nphản ứng giữa kháng thể đặc hiệu có trong huyết thanh người nhận với HLA có trên bề \nmặt tế bào lympho người cho. 2.2. Chỉ định xét nghiệm đọ chéo lympho \n- Khi đã tìm được cặp người cho và người nhận cho ghép tạng (gan, thận, tim, \ntụy…). Xét nghiệm này được làm càng gần với ngày ghép bao nhiêu càng tốt bấy nhiêu, \nđặc biệt khi người nhận được truyền máu nhiều lần hoặc người nhận là nữ có tiền sử chửa, \nđẻ nhiều lần. - Chỉ cần chỉ định làm xét nghiệm với người nhận, tuy nhiên mẫu phải lấy ở cả \nngười cho và người nhận."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:314",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7378,
+            "snippet": "b. Chia nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng \nlympho B \nBiến đổi di truyền có vai trò quan trọng trong tiên lượng điều trị ALL trẻ \nem, đặc biệt là lơ xê mi cấp dòng lympho B. Vì vậy, việc chia nhóm nguy cơ \ntheo biến đổi di truyền lơ xê mi cấp dòng lympho B giúp cho các nhà lâm \nsàng đánh giá tiên lượng, lập kế hoạch điều trị để có thể đạt được hiệu quả tốt \nnhất cho bệnh nhi. Nghiên cứu có 244 bệnh nhi mang dấu ấn tế bào B (bao \ngồm cả lơ xê mi cấp thể lai). Dựa trên kết quả phân tích NST và đột biến gen \nđược khảo sát trong nghiên cứu, các bệnh nhi này được chia thành 3 nhóm \nnguy cơ: nhóm nguy cơ thấp chiếm tỷ lệ 19,7%, nhóm nguy cơ trung bình \nchiếm tỷ lệ cao nhất với 66,0% và nhóm nguy cơ cao chiếm 14,3% (bảng \n3.8). Tổng hợp kết quả điều trị các nhóm nguy cơ theo biến đổi di truyền B-\nALL ở một số nghiên cứu áp dụng phác đồ ALL97/99 và ALL2003 của tác \ngiả A.V.Mo"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.7171,
+            "snippet": "ỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân,\nsarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ;\nthiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch\nBệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt; \n \nĐIỀU TRỊ\nHóa trị liệu toàn thân\nBạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B\n(xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai\nđoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời\nlần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao\n."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:405",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7116,
+            "snippet": "n quan giữa một số biến đổi di truyền lơ xê mi cấp dòng lympho \nB đến kết quả điều trị sớm ở bệnh nhi cho thấy vai trò của một số biến \nđổi di truyền và xếp nhóm nguy cơ theo di truyền: \n+ \nCó khác biệt về kết quả đáp ứng sớm, đáp ứng sau điều trị tấn công, OS \nvà EFS giữa các nhóm nguy cơ theo biến đổi di truyền B-ALL: Nhóm \nnguy cơ cao có OS và EFS thấp nhất tro"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1216",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7102,
+            "snippet": "̣t \n- U lympho Hodgkin: Trên hạch đồ và sinh thiết hạch tìm thấy tế bào Reed- \nSternberg hoặc các biến thể. - Hạch tăng sinh phản ứng: Hạch to, thường đau, ở gần nơi tổn thương. Hạch to diễn \nbiến cấp nhưng lành tính và trở lại bình thường sau khi khỏi bệnh chính. - Hạch lao: Thường gặp chuỗi hạch dọc cơ ức đòn chũm, không đau, nếu kéo dài \nthường vỡ và chảy chất bã đậu. Hạch đồ và sinh thiết hạch thường thấy tổn thương gồm: \ntế bào bán liên, tế bào khổng lồ Langerhans, chất hoại tử bã đậu. - Hạch ung thư di căn: Trên hạch đồ và sinh thiết hạch thường thấy các tế bào ung \nthư: kích thước lớn, nhân to, mịn, thường có nhiều hạt nhân, nguyên sinh chất rộng, đôi \nkhi có hốc chế tiết, thường đứng thành đám. Đa số trường hợp có thể phát hiện được cơ \nquan ung thư nguyên phát. 3. ĐIỀU TRỊ \n3.1. Điều trị cấp cứu \nBa biểu hiện lâm sàng cần được chú ý ngay lập tức bao gồm: \n- Hội chứng tĩn"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:49",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7084,
+            "snippet": "hế giới đã cho thấy, có những biến đổi di truyền \nđặc trưng cho dòng tế bào lympho B hay T. Điều này ảnh hưởng trực tiếp đến \ntiên lượng bệnh, đồng thời giúp xác định tồn dư tối thiểu của bệnh ngày càng \nchính xác [8],[9],[10]. ## Page 17\n\n2 \n \n \nTại Việt Nam, nhiều nghiên cứu về ALL trẻ em đặc biệt các nghiên cứu \nvề đánh giá kết quả điều trị đã được tiến hành cho thấy hiệu quả điều trị ALL \nở trẻ em tại Việt Nam cũng ngày càng được nâng cao [11],[12],[13]. Một số \nnghiên cứu ứng dụng các kỹ thuật trong chẩn đoán và xác định tồn dư tối \nthiểu của bệnh ALL cũng đã góp phần nâng cao hiệu quả chẩn đoán và điều \ntrị bệnh nhi [3],[4],[14]."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1828",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7029,
+            "snippet": "ách và làm tiêu bản nhằm quan sát thành phần tế bào trong \nlách giúp chẩn đoán một số bệnh. 6.2. Chỉ định \nCần cân nhắc rất kỹ do nguy cơ chảy máu ổ bụng khi chọc lách cao, chỉ định khi \nlách to trong bệnh sinh máu tại lách hoặc theo dõi u lympho thể lách. 6.3. Lấy mẫu xét nghiệm. - Chọc hút bằng kim nhỏ tổ chức lách, làm tiêu bản như kỹ thuật máu đàn, nhuộm Gieemssa. - Làm thêm tiêu bản máu ngoại vi để so sánh. 6.4."
+          }
+        ],
+        "score_summary": {
+          "max": 0.7565,
+          "min": 0.7029,
+          "avg": 0.7206
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 20085,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-009",
+  "date_folder": "27-03-2026",
+  "sequence": 9,
+  "file_name": "session_009.json",
+  "created_at": "2026-03-27T08:03:07.312Z",
+  "updated_at": "2026-03-27T08:05:18.214Z"
+}

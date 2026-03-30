@@ -1,0 +1,137 @@
+{
+  "model": "mistral",
+  "query": "triệu chứng lâm sàng của bệnh lơ xê mi cấp dòng là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "1. Bệnh lý ác tính là một loại bệnh máu ác tính, có đặc trưng là sự tăng sinh một loại tế bào non - ác tính (tế bào blast), nguồn gốc tại tuỷ xương.\n\n2. Chẩn đoán lơ xê mi cấp dựa trên các triệu chứng lâm sàng và xét nghiệm tuỷ đồ thấy tế bào blast ≥ 20%.\n\n3. Xếp loại lơ xê mi cấp theo FAB (French-American-British) kết hợp dấu ấn miễn dịch, có 8 thể từ M0 đến M7.\n\n4. Đại cương lơ xê mi cấp là một nhóm bệnh máu ác tính, có nhiều yếu tố nguy cơ làm tăng tỷ lệ mắc lơ xê mi cấp, như: Tia xạ; hoá chất; virus HTLV1, HTLV2; yếu tố di truyền; lơ xê mi cấp thứ phát sau hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs), sau dùng thuốc hóa chất.\n\n5. Chẩn đoán xác định bệnh Hodgkin cho người bệnh phải có tuổi dưới 60 tuổi, chỉ định ghép khi bệnh nhân HL tái phát/kháng thuốc nhưng vẫn nạy cảm với hoá chất cứu vãn.\n\n6. Lơ xê mi tủy cấp có tuổi dưới 50 tuổi, lơ xê mi cấp thể M3 tái phát sau điều trị đạt lui bệnh về di truyền (PML/RARα âm tính).\n\n7. Các người bệnh cần có thêm các điều kiện sau: thể trạng lâm sàng tốt, chức năng các cơ quan chính còn tốt, không bị nhiễm trùng dạng đang hoạt động.\n\n8. Trong ghép tế bào gốc tự thân, có 2 nguồn tế bào gốc để lựa chọn: từ tuỷ xương và máu ngoại vi.\n\n9. Các yếu tố nguy cơ làm tăng tỷ lệ mắc lơ xê mi cấp bao gồm: Tia xạ; hoá chất; virus HTLV1, HTLV2; yếu tố di truyền; lơ xê mi cấp thứ phát sau hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs), sau dùng thuốc hóa chất.\n\n10. Triệu chứng lâm sàng của lơ xê mi cấp gồm: Hội chứng thiếu máu, hội chứng xuất huyết, hội chứng nhiễm trùng, hội chứng thâm nhiễm, biểu hiện toàn thân do bệnh lý ác tính.\n\n11. Xét nghiệm tuỷ đồ thấy tế bào blast ≥ 20% là một yếu tố quan trọng trong chẩn đoán lơ xê mi cấp.\n\n12. Xếp loại lơ xê mi cấp theo FAB kết hợp dấu ấn miễn dịch, có 8 thể từ M0 đến M7.\n\n13. Người bệnh và gia đình người bệnh sau khi được giải thích, cam kết đồng ý ghép tế bào gốc tự thân.\n\n14. Các cơ quan chính cần có thể còn tốt trong ghép tế bào gốc tự thân là: phổi, thận, gan.\n\n15. Người bệnh không được nhiễm trùng dạng đang hoạt động trong quá trình ghép tế bào gốc tự thân, ví dụ: HIV, nhiễm lao, viêm gan HBeAg dương tính, nhiễm vi khuẩn/ nấm.\n\n16. Lơ xê mi cấp thể M3 tái phát sau điều trị đạt lui bệnh về di truyền (PML/RARα âm tính) là một trường hợp lơ xê mi cấp.\n\n17. Chức năng phổi, thận, gan cần còn tốt trong ghép tế bào gốc tự thân để đảm bảo an toàn cho người bệnh và tốt nhất hoạt động của tế bào gốc.\n\n18. Người bệnh phải cam kết đồng ý ghép tế bào gốc tự thân trước khi thực hiện quá trình ghép.\n\n19. Lơ xê mi cấp là một nhóm bệnh máu ác tính, có đặc trưng là sự tăng sinh một loại tế bào non - ác tính (tế bào blast), nguồn gốc tại tuỷ xương.\n\n20. Chẩn đoán lơ xê mi cấp dựa trên các triệu chứng lâm sàng và xét nghiệm tuỷ đồ thấy tế bào blast ≥ 20%.\n\n21. Xếp loại lơ xê mi cấp theo FAB kết hợp dấu ấn miễn dịch, có 8 thể từ M0 đến M7.\n\n22. Người bệnh và gia đình người bệnh sau khi được giải thích, cam kết đồng ý ghép tế bào gốc tự thân.\n\n23. Các cơ quan chính cần còn tốt trong ghép tế bào gốc tự thân là: phổi, thận, gan.\n\n24. Người bệnh không được nhiễm trùng dạng đang hoạt động trong quá trình ghép tế bào gốc tự thân, ví dụ: HIV, nhiễm lao, viêm gan HBeAg dương tính, nhiễm vi khuẩn/ nấm.\n\n25. Lơ xê mi cấp thể M3 tái phát sau điều trị đạt lui bệnh về di truyền (PML/RARα âm tính) là một trường hợp lơ xê mi cấp.\n\n26. Chức năng phổi, thận, gan cần còn tốt trong ghép tế bào gốc tự thân để đảm bảo an toàn cho người bệnh và tốt nhất hoạt động của tế bào gốc.\n\n27. Người bệnh phải cam kết đồng ý ghép tế bào gốc tự thân trước khi thực hiện quá trình ghép.",
+      "client": "tôi không đồng ý với câu trả lời",
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1014",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5909,
+            "snippet": "in, lơ xê mi tủy cấp... - Các bệnh u bướu: Ung thư vú, buồng trứng, phổi, u tế bào mầm… - Các bệnh tự miễn: Lupus ban đỏ rải rác, xơ hoá hệ thống, viêm khớp dạng thấp, xuất huyết giảm tiểu cầu miễn dịch… 2.1. Đa u tủy xương Chỉ định hàng đầu ghép tế bào gốc tự thân hiện nay là trong điều trị Đa u tuỷ xương. Tất cả các người bệnh Đa u tủy xương mới được chẩn đoán phải được đánh giá có đủ tiêu chuẩn để ghép tế bào gốc tự thân hay không. Quyết định dựa trên thể trạng người bệnh, chức năng các cơ quan và tình trạng bệnh hơn là tuổi của người bệnh. - Tuổi: Hầu hết chỉ định ghép tế bào gốc tự thân đối với người bệnh dưới 65 tuổi; tuy nhiên nếu người bệnh trên 65 tuổi nhưng có thể trạng tốt thì vẫn có thể chỉ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1254",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5873,
+            "snippet": "Thể bệnh Giai đoạn Xét nghiệm Mục đích Lơ xê mi cấp khác ngoài M3 Chẩn đoán ban đầu 1. Công thức NST và/hoặc FISH. Phát hiện bất thường NST đặc hiệu và các bất thường khác. 2. RT-PCR phát hiện gen AML1-ETO. Chẩn đoán phân tử bệnh. 3. RT-PCR phát hiện gen CBFB-MYH11. Chẩn đoán phân tử bệnh. 4. RT-PCR hoặc giải trình tự ADN phát hiện đột biến gen NPM1. Xếp loại tiên lượng bệnh. 5. RT-PCR hoặc giải trình tự ADN phát hiện đột biến gen FLT3. 6. Giải trình tự ADN phát hiện đột biến gen CEBPA 7. Giải trình tự gen IDH1/ IDH2 với trường hợp gen âm hoặc kháng trị Theo dõi điều trị 1. Công thức NST và/hoặc FISH 2. RT-PCR hoặc RQ-PCR hoặc giải trình tự gen phát hiện gen dương tính lúc chẩn đoán. 3. Làm lại toàn bộ xét nghiệm gen ban đầu nếu tái phát Theo dõi hiệu quả điều trị. 4.3. Bệnh Lơ xê mi Lympho cấp (ALL) (bảng 64) Bảng 64. Chỉ định xét nghiệm di truyền và sinh học phân tử trong bệnh ALL Giai đoạn Xét nghiệm cần làm Mục đích"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:393",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5436,
+            "snippet": "Lơ xê mi cấp cần được chẩn đoán phân biệt với phản ứng giả lơ xê mi gặp trong nhiễm trùng, ung thư di căn tủy xương, hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs)… Phân biệt bằng kết hợp các triệu chứng lâm sàng, xét nghiệm tiêu chuẩn chẩn đoán lơ xê mi nêu trên. 3. ĐIỀU TRỊ LƠ XÊ MI CẤP - Điều trị Lơ xê mi cấp là một phương pháp điều trị chuyên khoa sâu. Do đó, việc điều trị chỉ có thể được thực hiện ở các cơ sở chuyên ngành huyết học, do bác sĩ được đào tạo chuyên ngành huyết học và có kinh nghiệm điều trị hóa chất/ ghép tế bào gốc tạo máu thực hiện. - Các cơ sở y tế không chuyên khoa huyết học chủ yếu thực hiện việc phát hiện, chẩn đoán bệnh, điều trị ban đầu trước khi chuyển tuyến chuyên khoa, cũng như theo dõi người bệnh ngoại trú giữa các đợt điều trị hóa chất và sau khi ghép tế bào gốc tạo máu. - Do vậy, trong bài này chúng tôi chỉ mô tả nguyên tắc điều trị, nguyên tắc theo dõi điều trị và một số phác đồ điều trị thường dùng để tham khảo. 3.1. Điều trị lơ xê mi tủy cấp (Acute myeloblastic leukemia-AML) không phải thể tiền tủy bào (APL) 3.1.1. Phân nhóm tiên lượng theo bất thường NST và gen"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:259",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5203,
+            "snippet": "# Chảy máu khác gồm: chảy máu cuống rốn, tụ máu giữa da đầu và hộp sọ ở trẻ sơ sinh, tụ máu ở má do bú trong khi bú mẹ /bú bình, xuất huyết kết mạc hoặc chảy máu quá nhiều sau cắt bao quy đầu hoặc lấy máu tĩnh mạch. Sự hiện diện của các triệu chứng trên khi còn nhỏ đòi hỏi phải điều tra chi tiết độc lập với tổng điểm. * Chỉ tư vấn: bệnh nhân được đánh giá y tế và được giới thiệu đến bác sĩ chuyên khoa hoặc được đề nghị kiểm tra xét nghiệm chi tiết hơn. Các tiêu chuẩn xác định các yếu tố trên - Chảy máu mũi có ý nghĩa: Bất kì chảy máu mũi nào, đặc biệt xuất hiện sau tuổi dậy thì gây ra sự quan tâm của bệnh nhân được coi là có ý nghĩa, quan trọng. Không nên coi là có ý nghĩa khi nó kéo dài dưới 10 phút, tần xuất nhỏ hơn 5 lần/ năm, có liên quan đến nhiễm trùng hô hấp trên hoặc các nguyên nhân xác định khác. - Xuất huyết dưới da có ý nghĩa : khi xuất hiện trên 5 lần/ năm, kích thước lớn hơn 1 cm khu vực tiếp xúc, được mô tả chi tiết bởi bệnh nhân hoặc người nhà bệnh nhân, hoặc xuất huyết xảy ra tự nhiên. - Chảy máu vết thương nhỏ được coi là đáng kể khi phải yêu cầu thay băng thường xuyên; Chảy máu không đáng kể từ các vết thương bao gồm những vết thương có thời gian"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:381",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5149,
+            "snippet": "1. ĐẠI CƯƠNG Lơ xê mi (LXM) cấp là một nhóm bệnh máu ác tính, có đặc trưng là sự tăng sinh một loại tế bào non - ác tính (tế bào blast), nguồn gốc tại tuỷ xương. Có nhiều yếu tố nguy cơ làm tăng tỷ lệ mắc lơ xê mi cấp, như: Tia xạ; hoá chất; virus HTLV1, HTLV2; yếu tố di truyền; lơ xê mi cấp thứ phát sau hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs), sau dùng thuốc hóa chất. 2. CHẨN ĐOÁN 2.1. Triệu chứng lâm sàng - Hội chứng thiếu máu. - Hội chứng xuất huyết: Thường do giảm tiểu cầu, xuất huyết tự nhiên, hay gặp ở da - niêm mạc, nặng hơn có thể gặp xuất huyết nội tạng. Đông máu rải rác trong lòng mạch (DIC), đặc biệt hay gặp trong lơ xê mi tiền tủy bào cấp. - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da... - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương... - Có thể gặp triệu chứng tắc mạch do tăng bạch cầu. - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 2.2. Triệu chứng xét nghiệm a. Xét nghiệm tế bào máu ngoại vi - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Bạch cầu thường tăng, nhưng có thể"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:385",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5118,
+            "snippet": "ẩn đoán 2.3.1. Chẩn đoán xác định - Dựa vào triệu chứng lâm sàng điển hình của bệnh. - Xét nghiệm tuỷ đồ thấy tế bào blast  20% tế bào có nhân trong tuỷ. 2.3.2. Chẩn đoán thể bệnh và xếp loại lơ xê mi cấp Chẩn đoán thể bệnh lơ xê mi cấp dựa vào các bảng xếp loại của WHO và FAB. 2.3.2.1. Xếp loại lơ xê mi tủy cấp (Bạch cầu cấp dòng tủy) - Xếp loại lơ xê mi tủy cấp theo FAB 1986 có bổ sung. - Kết hợp miễn dịch chia thành 8 thể, từ M0 đến M7 (bảng 18). Bảng 18. Xếp loại LXM tủy cấp theo FAB kết hợp dấu ấn miễn dịch"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1019",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5098,
+            "snippet": "- Tuổi: Dưới 60 tuổi. - Chẩn đoán xác định bệnh Hodgkin. - Thời điểm chỉ định ghép: Bệnh nhân HL tái phát/kháng thuốc nhưng còn nhạy cảm với hoá chất cứu vãn. 2.4. Lơ xê mi tủy cấp - Tuổi: Dưới 50 tuổi. - Lơ xê mi cấp thể M3 tái phát sau điều trị đạt lui bệnh về di truyền (PML/RARα âm tính). Ngoài các tiêu chuẩn trên, các người bệnh cần có thêm các điều kiện sau: - Thể trạng lâm sàng tốt: Chỉ số toàn trạng bệnh nhân Karnofsky (KPS) 70-100% hoặc chỉ số toàn trạng bệnh nhân ECOG 0-2. - Chức năng các cơ quan chính còn tốt: + Chức năng phổi: LVEF > 50%, PFTs [FVC, FEV1, DLCO] > 60%; + Thận: Creatinine < 150 µmol/L; + Gan: ALT < 2 lần giới hạn trên của mức bình thường (< 2 x ULN), Bilirubin < 2 lần giới hạn trên của mức bình thường (< 2 x ULN), không có bằng chứng xơ gan. - Không bị nhiễm trùng dạng đang hoạt động: HIV, nhiễm lao, viêm gan HBeAg dương tính, nhiễm vi khuẩn/ nấm. - Người bệnh và gia đình người bệnh sau khi được giải thích, cam kết đồng ý ghép tế bào gốc tự thân. 3. CÁC BƯỚC TRONG GHÉP TẾ BÀO GỐC TỰ THÂN 3.1. Lựa chọn nguồn tế bào gốc Có 2 nguồn tế bào gốc để ghép tự thân là từ tuỷ xương và máu ngoại vi. Tuy nhiên, trong ghép tự thân chủ yếu sử dụng nguồn tế bà"
+          }
+        ],
+        "score_summary": {
+          "max": 0.5909,
+          "min": 0.5098,
+          "avg": 0.5398
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 51310,
+        "context_used": 7,
+        "error": null
+      }
+    },
+    {
+      "llm": "Dữ liệu trên chủ yếu là về việc xét nghiệm, điều trị và theo dõi bệnh lý của trẻ em mắc bệnh lơ xê mi cấp dòng lympho. Nó bao gồm các phần về việc xác định bất thường nhiễm sắc thể, đột biến dung hợp một số gen liên quan đến bệnh lơ xê mi cấp dòng lympho theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ƣơng trong thời gian 2016 – 2019. Nó cũng bao gồm các phần về việc đánh giá kết quả điều trị sớm và liên quan đến một số bất thường nhiễm sắc thể, đột biến dung hợp một số gen. Các bệnh nhi trong nghiên cứu được điều trị theo các phân nhóm nguy cơ của phác đồ FRALLE 2000 và theo dõi sau điều trị. Kết quả điều trị sớm là kết quả đánh giá thông qua đáp ứng sớm, sau điều trị tấn công và đánh giá tái phát sau khi bệnh nhi đạt được lui bệnh hoàn toàn, đánh giá xác suất sống còn (OS và EFS) 12 tháng). So sánh giữa các nhóm nguy cơ theo xếp nhóm của phác đồ FRALLE 2000, bao gồm đánh giá theo các nhóm nguy cơ ABT tại thời điểm chẩn đoán và đánh giá theo nhóm nguy cơ được chia lại sau khi có kết quả đánh giá đáp ứng sớm trong điều trị tấn công.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:930",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6289,
+            "snippet": "số về mạch, huyết áp và tình trạng lâm sàng; người thực hiện và ghi hồ sơ. k. Các tình trạng lâm sàng mới xuất hiện trong, sau truyền máu và các xử trí, các theo dõi lâm sàng và xét nghiệm; người phát hiện, chỉ định, thực hiện và ghi hồ sơ. l. Trong trường hợp nghi ngờ có tai biến liên quan đến truyền máu, thì cần ngừng truyền, báo ngay cho bác sĩ, ghi nhận các dấu hiệu sinh tồn, lấy mẫu máu mới làm xét nghiệm bổ sung tìm nguyên nhân và đánh giá tình trạng bệnh lý. Trong trường hợp quyết định ngừng truyền máu, thì không được hủy đơn vị máu và bộ dây truyền mà phải bàn giao ngay cho đơn vị cấp phát máu để thực hiện điều tra nguyên nhân tai biến. Duy trì đường truyền tĩnh mạch bằng dung dịch muối NaCl 0,9%. 3. TRUYỀN CHẾ PHẨM HỒNG CẦU Hồng cầu chứa hemoglobin có vai trò chính trong vận chuyển oxy cho các mô và tế bào. Thời gian bảo quản đơn vị chế phẩm tùy thuộc dạng chế phẩm và dung dịch chống đông - bảo quản. Quá trình điều chế, bảo quản các chế phẩm hồng cầu làm cho các các tế ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 383 384"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1053",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.6179,
+            "snippet": "c. Nguồn tế bào gốc từ máu dây rốn - Chỉ định ghép tế bào gốc máu dây rốn: Ghép không cùng huyết thống; ghép cho thành viên trong gia đình, đặc biệt cho trẻ em. - Tế bào gốc máu dây rốn được thu thập ngay sau khi trẻ tách khỏi dây rốn; sau thu thập và xử lý tế bào gốc máu dây rốn được bảo quản âm sâu. - Liều tế bào gốc cần thiết truyền: ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 429 430"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:4",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5971,
+            "snippet": "BS. CKII. Mai Lan, trưởng khoa Bệnh máu trẻ em cùng toàn thể các bác sĩ và điều dưỡng của khoa đã luôn tạo mọi điều kiện tốt nhất cho tôi trong quá trình học tập, giúp đỡ tôi trong quá trình nghiên cứu. Xin gửi lời cảm ơn sâu sắc tới những bệnh nhi và gia đình bệnh nhi đã hợp tác và tạo điều kiện cho tôi trong quá trình nghiên cứu."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1106",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5847,
+            "snippet": "- Chế phẩm máu có kết quả xét nghiệm CMV âm tính nếu người bệnh CMV âm tính. 6. DINH DƯỠNG Chế độ dinh dưỡng cho người bệnh được thực hiện theo nguyên tắc: - An toàn dinh dưỡng: Dinh dưỡng được đảm bảo vô trùng tuyệt đối. Tất cả thức ăn đều được đun nóng lại bằng lò vi sóng trước khi người bệnh ăn. - Chế độ ăn: Có tư vấn và xây dựng thực đơn dinh dưỡng theo tư vấn của chuyên gia dinh dưỡng. - Dinh dưỡng bằng truyền tĩnh mạch được chỉ định khi có biểu hiện: + Rối loạn chức năng hệ tiêu hóa; + Cho ruột nghỉ trong ghép chống chủ cấp đường tiêu hóa; + Suy dinh dưỡng nặng. - Dung dịch nuôi dưỡng tĩnh mạch bao gồm: Albumin human; dung dịch đường, mỡ và đạm (túi 2 ngăn và 3 ngăn). ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 452 453"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:128",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5801,
+            "snippet": "Bệnh nhi chẩn đoán xác định ALL Mục tiêu 1: Xác định các bất thƣờng nhiễm sắc thể và đột biến dung hợp một số gen liên quan đến bệnh lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ƣơng trong thời gian 2016 – 2019 Điều trị theo phác đồ FRALLE 2000 các nhóm nguy cơ Theo dõi đáp ứng điều trị, so sánh Mục tiêu 2: Đánh giá kết quả điều trị sớm và mối liên quan với các bất thƣờng nhiễm sắc thể, đột biến dung hợp một số gen ở trẻ mắc bệnh lơ xê mi cấp dòng lympho theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ƣơng trong thời gian 2016 – 2019 Xét nghiệm di truyền (n=288) Lâm sàng + Xét nghiệm (Huyết học + Miễn dịch) 4 đột biến dung hợp gen (BCR-ABL1, TEL-AML1, MLL-AF4, E2A-PBX1) Nhiễm sắc thể (n=188) ## Page 73 58"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:996",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.5795,
+            "snippet": "ghi thêm thông tin lên nhãn, bóc nhãn, chọc thủng, cắt các đầu van, tháo bộ dây truyền khỏi túi máu, đổ máu và chế phẩm máu ra khỏi túi đựng,…). - Gửi mẫu bệnh phẩm làm xét nghiệm huyết học (tổng phân tích tế bào máu, xét nghiệm đông máu,…), xét nghiệm sinh hóa máu và nước tiểu (thăm dò chức năng gan, thận, điện giải,…), xét nghiệm vi sinh (nhuộm gram, cấy máu,…). - Gửi túi máu, chế phẩm máu kèm bộ dây truyền máu và các bệnh phẩm có liên quan cho khoa, phòng xét nghiệm cấp phát máu làm các xét nghiệm về miễn dịch nhóm máu nhằm điều tra về nguy cơ bất đồng miễn dịch truyền máu cũng như nguy cơ về chất lượng của đơn vị máu truyền. 6.3. Báo cáo - Các phát hiện tai biến truyền máu ở khoa, phòng điều trị lâm sàng cần được thông báo ngay cho phòng xét nghiệm cấp phát máu; thông báo cho phòng kế hoạch tổng hợp, lãnh đạo bệnh viện trong vòng 2 giờ đầu sau khi xác định có tai biến nghiêm trọng. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 406 407"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:100",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5788,
+            "snippet": "b. Mục tiêu 2: Nghiên cứu can thiệp, không có nhóm đối chứng, không ngẫu nhiên – Nội dung nghiên cứu: Đánh giá kết quả điều trị sớm và liên quan đến một số bất thƣờng nhiễm sắc thể, đột biến dung hợp một số gen. Các bệnh nhi trong nghiên cứu được điều trị theo các phân nhóm nguy cơ của phác đồ FRALLE 2000 và theo dõi sau điều trị. Kết quả điều trị sớm là kết quả đánh giá thông qua đáp ứng sớm, sau điều trị tấn công và đánh giá tái phát sau khi bệnh nhi đạt được lui bệnh hoàn toàn, đánh giá xác suất sống còn tại thời điểm 12 tháng. Thời gian theo dõi dài nhất là 39 tháng, ngắn nhất là 3 tháng, trung vị thời gian theo dõi là 15,9 tháng. + Đánh giá kết quả sớm của điều trị theo phác đồ FRALLE 2000: Đánh giá đáp ứng sớm (huyết đồ ngày 8, tủy đồ ngày 21), đánh giá đáp ứng lui bệnh về huyết học và tồn dư tối thiểu của bệnh sau điều trị tấn công, xác định tỷ lệ tái phát sau điều trị, xác suất sống còn (OS và EFS) 12 tháng). So sánh giữa các nhóm nguy cơ theo xếp nhóm của phác đồ FRALLE 2000, bao gồm đánh giá theo các nhóm nguy cơ ABT tại thời điểm chẩn đoán và đánh giá theo nhóm nguy cơ được chia lại sau khi có kết quả đánh giá đáp ứng sớm trong điều trị tấn công. + Đánh giá kết quả điều"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6289,
+          "min": 0.5788,
+          "avg": 0.5953
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 26810,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-019",
+  "date_folder": "27-03-2026",
+  "sequence": 19,
+  "file_name": "session_019.json",
+  "created_at": "2026-03-27T09:41:35.856Z",
+  "updated_at": "2026-03-27T09:54:07.220Z"
+}

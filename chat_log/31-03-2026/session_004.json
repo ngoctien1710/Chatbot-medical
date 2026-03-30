@@ -1,0 +1,28 @@
+{
+  "model": "mistral",
+  "query": "triệu chứng lâm sàng",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "He thong local LLM tam thoi chua san sang. Vui long kiem tra Python RAG service va Ollama.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "fallback_error",
+        "top_k": 0,
+        "snippets": [],
+        "score_summary": null
+      },
+      "diagnostics": {
+        "latency_ms": 0,
+        "context_used": 0,
+        "error": "This operation was aborted"
+      }
+    }
+  ],
+  "id": "31-03-2026-session-004",
+  "date_folder": "31-03-2026",
+  "sequence": 4,
+  "file_name": "session_004.json",
+  "created_at": "2026-03-30T17:49:57.490Z",
+  "updated_at": "2026-03-30T17:49:57.490Z"
+}

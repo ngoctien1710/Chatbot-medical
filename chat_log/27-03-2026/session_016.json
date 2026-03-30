@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là gì và nguyên nhân gây bệnh thường gặp là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là một loại ung thư lymphoma, nằm trong nhóm các bệnh ung thư do tế bào lympho gây ra. ALL ở trẻ em có thể phân loại theo hình thái và chức năng của tế bào lympho, như ALL B-cell (tế bào lympho kinh) hoặc ALL T-cell (tế bào lympho ngoại vi).\n\nNguyên nhân gây ra ung thư bạch cầu cấp dòng lympho ở trẻ em chưa rõ, nhưng có một số yếu tố tăng nguy cơ gây ung thư như:\n\n- Gen khác học (genes mutated)\n- Đàn ông có lịch sử ung thư\n- Nhiễm viêm truyền qua máu (vích truyền)\n- Sự phát triển của tế bào lympho quá nhanh hoặc không đúng hình thái\n\nCó một số biểu hiện khác nhau cho ung thư bạch cầu cấp dòng lympho ở trẻ em, như:\n\n- Tế bào lympho tăng trong máu (lymphocytosis)\n- Hạch Cấu trúc hạch bị phá hủy do sự xâm lấn của các tế bào lympho nhỏ\n- Tủy xương có thể chứa đông lympho\n- Hình thái tế bào giống tế bào lympho trưởng thành, ngoài ra có thể có tế bào lympho kích thước lớn dạng tiền lympho nhưng không vượt quá 55% tổng số tế bào lympho\n- Hemoglobin giảm, càng về sau càng rõ; hồng cầu bình sắc, kích thước bình thường; tiểu cầu lúc đầu có thể bình thường, về sau giảm dần; bạch cầu hạt giảm nặng.\n\nNếu một trẻ em hiện có một hoặc nhiều biểu hiện này, hãy đưa trẻ đến bác sĩ để kiểm tra và điều trị nếu cần thiết.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:657",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7697,
+            "snippet": "Tế bào B Tế bào T U lympho của tổ chức lympho niêm mạc U lympho tế bào T, EBV+ hệ thống ở trẻ (MALT) em U lympho vùng rìa tại hạch Lơ xê mi/ U lympho tế bào T người lớn U lympho vùng rìa tại lách U lympho tế bào T/NK ngoài hạch, thể Lơ xê mi/u lympho tại lách, không đặc hiệu. mũi U lympho tế bào áo nang U lympho tế bào T liên quan đến bệnh lý U lympho thể nang đường ruột U lympho thể nang type trẻ em U lympho tế bào T biểu mô đơn hình thái U lympho dạng lymphoplasmatic ở ruột U lympho trung tâm nang ở da tiên phát. U lympho tế bào T ở ruột không phân loại U lympho tế bào B lớn lan tỏa (DLBCL), U lympho tế bào T thể gan lách. không đặc hiệu U lympho tế bào T dạng panniculitis dưới U lympho tế bào B lớn với tái sắp xếp IRF4 da U lympho tế bào B lớn giàu tế bào T/mô bào Mycois fungoides DLBCL tiên phát ở thần kinh trung ương. DLBCL tiên phát ở da, thể chân. Sérazy syndrome U lympho tế bào T gamma/delta ở da tiên DLBCL EBV dương tính, không đặc hiệu phát DLBCL liên quan đến viêm mãn tính. U lympho tế bào T ngoại vi, không đặc U lympho tế bào B lớn ở trung thất tiên phát. hiệu U lympho tế bào B lớn nội mạch U lympho lympho T nguyên bào miễn U lympho tế bào B lớn ALK+ dịch mạch"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:87",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7539,
+            "snippet": "Sơ đồ 1.1. Chia nhóm điều trị lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 Các phác đồ chi tiết cho các nhóm bao gồm các giai đoạn được trình bày trong phần đối tượng và phương pháp nghiên cứu. 1.5. MỘT SỐ NGHIÊN CỨU VỀ ĐIỀU TRỊ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.5.1. Nghiên cứu về điều trị lơ xê mi cấp dòng lympho trẻ em trên thế giới Trong vòng hơn 50 năm qua, thế giới đã chứng kiến sự thay đổi đáng kinh ngạc trong hiệu quả điều trị ALL trẻ em. Kết quả điều trị đã tăng từ xác suất sống thêm toàn bộ 5 năm (OS) 10% ở những năm 1960, lên tới trên 90% sống thêm toàn bộ 10 năm trong những nghiên cứu gần đây [1]. Năm 2013, tác giả Ching Hong Pui đã có một báo cáo tổng kết chặng đường 50 năm trong điều trị LXM cấp dòng lympho trẻ em của bệnh viện nghiên cứu trẻ em St Jude, nhận thấy xác suất sống thêm toàn bộ tại thời điểm 10 năm giai đoạn Lơ xê mi cấp dòng lympho Lơ xê mi cấp dòng lympho B Lơ xê mi cấp dòng lympho T Nhóm nguy cơ chuẩn (Nhóm A1) Nhóm nguy cơ cao (Nhóm A2, B1, T1) Nhóm nguy cơ rất cao (Nhóm A3, B2, T2) ## Page 48 33"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:702",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7535,
+            "snippet": "Hội chứng trung thất, chèn ép tĩnh mạch chủ trên, tràn dịch màng phổi...; có thể xuất hiện thiếu máu, nhiễm khuẩn hoặc xuất huyết. Bảng 30: Tỷ lệ các biểu hiện lâm sàng ở trẻ em bị U lympho Hodgkin"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:47",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7343,
+            "snippet": "c đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em a. Xếp loại theo FAB 1986 Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc điểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]: ## Page 25 10"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:737",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7332,
+            "snippet": "- Bảng xếp loại U lympho không Hodgkin theo WHO 2016 ở trẻ em cũng tương tự như ở người lớn và được trình bày ở bài U lympho không Hodkin người lớn. 2.3. Chẩn đoán giai đoạn Bảng 34: Chẩn đoán giai đoạn theo Ann Arbor."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:656",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7282,
+            "snippet": "Tế bào B Tế bào T U lympho/Lơ xê mi tiền B, không phân loại. U lympho/Lơ xê mi tiền B với bất thường di truyền đặc thù U lympho/Lơ xê mi lymphoblast tiền T U lympho/Lơ xê mi lymphoblast NK Tế bào B trưởng thành Lơ xê mi lympho kinh / u lympho tế bào nhỏ Tế bào T/NK trưởng thành ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 271 274"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:796",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7252,
+            "snippet": "- Tế bào lympho trên 5 G/L, hầu hết tăng trên 10 G/L, một số trên 100 G/L. Hình thái tế bào giống tế bào lympho trưởng thành, ngoài ra có thể có tế bào lympho kích thước lớn dạng tiền lympho nhưng không vượt quá 55% tổng số tế bào lympho. - Hemoglobin giảm, càng về sau càng rõ; hồng cầu bình sắc, kích thước bình thường; tiểu cầu lúc đầu có thể bình thường, về sau giảm dần; bạch cầu hạt giảm nặng. b. Tủy xương Dòng lympho chiếm trên 30% các tế bào có nhân trong tủy xương. Hình ảnh các tế bào lympho xâm lấn một phần hoặc toàn bộ mô tủy sinh máu. Ở giai đoạn muộn thường thấy kiểu xâm lấn lan tỏa. c. Hạch Cấu trúc hạch bị phá hủy bởi sự xâm lấn của các tế bào lympho nhỏ hình dạng như trong máu ngoại vi. Mô bệnh học hạch tương tự như u lympho độ ác tính thấp. d. Xét nghiệm miễn dịch - Các tế bào lơ xê mi lympho mạn thường dương tính mạnh với CD5, CD19, CD23; dương tính yếu với CD20, CD79b, immunoglobulin bề mặt và một trong hai loại chuỗi nhẹ kappa hoặc lambda; âm tính với CD10, CD103. - Nghiệm pháp Coombs trực tiếp dương tính ở những người bệnh có biểu hiện hoặc tiềm ẩn nguy cơ tan máu tự miễn. - Có thể giảm nồng độ các globulin miễn dịch và suy giảm chức năng của tế bào"
+          }
+        ],
+        "score_summary": {
+          "max": 0.7697,
+          "min": 0.7252,
+          "avg": 0.7426
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 23693,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-016",
+  "date_folder": "27-03-2026",
+  "sequence": 16,
+  "file_name": "session_016.json",
+  "created_at": "2026-03-27T09:28:30.019Z",
+  "updated_at": "2026-03-27T09:28:30.019Z"
+}

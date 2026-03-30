@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Ung thư bạch cầu cấp dòng",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Câu trả lời: Ung thư bạch cầu cấp dòng là một loại ung thư phát sinh từ đốt cháy và gây ra sự biến đổi trong hóa chất của máu, nhiễm mắc ung thư bạch cầu có thể dễ dàng phát hiện qua các xét nghiệm sử dụng trước và phác đồ hóa trị liệu. Trong quá trình chẩn đoán và điều trị ung thư bạch cầu, các y khoa sẽ tiến hành xét nghiệm chỉnh định, phân tích dòng tế bào bất thường và kiểm tra số lượng trung vị của ung thư. Nếu không ngừng tập trung và theo dõi quá trình điều trị, có thể giảm nhẹ hoặc loại bỏ ung thư bạch cầu. Khái niệm: Xét nghiệm là một phương pháp chẩn đoán và điều trị bệnh, sử dụng các công cụ và kỹ thuật để xác định tình trạng và góp phần cho việc chọn lựa điều trị phù hợp.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1375",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.9972,
+            "snippet": "Các xét nghiệm sử dụng trước và"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:843",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.9959,
+            "snippet": "Phác đồ hóa trị liệu"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:323",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9814,
+            "snippet": "Trung vị số lượng"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1973",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.9516,
+            "snippet": "CHỈ ĐỊNH XÉT"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:306",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9406,
+            "snippet": ", nên chưa phân tích được dòng tế \nbào bất thường."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:294",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.9396,
+            "snippet": "hoặc không ngưng tập."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1805",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.9162,
+            "snippet": "Khái niệm: \nLà xét nghiệm"
+          }
+        ],
+        "score_summary": {
+          "max": 0.9972,
+          "min": 0.9162,
+          "avg": 0.9603
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 9284,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-014",
+  "date_folder": "27-03-2026",
+  "sequence": 14,
+  "file_name": "session_014.json",
+  "created_at": "2026-03-27T08:41:41.849Z",
+  "updated_at": "2026-03-27T08:41:41.849Z"
+}

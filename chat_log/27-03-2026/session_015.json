@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là gì và nguyên nhân gây bệnh thường gặp là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Ung thư bạch cầu cấp dòng lympho (ALL) ở trẻ em là một loại ung thư bắt nguồn từ hệ miễn dịch, nhất là các tế bào B-lymphocyte. Trong trẻ em, ALL có thể gây ra biến đổi di truyền và đáp ứng điều trị tấn công lơ xê mi cấp dòng lympho.\n\nNguyên nhân gây bệnh thường gặp là sự phát triển của các tế bào B-lymphocyte trong hạch hoặc xã hội, và chúng được coi là một dạng ung thư có khả năng phát triển rất nhanh và có tỷ lệ tăng trong các tuổi thọ dưới 5 tuổi.\n\nTrong context, các tế bào B-lymphocyte được miêu tả như là thành phần chính của hệ miễn dịch (Context 3), và có thể biểu hiện dương tính mạnh với CD5, CD19, CD23; dương tính yếu với CD20, CD79b, immunoglobulin bề mặt và một trong hai loại chuỗi nhẹ kappa hoặc lambda (Context 7).\n\nBệnh ALL ở trẻ em có thể coi là bệnh chữa khỏi được, nhưng cần điều trị tấn công và theo dõi quá trình điều trị để đảm bảo sự hoàn toàn khỏi bệnh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:462",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8845,
+            "snippet": "ghiệm và \nđáp ứng điều trị tấn công  Lơ xê mi cấp dòng lympho trẻ em có một số \nbiến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận \nvăn thạc sỹ y học."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1096",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.8483,
+            "snippet": "lympho niêm mạc \nU lympho tế bào T, EBV+ hệ thống ở trẻ \n(MALT) \nem \nU lympho vùng rìa tại hạch \nLơ xê mi/ U lympho tế bào T người lớn \nU lympho vùng rìa tại lách \nU lympho tế bào T/NK ngoài hạch, thể \nLơ xê mi/u lympho tại lách, không đặc hiệu. mũi \nU lympho tế bào áo nang \nU lympho tế bào T liên quan đến bệnh lý \nU lympho thể nang \nđường ruột \nU lympho thể nang type trẻ em \nU lympho tế bào T biểu mô đơn hình thái \nU lympho dạng lymphoplasmatic \nở ruột \nU lympho trung tâm nang ở da tiên phát."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1935",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.8339,
+            "snippet": "5.5.1. Khái niệm \nBạch cầu lympho và tế bào giết tự nhiên (NK) là thành phần tế bào chính của hệ \nmiễn dịch, c"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:461",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8044,
+            "snippet": "36(7), 534-40. ## Page 171\n\n75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và \nđáp ứng điều trị tấn công  Lơ xê mi cấp dòng lympho trẻ em có một số \nbiến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận \nvăn thạc sỹ y học. Đại học Y"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:80",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7791,
+            "snippet": "## Page 27\n\n12 \n \nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B \nDòng B (CD19++, \nvà/hoặc CD79a++, \nvà/hoặc CD22+) \nB sớm \nHLA-DR+; TdT+; CD19++; CD10-, CyIg- \nB chung HL"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:1",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.7672,
+            "snippet": "5\ntuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh\nchữa khỏi được. LÂM SÀNG\nBiểu hiện không đặc hiệu, khởi phát bệnh một vài tuần đến một vài tháng."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:1294",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7595,
+            "snippet": "ạch \nCấu trúc hạch bị phá hủy bởi sự xâm lấn của các tế bào lympho nhỏ hình dạng như \ntrong máu ngoại vi. Mô bệnh học hạch tương tự như u lympho độ ác tính thấp. d. Xét nghiệm miễn dịch \n- Các tế bào lơ xê mi lympho mạn thường dương tính mạnh với CD5, CD19, CD23; \ndương tính yếu với CD20, CD79b, immunoglobulin bề mặt và một trong hai loại chuỗi nhẹ \nkappa hoặc lambda;"
+          }
+        ],
+        "score_summary": {
+          "max": 0.8845,
+          "min": 0.7595,
+          "avg": 0.811
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 12433,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-015",
+  "date_folder": "27-03-2026",
+  "sequence": 15,
+  "file_name": "session_015.json",
+  "created_at": "2026-03-27T08:44:10.083Z",
+  "updated_at": "2026-03-27T08:44:10.083Z"
+}

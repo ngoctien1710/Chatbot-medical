@@ -9,7 +9,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_ollama import ChatOllama
 
 from app.settings import settings
 from app.utils.text_chunking import semantic_chunk_text
@@ -24,10 +25,12 @@ class RetrievalItem:
 
 
 class RagService:
+    _ingest_batch_size = 1
+
     def __init__(self) -> None:
-        self._embeddings = OllamaEmbeddings(
-            model=settings.embedding_model,
-            base_url=settings.ollama_base_url,
+        self._embeddings = HuggingFaceEmbeddings(
+            model_name=settings.embedding_model,
+            model_kwargs={'trust_remote_code': True},
         )
         self._chat = ChatOllama(
             model=settings.chat_model,
@@ -36,57 +39,26 @@ class RagService:
         )
         system_prompt = (
             'Bạn là chuyên gia y khoa.\n\n'
-            'NHIỆM VỤ:\n'
-            '- Trả lời câu hỏi người dùng dựa trên thông tin trong context.\n'
-            '- CÓ thể sử dụng kiến thức bên ngoài nếu context không đề cập.\n\n'
-            'QUY TẮC QUAN TRỌNG:\n\n'
-            '1. Grounding\n'
-            '- Mọi kết luận thực tế phải có cơ sở trong context.\n'
-            '- Không suy đoán hoặc bịa thêm.\n\n'
-            '2. Thiếu thông tin\n'
-            '- Nếu context không đủ → nói rõ: "Thông tin trong tài liệu truy hồi chưa đủ để kết luận."\n\n'
-            '3. Format trả lời\n'
+            '1. NHIỆM VỤ:\n'
+            '- Trả lời câu hỏi người dùng.\n'
+            '- Luôn đối chiếu với thông tin trong context để trả lời. Sử dụng thông tin trong context làm nguồn thông tin bổ sung cho câu trả lời của bạn.\n'
+            '2. Format trả lời\n'
             '- Đầy đủ, chi tiết\n'
+            '- Trình bày câu trả lời rõ ràng, mạch lạc\n'
+            '- Sử dụng gạch đầu dòng cho các ý chính. Nếu context có nhiều ý phức tạp, hãy tổng hợp chúng một cách logic\n'
             '- Sát với thông tin trong context\n'
-            '4. Luôn kết thúc bằng:\n'
-            '"Thông tin trên chỉ mang tính tham khảo và không thay thế tư vấn y khoa từ bác sĩ."'
         )
         human_prompt = (
-            'CÂU HỎI:\n'
+            'CÂU HỎI NGƯỜI DÙNG:\n'
             '{query}\n\n'
             'CONTEXT:\n'
             '{context_block}\n\n'
-            'HÃY THỰC HIỆN:\n\n'
-            'Bước 1: Xác định thông tin liên quan trong context\n'
-            'Bước 2: Tổng hợp câu trả lời sát với context\n'
             'TRẢ LỜI:'
         )
         self._prompt = ChatPromptTemplate.from_messages(
             [
-<<<<<<< HEAD
-                (
-                    'system',
-                    """Bạn là một trợ lý y tế AI chuyên nghiệp, cẩn trọng và đáng tin cậy. Nhiệm vụ của bạn là phân tích thông tin được cung cấp và trả lời câu hỏi của người dùng.
-
-NGUYÊN TẮC HOẠT ĐỘNG:
-1. SỰ THẬT LÀ TUYỆT ĐỐI: Chỉ sử dụng thông tin được cung cấp trong phần "Context" để trả lời. Tuyệt đối không sử dụng kiến thức tự có để bịa đặt, suy diễn hoặc thêm thắt thông tin.
-2. XỬ LÝ THIẾU THÔNG TIN: Nếu "Context" không chứa đủ thông tin để trả lời trọn vẹn, hãy nói rõ: "Dựa trên dữ liệu hiện tại, tôi không có đủ thông tin để trả lời [phần cụ thể của câu hỏi]."
-3. ĐỊNH DẠNG: Trình bày câu trả lời rõ ràng, mạch lạc. Sử dụng gạch đầu dòng cho các ý chính. Nếu context có nhiều ý phức tạp, hãy tổng hợp chúng một cách logic.
-4. CẢNH BÁO BẮT BUỘC: Luôn kết thúc câu trả lời bằng dòng chữ: "*Lưu ý: Thông tin trên chỉ mang tính chất tham khảo và không thay thế cho chẩn đoán hoặc tư vấn từ bác sĩ chuyên khoa.*\""""
-                ),
-                (
-                    'human',
-                    """Context được cung cấp:
-{context_block}
-
-Câu hỏi của người dùng: {query}
-
-Hãy suy nghĩ từng bước để đối chiếu câu hỏi với Context trước khi đưa ra câu trả lời cuối cùng."""
-                ),
-=======
                 ('system', system_prompt),
                 ('human', human_prompt),
->>>>>>> 4178c4d (d:\BAI_LAB\Chatbot-medical\.venv\Scripts\activate.bat)
             ]
         )
         self._qa_chain = self._prompt | self._chat | StrOutputParser()
@@ -124,9 +96,9 @@ Hãy suy nghĩ từng bước để đối chiếu câu hỏi với Context trư
         for doc_id, content in docs:
             parts = semantic_chunk_text(
                 text=content,
-                chunk_size=settings.chunk_size,
-                chunk_overlap=settings.chunk_overlap,
-                embeddings=self._embeddings,
+                chunk_size=settings.chunk_token_size,
+                chunk_overlap=settings.chunk_token_overlap,
+                min_chunk_chars=settings.min_chunk_chars,
             )
             for idx, chunk in enumerate(parts):
                 chunks.append(
@@ -140,7 +112,8 @@ Hãy suy nghĩ từng bước để đối chiếu câu hỏi với Context trư
                 )
 
         if chunks:
-            vector_store.add_documents(chunks)
+            for start in range(0, len(chunks), self._ingest_batch_size):
+                vector_store.add_documents(chunks[start:start + self._ingest_batch_size])
 
         return len(docs), len(chunks)
 

@@ -16,12 +16,15 @@ class Settings(BaseSettings):
 
     ollama_base_url: str = Field(default='http://127.0.0.1:11434', alias='OLLAMA_BASE_URL')
     chat_model: str = Field(default='mistral', alias='OLLAMA_CHAT_MODEL')
-    embedding_model: str = Field(default='nomic-embed-text', alias='OLLAMA_EMBED_MODEL')
+    embedding_model: str = Field(default='Dqdung205/medical_vietnamese_embedding', alias='OLLAMA_EMBED_MODEL')
 
-    top_k: int = Field(default=10, alias='RAG_TOP_K')
+    top_k: int = Field(default=7, alias='RAG_TOP_K')
     score_threshold: float = Field(default=0.35, alias='RAG_SCORE_THRESHOLD')
     chunk_size: int = Field(default=900, alias='RAG_CHUNK_SIZE')
     chunk_overlap: int = Field(default=180, alias='RAG_CHUNK_OVERLAP')
+    chunk_token_size: int = Field(default=400, alias='RAG_CHUNK_TOKEN_SIZE')
+    chunk_token_overlap: int = Field(default=80, alias='RAG_CHUNK_TOKEN_OVERLAP')
+    min_chunk_chars: int = Field(default=200, alias='RAG_MIN_CHUNK_CHARS')
 
     data_root: Path = Field(default=DEFAULT_DATA_ROOT, alias='RAG_DATA_ROOT')
     data_raw_dir: Path = Field(default=DEFAULT_DATA_ROOT / 'raw', alias='RAG_DATA_RAW_DIR')

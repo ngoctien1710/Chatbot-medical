@@ -13,11 +13,11 @@
     "total_pages": "181",
     "updated_at_utc": "2026-03-25T06:42:18.188374+00:00"
   },
-  "D:\\BAI_LAB\\Chatbot-medical\\Documents\\VietNam\\TinhHuongLamSangBachCauCapOTreEm.pdf": {
-    "sha256": "682e25bb8cfd9fd706976c3fbb935f33f9bf805d1652fdf9e4c04d81d7a690d5",
-    "output_md": "D:\\BAI_LAB\\Chatbot-medical\\data\\raw\\TinhHuongLamSangBachCauCapOTreEm.md",
-    "used_ocr_pages": "10",
-    "total_pages": "26",
-    "updated_at_utc": "2026-03-25T06:43:22.271025+00:00"
+  "D:\\BAI_LAB\\Chatbot-medical\\Documents\\VietNam\\UngThuBachCauCapDongLymphoBVNguyenTriPhuong.pdf": {
+    "sha256": "29808792464df223e4d4c711ecbf2436b8fab834746445467dccc5e50bea9db5",
+    "output_md": "D:\\BAI_LAB\\Chatbot-medical\\data\\raw\\UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+    "used_ocr_pages": "0",
+    "total_pages": "10",
+    "updated_at_utc": "2026-03-27T07:07:58.910084+00:00"
   }
 }

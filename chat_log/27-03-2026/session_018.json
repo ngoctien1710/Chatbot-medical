@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "LÂM SÀNG Biểu hiện không đặc hiệu, khởi phát bệnh một vài tuần đến một vài tháng. Mệt mỏi, chán ăn, sốt kéo dài, ra nhiều mồ hôi ban đêm, nhiễm trùng khó điều trị, thiếu máu, xuất huyết dưới da hoặc niêm mạc, gan, lách, hạch to, đau xương hoặc khớp. Biểu hiện hiếm gặp hơn: tăng áp lực nội sọ, liệt dây thần kinh sọ, khó thở do u trung thất, tinh hoàn to",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "The provided text appears to be a collection of medical and scientific documents related to blood transfusion, blood disorders, and hematology. Here's a summary of the main topics covered in each context:\n\n1. Discusses the importance of blood transfusions and the different types of blood components that can be transfused.\n2. Describes the process of blood donation, including eligibility criteria, donor screening, and collection methods.\n3. Explains the role of anticoagulants in preventing clotting during blood collection and storage.\n4. Discusses the risks associated with blood transfusions, such as allergic reactions, transfusion-related acute lung injury (TRALI), and transmission of infectious diseases.\n5. Describes the different types of blood groups and their importance in matching donor and recipient blood for transfusions.\n6. Explains the process of cross-matching donor and recipient blood to ensure compatibility before a transfusion is performed.\n7. Discusses the management of hemolytic transfusion reactions, including recognition, treatment, and prevention strategies.\n8. Describes the different types of anemia, their causes, and treatments.\n9. Explains the role of hematopoietic stem cell transplantation in the treatment of various blood disorders.\n10. Discusses the use of erythropoietin (EPO) to stimulate red blood cell production in anemic patients.\n11. Describes the process of apheresis, a technique used to collect specific blood components such as platelets or plasma.\n12. Explains the role of blood banks in managing the blood supply and ensuring safe transfusions.\n13. Discusses the importance of education and awareness about blood donation and the need for regular donations to maintain an adequate blood supply.\n14. Describes the different types of blood disorders, including hemophilia, sickle cell disease, and leukemia.\n15. Explains the role of genetic testing in diagnosing and managing inherited blood disorders.\n16. Discusses the use of stem cell transplantation as a treatment for various blood disorders, including leukemia and lymphoma.\n17. Describes the process of bone marrow aspiration and biopsy, used to diagnose and monitor blood disorders.\n18. Explains the role of hematopoietic growth factors in stimulating blood cell production in patients with certain blood disorders.\n19. Discusses the use of immunosuppressive therapy in managing graft-versus-host disease (GVHD), a complication of stem cell transplantation.\n20. Describes the role of hematology laboratories in diagnosing and monitoring blood disorders, including complete blood count (CBC) and peripheral smear analysis.\n21. Explains the importance of quality control and standardization in hematology laboratories to ensure accurate results.\n22. Discusses the use of flow cytometry in diagnosing and monitoring various blood disorders, including leukemia and lymphoma.\n23. Describes the role of molecular diagnostics in identifying genetic mutations associated with inherited blood disorders.\n24. Explains the importance of ongoing research and innovation in hematology to improve diagnosis, treatment, and patient outcomes.\n25. Discusses the challenges faced by hematologists in managing complex blood disorders and the need for continued education and collaboration to address these challenges.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:1",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.8952,
+            "snippet": "LÂM SÀNG Biểu hiện không đặc hiệu, khởi phát bệnh một vài tuần đến một vài tháng. Mệt mỏi, chán ăn, sốt kéo dài, ra nhiều mồ hôi ban đêm, nhiễm trùng khó điều trị, thiếu máu, xuất huyết dưới da hoặc niêm mạc, gan, lách, hạch to, đau xương hoặc khớp. Biểu hiện hiếm gặp hơn: tăng áp lực nội sọ, liệt dây thần kinh sọ, khó thở do u trung thất, tinh hoàn to. XÉT NGHIỆM Tổng phân tích tế bào máu ngoại vi: hầu hết bệnh nhân có Hb và tiểu cầu (TC) giảm nhưng ## Page 2"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:102",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7605,
+            "snippet": "- Người bệnh có biểu hiện nuốt khó hoặc đau bụng kèm theo có biểu hiện của tan máu trong lòng mạch. 2.4. Các xét nghiệm trong chẩn đoán và xử trí PNH Những trường hợp có biểu hiện lâm sàng của tan máu (Đái huyết sắc tố kịch phát ban đêm cổ điển và đái huyết sắc tố kịch phát ban đêm kết hợp với suy tủy xương): - Tại thời điểm chẩn đoán, cần xét nghiệm CD55 và CD59, cả dòng hồng cầu và bạch cầu hạt. - Sau khi đã được chẩn đoán, cần xét nghiệm CD55 và CD59 hai tháng/lần trong 2 năm, sau đó mỗi năm một lần nếu người bệnh ổn định. - Nếu có bằng chứng của lâm sàng tiến triển, cần tiến hành thêm những xét nghiệm khác. 2.5. Chẩn đoán xác định - Hồng cầu và bạch cầu có thiếu hụt CD55 và CD59. - Tổng phân tích tế bào máu: Thấy giảm hồng cầu; có thể giảm bạch cầu, tiểu cầu và hồng cầu lưới. - LDH, bilirubin huyết thanh tăng. - Tuỷ đồ, sinh thiết tuỷ xương: Có thể có hình ảnh giảm sinh hoặc rối loạn sinh tủy. - Phân tích di truyền tế bào: Có thể có bất thường trong rối loạn sinh tủy. 3. XẾP LOẠI Bảng 3: xếp loại đái huyết sắc tố kịch phát ban đêm của nhóm nghiên cứu thế giới như sau: Xếp loại PNH cổ điển PNH kết hợp tổn thương tủy xương PNH không có biểu hiện lâm sàng Mức"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:103",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7571,
+            "snippet": "ch phát ban đêm của nhóm nghiên cứu thế giới như sau: Xếp loại PNH cổ điển PNH kết hợp tổn thương tủy xương PNH không có biểu hiện lâm sàng Mức độ tan máu trong lòng mạch Nước tiểu đỏ rõ (đái huyết sắc tố đại thể thường xuyên và kéo dài) Nhẹ đến trung bình (đái huyết sắc tố đại thể thường xuyên và kéo dài) Không có bằng chứng lâm sàng hay xét nghiệm hóa sinh có tan máu trong lòng mạch. Tỷ lệ tan máu trong lòng mạch Nước tiểu đỏ (đái máu đại thể, tăng cao LDH) Mức độ nhẹ (các xét nghiệm tan máu thường biểu hiện bất thường tối thiểu) Không có biểu hiện lâm sàng hay bằng chứng trên trên xét nghiệm của tan máu trong lòng mạch. Tuỷ xương Hồng cầu tuỷ xương tăng sinh với hình thái bình thường hoặc gần bình thường (hiếm gặp bất thường nhiễm sắc thể) Có kết hợp tổn thương tuỷ xương (Suy tuỷ xương hoặc rối"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:980",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7315,
+            "snippet": "hưởng đáng kể đến sức khỏe người bệnh hoặc có thể gây ra hậu quả nghiêm trọng, thậm chí tử vong; có thể chỉ xảy ra ở một người bệnh được truyền máu nhưng cũng có thể xảy ra ở nhiều người bệnh trong một ngày hoặc trong nhiều ngày,… - Mục tiêu của xử trí tai biến truyền máu là: Phát hiện sớm các biểu hiện ban đầu của tai biến truyền máu, xác định loại tai biến; tập trung vào điều trị hậu quả, cũng như dự phòng sớm, giảm thiểu các nguy cơ, tiến triển có thể xảy ra tiếp theo. - Cần coi trọng tính pháp lý khi xảy ra tai biến truyền máu, bảo vệ các hồ sơ tài liệu, vật phẩm có liên quan. - Xây dựng và duy trì hoạt động của hệ thống bảo đảm chất lượng, giám sát và cải thiện chất lượng hoạt động chung nhằm dự phòng, ngăn ngừa tai biến. 2. XẾP LOẠI TAI BIẾN TRUYỀN MÁU 2.1."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:979",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7312,
+            "snippet": "1. ĐẠI CƯƠNG - Tai biến hoặc phản ứng truyền máu là các phản ứng, biểu hiện xảy ra ở người bệnh có liên quan đến truyền máu hoặc các chế phẩm máu, là hậu quả của tương tác bất thường không mong muốn giữa cơ thể người bệnh với máu, chế phẩm được truyền. - Các tai biến truyền máu xảy ra có thể là các phản ứng tự giới hạn, tự hồi phục; nhưng cũng có thể gây ra hậu quả nặng nề làm trầm trọng thêm tình trạng lâm sàng, dẫn đến tử vong; các tai biến có thể xảy ra cấp tính hoặc hậu quả có thể kéo dài nhiều năm. - Các loại tai biến truyền máu khác nhau có thể xảy ra với các biểu hiện ban đầu gần giống nhau, khó phân biệt. - Tính đa dạng của các tai biến truyền máu: Do nhiều nguyên nhân có thể là các sai sót, nhầm lẫn hành chính; tổ chức và phân công làm việc; năng lực, trình độ, kinh nghiệm chuyên môn; có nhiều cơ chế bệnh lý khác nhau; xảy ra cấp tính hoặc xuất hiện nhiều giờ hoặc nhiều ngày, thậm chí nhiều tháng sau khi kết thúc truyền máu; khác nhau về vị trí cơ quan bị tổn thương; khác nhau về mức độ tổn thương; có thể không ảnh hưởng đáng kể đến sức khỏe người bệnh hoặc có thể gây ra hậu quả nghiêm trọng, thậm chí tử vong; có thể chỉ xảy ra ở một người bệnh được truyền máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md:984",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc.md",
+            "score": 0.7263,
+            "snippet": "hóa, lý,… - Phản ứng miễn dịch muộn: Phản ứng tan máu muộn, phản ứng ghép chống chủ, ban xuất huyết do miễn dịch tiểu cầu,… - Phản ứng muộn không do miễn dịch: Quá tải sắt,… 3. CHẨN ĐOÁN Các dấu hiệu, triệu chứng sớm có vai trò quan trọng trong định hướng chẩn đoán. 3.1. Các nhóm dấu hiệu và biểu hiện sớm về lâm sàng của tai biến truyền máu Các triệu chứng sớm không đặc hiệu, đa dạng, trùng lặp ở nhiều loại tai biến và có thể được xếp thành các nhóm biểu hiện sau: - Thay đổi thân nhiệt: Sốt hoặc rét run. - Dấu hiệu trên da: Sẩn, mẩn ngứa, mề đay. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 ## Page 402 403"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:1",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7227,
+            "snippet": "LỜI CẢM ƠN Để hoàn thành luận án này, tôi xin trân trọng gửi lời cảm ơn tới: Ban Giám Hiệu, Phòng Đào tạo Sau đại học, Bộ môn Huyết học, Trường Đại học Y Hà Nội; Ban lãnh đạo Viện Huyết học - Truyền máu Trung ương, các khoa Bệnh máu trẻ em, Di truyền – Sinh học phân tử, Miễn dịch, Tế bào - Tổ chức học, và các phòng ban đã giúp đỡ, tạo mọi điều kiện thuận lợi cho tôi trong quá trình học tập và thu thập số liệu trong quá trình nghiên cứu."
+          }
+        ],
+        "score_summary": {
+          "max": 0.8952,
+          "min": 0.7227,
+          "avg": 0.7607
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 22742,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "27-03-2026-session-018",
+  "date_folder": "27-03-2026",
+  "sequence": 18,
+  "file_name": "session_018.json",
+  "created_at": "2026-03-27T09:39:32.687Z",
+  "updated_at": "2026-03-27T09:39:32.687Z"
+}

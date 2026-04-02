@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "Bệnh ALL là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "In English:\n\nThe text discusses the treatment of Acute Lymphoblastic Leukemia (ALL) in children. The treatment consists of four main phases: induction, consolidation, maintenance, and continuation or post-consolidation therapy. The goal is to achieve remission, maintain it, prevent relapse, and improve the quality of life for the child.\n\nThe text mentions that the study included 288 children with newly diagnosed ALL who met the selection criteria. The research aimed to describe the characteristics of the patients, identify abnormal chromosomal changes, and relate them to certain clinical features and Fraley classification of pediatric acute lymphoblastic leukemia.\n\nThe study found that 188 out of 288 children had results from cytogenetic analysis. The results showed an abnormal chromosomal change rate of 93%, with the most common being the Philadelphia chromosome (Ph). Other abnormalities included translocations involving the MLL gene and complex karyotype.\n\nThe text also mentions that the Fraley classification was used to categorize the patients into standard-risk, intermediate-risk, and high-risk groups based on various factors such as age, white blood cell count, and presence of specific chromosomal abnormalities. The study found that 58% of the patients were in the standard-risk group, 29% in the intermediate-risk group, and 13% in the high-risk group.\n\nThe text concludes by stating that the results of this study will help in the development of more effective treatment strategies for children with ALL based on their risk category. The importance of cytogenetic analysis in determining prognosis and guiding treatment decisions is emphasized.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:32",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6282,
+            "snippet": "1.2. TỔNG QUAN VỀ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.2.1. Dịch tễ học Theo thống kê trên thế giới cũng như ở Viẹ t Nam, ALL là bẹ nh ung thư hay gạ p nhất ở trẻ em. Sự xuất hiẹ n của bẹ nh được mô tả lần đầu ở nước Anh vào những na m 1920, tiếp sau đó là ở Mỹ vào những na m 1940 và ở Nhạ t Bản vào những na m 1960. Sự xuất hiẹ n của bẹ nh vào những mốc thời gian trên là những thời gian tưo ng ứng với những giai đoạn phát triển công nghiẹ p hóa của những nước này gợi ý sự xuất hiẹ n của những yếu tố môi trường mới gây ung thư máu [25]. Tỷ lẹ mắc hàng na m của ALL trẻ em trên toàn thế giới khoảng 1 đến 4 ca/100.000 trẻ dưới 15 tuổi, tỷ lẹ mắc mới của ALL gạ p nhiều nhất ở lứa tuổi từ 2 - 5 tuổi, gạ p ở trẻ nam nhiều ho n trẻ nữ, đạ c biẹ t ở lứa tuổi dạ y thì [1],[26]. ALL gạ p ở trẻ da trắng nhiều ho n da đen. Bẹ nh ALL thường phổ biến ho n ở Trung Quốc, Ấn Độ tuy nhiên vẫn còn ít ho n ở các nước công nghiẹ p phưo ng Tây [27]. các vùng địa lý khác nhau người ta thấy các kiểu hình miễn dịch của ALL khác nhau, ở các nước đang phát triển chủ yếu gạ p ALL tế bào B trong khi ở các nước công nghiẹ p thì lại gạ p tỷ lẹ ALL tế bào T nhiều ho n, điều này cho thấy trẻ ở các nước công nghiẹ p ph"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:31",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5684,
+            "snippet": "y độc tế bào thường được sử dụng trong điều trị các bệnh ác tính có liên quan đến phát sinh ALL, đặc biệt là các tác nhân alkyl hóa (ví dụ: melphalan, busulfan, cyclophosphamide, carbo- và cisplatin) và chất ức chế topoisomerase II (ví dụ, etoposide và doxorubicin). - Virus Nhiễm virus có liên quan đến bệnh sinh ALL, ví dụ bệnh LXM cấp tế bào T người lớn (do loại virus T-lymphotropic người I (HTLV-I)) và u lympho/lơ xê mi Burkitt, có liên quan với virus Epstein Barr (EBV). Như vậy, thông qua nhiều cơ chế khác nhau, rõ ràng biến đổi di truyền cùng với các yếu tố môi trường là cơ sở phát sinh bệnh ALL [24]."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:49",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.567,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]. Ngoài ra, các thuốc ức chế Proteasome (Bortezomib), thuốc ức chế JAK (Ruxolitinib), thuốc làm giảm quá trình Methyl hoá (Decitabine), thuốc ức chế PI3K/mTOR cũng đang bắt đầu với các thử nghiệm lâm sàng pha 2, pha 3. Liệu pháp miễn dịch tế bào CAR – Ts (Chemeric Antigen Receptor T cells) cũng là một trong các liệu pháp đang được lựa chọn sử dụng cho các bệnh nhi kháng trị/tái phát [43], [44]. 1.2.5. Một số yếu tố tiên lƣợng lơ xê mi cấp dòng lympho trẻ em Trong hơn nửa thập kỷ vừa qua, đ"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5626,
+            "snippet": "(không cao và cao) hoặc 3 nhóm nguy cơ (không cao, trung bình và cao) hoặc 4 nhóm nguy cơ (nguy cơ thấp - low risk, nguy cơ tiêu chuẩn - standard risk, nguy cơ cao - high risk và nguy cơ rất cao - very high risk) [39],[40],[41]. Hai tiêu chuẩn chính được các nhóm nghiên cứu áp dụng là tuổi và số lượng bạch cầu. Ngoài ra, mỗi nhóm nghiên cứu khi đưa ra phác đồ điều trị đều có tiêu chuẩn chia nhóm nguy cơ riêng. Ngoài tuổi và số lượng bạch cầu, nhiều yếu tố tiên lượng khác đã được xem xét và đưa vào tiêu chuẩn xếp loại theo nhóm nguy cơ, đặc biệt là biến đổi di truyền, kiểu hình miễn dịch, đáp ứng sớm với điều trị cảm ứng, tồn dư tối thiểu của bệnh sau điều trị tấn công, giới tính, tình trạng thâm nhiễm hệ thần kinh trung ương (CNS), thâm nhiễm tinh hoàn. Xếp loại theo nhóm nguy cơ trong ALL trẻ em là xếp loại được áp dụng chủ yếu hiện nay do liên quan trực tiếp đến việc lựa chọn phác đồ điều trị. 1.2.4. Nguyên tắc và các phƣơng pháp điều trị a. Nguyên tắc điều trị: Mục tiêu điều trị LXM cấp nói chung và ALL ở trẻ em là làm lui bệnh tới khỏi bệnh, gồm: - Làm lui các biểu hiện lâm sàng và huyết học; - Duy trì tình trạng lui bệnh bằng hóa trị liệu hệ thống và điều trị dự phòng thâm nhi"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:47",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5614,
+            "snippet": "để đạt lui bệnh, (2) điều trị củng cố để tăng cường lui bệnh hoặc giảm tồn dư tối thiểu của bệnh, (3) điều trị dự phòng bệnh lý ALL ở hệ thống thần kinh trung ương, và (4) điều trị duy trì để kéo dài tình trạng lui bệnh, giảm tái phát. Nguyên tắc điều trị đa hoá trị liệu là [42]: + Điều trị cá thể hoá: Dựa trên xếp loại nhóm nguy cơ của từng bệnh nhi cụ thể để lựa chọn phác đồ điều trị thích hợp; + Theo dõi đáp ứng điều trị và tồn dư tối thiểu của bệnh; + Hoá trị tăng cường sau khi đạt được lui bệnh sau điều trị tấn công; + Điều trị dự phòng thâm nhiễm thần kinh trung ương; + Có khoảng thời gian điều trị hợp lý; + Có kế hoạch ghép tế bào gốc tạo máu trên những bệnh nhi có chỉ định. - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt. Hầu hết bệnh nhi ngày nay được điều trị thành công, đạt được tình trạng lui bệnh mà không cần sử dụng đến phương pháp ghép tế bào gốc tạo máu. Ghép tế bào gốc tạo máu được đặt ra với nhóm bệnh nhi nguy cơ cao, hoặc không đạt được tình trạng lui bệnh (kháng hoá trị), hoặc tái phát, đặc biệt tái phát sớm sau khi hoàn thành hóa trị liệu [23]. - Điều trị n"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:46",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5568,
+            "snippet": "khỏi bệnh, gồm: - Làm lui các biểu hiện lâm sàng và huyết học; - Duy trì tình trạng lui bệnh bằng hóa trị liệu hệ thống và điều trị dự phòng thâm nhiễm thần kinh trung ương; - Điều trị hỗ trợ: giảm độc tính của hóa chất: chống thiếu máu, xuất huyết, nhiễm trùng; - Điều trị các biến chứng của bệnh và biến chứng do điều trị, chú trọng đến tăng chất lượng cuộc sống của trẻ. b. Các phương pháp điều trị - Điều trị hóa chất Điều trị hóa chất là phương pháp điều trị tiên phong và chủ yếu trong ALL trẻ em. Có nhiều phác đồ điều trị, song tất cả các phác đồ đều bao gồm 4 giai đoạn với các mục đích khác nhau: (1) điều trị cảm ứng kéo dài 4 - 5 tuần"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:86",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5507,
+            "snippet": "2.2.2. Cỡ mẫu - Cỡ mẫu thuận tiện: Tất cả các bệnh nhi mới, được chẩn đoán ALL nhập viện trong thời gian nghiên cứu. Dự kiến ban đầu là 250-300 bệnh nhi. Trong thời gian nghiên cứu, có 322 bệnh nhi chẩn đoán ALL mới, nhưng chỉ có 288 bệnh nhi đủ tiêu chuẩn lựa chọn. 34 bệnh nhi bị loại khỏi nghiên cứu do không được làm đầy đủ xét nghiệm khảo sát hoặc không đảm bảo tiêu chuẩn lựa chọn như: không đồng ý điều trị hóa chất, bỏ điều trị, lơ xê mi cấp thứ phát, lơ xê mi cấp có hội chứng Down. 2.2.3. Nội dung và các thông số nghiên cứu a. Mục tiêu 1: Nghiên cứu mô tả cắt ngang – Nội dung nghiên cứu: Xác định bất thƣờng nhiễm sắc thể, một số đột biến dung hợp gen và liên quan đến một số đặc điểm lâm sàng, xếp loại lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000: + Đặc điểm chung nhóm bệnh nhi nghiên cứu: Tuổi, giới, xếp loại thể bệnh. + Xác định bất thường nhiễm sắc thể và một số đột biến dung hợp gen:  Xác định bất thường nhiễm sắc thể: Dựa trên số liệu của 188 bệnh nhi có kết quả phân tích NST (288 bệnh nhi trong nghiên cứu đều được thực hiện xét nghiệm NST tuy nhiên chỉ có 188 bệnh nhi có kết quả phân tích NST đủ tiêu chuẩn): Xác định tỷ lệ bất thường NST, phân tích đặc điểm b"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6282,
+          "min": 0.5507,
+          "avg": 0.5707
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 10718,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "01-04-2026-session-002",
+  "date_folder": "01-04-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-04-01T21:12:08.336508",
+  "updated_at": "2026-04-01T21:12:08.336508"
+}

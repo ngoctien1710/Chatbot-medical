@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "bệnh ung thu cấp dòng Lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Bạn đang xem một tài liệu về lơ xê mi cấp dòng lympho (ALL) ở trẻ em, bệnh lý ác tính thường gặp nhất ở trẻ em chiếm khoảng 80% của tất cả các bệnh lơ xê mi. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người, và lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi.\n\nTrong tài liệu này cũng được giới thiệu về các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp loại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả.\n\nTài liệu cũng giới thiệu về việc xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt.\n\nCác phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay bao gồm:\n- Bảng xếp loại của WHO (World Health Organization)\n- Phác đồ FRALLE 2000\n\nTrong tài liệu cũng có mô tả về các bảng xếp loại, kết quả điều trị tấn công, đánh giá tồn dư tối thiểu của bệnh sau điều trị tấn công bằng phác đồ FRALLE 2000.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6013,
+            "snippet": "# UngThuBachCauCapDongLymphoBVNguyenTriPhuong - Source PDF: UngThuBachCauCapDongLymphoBVNguyenTriPhuong.pdf - Total pages: 10 - Converted at (UTC): 2026-03-27T07:07:58.909072+00:00 ## Page 1 Trang chủ/ Khoa Nhi / ️ Ung thư bạch cầu cấp dòng lympho ️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:28",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5663,
+            "snippet": "t trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất sống thêm toàn bộ đã tăng lên đều đặn kể từ những năm đầu của thập niên 1960 đến nay, từ xấp xỉ 10% đã lên đến gần 80% trong các nghiên cứu [7]. Theo nghiên cứu của Hunger P Stephen và cộng sự, xác suất sống thêm 5 năm không bệnh ở trẻ em ALL tại Mỹ từ năm 2006-2009 thậm chí đã đạt được tỷ lệ lên đến trên 90% [1]. Nhiều nghiên cứu trên thế giới đã cho thấy, có những biến đổi di truyền đặc trưng cho dòng tế bào lympho B hay T. Điều này ảnh hưởng trực tiếp đến tiên lượng bệnh, đồng thời giúp xác định tồn dư tối thiểu của bệnh ngày càng chính xác [8],[9],[10]. ## Page 17 2"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:304",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5436,
+            "snippet": "75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và đáp ứng điều trị tấn công Lơ xê mi cấp dòng lympho trẻ em có một số biến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận văn thạc sỹ y học. Đại học Y Hà Nội. 76. Võ Thị Thanh Trúc, Cai Thị Thu Ngân, Nguyễn Thị Mỹ Hòa et al (2019). Đánh giá ý nghĩa tiên lượng của tồn lưu tế bào ác tính trong điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em. Y học TP Hồ Chí Minh. 23(6), 101-107. 77. Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh, Nguyễn Quốc Vụ Khanh et al (2019). Đánh giá hiệu quả điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em bằng phác đồ FRALLE 2000 trong 10 năm. Y học TP Hồ Chí Minh. 23(6), 108-113. 78. Cai Thị Thu Ngân, Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh et al (2019). Đánh giá hiệu quả điều trị Bệnh bạch cầu cấp dòng lympho ở trẻ em có đột biến chuyển vị t(12;21). Y học TP Hồ Chí Minh. 23(6), 114-118. 79. Pr. André BARUCHEL et al (2003). FRALLE 2000-A. Version amendée mars 2003 Protocole de traitement des Leucémies Aiguës Lymphoblastiques de la lignée B de risque standard de l'enfant Paris, France, 1-98. 80. Pr. André BARUCHEL et al (2003). FRALLE 2000-BT. Version de Janvier 2003 Protocole de traitement"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:48",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5244,
+            "snippet": "Bảng 1.1. Xếp loại lơ xê mi cấp dòng lympho theo FAB 1986 Hình thái TB L1 L2 L3 Kích thước Nhỏ chiếm đa số Lớn, không đều TB lớn, không đều Chất nhiễm sắc Đồng nhất, mịn Không đồng nhất Mịn và đồng nhất Hình dạng nhân Đều đặn, đôi khi có rãnh, khía Không đều, thường có rãnh, khía Đều đặn hình bầu dục hoặc tròn Hạt nhân Không thấy hoặc nhỏ Một hay nhiều hạt nhân to Một hay nhiều hạt nhân hình túi Tỷ lệ nhân/NSC Thấp Khá cao, thay đổi Cao Độ kiềm NSC Thay đổi Vừa hoặc đậm Rất đậm Không bào Thường không có Thường không có Hốc to và nhiều"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:19",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5126,
+            "snippet": "Bảng 3.10. Bất thường nhiễm sắc thể theo xếp loại miễn dịch..................... 69 Bảng 3.11. Tỷ lệ phát hiện bất thường nhiễm sắc thể và một số đột biến dung hợp gen theo xếp loại miễn dịch các nhóm lơ xê mi cấp dòng lympho B .................................................................................... 70 Bảng 3.12. Tỷ lệ phát hiện đột biến dung hợp gen khảo sát theo xếp loại miễn dịch ở các nhóm lơ xê mi cấp dòng lympho B .................. 71 Bảng 3.13. Tỷ lệ xuất hiện dấu ấn CD10 ở các nhóm nguy cơ theo bất thường di truyền lơ xê mi cấp dòng lympho B ........................... 72 Bảng 3.14. Tỷ lệ xếp loại nguy cơ theo phác đồ FRALLE 2000 ở các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B ... 73 Bảng 3.15. Đáp ứng sớm với corticoid trên máu ngoại vi ngày 8 ................ 74 Bảng 3.16. Đáp ứng sớm với hóa trị trên tủy đồ ngày 21 ............................. 75 Bảng 3.17. Kết quả điều trị tấn công ............................................................. 75 Bảng 3.18. Đánh giá tồn dư tối thiểu của bệnh sau điều trị tấn công bằng phác đồ FRALLE 2000 ............................................................... 76 Bảng 3.19. Tỷ lệ tái phát các nh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:49",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.51,
+            "snippet": "b. Xếp loại theo WHO Theo bảng xếp loại của WHO, ALL được xếp loại dựa trên các tiêu chí: đặc điểm tế bào, miễn dịch và bất thường vật chất di truyền ở mức độ NST và gen. Năm 2001, WHO đưa ra xếp loại ALL trong khuôn khổ Bảng xếp loại bệnh lý ác tính dòng lympho (bao gồm LXM cấp, LXM kinh dòng lympho và u lympho ác tính). Bảng xếp loại này được cập nhật năm 2008 và gần đây nhất là năm 2016, ngày càng chú trọng đến vai trò của các biến đổi di truyền. Đặc biệt, phân nhóm LXM cấp dòng lympho B (B-ALL) có các dưới nhóm được xếp loại theo các tổn thương di truyền tái diễn. Xếp loại LXM cấp dòng lympho theo WHO 2016 được mô tả dưới đây [36]: ## Page 26 11"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:27",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5056,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]. Các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp loại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6013,
+          "min": 0.5056,
+          "avg": 0.5377
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 25131,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "01-04-2026-session-001",
+  "date_folder": "01-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-01T18:09:53.579362",
+  "updated_at": "2026-04-01T18:09:53.579362"
+}

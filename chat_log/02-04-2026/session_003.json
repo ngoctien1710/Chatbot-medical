@@ -1,0 +1,75 @@
+{
+  "model": "mistral",
+  "query": "triệu chứng lâm sàng của bệnh ung thư cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của lơ xê mi cấp dòng lympho trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 7,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.5519,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:39",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.504,
+            "snippet": "Bảng 1.1. Xếp loại lơ xê mi cấp dòng lympho theo FAB 1986 Hình thái TB L1 L2 L3 Kích thước Nhỏ chiếm đa số Lớn, không đều TB lớn, không đều Chất nhiễm sắc Đồng nhất, mịn Không đồng nhất Mịn và đồng nhất Hình dạng nhân Đều đặn, đôi khi có rãnh, khía Không đều, thường có rãnh, khía Đều đặn hình bầu dục hoặc tròn Hạt nhân Không thấy hoặc nhỏ Một hay nhiều hạt nhân to Một hay nhiều hạt nhân hình túi Tỷ lệ nhân/NSC Thấp Khá cao, thay đổi Cao Độ kiềm NSC Thay đổi Vừa hoặc đậm Rất đậm Không bào Thường không có Thường không có Hốc to và nhiều"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:293",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4893,
+            "snippet": "75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và đáp ứng điều trị tấn công Lơ xê mi cấp dòng lympho trẻ em có một số biến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận văn thạc sỹ y học. Đại học Y Hà Nội. 76. Võ Thị Thanh Trúc, Cai Thị Thu Ngân, Nguyễn Thị Mỹ Hòa et al (2019). Đánh giá ý nghĩa tiên lượng của tồn lưu tế bào ác tính trong điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em. Y học TP Hồ Chí Minh. 23(6), 101-107. 77. Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh, Nguyễn Quốc Vụ Khanh et al (2019). Đánh giá hiệu quả điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em bằng phác đồ FRALLE 2000 trong 10 năm. Y học TP Hồ Chí Minh. 23(6), 108-113. 78. Cai Thị Thu Ngân, Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh et al (2019). Đánh giá hiệu quả điều trị Bệnh bạch cầu cấp dòng lympho ở trẻ em có đột biến chuyển vị t(12;21). Y học TP Hồ Chí Minh. 23(6), 114-118. 79. Pr. André BARUCHEL et al (2003). FRALLE 2000-A. Version amendée mars 2003 Protocole de traitement des Leucémies Aiguës Lymphoblastiques de la lignée B de risque standard de l'enfant Paris, France, 1-98. 80. Pr. André BARUCHEL et al (2003). FRALLE 2000-BT. Version de Janvier 2003 Protocole de traitement"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:19",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4869,
+            "snippet": "t trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất sống thêm toàn bộ đã tăng lên đều đặn kể từ những năm đầu của thập niên 1960 đến nay, từ xấp xỉ 10% đã lên đến gần 80% trong các nghiên cứu [7]. Theo nghiên cứu của Hunger P Stephen và cộng sự, xác suất sống thêm 5 năm không bệnh ở trẻ em ALL tại Mỹ từ năm 2006-2009 thậm chí đã đạt được tỷ lệ lên đến trên 90% [1]. Nhiều nghiên cứu trên thế giới đã cho thấy, có những biến đổi di truyền đặc trưng cho dòng tế bào lympho B hay T. Điều này ảnh hưởng trực tiếp đến tiên lượng bệnh, đồng thời giúp xác định tồn dư tối thiểu của bệnh ngày càng chính xác [8],[9],[10]."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:77",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4758,
+            "snippet": "Sơ đồ 1.1. Chia nhóm điều trị lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 Các phác đồ chi tiết cho các nhóm bao gồm các giai đoạn được trình bày trong phần đối tượng và phương pháp nghiên cứu. 1.5. MỘT SỐ NGHIÊN CỨU VỀ ĐIỀU TRỊ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.5.1. Nghiên cứu về điều trị lơ xê mi cấp dòng lympho trẻ em trên thế giới Trong vòng hơn 50 năm qua, thế giới đã chứng kiến sự thay đổi đáng kinh ngạc trong hiệu quả điều trị ALL trẻ em. Kết quả điều trị đã tăng từ xác suất sống thêm toàn bộ 5 năm (OS) 10% ở những năm 1960, lên tới trên 90% sống thêm toàn bộ 10 năm trong những nghiên cứu gần đây [1]. Năm 2013, tác giả Ching Hong Pui đã có một báo cáo tổng kết chặng đường 50 năm trong điều trị LXM cấp dòng lympho trẻ em của bệnh viện nghiên cứu trẻ em St Jude, nhận thấy xác suất sống thêm toàn bộ tại thời điểm 10 năm giai đoạn Lơ xê mi cấp dòng lympho Lơ xê mi cấp dòng lympho B Lơ xê mi cấp dòng lympho T Nhóm nguy cơ chuẩn (Nhóm A1) Nhóm nguy cơ cao (Nhóm A2, B1, T1) Nhóm nguy cơ rất cao (Nhóm A3, B2, T2)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4604,
+            "snippet": "theo Nguyễn Công Khanh, bẹ nh ALL chiếm 45,2% các bẹ nh ung thư trẻ em, mỗi na m có khoảng 170 bẹ nh nhi mới vào viẹ n và tỷ lẹ bẹ nh ALL chiếm 67,5% [31]. Nghiên cứu của tác giả Mai Lan năm 2016 tại Viện Huyết học – Truyền máu Trung ương, ALL là bệnh lý phổ biến nhất trong các bệnh máu ác tính ở trẻ em [32]. 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:16",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4432,
+            "snippet": "DANH MỤC CÁC BIỂU ĐỒ Biểu đồ 3.4. Phân bố tuổi ở lơ xê mi cấp dòng lympho B theo nhóm nguy Biểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho Biểu đồ 3.6. Đặc điểm phân bố số lượng bạch cầu lơ xê mi cấp dòng lympho B Biểu đồ 3.8. Đường biểu biễn xác suất sống thêm toàn bộ tại thời điểm 12 Biểu đồ 3.9. Đường biểu diễn xác suất sống thêm không sự kiện tại thời Biểu đồ 3.10. Đường biểu diễn xác suất sống thêm toàn bộ tại thời điểm 12 Biểu đồ 3.11. Đường biểu diễn xác suất sống thêm không sự kiện tại thời điểm Biểu đồ 3.12. Đường biểu diễn xác suất sống thêm toàn bộ tại thời điểm 12 Biểu đồ 3.13. Đường biểu diễn xác suất sống thêm không sự kiện tại thời điểm 12 Biểu đồ 3.14. Đường biểu diễn xác suất sống thêm toàn bộ tại thời điểm 12 tháng ở các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp"
+          }
+        ],
+        "score_summary": {
+          "max": 0.5519,
+          "min": 0.4432,
+          "avg": 0.4873
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 7828,
+        "context_used": 7,
+        "error": null
+      }
+    }
+  ],
+  "id": "02-04-2026-session-003",
+  "date_folder": "02-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-02T00:47:51.338107",
+  "updated_at": "2026-04-02T00:47:51.338107"
+}

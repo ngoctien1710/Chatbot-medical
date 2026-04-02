@@ -427,7 +427,7 @@
     </div>
 
     <script>
-        const API_BASE = 'http://localhost:3000';
+        const API_BASE = window.API_BASE || 'http://localhost:8001';
         let currentSessionId = null;
         let currentSessionStatus = 'idle';
         let selectedSessionId = null;
@@ -598,7 +598,7 @@
             }
 
             try {
-                const response = await fetch(`${API_BASE}/chat/sessions?date=${encodeURIComponent(selectedDate)}`);
+                const response = await fetch(`${API_BASE}/sessions?date=${encodeURIComponent(selectedDate)}`);
                 if (!response.ok) {
                     throw new Error(`Session list failed (${response.status})`);
                 }
@@ -643,7 +643,7 @@
 
         async function loadSession(sessionId) {
             try {
-                const response = await fetch(`${API_BASE}/chat/${encodeURIComponent(sessionId)}`);
+                const response = await fetch(`${API_BASE}/sessions/${encodeURIComponent(sessionId)}`);
                 if (!response.ok) {
                     throw new Error(`Session load failed (${response.status})`);
                 }
@@ -694,7 +694,7 @@
             const action = isAgree ? 'agree' : 'disagree';
             
             try {
-                const response = await fetch(`${API_BASE}/chat/feedback`, {
+                const response = await fetch(`${API_BASE}/feedback`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
@@ -756,7 +756,7 @@
             
             try {
                 // GỬI MODEL LÊN BACKEND - ĐÂY LÀ PHẦN QUAN TRỌNG
-                const response = await fetch(`${API_BASE}/chat/start`, {
+                const response = await fetch(`${API_BASE}/chat`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 

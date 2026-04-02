@@ -6,6 +6,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA_ROOT = PROJECT_ROOT / 'data'
 DEFAULT_PDF_SOURCE_ROOT = PROJECT_ROOT / 'Documents' / 'VietNam'
+DEFAULT_CHAT_LOG_ROOT = PROJECT_ROOT / 'chat_log'
 
 
 class Settings(BaseSettings):
@@ -32,6 +33,30 @@ class Settings(BaseSettings):
     pdf_source_dir: Path = Field(default=DEFAULT_PDF_SOURCE_ROOT, alias='RAG_PDF_SOURCE_DIR')
 
     request_timeout_seconds: int = Field(default=120, alias='RAG_REQUEST_TIMEOUT_SECONDS')
+    chat_log_root: Path = Field(default=DEFAULT_CHAT_LOG_ROOT, alias='CHAT_LOG_ROOT')
+    ocr_min_text_chars: int = Field(default=60, alias='OCR_MIN_TEXT_CHARS')
+    ocr_dpi: int = Field(default=220, alias='OCR_DPI')
+    clean_strip_toc: bool = Field(default=True, alias='CLEAN_STRIP_TOC')
+    clean_strip_references: bool = Field(default=True, alias='CLEAN_STRIP_REFERENCES')
+    glm_cleanup_enabled: bool = Field(default=True, alias='GLM_CLEANUP_ENABLED')
+    glm_cleanup_model: str = Field(default='zai-org/GLM-5-FP8', alias='GLM_CLEANUP_MODEL')
+    glm_cleanup_timeout_seconds: int = Field(default=45, alias='GLM_CLEANUP_TIMEOUT_SECONDS')
+    glm_cleanup_max_chunk_chars: int = Field(default=2800, alias='GLM_CLEANUP_MAX_CHUNK_CHARS')
+    glm_cleanup_max_chunks_per_doc: int = Field(default=12, alias='GLM_CLEANUP_MAX_CHUNKS_PER_DOC')
+    hf_token: str = Field(default='', alias='HF_TOKEN')
+    cors_origins: str = Field(
+        default='http://127.0.0.1:5500,http://localhost:5500',
+        alias='CORS_ORIGINS',
+    )
+
+    @property
+    def cors_origins_list(self) -> list[str]:
+        origins = [origin.strip() for origin in self.cors_origins.split(',') if origin.strip()]
+        if not origins:
+            return ['*']
+        if '*' in origins:
+            return ['*']
+        return origins
 
 
 settings = Settings()

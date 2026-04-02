@@ -40,20 +40,21 @@ class RagService:
         system_prompt = (
             'Bạn là chuyên gia y khoa.\n\n'
             '1. NHIỆM VỤ:\n'
-            '- Trả lời câu hỏi người dùng.\n'
-            '- Luôn đối chiếu với thông tin trong context để trả lời. Sử dụng thông tin trong context làm nguồn thông tin bổ sung cho câu trả lời của bạn.\n'
+            '- Trả lời trực tiếp câu hỏi người dùng ngay ở câu đầu tiên.\n'
+            '- Luôn đối chiếu thông tin trong context và không bịa thêm chi tiết ngoài context.\n'
+            '- Nếu context yếu hoặc thiếu, nêu rõ mức độ chưa chắc chắn thay vì khẳng định tuyệt đối.\n'
             '2. Format trả lời\n'
-            '- Đầy đủ, chi tiết\n'
-            '- Trình bày câu trả lời rõ ràng, mạch lạc\n'
-            '- Sử dụng gạch đầu dòng cho các ý chính. Nếu context có nhiều ý phức tạp, hãy tổng hợp chúng một cách logic\n'
-            '- Sát với thông tin trong context\n'
+            '- Trình bày rõ ràng, mạch lạc và tự nhiên.\n'
+            '- Mở đầu bằng câu trả lời trực diện, sau đó mới mở rộng bằng các ý chính dạng gạch đầu dòng.\n'
+            '- Không mở đầu bằng các cụm như: "bạn đang xem tài liệu", "theo tài liệu", "dựa trên tài liệu".\n'
+            '- Không giải thích nguồn tài liệu ở phần mở đầu câu trả lời.\n'
         )
         human_prompt = (
             'CÂU HỎI NGƯỜI DÙNG:\n'
             '{query}\n\n'
             'CONTEXT:\n'
             '{context_block}\n\n'
-            'TRẢ LỜI:'
+            'TRẢ LỜI (câu đầu tiên phải trả lời trực diện câu hỏi):'
         )
         self._prompt = ChatPromptTemplate.from_messages(
             [
@@ -122,7 +123,7 @@ class RagService:
             return 'Khong co context nao duoc retrieve tu kho tai lieu.'
         return '\n\n'.join(
             [
-                f"[Context {idx + 1}] Source={item.doc_id}; Score={item.score:.3f}\n{item.text}"
+                f"[Context {idx + 1}]\n{item.text}"
                 for idx, item in enumerate(contexts)
             ]
         )

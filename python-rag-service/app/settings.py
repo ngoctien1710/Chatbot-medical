@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     chat_model: str = Field(default='mistral', alias='OLLAMA_CHAT_MODEL')
     embedding_model: str = Field(default='Dqdung205/medical_vietnamese_embedding', alias='OLLAMA_EMBED_MODEL')
 
-    top_k: int = Field(default=7, alias='RAG_TOP_K')
+    top_k: int = Field(default=5, alias='RAG_TOP_K')
     score_threshold: float = Field(default=0.35, alias='RAG_SCORE_THRESHOLD')
     chunk_size: int = Field(default=900, alias='RAG_CHUNK_SIZE')
     chunk_overlap: int = Field(default=180, alias='RAG_CHUNK_OVERLAP')

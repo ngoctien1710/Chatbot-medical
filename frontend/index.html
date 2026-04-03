@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +27,7 @@
             height: 90vh;
             background: white;
             border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
             display: grid;
             grid-template-columns: 280px 1fr;
             grid-template-rows: 1fr;
@@ -211,6 +212,7 @@
                 opacity: 0;
                 transform: translateY(10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -387,6 +389,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="chat-container">
         <aside class="session-panel">
@@ -405,7 +408,7 @@
             <div class="chat-header">
                 <div class="header-left">
                     <div class="model-selector">
-                        <label>🤖 Model:</label>
+                        <label>Model:</label>
                         <select id="modelSelect">
                             <option value="mistral">Mistral</option>
                             <option value="deepseek">DeepSeek</option>
@@ -506,7 +509,7 @@
         function addMessage(text, type, timestamp = new Date(), model = null, retrieval = null) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${type}`;
-            
+
             let modelBadge = '';
             if (type === 'ai' && model) {
                 modelBadge = `<span class="model-badge">${getModelDisplayName(model)}</span>`;
@@ -531,7 +534,7 @@
                     retrievalSnippetHtml = `<div class="retrieval-snippets"><strong>Retrieved context</strong>${snippetLines}</div>`;
                 }
             }
-            
+
             messageDiv.innerHTML = `
                 <div class="message-content">
                     ${escapeHtml(text)}
@@ -566,7 +569,7 @@
                 <input type="text" id="commentInput${messageIndex}" placeholder="${isAgree ? 'Nhập comment (tùy chọn)...' : 'Nhập feedback để cải thiện câu trả lời...'}">
                 <button onclick="submitFeedback(${messageIndex}, ${isAgree})">Gửi</button>
             `;
-            
+
             // Find the last message and append comment box
             const messages = document.querySelectorAll('.message.ai');
             const lastAIMessage = messages[messages.length - 1];
@@ -690,9 +693,9 @@
 
             const commentInput = document.getElementById(`commentInput${messageIndex}`);
             const feedback = commentInput ? commentInput.value : '';
-            
+
             const action = isAgree ? 'agree' : 'disagree';
-            
+
             try {
                 const response = await fetch(`${API_BASE}/feedback`, {
                     method: 'POST',
@@ -703,9 +706,9 @@
                         feedback: feedback
                     })
                 });
-                
+
                 const data = await response.json();
-                
+
                 if (action === 'agree') {
                     addMessage('✓ Bạn đã đồng ý với câu trả lời', 'user');
                     waitingForFeedback = false;
@@ -720,12 +723,12 @@
                 }
 
                 await fetchSessionList();
-                
+
                 // Remove comment box
                 if (commentInput) {
                     commentInput.parentElement.remove();
                 }
-                
+
             } catch (error) {
                 console.error('Error submitting feedback:', error);
                 alert('Có lỗi xảy ra. Vui lòng thử lại.');
@@ -741,43 +744,43 @@
 
             const query = messageInput.value.trim();
             if (!query) return;
-            
+
             // Lấy model đang chọn
             currentModel = modelSelect.value;
-            
+
             // Disable input while waiting for response
             messageInput.disabled = true;
             sendBtn.disabled = true;
-            
+
             // Add user message
             clearChatView();
             addMessage(query, 'user');
             messageInput.value = '';
-            
+
             try {
                 // GỬI MODEL LÊN BACKEND - ĐÂY LÀ PHẦN QUAN TRỌNG
                 const response = await fetch(`${API_BASE}/chat`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ 
+                    body: JSON.stringify({
                         query: query,
                         model: currentModel  // <--- Gửi model lên backend
                     })
                 });
-                
+
                 const data = await response.json();
                 currentSessionId = data.session_id;
                 selectedSessionId = data.session_id;
                 currentSessionStatus = 'pending';
                 selectedDate = getTodayDateKey();
                 sessionDateInput.value = selectedDate;
-                
+
                 // Add AI response with model badge
                 const aiMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                 addFeedbackButtons(aiMessage, 0);
 
                 await fetchSessionList();
-                
+
             } catch (error) {
                 console.error('Error:', error);
                 addMessage('Lỗi kết nối đến server. Vui lòng kiểm tra lại.', 'ai');
@@ -811,7 +814,7 @@
             selectedSessionId = null;
             await fetchSessionList();
         });
-        
+
         (async () => {
             selectedDate = getTodayDateKey();
             sessionDateInput.value = selectedDate;
@@ -820,4 +823,5 @@
         })();
     </script>
 </body>
+
 </html>

@@ -15,3 +15,10 @@ pydantic==2.11.7
 pydantic-settings==2.10.1
 PyMuPDF==1.26.5
 rapidocr-onnxruntime==1.4.4
+
+#Advanced RAG Dependencies
+langchain-text-splitters
+rank_bm25
+pyvi
+underthesea
+python-dotenv

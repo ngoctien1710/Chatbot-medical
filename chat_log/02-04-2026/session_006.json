@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng Lympho là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng Lympho gồm:\n- Mệt mỏi, gầy sút cân, chán ăn.\n- Sốt thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh.\n- Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết.\n- Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi.\n- Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính.\n- Triệu chứng thâm nhiễm: Hạch to khu trú hoặc toàn thân, có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. Lách to, từ nhẹ đến vừa. Gan to, mức độ nhẹ đến vừa. Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài.\n\nNgoài ra, trong các nhóm lơ xê mi cấp dòng lympho B và T, triệu chứng phổ biến nhất là thiếu máu (dao động từ 84,1% - 95%) và sốt (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50%. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9138,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:150",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8673,
+            "snippet": "3.2.2.2. Một số đặc điểm lâm sàng\n\nBiểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Thiếu máu là triệu chứng phổ biến nhất ở các nhóm (dao động từ 84,1% - 95%). Sốt cũng là triệu chứng thường thấy ở các nhóm (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:33",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7672,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:233",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.496,
+            "snippet": ". Trong nghiên cứu của tác giả Trần Quỳnh Mai, khi đánh giá đặc điểm lâm sàng giữa nhóm có bất thường NST và nhóm không có bất thường NST, tác giả cũng nhận thấy, không có sự khác biệt giữa các nhóm [75]. Nghiên cứu của tác giả Nguyễn Thị Mai Hương và tác giả Bùi Ngọc Lan trên hai nhóm nguy cơ khác nhau nhưng tỷ lệ xuất hiện các triệu chứng cũng tương đương nhau [13],[72]. Như vậy, nghiên cứu này và một số nghiên cứu trước đó đều nhận thấy, triệu chứng lâm sàng không có sự khác biệt giữa các nhóm biến đổi di truyền. c. Đặc điểm về số lƣợng bạch cầu tại thời điểm chẩn đoán Số lượng bạch cầu tại thời điểm chẩn đoán mang ý nghĩa tiên lượng độc lập trong ALL trẻ em. Theo đó, khi số lượng bạch cầu ≥ 50 G/L thường mang ý nghĩa tiên lượng xấu trong điều trị. Do đó, những bệnh nhi có bạch cầu ≥ 50 G/L được xếp vào nhóm nguy cơ cao, đáp ứng kém với điều trị [1],[34]"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.4762,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          }
+        ],
+        "score_summary": {
+          "max": 0.9138,
+          "min": 0.4762,
+          "avg": 0.7041
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 29916,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "02-04-2026-session-006",
+  "date_folder": "02-04-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-04-02T09:24:24.268328",
+  "updated_at": "2026-04-02T09:24:24.268328"
+}

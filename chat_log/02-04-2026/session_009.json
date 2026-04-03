@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Bệnh bạch cầu cấp dòng lympho là bệnh như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Bệnh bạch cầu cấp dòng lympho là một loại bệnh ác tính do tăng sinh các tế bào lympho hoặc tủy trong quá trình tạo máu. Nó chiếm khoảng 75% các bệnh bạch cầu ở trẻ em và là loại bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi. Bệnh này có thể xảy ra mọi lứa tuổi, và tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ.\n\nTrong truyền thống, bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được. Tuy nhiên, việc chữa khỏi bệnh này vẫn cần phải được điều trị theo quy trình chăm sóc y tế chính xác.\n\nTại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị bệnh này được chẩn đoán hàng năm.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9935,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9781,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:21",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7535,
+            "snippet": ". LXM cấp dòng lympho B hay T là bệnh lý ác tính đơn dòng lympho, phát sinh từ các bất thường di truyền làm ngừng quá trình biệt hoá của dòng lympho, làm cho các tế bào lympho bất thường tăng sinh và tồn tại. So sánh quá trình bệnh và hậu quả của ALL giữa quần thể người lớn và trẻ em càng cho thấy sự khác biệt giữa các nhóm sinh học, qua đó khẳng định vai trò của các biến đổi di truyền trong bệnh sinh ALL ở trẻ em [15], [16],[17]. Tuy nhiên, các biến đổi về di truyền này không đủ gây ra bệnh mà phải có sự tương tác với các yếu tố tác động từ môi trường. Có hơn 50 biến đổi ở các vùng ADN đã được xác định, trong đó chủ yếu là ảnh hưởng tới các gen trong quá trình phát triển bình thường của dòng lympho như: Các gen chi phối các yếu tố điều hoà phiên mã phát triển dòng lympho (PAX5, IKZF1, EBF1, LEF1), yếu tố ức chế khối u (CDKN2A, CDKN2B, RB1, TP53), các"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:5",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6916,
+            "snippet": "CHẨN ĐOÁN PHÂN BIỆT Bạch cầu cấp dòng tủy. Các bệnh ác tính khác có di căn tuỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân, sarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ; thiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch Bệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt;"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:330",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.3937,
+            "snippet": "75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và đáp ứng điều trị tấn công Lơ xê mi cấp dòng lympho trẻ em có một số biến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận văn thạc sỹ y học. Đại học Y Hà Nội. 76. Võ Thị Thanh Trúc, Cai Thị Thu Ngân, Nguyễn Thị Mỹ Hòa et al (2019). Đánh giá ý nghĩa tiên lượng của tồn lưu tế bào ác tính trong điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em. Y học TP Hồ Chí Minh. 23(6), 101-107. 77. Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh, Nguyễn Quốc Vụ Khanh et al (2019). Đánh giá hiệu quả điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em bằng phác đồ FRALLE 2000 trong 10 năm. Y học TP Hồ Chí Minh. 23(6), 108-113. 78. Cai Thị Thu Ngân, Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh et al (2019). Đánh giá hiệu quả điều trị Bệnh bạch cầu cấp dòng lympho ở trẻ em có đột biến chuyển vị t(12;21). Y học TP Hồ Chí Minh. 23(6), 114-118. 79. Pr"
+          }
+        ],
+        "score_summary": {
+          "max": 0.9935,
+          "min": 0.3937,
+          "avg": 0.7621
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 21533,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "02-04-2026-session-009",
+  "date_folder": "02-04-2026",
+  "sequence": 9,
+  "file_name": "session_009.json",
+  "created_at": "2026-04-02T13:29:28.703633",
+  "updated_at": "2026-04-02T13:29:28.703633"
+}

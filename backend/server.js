@@ -13,8 +13,7 @@ const CHAT_LOG_ROOT = path.join(__dirname, '..', 'chat_log');
 app.use(cors());
 app.use(express.json());
 
-// UPDATED: Add patient_id to session id regex
-const SESSION_ID_REGEX = /^([\w-]+)-(\d{2}-\d{2}-\d{4})-session-(\d{3})$/; // UPDATED
+const SESSION_ID_REGEX = /^([\w-]+)-(\d{2}-\d{2}-\d{4})-session-(\d{3})$/;
 
 const pad3 = (value) => String(value).padStart(3, '0');
 
@@ -42,30 +41,27 @@ const parseDateKey = (dateKey) => {
     };
 };
 
-// UPDATED: Add patientId as outer folder
-const dateFolderPath = (patientId, dateKey) => { // UPDATED
+const dateFolderPath = (patientId, dateKey) => {
     const parsed = parseDateKey(dateKey);
     if (!parsed) {
         throw new Error(`Invalid date format: ${dateKey}`);
     }
-    return path.join(CHAT_LOG_ROOT, patientId, parsed.day + '-' + parsed.month + '-' + parsed.year); // UPDATED
+    return path.join(CHAT_LOG_ROOT, patientId, parsed.day + '-' + parsed.month + '-' + parsed.year);
 };
 
 const buildSessionFileName = (sequence) => `session_${pad3(sequence)}.json`;
 
-// UPDATED: Add patientId to session id
-const buildSessionId = (patientId, dateKey, sequence) => `${patientId}-${dateKey}-session-${pad3(sequence)}`; // UPDATED
+const buildSessionId = (patientId, dateKey, sequence) => `${patientId}-${dateKey}-session-${pad3(sequence)}`;
 
-// UPDATED: Parse patientId from session id
-const parseSessionId = (sessionId) => { // UPDATED
+const parseSessionId = (sessionId) => {
     const match = SESSION_ID_REGEX.exec(sessionId);
     if (!match) {
         return null;
     }
     return {
-        patientId: match[1], // NEW
-        dateKey: match[2],   // UPDATED
-        sequence: Number(match[3]), // UPDATED
+        patientId: match[1],
+        dateKey: match[2],
+        sequence: Number(match[3]),
     };
 };
 
@@ -78,9 +74,8 @@ const writeJsonFile = (filePath, payload, options = {}) => {
     fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), options);
 };
 
-// UPDATED: Add patientId to sessionFilesForDate
-const sessionFilesForDate = (patientId, dateKey) => { // UPDATED
-    const datePath = dateFolderPath(patientId, dateKey); // UPDATED
+const sessionFilesForDate = (patientId, dateKey) => {
+    const datePath = dateFolderPath(patientId, dateKey);
     if (!fs.existsSync(datePath)) {
         return [];
     }
@@ -95,9 +90,8 @@ const sessionFilesForDate = (patientId, dateKey) => { // UPDATED
         });
 };
 
-// UPDATED: Add patientId to nextSessionSequence
-const nextSessionSequence = (patientId, dateKey) => { // UPDATED
-    const files = sessionFilesForDate(patientId, dateKey); // UPDATED
+const nextSessionSequence = (patientId, dateKey) => {
+    const files = sessionFilesForDate(patientId, dateKey);
     if (files.length === 0) {
         return 1;
     }
@@ -110,13 +104,12 @@ const nextSessionSequence = (patientId, dateKey) => { // UPDATED
     return Number(match[1]) + 1;
 };
 
-// UPDATED: Add patientId to sessionFilePathFromId
-const sessionFilePathFromId = (sessionId) => { // UPDATED
+const sessionFilePathFromId = (sessionId) => {
     const parsed = parseSessionId(sessionId);
     if (!parsed) {
         return null;
     }
-    return path.join(dateFolderPath(parsed.patientId, parsed.dateKey), buildSessionFileName(parsed.sequence)); // UPDATED
+    return path.join(dateFolderPath(parsed.patientId, parsed.dateKey), buildSessionFileName(parsed.sequence));
 };
 
 const readSessionById = (sessionId) => {
@@ -141,22 +134,21 @@ const saveSessionById = (session) => {
     writeJsonFile(filePath, session);
 };
 
-// UPDATED: Add patientId to createSessionFile
-const createSessionFile = (baseSession, patientId) => { // UPDATED
+const createSessionFile = (baseSession, patientId) => {
     const dateKey = todayDateKey();
-    const folderPath = dateFolderPath(patientId, dateKey); // UPDATED
+    const folderPath = dateFolderPath(patientId, dateKey);
     ensureDir(folderPath);
 
     for (let attempt = 0; attempt < 10; attempt += 1) {
-        const sequence = nextSessionSequence(patientId, dateKey); // UPDATED
+        const sequence = nextSessionSequence(patientId, dateKey);
         const fileName = buildSessionFileName(sequence);
         const filePath = path.join(folderPath, fileName);
-        const sessionId = buildSessionId(patientId, dateKey, sequence); // UPDATED
+        const sessionId = buildSessionId(patientId, dateKey, sequence);
 
         const session = {
             ...baseSession,
             id: sessionId,
-            patient_id: patientId, // NEW
+            patient_id: patientId,
             date_folder: dateKey,
             sequence,
             file_name: fileName,
@@ -178,10 +170,9 @@ const createSessionFile = (baseSession, patientId) => { // UPDATED
     throw new Error('Unable to allocate a new session file. Please retry.');
 };
 
-// UPDATED: Add patientId to listSessionsByDate
-const listSessionsByDate = (patientId, dateKey) => { // UPDATED
-    const files = sessionFilesForDate(patientId, dateKey); // UPDATED
-    const folderPath = dateFolderPath(patientId, dateKey); // UPDATED
+const listSessionsByDate = (patientId, dateKey) => {
+    const files = sessionFilesForDate(patientId, dateKey);
+    const folderPath = dateFolderPath(patientId, dateKey);
 
     const sessions = [];
     for (const fileName of files) {
@@ -260,6 +251,59 @@ const answerWithRag = async (query) => {
     }
 };
 
+// NEW: Build conversation context from history
+const buildConversationContext = (history) => {
+    if (!history || history.length === 0) {
+        return '';
+    }
+    
+    const contextParts = [];
+    for (let i = 0; i < history.length; i++) {
+        const turn = history[i];
+        if (turn.client) {
+            contextParts.push(`Nguoi dung: ${turn.client}`);
+        }
+        if (turn.llm) {
+            contextParts.push(`Tro ly: ${turn.llm}`);
+        }
+    }
+    
+    return contextParts.join('\n');
+};
+
+// NEW: Enhanced RAG call with conversation context
+const answerWithRagWithContext = async (query, conversationContext = '') => {
+    try {
+        let enhancedQuery = query;
+        if (conversationContext) {
+            enhancedQuery = `[Lich su hoi thoai]\n${conversationContext}\n\n[Cau hoi hien tai]\n${query}`;
+        }
+        
+        const payload = await callRagService('/rag/answer', { query: enhancedQuery });
+        return {
+            answer: payload.response,
+            retrieval: payload.retrieval,
+            diagnostics: payload.diagnostics
+        };
+    } catch (error) {
+        console.error('Gateway RAG error:', error.message);
+        return {
+            answer: 'He thong local LLM tam thoi chua san sang. Vui long kiem tra Python RAG service va Ollama.',
+            retrieval: {
+                retrieval_status: 'fallback_error',
+                top_k: 0,
+                snippets: [],
+                score_summary: null
+            },
+            diagnostics: {
+                latency_ms: 0,
+                context_used: 0,
+                error: error.message
+            }
+        };
+    }
+};
+
 const buildPromptFromFeedback = (query, feedback = null) => {
     if (!feedback) {
         return query;
@@ -280,13 +324,13 @@ const buildPromptFromFeedback = (query, feedback = null) => {
  */
 app.post('/chat/start', async (req, res) => {
     try {
-        const { query, model = 'mistral', patient_id } = req.body; // UPDATED
+        const { query, model = 'mistral', patient_id } = req.body;
         
         if (!query || query.trim() === '') {
             return res.status(400).json({ error: 'Query is required' });
         }
-        if (!patient_id || typeof patient_id !== 'string' || patient_id.trim() === '') { // NEW
-            return res.status(400).json({ error: 'patient_id is required' }); // NEW
+        if (!patient_id || typeof patient_id !== 'string' || patient_id.trim() === '') {
+            return res.status(400).json({ error: 'patient_id is required' });
         }
         
         const ragResult = await answerWithRag(query);
@@ -304,7 +348,7 @@ app.post('/chat/start', async (req, res) => {
                     diagnostics: ragResult.diagnostics
                 }
             ]
-        }, patient_id); // UPDATED
+        }, patient_id);
         
         res.json({
             session_id: createdSession.id,
@@ -397,17 +441,17 @@ app.post('/chat/feedback', async (req, res) => {
  */
 app.get('/chat/sessions', (req, res) => {
     const requestedDate = String(req.query.date || todayDateKey()).trim();
-    const patientId = String(req.query.patient_id || '').trim(); // NEW
+    const patientId = String(req.query.patient_id || '').trim();
 
     if (!parseDateKey(requestedDate)) {
         return res.status(400).json({ error: 'date must be DD-MM-YYYY' });
     }
-    if (!patientId) { // NEW
-        return res.status(400).json({ error: 'patient_id is required' }); // NEW
+    if (!patientId) {
+        return res.status(400).json({ error: 'patient_id is required' });
     }
 
     try {
-        const sessions = listSessionsByDate(patientId, requestedDate); // UPDATED
+        const sessions = listSessionsByDate(patientId, requestedDate);
         return res.json({
             date: requestedDate,
             sessions,
@@ -444,6 +488,81 @@ app.post('/rag/ingest', async (req, res) => {
     } catch (error) {
         console.error('Failed to trigger Python ingest:', error.message);
         res.status(500).json({ error: 'Failed to trigger Python ingest' });
+    }
+});
+
+// ============ NEW API FOR MULTI-TURN CONVERSATION ============
+
+/**
+ * API 6: Tiếp tục conversation trong session hiện tại
+ * POST /chat/ask
+ * 
+ * Input:
+ * {
+ *   "session_id": "...",
+ *   "query": "..."
+ * }
+ * 
+ * Output:
+ * {
+ *   "session_id": "...",
+ *   "response": "...",
+ *   "retrieval": {...}
+ * }
+ */
+app.post('/chat/ask', async (req, res) => {
+    try {
+        const { session_id, query } = req.body;
+        
+        // Validate input
+        if (!session_id || typeof session_id !== 'string' || session_id.trim() === '') {
+            return res.status(400).json({ error: 'session_id is required' });
+        }
+        
+        if (!query || typeof query !== 'string' || query.trim() === '') {
+            return res.status(400).json({ error: 'query is required' });
+        }
+        
+        // Read existing session
+        const session = readSessionById(session_id);
+        
+        if (!session) {
+            return res.status(404).json({ error: 'Session not found' });
+        }
+        
+        // Build conversation context from history
+        const conversationContext = buildConversationContext(session.history);
+        
+        // Call RAG with context
+        const ragResult = await answerWithRagWithContext(query, conversationContext);
+        const newResponse = ragResult.answer;
+        
+        // Push new history entry (keep exact same format)
+        session.history.push({
+            llm: newResponse,
+            client: null,
+            retrieval: ragResult.retrieval,
+            diagnostics: ragResult.diagnostics
+        });
+        
+        // Update session metadata
+        session.query = query;  // Update latest query
+        session.status = 'pending';  // Reset status for new question
+        session.updated_at = new Date().toISOString();
+        
+        // Save updated session
+        saveSessionById(session);
+        
+        // Return response
+        res.json({
+            session_id: session.id,
+            response: newResponse,
+            retrieval: ragResult.retrieval
+        });
+        
+    } catch (error) {
+        console.error('Failed to process ask request:', error.message);
+        res.status(500).json({ error: 'Failed to process ask request' });
     }
 });
 

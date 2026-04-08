@@ -13,7 +13,8 @@ const CHAT_LOG_ROOT = path.join(__dirname, '..', 'chat_log');
 app.use(cors());
 app.use(express.json());
 
-const SESSION_ID_REGEX = /^(\d{2}-\d{2}-\d{4})-session-(\d{3})$/;
+// UPDATED: Add patient_id to session id regex
+const SESSION_ID_REGEX = /^([\w-]+)-(\d{2}-\d{2}-\d{4})-session-(\d{3})$/; // UPDATED
 
 const pad3 = (value) => String(value).padStart(3, '0');
 
@@ -41,26 +42,30 @@ const parseDateKey = (dateKey) => {
     };
 };
 
-const dateFolderPath = (dateKey) => {
+// UPDATED: Add patientId as outer folder
+const dateFolderPath = (patientId, dateKey) => { // UPDATED
     const parsed = parseDateKey(dateKey);
     if (!parsed) {
         throw new Error(`Invalid date format: ${dateKey}`);
     }
-    return path.join(CHAT_LOG_ROOT, parsed.day + '-' + parsed.month + '-' + parsed.year);
+    return path.join(CHAT_LOG_ROOT, patientId, parsed.day + '-' + parsed.month + '-' + parsed.year); // UPDATED
 };
 
 const buildSessionFileName = (sequence) => `session_${pad3(sequence)}.json`;
 
-const buildSessionId = (dateKey, sequence) => `${dateKey}-session-${pad3(sequence)}`;
+// UPDATED: Add patientId to session id
+const buildSessionId = (patientId, dateKey, sequence) => `${patientId}-${dateKey}-session-${pad3(sequence)}`; // UPDATED
 
-const parseSessionId = (sessionId) => {
+// UPDATED: Parse patientId from session id
+const parseSessionId = (sessionId) => { // UPDATED
     const match = SESSION_ID_REGEX.exec(sessionId);
     if (!match) {
         return null;
     }
     return {
-        dateKey: match[1],
-        sequence: Number(match[2]),
+        patientId: match[1], // NEW
+        dateKey: match[2],   // UPDATED
+        sequence: Number(match[3]), // UPDATED
     };
 };
 
@@ -73,8 +78,9 @@ const writeJsonFile = (filePath, payload, options = {}) => {
     fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), options);
 };
 
-const sessionFilesForDate = (dateKey) => {
-    const datePath = dateFolderPath(dateKey);
+// UPDATED: Add patientId to sessionFilesForDate
+const sessionFilesForDate = (patientId, dateKey) => { // UPDATED
+    const datePath = dateFolderPath(patientId, dateKey); // UPDATED
     if (!fs.existsSync(datePath)) {
         return [];
     }
@@ -89,8 +95,9 @@ const sessionFilesForDate = (dateKey) => {
         });
 };
 
-const nextSessionSequence = (dateKey) => {
-    const files = sessionFilesForDate(dateKey);
+// UPDATED: Add patientId to nextSessionSequence
+const nextSessionSequence = (patientId, dateKey) => { // UPDATED
+    const files = sessionFilesForDate(patientId, dateKey); // UPDATED
     if (files.length === 0) {
         return 1;
     }
@@ -103,13 +110,13 @@ const nextSessionSequence = (dateKey) => {
     return Number(match[1]) + 1;
 };
 
-const sessionFilePathFromId = (sessionId) => {
+// UPDATED: Add patientId to sessionFilePathFromId
+const sessionFilePathFromId = (sessionId) => { // UPDATED
     const parsed = parseSessionId(sessionId);
     if (!parsed) {
         return null;
     }
-
-    return path.join(dateFolderPath(parsed.dateKey), buildSessionFileName(parsed.sequence));
+    return path.join(dateFolderPath(parsed.patientId, parsed.dateKey), buildSessionFileName(parsed.sequence)); // UPDATED
 };
 
 const readSessionById = (sessionId) => {
@@ -134,20 +141,22 @@ const saveSessionById = (session) => {
     writeJsonFile(filePath, session);
 };
 
-const createSessionFile = (baseSession) => {
+// UPDATED: Add patientId to createSessionFile
+const createSessionFile = (baseSession, patientId) => { // UPDATED
     const dateKey = todayDateKey();
-    const folderPath = dateFolderPath(dateKey);
+    const folderPath = dateFolderPath(patientId, dateKey); // UPDATED
     ensureDir(folderPath);
 
     for (let attempt = 0; attempt < 10; attempt += 1) {
-        const sequence = nextSessionSequence(dateKey);
+        const sequence = nextSessionSequence(patientId, dateKey); // UPDATED
         const fileName = buildSessionFileName(sequence);
         const filePath = path.join(folderPath, fileName);
-        const sessionId = buildSessionId(dateKey, sequence);
+        const sessionId = buildSessionId(patientId, dateKey, sequence); // UPDATED
 
         const session = {
             ...baseSession,
             id: sessionId,
+            patient_id: patientId, // NEW
             date_folder: dateKey,
             sequence,
             file_name: fileName,
@@ -169,9 +178,10 @@ const createSessionFile = (baseSession) => {
     throw new Error('Unable to allocate a new session file. Please retry.');
 };
 
-const listSessionsByDate = (dateKey) => {
-    const files = sessionFilesForDate(dateKey);
-    const folderPath = dateFolderPath(dateKey);
+// UPDATED: Add patientId to listSessionsByDate
+const listSessionsByDate = (patientId, dateKey) => { // UPDATED
+    const files = sessionFilesForDate(patientId, dateKey); // UPDATED
+    const folderPath = dateFolderPath(patientId, dateKey); // UPDATED
 
     const sessions = [];
     for (const fileName of files) {
@@ -270,10 +280,13 @@ const buildPromptFromFeedback = (query, feedback = null) => {
  */
 app.post('/chat/start', async (req, res) => {
     try {
-        const { query, model = 'mistral' } = req.body;
+        const { query, model = 'mistral', patient_id } = req.body; // UPDATED
         
         if (!query || query.trim() === '') {
             return res.status(400).json({ error: 'Query is required' });
+        }
+        if (!patient_id || typeof patient_id !== 'string' || patient_id.trim() === '') { // NEW
+            return res.status(400).json({ error: 'patient_id is required' }); // NEW
         }
         
         const ragResult = await answerWithRag(query);
@@ -291,7 +304,7 @@ app.post('/chat/start', async (req, res) => {
                     diagnostics: ragResult.diagnostics
                 }
             ]
-        });
+        }, patient_id); // UPDATED
         
         res.json({
             session_id: createdSession.id,
@@ -384,13 +397,17 @@ app.post('/chat/feedback', async (req, res) => {
  */
 app.get('/chat/sessions', (req, res) => {
     const requestedDate = String(req.query.date || todayDateKey()).trim();
+    const patientId = String(req.query.patient_id || '').trim(); // NEW
 
     if (!parseDateKey(requestedDate)) {
         return res.status(400).json({ error: 'date must be DD-MM-YYYY' });
     }
+    if (!patientId) { // NEW
+        return res.status(400).json({ error: 'patient_id is required' }); // NEW
+    }
 
     try {
-        const sessions = listSessionsByDate(requestedDate);
+        const sessions = listSessionsByDate(patientId, requestedDate); // UPDATED
         return res.json({
             date: requestedDate,
             sessions,

@@ -183,6 +183,7 @@ const listSessionsByDate = (dateKey) => {
                 file_name: session.file_name,
                 status: session.status,
                 model: session.model,
+                retrieval_mode: session.retrieval_mode,
                 query: session.query,
                 created_at: session.created_at,
                 updated_at: session.updated_at,
@@ -223,9 +224,14 @@ const callRagService = async (pathName, payload = null) => {
     }
 };
 
-const answerWithRag = async (query) => {
+const answerWithRag = async (query, options = {}) => {
     try {
-        const payload = await callRagService('/rag/answer', { query });
+        const requestPayload = {
+            query,
+            model: options.model || null,
+            retrieval_mode: options.retrieval_mode || null,
+        };
+        const payload = await callRagService('/rag/answer', requestPayload);
         return {
             answer: payload.response,
             retrieval: payload.retrieval,
@@ -270,17 +276,24 @@ const buildPromptFromFeedback = (query, feedback = null) => {
  */
 app.post('/chat/start', async (req, res) => {
     try {
-        const { query, model = 'mistral' } = req.body;
+        const { query, model = 'mistral', retrieval_mode = null } = req.body;
         
         if (!query || query.trim() === '') {
             return res.status(400).json({ error: 'Query is required' });
         }
         
-        const ragResult = await answerWithRag(query);
+        const ragResult = await answerWithRag(query, {
+            model,
+            retrieval_mode,
+        });
         const initialResponse = ragResult.answer;
+        const diagnostics = ragResult.diagnostics || {};
+        const modelUsed = diagnostics.model_alias || model;
+        const retrievalModeUsed = (ragResult.retrieval && ragResult.retrieval.retrieval_mode) || retrieval_mode || null;
 
         const createdSession = createSessionFile({
-            model: model,
+            model: modelUsed,
+            retrieval_mode: retrievalModeUsed,
             query: query,
             status: 'pending',
             history: [
@@ -288,7 +301,19 @@ app.post('/chat/start', async (req, res) => {
                     llm: initialResponse,
                     client: null,
                     retrieval: ragResult.retrieval,
-                    diagnostics: ragResult.diagnostics
+                    diagnostics: ragResult.diagnostics,
+                    model_alias: diagnostics.model_alias || modelUsed,
+                    model_provider: diagnostics.provider || null,
+                    model_name: diagnostics.model_name || null,
+                    retrieval_mode: retrievalModeUsed,
+                    provider_metadata: {
+                        request_id: diagnostics.request_id || null,
+                        retry_count: diagnostics.retry_count || 0,
+                        fallback_used: diagnostics.fallback_used || null,
+                        fallback_reason: diagnostics.fallback_reason || null,
+                        error_category: diagnostics.error_category || null,
+                        http_status: diagnostics.http_status || null,
+                    }
                 }
             ]
         });
@@ -296,7 +321,10 @@ app.post('/chat/start', async (req, res) => {
         res.json({
             session_id: createdSession.id,
             response: initialResponse,
-            retrieval: ragResult.retrieval
+            retrieval: ragResult.retrieval,
+            diagnostics: ragResult.diagnostics,
+            model_used: modelUsed,
+            retrieval_mode_used: retrievalModeUsed,
         });
     } catch (error) {
         console.error('Failed to start chat session:', error.message);
@@ -310,7 +338,7 @@ app.post('/chat/start', async (req, res) => {
  */
 app.post('/chat/feedback', async (req, res) => {
     try {
-        const { session_id, action, feedback } = req.body;
+        const { session_id, action, feedback, model = null, retrieval_mode = null } = req.body;
         
         if (!session_id || !action) {
             return res.status(400).json({ error: 'session_id and action are required' });
@@ -344,18 +372,43 @@ app.post('/chat/feedback', async (req, res) => {
             if (lastIndex >= 0 && feedback) {
                 session.history[lastIndex].client = feedback;
             }
+
+            const lastHistory = lastIndex >= 0 ? session.history[lastIndex] : null;
+            const effectiveModel = model || (lastHistory && lastHistory.model_alias) || session.model || 'mistral';
+            const effectiveRetrievalMode = retrieval_mode || (lastHistory && lastHistory.retrieval_mode) || session.retrieval_mode || null;
             
             const followupQuery = buildPromptFromFeedback(session.query, feedback);
-            const ragResult = await answerWithRag(followupQuery);
+            const ragResult = await answerWithRag(followupQuery, {
+                model: effectiveModel,
+                retrieval_mode: effectiveRetrievalMode,
+            });
             const newResponse = ragResult.answer;
+            const diagnostics = ragResult.diagnostics || {};
+            const modelUsed = diagnostics.model_alias || effectiveModel;
+            const retrievalModeUsed = (ragResult.retrieval && ragResult.retrieval.retrieval_mode) || effectiveRetrievalMode;
             
             // Add new AI response to history
             session.history.push({
                 llm: newResponse,
                 client: null,
                 retrieval: ragResult.retrieval,
-                diagnostics: ragResult.diagnostics
+                diagnostics: ragResult.diagnostics,
+                model_alias: modelUsed,
+                model_provider: diagnostics.provider || null,
+                model_name: diagnostics.model_name || null,
+                retrieval_mode: retrievalModeUsed,
+                provider_metadata: {
+                    request_id: diagnostics.request_id || null,
+                    retry_count: diagnostics.retry_count || 0,
+                    fallback_used: diagnostics.fallback_used || null,
+                    fallback_reason: diagnostics.fallback_reason || null,
+                    error_category: diagnostics.error_category || null,
+                    http_status: diagnostics.http_status || null,
+                }
             });
+
+            session.model = modelUsed;
+            session.retrieval_mode = retrievalModeUsed;
             
             // Status remains pending
             session.status = 'pending';
@@ -366,7 +419,10 @@ app.post('/chat/feedback', async (req, res) => {
             res.json({
                 status: 'pending',
                 response: newResponse,
-                retrieval: ragResult.retrieval
+                retrieval: ragResult.retrieval,
+                diagnostics: ragResult.diagnostics,
+                model_used: modelUsed,
+                retrieval_mode_used: retrievalModeUsed,
             });
         } 
         else {

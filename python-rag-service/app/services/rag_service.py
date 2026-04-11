@@ -1,7 +1,9 @@
 from __future__ import annotations
 
+import random
 import time
 from dataclasses import dataclass
+from typing import Any, Callable
 
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
@@ -10,7 +12,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import ChatOllama
 
-from app.settings import SUPPORTED_RETRIEVAL_MODES, settings
+from app.settings import SUPPORTED_CHAT_MODELS, SUPPORTED_RETRIEVAL_MODES, settings
 from app.utils.Advance_RAG_chunking import MedicalDocumentChunker
 from app.utils.hybrid_retriever import HybridRetriever
 from app.utils.reranker import Reranker
@@ -25,10 +27,52 @@ class RetrievalItem:
     text: str
 
 
+@dataclass
+class ProviderCallResult:
+    text: str
+    provider: str
+    model_alias: str
+    model_name: str
+    retry_count: int = 0
+    error_category: str | None = None
+    http_status: int | None = None
+    request_id: str | None = None
+    fallback_used: str | None = None
+    fallback_reason: str | None = None
+    quota_remaining: int | None = None
+    rate_limit_reset_seconds: int | None = None
+    source_error: str | None = None
+
+
+class ProviderInvocationError(RuntimeError):
+    def __init__(
+        self,
+        message: str,
+        *,
+        error_category: str,
+        http_status: int | None,
+        request_id: str | None,
+        retry_count: int,
+        rate_limit_reset_seconds: int | None,
+    ) -> None:
+        super().__init__(message)
+        self.error_category = error_category
+        self.http_status = http_status
+        self.request_id = request_id
+        self.retry_count = retry_count
+        self.rate_limit_reset_seconds = rate_limit_reset_seconds
+
+
 class RagService:
     _ingest_batch_size = 1
     _mode_aliases = {
         'hybrid': 'hybrid_rrf',
+    }
+    _transient_error_categories = {
+        'timeout',
+        'rate_limited',
+        'provider_unavailable',
+        'network_error',
     }
 
     def __init__(self) -> None:
@@ -36,37 +80,46 @@ class RagService:
             model_name=settings.embedding_model,
             model_kwargs={'trust_remote_code': True},
         )
-        self._chat = ChatOllama(
-            model=settings.chat_model,
-            base_url=settings.ollama_base_url,
-            temperature=0,
+        self._chat_clients: dict[str, ChatOllama] = {}
+        self._openai_client: Any = None
+        self._gemini_client: Any = None
+        self._provider_cooldown_until = {
+            'gpt': 0.0,
+            'gemini': 0.0,
+        }
+
+        self._system_prompt = (
+            'Bạn là một chuyên gia y khoa tận tâm, chính xác và chuyên nghiệp.\n\n'
+            'MỤC TIÊU:\n'
+            '1) Trả lời trực diện: Câu đầu tiên phải trả lời thẳng vào câu hỏi của người dùng.\n'
+            '2) Bao phủ thông tin liên quan: Sau câu mở đầu, tổng hợp ĐẦY ĐỦ các thông tin LIÊN QUAN TRỰC TIẾP từ Context.\n'
+            '3) Trung thực dữ liệu: Chỉ dùng dữ kiện có trong Context, không suy diễn hoặc bịa thêm.\n'
+            '4) An toàn y khoa: Không khẳng định chẩn đoán tuyệt đối khi Context chưa đủ; nêu rõ giới hạn dữ liệu khi cần.\n\n'
+            'QUY TẮC TỔNG HỢP CONTEXT:\n'
+            '- Ưu tiên thông tin liên quan trực tiếp câu hỏi; bỏ qua chi tiết không liên quan.\n'
+            '- Gộp các ý trùng lặp, tránh lặp lại cùng một thông tin.\n'
+            '- Nếu có thông tin mâu thuẫn giữa các đoạn context, nêu rõ mâu thuẫn và trả lời theo hướng thận trọng.\n\n'
+            '- Không dùng các cụm như: "Theo tài liệu", "Dựa vào context được cung cấp", "Trong văn bản có nói".\n'
         )
-        system_prompt = (
-            'Bạn là chuyên gia y khoa.\n\n'
-            '1. NHIỆM VỤ:\n'
-            '- Trả lời trực tiếp câu hỏi người dùng ngay ở câu đầu tiên.\n'
-            '- Luôn đối chiếu thông tin trong context và không bịa thêm chi tiết ngoài context.\n'
-            '- Nếu context yếu hoặc thiếu, nêu rõ mức độ chưa chắc chắn thay vì khẳng định tuyệt đối.\n'
-            '2. Format trả lời\n'
-            '- Trình bày rõ ràng, mạch lạc và tự nhiên.\n'
-            '- Mở đầu bằng câu trả lời trực diện, sau đó mới mở rộng bằng các ý chính dạng gạch đầu dòng.\n'
-            '- Không mở đầu bằng các cụm như: "bạn đang xem tài liệu", "theo tài liệu", "dựa trên tài liệu".\n'
-            '- Không giải thích nguồn tài liệu ở phần mở đầu câu trả lời.\n'
-        )
-        human_prompt = (
-            'CÂU HỎI NGƯỜI DÙNG:\n'
-            '{query}\n\n'
-            'CONTEXT:\n'
-            '{context_block}\n\n'
-            'TRẢ LỜI (câu đầu tiên phải trả lời trực diện câu hỏi):'
+
+        self._human_prompt = (
+            'Hãy đọc kỹ toàn bộ context trước khi trả lời.\n\n'
+            '=== CONTEXT ===\n'
+            '{context_block}\n'
+            '===============\n\n'
+            'CÂU HỎI CỦA NGƯỜI DÙNG: {query}\n\n'
+            'YÊU CẦU THỰC HIỆN:\n'
+            '- Trả lời đúng trọng tâm câu hỏi.\n'
+            '- Bao phủ đủ ý liên quan trong context, không bỏ sót ý quan trọng.\n'
+            'TRẢ LỜI:'
         )
         self._prompt = ChatPromptTemplate.from_messages(
             [
-                ('system', system_prompt),
-                ('human', human_prompt),
+                ('system', self._system_prompt),
+                ('human', self._human_prompt),
             ]
         )
-        self._qa_chain = self._prompt | self._chat | StrOutputParser()
+        self._output_parser = StrOutputParser()
 
         # Init retrieval components
         self._sparse_retriever = SparseRetriever()
@@ -94,8 +147,8 @@ class RagService:
                     )
                 if existing_chunks:
                     self._sparse_retriever.build_index(existing_chunks)
-        except Exception as e:
-            print(f'[RagService] Could not preload BM25 index: {e}')
+        except Exception as exc:
+            print(f'[RagService] Could not preload BM25 index: {exc}')
 
     def _resolve_mode(self, mode: str | None = None) -> str:
         selected = (mode or settings.retrieval_mode).strip().lower()
@@ -103,6 +156,320 @@ class RagService:
         if selected not in SUPPORTED_RETRIEVAL_MODES:
             return 'hybrid_original'
         return selected
+
+    def _resolve_model_alias(self, model: str | None = None) -> str:
+        selected = (model or settings.default_chat_model_alias).strip().lower()
+        if selected not in SUPPORTED_CHAT_MODELS:
+            return settings.default_chat_model_alias
+        return selected
+
+    @staticmethod
+    def _extract_http_status(exc: Exception) -> int | None:
+        status = getattr(exc, 'status_code', None)
+        if isinstance(status, int):
+            return status
+
+        response = getattr(exc, 'response', None)
+        if response is not None:
+            status = getattr(response, 'status_code', None)
+            if isinstance(status, int):
+                return status
+            status = getattr(response, 'status', None)
+            if isinstance(status, int):
+                return status
+        return None
+
+    @staticmethod
+    def _extract_request_id(exc: Exception) -> str | None:
+        request_id = getattr(exc, 'request_id', None)
+        if isinstance(request_id, str) and request_id.strip():
+            return request_id.strip()
+
+        response = getattr(exc, 'response', None)
+        headers = getattr(response, 'headers', None)
+        if headers is not None and hasattr(headers, 'get'):
+            for key in ('x-request-id', 'request-id', 'x-google-request-id'):
+                value = headers.get(key)
+                if isinstance(value, str) and value.strip():
+                    return value.strip()
+        return None
+
+    @staticmethod
+    def _extract_retry_after_seconds(exc: Exception) -> int | None:
+        response = getattr(exc, 'response', None)
+        headers = getattr(response, 'headers', None)
+        if headers is None or not hasattr(headers, 'get'):
+            return None
+
+        retry_after = headers.get('retry-after')
+        if retry_after is None:
+            return None
+
+        try:
+            seconds = int(float(str(retry_after).strip()))
+        except Exception:
+            return None
+        if seconds < 0:
+            return None
+        return seconds
+
+    def _is_provider_in_cooldown(self, model_alias: str) -> bool:
+        if model_alias not in self._provider_cooldown_until:
+            return False
+        return time.time() < self._provider_cooldown_until[model_alias]
+
+    def _set_provider_cooldown(self, model_alias: str) -> int:
+        seconds = max(0, int(settings.rate_limit_cooldown_seconds))
+        self._provider_cooldown_until[model_alias] = time.time() + seconds
+        return seconds
+
+    def _classify_provider_error(self, exc: Exception) -> str:
+        message = str(exc).lower()
+        status = self._extract_http_status(exc)
+        class_name = type(exc).__name__.lower()
+
+        if status == 429 or 'rate limit' in message or 'too many requests' in message or 'resource exhausted' in message:
+            if 'quota' in message or 'insufficient_quota' in message:
+                return 'quota_exceeded'
+            return 'rate_limited'
+
+        if status in {401, 403} or 'api key' in message or 'unauthorized' in message or 'permission' in message:
+            return 'auth_error'
+
+        if status in {400, 404, 422} or 'invalid' in message:
+            return 'invalid_request'
+
+        if status in {408, 504} or 'timeout' in message or 'deadline exceeded' in message or 'apitimeouterror' in class_name:
+            return 'timeout'
+
+        if status is not None and status >= 500:
+            return 'provider_unavailable'
+
+        if 'connection' in message or 'network' in message or 'temporarily unavailable' in message:
+            return 'network_error'
+
+        return 'internal_error'
+
+    def _invoke_with_retry(
+        self,
+        provider_alias: str,
+        call: Callable[[], tuple[str, dict[str, Any]]],
+    ) -> tuple[str, dict[str, Any], int, int | None]:
+        max_attempts = max(1, int(settings.provider_retry_attempts) + 1)
+        retry_count = 0
+
+        for attempt in range(max_attempts):
+            try:
+                text, metadata = call()
+                return text, metadata, retry_count, None
+            except Exception as exc:
+                error_category = self._classify_provider_error(exc)
+                status = self._extract_http_status(exc)
+                request_id = self._extract_request_id(exc)
+                retry_after_seconds = self._extract_retry_after_seconds(exc)
+                transient = error_category in self._transient_error_categories
+
+                if (not transient) or attempt == max_attempts - 1:
+                    raise ProviderInvocationError(
+                        str(exc),
+                        error_category=error_category,
+                        http_status=status,
+                        request_id=request_id,
+                        retry_count=retry_count,
+                        rate_limit_reset_seconds=retry_after_seconds,
+                    ) from exc
+
+                retry_count += 1
+                wait_seconds = retry_after_seconds
+                if wait_seconds is None:
+                    wait_seconds = int(min(8.0, (2 ** attempt) + random.uniform(0.0, 0.5)))
+                time.sleep(max(1, wait_seconds))
+
+        raise ProviderInvocationError(
+            f'{provider_alias} provider invocation failed unexpectedly.',
+            error_category='internal_error',
+            http_status=None,
+            request_id=None,
+            retry_count=retry_count,
+            rate_limit_reset_seconds=None,
+        )
+
+    def _invoke_mistral(self, query: str, context_block: str) -> tuple[str, dict[str, Any]]:
+        model_name = settings.chat_model
+        chat = self._chat_clients.get(model_name)
+        if chat is None:
+            chat = ChatOllama(
+                model=model_name,
+                base_url=settings.ollama_base_url,
+                temperature=0,
+            )
+            self._chat_clients[model_name] = chat
+
+        qa_chain = self._prompt | chat | self._output_parser
+        text = qa_chain.invoke(
+            {
+                'query': query,
+                'context_block': context_block,
+            }
+        )
+        return str(text).strip(), {
+            'provider': 'ollama',
+            'model_name': model_name,
+            'request_id': None,
+            'quota_remaining': None,
+            'tokens_total': None,
+        }
+
+    def _invoke_openai(self, query: str, context_block: str) -> tuple[str, dict[str, Any]]:
+        if not settings.openai_api_key or not settings.openai_chat_model:
+            raise RuntimeError('OpenAI provider is not configured. Missing OPENAI_API_KEY or OPENAI_CHAT_MODEL.')
+
+        try:
+            from openai import OpenAI
+        except Exception as exc:
+            raise RuntimeError('OpenAI SDK is not installed. Please install openai package.') from exc
+
+        if self._openai_client is None:
+            self._openai_client = OpenAI(
+                api_key=settings.openai_api_key,
+                timeout=settings.provider_timeout_seconds,
+            )
+
+        response = self._openai_client.chat.completions.create(
+            model=settings.openai_chat_model,
+            messages=[
+                {'role': 'system', 'content': self._system_prompt},
+                {
+                    'role': 'user',
+                    'content': self._human_prompt.format(
+                        query=query,
+                        context_block=context_block,
+                    ),
+                },
+            ],
+            temperature=0,
+        )
+
+        content = ''
+        if response.choices:
+            content = response.choices[0].message.content or ''
+
+        usage = getattr(response, 'usage', None)
+        tokens_total = getattr(usage, 'total_tokens', None) if usage is not None else None
+        return str(content).strip(), {
+            'provider': 'openai',
+            'model_name': settings.openai_chat_model,
+            'request_id': getattr(response, 'id', None),
+            'quota_remaining': None,
+            'tokens_total': int(tokens_total) if isinstance(tokens_total, int) else None,
+        }
+
+    def _invoke_gemini(self, query: str, context_block: str) -> tuple[str, dict[str, Any]]:
+        if not settings.gemini_api_key or not settings.gemini_chat_model:
+            raise RuntimeError('Gemini provider is not configured. Missing GEMINI_API_KEY or GEMINI_CHAT_MODEL.')
+
+        try:
+            import google.generativeai as genai
+        except Exception as exc:
+            raise RuntimeError('Google Generative AI SDK is not installed. Please install google-generativeai package.') from exc
+
+        if self._gemini_client is None:
+            genai.configure(api_key=settings.gemini_api_key)
+            self._gemini_client = genai.GenerativeModel(settings.gemini_chat_model)
+
+        prompt = (
+            f'{self._system_prompt}\n\n'
+            f"{self._human_prompt.format(query=query, context_block=context_block)}"
+        )
+        response = self._gemini_client.generate_content(
+            prompt,
+            generation_config={'temperature': 0},
+            request_options={'timeout': settings.provider_timeout_seconds},
+        )
+
+        content = getattr(response, 'text', '') or ''
+        usage = getattr(response, 'usage_metadata', None)
+        tokens_total = getattr(usage, 'total_token_count', None) if usage is not None else None
+
+        return str(content).strip(), {
+            'provider': 'gemini',
+            'model_name': settings.gemini_chat_model,
+            'request_id': None,
+            'quota_remaining': None,
+            'tokens_total': int(tokens_total) if isinstance(tokens_total, int) else None,
+        }
+
+    def _invoke_provider(self, model_alias: str, query: str, context_block: str) -> ProviderCallResult:
+        if model_alias == 'mistral':
+            text, metadata = self._invoke_mistral(query, context_block)
+            return ProviderCallResult(
+                text=text,
+                provider='ollama',
+                model_alias='mistral',
+                model_name=str(metadata.get('model_name') or settings.chat_model),
+            )
+
+        if model_alias == 'gpt':
+            provider_name = 'openai'
+            provider_call: Callable[[], tuple[str, dict[str, Any]]] = lambda: self._invoke_openai(query, context_block)
+        else:
+            provider_name = 'gemini'
+            provider_call = lambda: self._invoke_gemini(query, context_block)
+
+        if self._is_provider_in_cooldown(model_alias):
+            if settings.fallback_on_provider_error:
+                text, metadata = self._invoke_mistral(query, context_block)
+                return ProviderCallResult(
+                    text=text,
+                    provider='ollama',
+                    model_alias='mistral',
+                    model_name=str(metadata.get('model_name') or settings.chat_model),
+                    fallback_used='mistral',
+                    fallback_reason=f'{model_alias}_cooldown',
+                    error_category='rate_limited',
+                )
+            raise ProviderInvocationError(
+                f'{provider_name} provider is cooling down after rate limit.',
+                error_category='rate_limited',
+                http_status=429,
+                request_id=None,
+                retry_count=0,
+                rate_limit_reset_seconds=settings.rate_limit_cooldown_seconds,
+            )
+
+        try:
+            text, metadata, retry_count, retry_after_seconds = self._invoke_with_retry(model_alias, provider_call)
+            return ProviderCallResult(
+                text=text,
+                provider=str(metadata.get('provider') or provider_name),
+                model_alias=model_alias,
+                model_name=str(metadata.get('model_name') or ''),
+                retry_count=retry_count,
+                request_id=metadata.get('request_id'),
+                quota_remaining=metadata.get('quota_remaining'),
+                rate_limit_reset_seconds=retry_after_seconds,
+            )
+        except ProviderInvocationError as exc:
+            if exc.error_category in {'rate_limited', 'quota_exceeded'}:
+                self._set_provider_cooldown(model_alias)
+
+            if settings.fallback_on_provider_error:
+                text, metadata = self._invoke_mistral(query, context_block)
+                return ProviderCallResult(
+                    text=text,
+                    provider='ollama',
+                    model_alias='mistral',
+                    model_name=str(metadata.get('model_name') or settings.chat_model),
+                    retry_count=exc.retry_count,
+                    error_category=exc.error_category,
+                    http_status=exc.http_status,
+                    request_id=exc.request_id,
+                    fallback_used='mistral',
+                    fallback_reason=f'{provider_name}_{exc.error_category}',
+                    rate_limit_reset_seconds=exc.rate_limit_reset_seconds,
+                    source_error=str(exc),
+                )
+            raise
 
     @staticmethod
     def _summarize_scores(items: list[RetrievalItem]) -> dict[str, float] | None:
@@ -394,15 +761,18 @@ class RagService:
     def _retrieve(self, query: str, mode: str | None = None) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
         return self.retrieve(query=query, mode=mode)
 
-    def answer(self, query: str) -> dict:
+    def answer(self, query: str, model: str | None = None, retrieval_mode: str | None = None) -> dict:
         started = time.time()
+        effective_model_alias = self._resolve_model_alias(model)
+        effective_retrieval_mode = self._resolve_mode(retrieval_mode)
+
         try:
-            selected, status, score_summary = self.retrieve(query)
-            text = self._qa_chain.invoke(
-                {
-                    'query': query,
-                    'context_block': self._context_block(selected),
-                }
+            selected, status, score_summary = self.retrieve(query, mode=effective_retrieval_mode)
+            context_block = self._context_block(selected)
+            generation = self._invoke_provider(
+                model_alias=effective_model_alias,
+                query=query,
+                context_block=context_block,
             )
 
             snippets = [
@@ -416,11 +786,12 @@ class RagService:
             ]
 
             return {
-                'response': str(text).strip(),
+                'response': generation.text,
                 'retrieval': {
                     'retrieval_status': status,
                     'top_k': len(selected),
                     'snippets': snippets,
+                    'retrieval_mode': effective_retrieval_mode,
                     'score_summary': (
                         {
                             'max': round(score_summary['max'], 4),
@@ -434,7 +805,18 @@ class RagService:
                 'diagnostics': {
                     'latency_ms': int((time.time() - started) * 1000),
                     'context_used': len(selected),
-                    'error': None,
+                    'error': generation.source_error,
+                    'provider': generation.provider,
+                    'model_alias': generation.model_alias,
+                    'model_name': generation.model_name,
+                    'error_category': generation.error_category,
+                    'http_status': generation.http_status,
+                    'retry_count': generation.retry_count,
+                    'request_id': generation.request_id,
+                    'fallback_used': generation.fallback_used,
+                    'fallback_reason': generation.fallback_reason,
+                    'quota_remaining': generation.quota_remaining,
+                    'rate_limit_reset_seconds': generation.rate_limit_reset_seconds,
                 },
             }
         except Exception as exc:
@@ -444,12 +826,24 @@ class RagService:
                     'retrieval_status': 'fallback_error',
                     'top_k': 0,
                     'snippets': [],
+                    'retrieval_mode': effective_retrieval_mode,
                     'score_summary': None,
                 },
                 'diagnostics': {
                     'latency_ms': int((time.time() - started) * 1000),
                     'context_used': 0,
                     'error': str(exc),
+                    'provider': 'none',
+                    'model_alias': effective_model_alias,
+                    'model_name': None,
+                    'error_category': 'internal_error',
+                    'http_status': None,
+                    'retry_count': 0,
+                    'request_id': None,
+                    'fallback_used': None,
+                    'fallback_reason': None,
+                    'quota_remaining': None,
+                    'rate_limit_reset_seconds': None,
                 },
             }
 

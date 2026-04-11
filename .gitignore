@@ -6,9 +6,17 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .venv/
+.env
+.env.local
+*.env.local
+python-rag-service/.env
 
 # Vector DB artifacts
 backend/data/chroma/
+data/chroma/
+
+# Node
+node_modules/
 
 # OS
 .DS_Store

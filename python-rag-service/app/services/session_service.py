@@ -154,6 +154,7 @@ class SessionService:
                         'file_name': session.get('file_name', file_name),
                         'status': session.get('status', 'pending'),
                         'model': session.get('model', 'mistral'),
+                        'retrieval_mode': session.get('retrieval_mode'),
                         'query': session.get('query', ''),
                         'created_at': session.get('created_at', ''),
                         'updated_at': session.get('updated_at', ''),

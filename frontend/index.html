@@ -411,11 +411,18 @@
                         <label>Model:</label>
                         <select id="modelSelect">
                             <option value="mistral">Mistral</option>
-                            <option value="deepseek">DeepSeek</option>
-                            <option value="gpt-3.5">GPT-3.5 Turbo</option>
-                            <option value="gpt-4">GPT-4</option>
-                            <option value="claude-2">Claude 2</option>
-                            <option value="gemini-pro">Gemini Pro</option>
+                            <option value="gpt">GPT</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                    </div>
+                    <div class="model-selector">
+                        <label>Retrieval:</label>
+                        <select id="retrievalSelect">
+                            <option value="hybrid_original">hybrid_original</option>
+                            <option value="dense_only">dense_only</option>
+                            <option value="sparse_only">sparse_only</option>
+                            <option value="hybrid_rrf">hybrid_rrf</option>
+                            <option value="cross_encoder_only">cross_encoder_only</option>
                         </select>
                     </div>
                 </div>
@@ -439,12 +446,14 @@
         let waitingForFeedback = false;
         let currentMessageIndex = null;
         let currentModel = 'mistral';
+        let currentRetrievalMode = 'hybrid_original';
 
         // DOM elements
         const chatMessages = document.getElementById('chatMessages');
         const messageInput = document.getElementById('messageInput');
         const sendBtn = document.getElementById('sendBtn');
         const modelSelect = document.getElementById('modelSelect');
+        const retrievalSelect = document.getElementById('retrievalSelect');
         const sessionList = document.getElementById('sessionList');
         const newSessionBtn = document.getElementById('newSessionBtn');
         const refreshSessionsBtn = document.getElementById('refreshSessionsBtn');
@@ -496,11 +505,8 @@
         function getModelDisplayName(modelId) {
             const models = {
                 'mistral': 'Mistral',
-                'deepseek': 'DeepSeek',
-                'gpt-3.5': 'GPT-3.5',
-                'gpt-4': 'GPT-4',
-                'claude-2': 'Claude 2',
-                'gemini-pro': 'Gemini Pro'
+                'gpt': 'GPT',
+                'gemini': 'Gemini'
             };
             return models[modelId] || modelId;
         }
@@ -520,7 +526,8 @@
             if (type === 'ai' && retrieval) {
                 const status = retrieval.retrieval_status || 'unknown';
                 const topK = Number(retrieval.top_k || 0);
-                retrievalBadge = `<span class="retrieval-badge">RAG: ${status} | top-${topK}</span>`;
+                const mode = retrieval.retrieval_mode || null;
+                retrievalBadge = `<span class="retrieval-badge">RAG: ${status} | top-${topK}${mode ? ` | ${escapeHtml(mode)}` : ''}</span>`;
 
                 if (Array.isArray(retrieval.snippets) && retrieval.snippets.length > 0) {
                     const snippetLines = retrieval.snippets
@@ -656,6 +663,14 @@
                 currentSessionId = session.id;
                 currentSessionStatus = session.status || 'pending';
                 currentModel = session.model || currentModel;
+                currentRetrievalMode = session.retrieval_mode || currentRetrievalMode;
+
+                if (modelSelect.querySelector(`option[value="${currentModel}"]`)) {
+                    modelSelect.value = currentModel;
+                }
+                if (retrievalSelect.querySelector(`option[value="${currentRetrievalMode}"]`)) {
+                    retrievalSelect.value = currentRetrievalMode;
+                }
 
                 clearChatView();
                 addMessage(`Session ${session.file_name || session.id}`, 'ai');
@@ -670,6 +685,14 @@
                         addMessage(`Feedback: ${item.client}`, 'user');
                     }
                 });
+
+                const latestHistory = history.length > 0 ? history[history.length - 1] : null;
+                if (latestHistory && latestHistory.retrieval_mode) {
+                    currentRetrievalMode = latestHistory.retrieval_mode;
+                    if (retrievalSelect.querySelector(`option[value="${currentRetrievalMode}"]`)) {
+                        retrievalSelect.value = currentRetrievalMode;
+                    }
+                }
 
                 if (currentSessionStatus === 'pending' && lastAiMessage) {
                     addFeedbackButtons(lastAiMessage, Math.max(0, history.length - 1));
@@ -703,7 +726,9 @@
                     body: JSON.stringify({
                         session_id: currentSessionId,
                         action: action,
-                        feedback: feedback
+                        feedback: feedback,
+                        model: modelSelect.value,
+                        retrieval_mode: retrievalSelect.value
                     })
                 });
 
@@ -715,6 +740,15 @@
                     currentSessionStatus = 'agreed';
                     setComposerEnabled(true);
                 } else if (action === 'disagree' && data.response) {
+                    currentModel = data.model_used || modelSelect.value;
+                    currentRetrievalMode = data.retrieval_mode_used || retrievalSelect.value;
+                    if (modelSelect.querySelector(`option[value="${currentModel}"]`)) {
+                        modelSelect.value = currentModel;
+                    }
+                    if (retrievalSelect.querySelector(`option[value="${currentRetrievalMode}"]`)) {
+                        retrievalSelect.value = currentRetrievalMode;
+                    }
+
                     // Add the new AI response
                     const newAIMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                     addFeedbackButtons(newAIMessage, messageIndex + 1);
@@ -747,6 +781,7 @@
 
             // Lấy model đang chọn
             currentModel = modelSelect.value;
+            currentRetrievalMode = retrievalSelect.value;
 
             // Disable input while waiting for response
             messageInput.disabled = true;
@@ -764,7 +799,8 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({
                         query: query,
-                        model: currentModel  // <--- Gửi model lên backend
+                        model: currentModel,
+                        retrieval_mode: currentRetrievalMode
                     })
                 });
 
@@ -772,6 +808,14 @@
                 currentSessionId = data.session_id;
                 selectedSessionId = data.session_id;
                 currentSessionStatus = 'pending';
+                currentModel = data.model_used || currentModel;
+                currentRetrievalMode = data.retrieval_mode_used || currentRetrievalMode;
+                if (modelSelect.querySelector(`option[value="${currentModel}"]`)) {
+                    modelSelect.value = currentModel;
+                }
+                if (retrievalSelect.querySelector(`option[value="${currentRetrievalMode}"]`)) {
+                    retrievalSelect.value = currentRetrievalMode;
+                }
                 selectedDate = getTodayDateKey();
                 sessionDateInput.value = selectedDate;
 

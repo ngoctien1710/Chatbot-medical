@@ -14,6 +14,11 @@ SUPPORTED_RETRIEVAL_MODES = {
     'hybrid_rrf',
     'cross_encoder_only',
 }
+SUPPORTED_CHAT_MODELS = {
+    'mistral',
+    'gpt',
+    'gemini',
+}
 
 
 class Settings(BaseSettings):
@@ -24,11 +29,20 @@ class Settings(BaseSettings):
 
     ollama_base_url: str = Field(default='http://127.0.0.1:11434', alias='OLLAMA_BASE_URL')
     chat_model: str = Field(default='mistral', alias='OLLAMA_CHAT_MODEL')
+    default_chat_model_alias: str = Field(default='mistral', alias='RAG_DEFAULT_CHAT_MODEL_ALIAS')
+    openai_chat_model: str = Field(default='', alias='OPENAI_CHAT_MODEL')
+    gemini_chat_model: str = Field(default='', alias='GEMINI_CHAT_MODEL')
+    openai_api_key: str = Field(default='', alias='OPENAI_API_KEY')
+    gemini_api_key: str = Field(default='', alias='GEMINI_API_KEY')
+    provider_timeout_seconds: int = Field(default=45, alias='RAG_PROVIDER_TIMEOUT_SECONDS')
+    provider_retry_attempts: int = Field(default=2, alias='RAG_PROVIDER_RETRY_ATTEMPTS')
+    rate_limit_cooldown_seconds: int = Field(default=60, alias='RAG_RATE_LIMIT_COOLDOWN_SECONDS')
+    fallback_on_provider_error: bool = Field(default=True, alias='RAG_FALLBACK_ON_PROVIDER_ERROR')
     embedding_model: str = Field(default='Dqdung205/medical_vietnamese_embedding', alias='OLLAMA_EMBED_MODEL')
 
     top_k: int = Field(default=5, alias='RAG_TOP_K')
     score_threshold: float = Field(default=0.35, alias='RAG_SCORE_THRESHOLD')
-    retrieval_mode: str = Field(default='dense_only', alias='RAG_RETRIEVAL_MODE')
+    retrieval_mode: str = Field(default='hybrid_original', alias='RAG_RETRIEVAL_MODE')
     retrieval_candidate_k: int = Field(default=20, alias='RAG_RETRIEVAL_CANDIDATE_K')
     rrf_k: int = Field(default=60, alias='RAG_RRF_K')
     cross_encoder_max_scan_chunks: int = Field(default=2000, alias='RAG_CROSS_ENCODER_MAX_SCAN_CHUNKS')
@@ -67,6 +81,15 @@ class Settings(BaseSettings):
         if normalized not in SUPPORTED_RETRIEVAL_MODES:
             supported = ', '.join(sorted(SUPPORTED_RETRIEVAL_MODES))
             raise ValueError(f'RAG_RETRIEVAL_MODE must be one of: {supported}')
+        return normalized
+
+    @field_validator('default_chat_model_alias')
+    @classmethod
+    def validate_default_chat_model_alias(cls, value: str) -> str:
+        normalized = value.strip().lower()
+        if normalized not in SUPPORTED_CHAT_MODELS:
+            supported = ', '.join(sorted(SUPPORTED_CHAT_MODELS))
+            raise ValueError(f'RAG_DEFAULT_CHAT_MODEL_ALIAS must be one of: {supported}')
         return normalized
 
     @property

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho có thể là:\n- Hội chứng tĩnh mạch chủ trên thứ phát sau một khối trung thất lớn cản trở lưu lượng máu.\n- Chèn ép đường hô hấp.\n- Hội chứng ly giải khối u.\n- Một số khác chỉ có dấu hiệu mệt mỏi hoặc hạn chế hoạt động thể lực.\n- Sụt cân, nhiễm trùng tái diễn, xuất huyết do giảm tiểu cầu và thiếu máu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6572,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:441",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.574,
+            "snippet": ". Đa số trường hợp có thể phát hiện được cơ quan ung thư nguyên phát. 3. ĐIỀU TRỊ 3.1. Điều trị cấp cứu Ba biểu hiện lâm sàng cần được chú ý ngay lập tức bao gồm: - Hội chứng tĩnh mạch chủ trên thứ phát sau một khối trung thất lớn cản trở lưu lượng máu. - Chèn ép đường hô hấp. - Hội chứng ly giải khối u. 3.2. Hóa trị Phác đồ điều trị được chia thành các nhóm sau: a. Lymphoblastic lymphoma (LL): Bệnh cục bộ và tiến triển được điều trị giống nhau. b. U lympho Hodgkin dòng B (Burkitt lymphoma-BL), u lympho giống Burkitt (Burkitt - like lymphoma - BLL) và u lympho tế bào B lớn lan tỏa (DLCL). - Nguy cơ thấp. - Nguy cơ trung gian. - Nguy cơ cao (CNS hoặc liên quan đến tủy xương). c"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:5",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.5533,
+            "snippet": "CHẨN ĐOÁN PHÂN BIỆT Bạch cầu cấp dòng tủy. Các bệnh ác tính khác có di căn tuỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân, sarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ; thiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch Bệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:495",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.5418,
+            "snippet": ". Bệnh hay gặp ở người lớn tuổi, nam nhiều hơn nữ (gấp khoảng 2,8 lần). 2. NGUYÊN NHÂN GÂY BỆNH Đến nay, chưa thấy yếu tố đơn độc nào là nguyên nhân gây bệnh. Các nghiên cứu cho rằng việc tiếp xúc lâu với các hóa chất nông nghiệp, chất độc màu da cam và làm việc lâu dài trong môi trường điện từ trường, nhiễm các virus viêm gan C, Epstein-Barr virus có thể làm tăng nguy cơ mắc bệnh. Đã có một vài báo cáo về các gia đình có nhiều người cùng mắc lơ xê mi lympho mạn. 3. TRIỆU CHỨNG 3.1. Lâm sàng - Có đến 25% người bệnh không có triệu chứng lúc chẩn đoán, thường được phát hiện tình cờ là tăng tế bào lympho trong máu ngoại vi không giải thích được. Một số khác chỉ có dấu hiệu mệt mỏi hoặc hạn chế hoạt động thể lực. Ở giai đoạn muộn, người bệnh có thể sụt cân, nhiễm trùng tái diễn, xuất huyết do giảm tiểu cầu và thiếu máu"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:8",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.5268,
+            "snippet": "theo phác đồ. Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường. Bạch cầu cấp dòng lympho T: điều trị theo phác đồ AZNCCSG Study VII (chi tiết xem sau). Các giai đoạn cụ thể: Cảm ứng  Củng cố  Tích cực muộn  Tái tấn công / Tái củng cố  Duy trì Lưu ý: Chọc dò tuỷ sống có máu do chạm ven (>10 hồng cầu/mm ) và có BCN sẽ điều trị như TKTƯ-2 (tăng cường tiêm tủy sống, không xạ trị). Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.6572,
+          "min": 0.5268,
+          "avg": 0.5706
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 10411,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "11-04-2026-session-003",
+  "date_folder": "11-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-11T22:47:37.276101",
+  "updated_at": "2026-04-11T22:47:37.276101"
+}

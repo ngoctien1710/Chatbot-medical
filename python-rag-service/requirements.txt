@@ -8,11 +8,14 @@ langchain-ollama==0.3.6
 sentence-transformers==5.1.0
 transformers==4.56.1
 huggingface-hub==0.36.2
+openai==1.107.1
+google-generativeai==0.8.6
 tokenizers==0.22.0
 accelerate==1.10.1
 chromadb==1.0.20
 pydantic==2.11.7
 pydantic-settings==2.10.1
+tenacity==9.1.2
 PyMuPDF==1.26.5
 rapidocr-onnxruntime==1.4.4
 

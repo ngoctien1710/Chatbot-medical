@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho đặc điểm nổi bật gồm:\n- Lâm sàng tế bào trong tuỷ xương (triệu chứng lấn át các tế bào trong tuỷ xương)\n- Triệu chứng thâm nhiễm\n\n(Nguồn: Context 1.2.2 a)",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0328,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:33",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0302,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:55",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.0299,
+            "snippet": "1. ĐẠI CƯƠNG Lơ xê mi lympho cấp (bệnh bạch cầu cấp dòng lympho) là bệnh lý tăng sinh ác tính các tế bào dòng lympho của hệ thống tạo máu. Bệnh chiếm tỉ lệ khoảng 75% bệnh máu ác tính và khoảng 25-30% ung thư ở trẻ em. Tần suất bệnh khoảng 3-4 trường hợp/ 100.000 em bé da trắng và khoảng 2.500-3.000 trường hợp phát hiện mới/ năm tại Hoa Kỳ. Bệnh thường gặp ở nhóm từ 2-5 tuổi. Hầu hết các trường hợp không do di truyền mà do thay đổi di truyền somatic. Cho đến nay, với sự tiến bộ của khoa học trong việc chẩn đoán sớm, xếp loại nguy cơ theo đặc điểm tế bào - sinh học phân tử và hóa trị liệu, chăm sóc hồi sức huyết học đã giúp cho bệnh lơ xê mi lympho cấp có khả năng được chữa khỏi. 2. CHẨN ĐOÁN BỆNH 2.1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:330",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0272,
+            "snippet": "75. Trần Quỳnh Mai (2016). Nghiên cứu đặc điểm lâm sàng, xét nghiệm và đáp ứng điều trị tấn công Lơ xê mi cấp dòng lympho trẻ em có một số biến đổi di truyền tại Viện Huyết học - Truyền máu - Trung ương. Luận văn thạc sỹ y học. Đại học Y Hà Nội. 76. Võ Thị Thanh Trúc, Cai Thị Thu Ngân, Nguyễn Thị Mỹ Hòa et al (2019). Đánh giá ý nghĩa tiên lượng của tồn lưu tế bào ác tính trong điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em. Y học TP Hồ Chí Minh. 23(6), 101-107. 77. Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh, Nguyễn Quốc Vụ Khanh et al (2019). Đánh giá hiệu quả điều trị bệnh bạch cầu cấp dòng lympho ở trẻ em bằng phác đồ FRALLE 2000 trong 10 năm. Y học TP Hồ Chí Minh. 23(6), 108-113. 78. Cai Thị Thu Ngân, Huỳnh Thiện Ngôn, Huỳnh Thiên Hạnh et al (2019). Đánh giá hiệu quả điều trị Bệnh bạch cầu cấp dòng lympho ở trẻ em có đột biến chuyển vị t(12;21). Y học TP Hồ Chí Minh. 23(6), 114-118. 79. Pr"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:441",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.0161,
+            "snippet": ". Đa số trường hợp có thể phát hiện được cơ quan ung thư nguyên phát. 3. ĐIỀU TRỊ 3.1. Điều trị cấp cứu Ba biểu hiện lâm sàng cần được chú ý ngay lập tức bao gồm: - Hội chứng tĩnh mạch chủ trên thứ phát sau một khối trung thất lớn cản trở lưu lượng máu. - Chèn ép đường hô hấp. - Hội chứng ly giải khối u. 3.2. Hóa trị Phác đồ điều trị được chia thành các nhóm sau: a. Lymphoblastic lymphoma (LL): Bệnh cục bộ và tiến triển được điều trị giống nhau. b. U lympho Hodgkin dòng B (Burkitt lymphoma-BL), u lympho giống Burkitt (Burkitt - like lymphoma - BLL) và u lympho tế bào B lớn lan tỏa (DLCL). - Nguy cơ thấp. - Nguy cơ trung gian. - Nguy cơ cao (CNS hoặc liên quan đến tủy xương). c"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0328,
+          "min": 0.0161,
+          "avg": 0.0273
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 3459,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "11-04-2026-session-006",
+  "date_folder": "11-04-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-04-11T22:50:53.482280",
+  "updated_at": "2026-04-11T22:50:53.482280"
+}

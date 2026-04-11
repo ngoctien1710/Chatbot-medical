@@ -72,3 +72,47 @@
 	- no opener phrases like "bạn đang xem tài liệu" / "theo tài liệu" / "dựa trên tài liệu"
 	- uncertainty disclosure when context is weak
 - Smoke-tested /rag/answer after rebuild: retrieval_status=success for sample ALL definition query and response starts with direct definition.
+
+## 2026-04-11 - Runtime model/retrieval controls, provider fallback, and diagnostics expansion
+- Added chat model alias controls and provider resilience settings in python-rag-service/app/settings.py:
+	- SUPPORTED_CHAT_MODELS: mistral, gpt, gemini
+	- RAG_DEFAULT_CHAT_MODEL_ALIAS, OPENAI_CHAT_MODEL, GEMINI_CHAT_MODEL
+	- OPENAI_API_KEY, GEMINI_API_KEY
+	- RAG_PROVIDER_TIMEOUT_SECONDS, RAG_PROVIDER_RETRY_ATTEMPTS, RAG_RATE_LIMIT_COOLDOWN_SECONDS, RAG_FALLBACK_ON_PROVIDER_ERROR
+- Extended API schemas in python-rag-service/app/schemas/models.py to support request-time model/retrieval selection and richer diagnostics:
+	- model and retrieval_mode in AnswerRequest/ChatRequest/FeedbackRequest
+	- retrieval_mode in retrieval payload
+	- provider, model_alias, model_name, error_category, retry_count, request_id, fallback metadata in diagnostics
+	- session history metadata fields (model_alias, model_provider, model_name, retrieval_mode, provider_metadata)
+- Updated python-rag-service/app/routes/rag.py:
+	- /rag/answer now accepts model and retrieval_mode overrides
+	- added /rag/capabilities endpoint exposing model availability, retrieval modes, and defaults
+- Updated python-rag-service/app/routes/session.py and python-rag-service/app/services/session_service.py:
+	- normalize/validate incoming model and retrieval_mode
+	- persist model/retrieval/provider metadata per history turn
+	- return model_used and retrieval_mode_used in /chat and /feedback responses
+	- include retrieval_mode in session summaries and default missing legacy values safely
+- Reworked generation flow in python-rag-service/app/services/rag_service.py:
+	- provider routing for mistral (Ollama), gpt (OpenAI), gemini (Google Generative AI)
+	- transient error classification + retry loop + provider cooldown
+	- optional fallback to mistral on provider failures
+	- normalized diagnostics emitted for both success and fallback/error paths
+	- retrieval_mode propagated in retrieval payload for frontend/gateway display
+- Updated backend/server.js (Node gateway) to:
+	- forward model and retrieval_mode to Python /rag/answer
+	- persist retrieval_mode and provider metadata in session history
+	- return diagnostics, model_used, retrieval_mode_used to frontend
+- Updated frontend/index.html:
+	- model selector now uses mistral/gpt/gemini aliases
+	- added retrieval mode selector (hybrid_original, dense_only, sparse_only, hybrid_rrf, cross_encoder_only)
+	- send model + retrieval_mode in start and feedback payloads
+	- display retrieval mode in RAG badge and keep selector state synced with model_used/retrieval_mode_used from backend
+- Updated dependency/config hygiene:
+	- python-rag-service/requirements.txt: added openai==1.107.1, google-generativeai==0.8.6, tenacity==9.1.2
+	- python-rag-service/.env.example expanded with provider/runtime settings
+	- .gitignore now ignores local env files, node_modules, and top-level data/chroma artifacts
+- Post-change validation executed:
+	- no static diagnostics errors in edited Python/Node/frontend files
+	- Python smoke tests passed for /rag/health, /rag/capabilities, /chat, /feedback, /sessions, /sessions/{id}
+	- Node gateway smoke tests passed for /chat/start, /chat/feedback, /chat/:session_id with new metadata flow
+	- verified fallback behavior when GPT/Gemini keys are unset: requests continue via mistral and return fallback diagnostics

@@ -91,7 +91,7 @@ Returns:
             
         return final_results
 
-    def hybrid_search(self, query: str, top_k_candidate: int = 20, **kwargs) -> List[Dict[str, Any]]:
+    def hybrid_search(self, query: str, top_k_candidate: int = 20, rrf_k: int = 60, **kwargs) -> List[Dict[str, Any]]:
         """
         Khởi chạy tra cứu đồng bộ, kết hợp và chuẩn bị tệp Data cho Cross-Encoder (Phần sau).
         
@@ -112,7 +112,7 @@ Returns:
         
         # --- 3. Deduplicate và Trộn (RRF Fusion) ---
         # Nạp tất cả list nhánh tìm kiếm. RRF sẽ vắt kiệt và tìm ra best of both worlds.
-        merged_candidates = self.reciprocal_rank_fusion([sparse_results, dense_results], k=60)
+        merged_candidates = self.reciprocal_rank_fusion([sparse_results, dense_results], k=rrf_k)
         
         return merged_candidates
 

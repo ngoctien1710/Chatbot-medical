@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "bệnh nhân nữ, 4 tuổi",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Trong nghiên cứu, số lượng bệnh nhân ALL dưới 4 tuổi chiếm tỷ lệ khoảng 17,4%, và là lứa tuổi gặp với tỷ lệ cao nhất trong nghiên cứu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:195",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0305,
+            "snippet": "CHƢƠNG 4 BÀN LUẬN 4.1. ĐẶC ĐIỂM CHUNG CỦA NHÓM BỆNH NHI NGHIÊN CỨU 4.1.1. Đặc điểm về tuổi Tuổi bệnh nhi tại thời điểm chẩn đoán là một trong những yếu tố tiên lượng độc lập trong ALL trẻ em. Trong các tiêu chí xếp loại nhóm nguy cơ của phác đồ FRALLE 2000 thì tuổi là một yếu tố quan trọng. Đặc điểm về tuổi nhóm bệnh nhi nghiên cứu được biểu thị trên bảng 3.1, cho thấy: độ tuổi trung bình trong nghiên cứu là 6,4 ± 3,8, nhóm tuổi dưới 5 chiếm tỷ lệ cao nhất với 55,2%, nhóm tuổi 11 - 15 tuổi chiếm tỷ lệ thấp nhất với chỉ 16,7%. Số lượng bệnh nhi theo từng tuổi cũng được minh họa trên biểu đồ 3.1, qua đó cho thấy ALL có thể gặp ở mọi lứa tuổi từ 0 - 15 tuổi, tuổi thường gặp nhất là 2 - 5 tuổi, cao nhất là 4 tuổi (17,4%). Nhóm bệnh nhi dưới 1 tuổi chiếm tỷ lệ thấp nhất với chỉ 2 bệnh nhi (0,7%)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:196",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0289,
+            "snippet": ". Nhóm bệnh nhi dưới 1 tuổi chiếm tỷ lệ thấp nhất với chỉ 2 bệnh nhi (0,7%). Như vậy, đa số bệnh nhi trong nghiên cứu thuộc nhóm có tiên lượng tốt về tuổi tại thời điểm chẩn đoán: nhóm tuổi 1 đến 10 chiếm tới 83,3%. Nghiên cứu này cũng tương đồng với nhiều tác giả trong và ngoài nước khi nghiên cứu về ALL trẻ em tại Việt Nam. Nghiên cứu của tác giả Bùi Ngọc Lan trên 97 trẻ từ năm 2001 - 2004 tại Bệnh viện Nhi Trung ương, tuổi trung bình trong nghiên cứu là 6,0 ± 3,8, lứa tuổi 1 - 5 chiếm tỷ lệ cao nhất với 49,5%, tuổi thường gặp nhất là 4 tuổi [13]. Một nghiên cứu tại Bệnh viện Truyền máu – Huyết học Hồ Chí Minh năm 2010 trên 120 trẻ của tác giả Võ Thị Thanh Trúc cũng có kết quả gần tương tự với tuổi trung bình 6,8 ± 4,3, tỷ lệ trẻ 1 - 5 tuổi là 48,3% [73]. Nghiên cứu của Huỳnh Thiện Ngôn và cộng sự trên 255 trẻ thấy tuổi trung bình trong nghiên cứu là 6,43 ± 4,2 tuổi [77]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0283,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:137",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0278,
+            "snippet": "CHƢƠNG 3 KẾT QUẢ 3.1. ĐẶC ĐIỂM CHUNG CỦA NHÓM BỆNH NHI NGHIÊN CỨU 3.1.1. Đặc điểm về tuổi Bảng 3.1. Đặc điểm về tuổi nhóm bệnh nhi nghiên cứu Lứa tuổi Số lƣợng bệnh nhi Tỷ lệ (%) ≤ 5 tuổi 55,2 6 - 10 tuổi 28,1 11 – 15 tuổi 16,7 Tổng Độ tuổi trung bình 6,4 ± 3,8 Nhận xét : Nhóm tuổi dưới 5 chiếm tỷ lệ cao nhất (55,2%), nhóm 11-15 tuổi chiếm tỷ lệ thấp nhất với 16,7%. Phân bố chi tiết theo tuổi của nhóm bệnh nhi nghiên cứu được biểu thị dưới biểu đổ 3.1:\n\nBiểu đồ 3.1. Phân bố theo tuổi nhóm bệnh nhi nghiên cứu (n=288) Nhận xét: Nhóm tuổi dưới 10 chiếm 83,3% trong nghiên cứu, tuổi gặp với tỷ lệ cao nhất trong nghiên cứu là lứa 3-5 tuổi, tuổi thường gặp nhất là 4 tuổi. Nghiên cứu chỉ gặp 2 bệnh nhi dưới 1 tuổi. 14 15 11 10 Dưới 1 tuổi 1 tuổi 2 tuổi 3 tuổi 4 tuổi 5 tuổi 6 tuổi 7 tuổi 8 tuổi 9 tuổi 10 tuổi tuổi tuổi tuổi tuổi tuổi\n\n3.1.2. Đặc điểm về giới"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:9",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0164,
+            "snippet": ". Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc. DXM 6mg/m uống hàng ngày, ngày 0-27 VCR 1,5 mg/m (tối đa 2mg) tiêm TM, ngày 0, 7, 14, 21 ASP 6.000 UI/m /liều, TB, từ ngày 3, thứ 2, 4, 6, tổng số 9 liều DAUNO** 25 mg/m , truyền TMC, ngày 0, 7, 14, 21 MTX tiêm TS, liều theo tuổi (tối đa 12 mg), ngày 0, 7, 14*, 21*, 28 (tiền B) / ngày 0, 14 (tế bào T) Liều MTX theo tuổi: 1 đến < 2 tuổi: 8 mg; 2 đến <3 tuổi: 10 mg; ≥3 tuổi: g, pha trong dung dịch Ringer lactat hoặc Natriclorua 0,9% vừa đủ 4-5 ml *.Chỉ điều trị bệnh nhân thâm nhiễm TKTƯ ngay khi chẩn đoán bệnh *.Chỉ điều trị bệnh nhân ALL nhóm nguy cơ cao x 4 liều hoặc bệnh nhân nhóm nguy cơ không cao đáp ứng điều trị chậm (phác đồ tăng cường) x 2 liều (ngày 14, 21). Nếu không có DAUNO, thay bằng DOXO với liều và ngày dùng tương tựDAUNO"
+          }
+        ],
+        "score_summary": {
+          "max": 0.0305,
+          "min": 0.0164,
+          "avg": 0.0264
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 7209,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "09-04-2026-session-010",
+  "date_folder": "09-04-2026",
+  "sequence": 10,
+  "file_name": "session_010.json",
+  "created_at": "2026-04-09T15:12:17.772015",
+  "updated_at": "2026-04-09T15:12:17.772015"
+}

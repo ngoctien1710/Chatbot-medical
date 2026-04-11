@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Trẻ em tuổi dưới 1 và tên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50000 trên mili mét khối, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu thuộc nhóm nguy cơ nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Trẻ em tuổi dưới 1 và có số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm (tương đương 50 G/L) thuộc nhóm nguy cơ cao theo biến đổi di truyền lơ xê mi cấp dòng lympho. Ngoài ra, trẻ em có bất thường nhiễm sắc thể có tiên lượng xấu (chuyển đoạn, mất đoạn, đảo đoạn...) cũng thuộc nhóm nguy cơ cao.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:234",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.749,
+            "snippet": ". Do đó, những bệnh nhi có bạch cầu ≥ 50 G/L được xếp vào nhóm nguy cơ cao, đáp ứng kém với điều trị [1],[34]. Trong nghiên cứu này, độ biến thiên về số lượng bạch cầu ở các nhóm đều rất lớn. Trung vị số lượng bạch cầu cao nhất ở nhóm T-ALL (121,0 G/L). Trong các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B, nhóm nguy cơ cao có trung vị số lượng bạch cầu cao nhất (56,6"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.69,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:235",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6616,
+            "snippet": "G/L). Hai nhóm nguy cơ thấp và nguy cơ trung bình có trung vị số lượng bạch cầu tương đương nhau (11,2 và 12,1 G/L) (bảng 3.9). Để so sánh đặc điểm về số lượng bạch cầu giữa các nhóm, nghiên cứu chia nhóm theo mức độ số lượng bạch cầu (bạch cầu < 50 G/L và bạch cầu ≥ 50 G/L) ở các nhóm biến đổi di truyền lơ xê mi cấp dòng lympho B và lơ xê mi cấp dòng lympho T. Kết quả được thể hiện trên biểu đồ 3.6 cho thấy: Tỷ lệ bệnh nhi có số lượng bạch cầu < 50 G/L chiếm tỷ lệ tương đương ở nhóm B-ALL nguy cơ thấp và nguy cơ trung bình (trên 80%). Nhóm T-ALL và B-ALL nguy cơ cao đều có tỷ lệ khá cao bệnh nhi có số lượng bạch cầu ≥ 50 G/L (yếu tố tiên lượng xấu), chiếm hơn 50% bệnh nhi mỗi nhóm."
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6184,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:154",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5923,
+            "snippet": "Biểu đồ 3.6. Đặc điểm phân bố số lƣợng bạch cầu lơ xê mi cấp dòng lympho B theo nhóm nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Tỷ lệ bệnh nhi có số lượng bạch cầu < 50 G/L ở nhóm nguy cơ thấp và nguy cơ trung bình cao, lần lượt là 87,5% và 83,2%. Nhóm T-ALL và nhóm B-ALL nguy cơ cao có tỷ lệ bệnh nhi có số lượng bạch cầu tăng > 50 G/L cao với 65,9% và 54,3%. Khác biệt có ý nghĩa thống kê với p < 0,05.\n\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% B-ALL- Nguy cơ thấp B-ALL-Nguy cơ trung bình B-ALL-Nguy cơ cao T-ALL 87,5% 83,2% 45,7% 34,1% 12,5% 16,8% 54,3% 65,9% BC < 50 G/L BC ≥ 50G/L"
+          }
+        ],
+        "score_summary": {
+          "max": 0.749,
+          "min": 0.5923,
+          "avg": 0.6623
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 15566,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "09-04-2026-session-001",
+  "date_folder": "09-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-09T09:46:56.975856",
+  "updated_at": "2026-04-09T09:46:56.975856"
+}

@@ -1,9 +1,7 @@
 from __future__ import annotations
 
-import shutil
 import time
 from dataclasses import dataclass
-from pathlib import Path
 
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
@@ -12,11 +10,11 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_ollama import ChatOllama
 
-from app.settings import settings
+from app.settings import SUPPORTED_RETRIEVAL_MODES, settings
 from app.utils.Advance_RAG_chunking import MedicalDocumentChunker
-from app.utils.sparse_retriever import SparseRetriever
 from app.utils.hybrid_retriever import HybridRetriever
 from app.utils.reranker import Reranker
+from app.utils.sparse_retriever import SparseRetriever
 
 
 @dataclass
@@ -29,6 +27,9 @@ class RetrievalItem:
 
 class RagService:
     _ingest_batch_size = 1
+    _mode_aliases = {
+        'hybrid': 'hybrid_rrf',
+    }
 
     def __init__(self) -> None:
         self._embeddings = HuggingFaceEmbeddings(
@@ -67,11 +68,11 @@ class RagService:
         )
         self._qa_chain = self._prompt | self._chat | StrOutputParser()
 
-        # Init Advanced RAG components
+        # Init retrieval components
         self._sparse_retriever = SparseRetriever()
         self._hybrid_retriever = HybridRetriever(
             sparse_retriever_instance=self._sparse_retriever,
-            retrieve_dense_callback=self._retrieve_dense
+            retrieve_dense_callback=self._retrieve_dense,
         )
         self._reranker = Reranker()
 
@@ -79,28 +80,80 @@ class RagService:
         try:
             vector_store = self._vector_store()
             db_data = vector_store.get()
-            if db_data and db_data.get("documents"):
+            documents = db_data.get('documents') if db_data else None
+            if documents:
                 existing_chunks = []
-                for i in range(len(db_data["documents"])):
-                    existing_chunks.append({
-                        "content": db_data["documents"][i],
-                        "metadata": db_data["metadatas"][i] if db_data.get("metadatas") else {}
-                    })
+                metadatas = db_data.get('metadatas') or []
+                for i, content in enumerate(documents):
+                    metadata = metadatas[i] if i < len(metadatas) and isinstance(metadatas[i], dict) else {}
+                    existing_chunks.append(
+                        {
+                            'content': content,
+                            'metadata': metadata,
+                        }
+                    )
                 if existing_chunks:
                     self._sparse_retriever.build_index(existing_chunks)
         except Exception as e:
-            print(f"[RagService] Could not preload BM25 index: {e}")
+            print(f'[RagService] Could not preload BM25 index: {e}')
+
+    def _resolve_mode(self, mode: str | None = None) -> str:
+        selected = (mode or settings.retrieval_mode).strip().lower()
+        selected = self._mode_aliases.get(selected, selected)
+        if selected not in SUPPORTED_RETRIEVAL_MODES:
+            return 'hybrid_original'
+        return selected
+
+    @staticmethod
+    def _summarize_scores(items: list[RetrievalItem]) -> dict[str, float] | None:
+        if not items:
+            return None
+        scores = [item.score for item in items]
+        return {
+            'max': max(scores),
+            'min': min(scores),
+            'avg': sum(scores) / len(scores),
+        }
+
+    @staticmethod
+    def _build_retrieval_items(
+        candidates: list[dict],
+        score_key: str,
+        apply_threshold: bool = False,
+    ) -> list[RetrievalItem]:
+        selected: list[RetrievalItem] = []
+        for item in candidates:
+            score = float(item.get(score_key, 0.0))
+            if apply_threshold and score < settings.score_threshold:
+                continue
+
+            metadata = item.get('metadata') if isinstance(item.get('metadata'), dict) else {}
+            doc_id = str(metadata.get('doc_id', 'unknown_source'))
+            chunk_id = str(metadata.get('chunk_id', 'unknown_chunk'))
+            chunk_text = str(item.get('chunk_text', ''))
+
+            selected.append(
+                RetrievalItem(
+                    doc_id=doc_id,
+                    chunk_id=chunk_id,
+                    score=score,
+                    text=chunk_text,
+                )
+            )
+        return selected
 
     def _retrieve_dense(self, query: str, top_k: int = 20, **kwargs) -> list[dict]:
         vector_store = self._vector_store()
         raw = vector_store.similarity_search_with_relevance_scores(query, k=top_k)
-        results = []
+        results: list[dict] = []
         for doc, score in raw:
-            results.append({
-                "chunk_text": doc.page_content,
-                "metadata": doc.metadata,
-                "score_dense": float(score)
-            })
+            results.append(
+                {
+                    'chunk_text': doc.page_content,
+                    'metadata': doc.metadata,
+                    'score_dense': float(score),
+                }
+            )
         return results
 
     def _vector_store(self) -> Chroma:
@@ -136,41 +189,41 @@ class RagService:
                 pass
             # Force re-initialize the collection wrapper
             vector_store = self._vector_store()
-            
+
         docs = self._load_raw_documents()
         chunks: list[Document] = []
         sparse_chunks_data: list[dict] = []
 
         chunker = MedicalDocumentChunker(
             chunk_size=settings.chunk_size,
-            chunk_overlap=settings.chunk_overlap
+            chunk_overlap=settings.chunk_overlap,
         )
 
         for doc_id, content in docs:
             processed_chunks = chunker.process_markdown(
                 text=content,
-                initial_metadata={'doc_id': doc_id}
+                initial_metadata={'doc_id': doc_id},
             )
-            
+
             for chunk_data in processed_chunks:
-                idx = chunk_data["metadata"].get("chunk_index", 0)
-                chunk_data["metadata"]["chunk_id"] = f"{doc_id}:{idx}"
-                
+                idx = chunk_data['metadata'].get('chunk_index', 0)
+                chunk_data['metadata']['chunk_id'] = f'{doc_id}:{idx}'
+
                 # Format raw dictionaries needed by SparseRetriever
                 sparse_chunks_data.append(chunk_data)
-                
+
                 # Format Document class needed by vector_store
                 chunks.append(
                     Document(
-                        page_content=chunk_data["content"],
-                        metadata=chunk_data["metadata"]
+                        page_content=chunk_data['content'],
+                        metadata=chunk_data['metadata'],
                     )
                 )
 
         if chunks:
             for start in range(0, len(chunks), self._ingest_batch_size):
                 vector_store.add_documents(chunks[start:start + self._ingest_batch_size])
-                
+
         if sparse_chunks_data:
             self._sparse_retriever.build_index(sparse_chunks_data)
 
@@ -181,64 +234,170 @@ class RagService:
             return 'Khong co context nao duoc retrieve tu kho tai lieu.'
         return '\n\n'.join(
             [
-                f"[Context {idx + 1}]\n{item.text}"
+                f'[Context {idx + 1}]\n{item.text}'
                 for idx, item in enumerate(contexts)
             ]
         )
 
-    def _retrieve(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
-        if not self._sparse_retriever.bm25:
+    def _is_sparse_ready(self) -> bool:
+        return self._sparse_retriever.bm25 is not None
+
+    def _full_corpus_candidates(self) -> tuple[list[dict], bool]:
+        vector_store = self._vector_store()
+        db_data = vector_store.get()
+        documents = db_data.get('documents') if db_data else None
+        if not documents:
+            return [], False
+
+        metadatas = db_data.get('metadatas') if db_data else None
+        max_chunks = settings.cross_encoder_max_scan_chunks
+        truncated = max_chunks > 0 and len(documents) > max_chunks
+        upper_bound = min(len(documents), max_chunks) if max_chunks > 0 else len(documents)
+
+        candidates: list[dict] = []
+        for idx in range(upper_bound):
+            metadata = {}
+            if isinstance(metadatas, list) and idx < len(metadatas) and isinstance(metadatas[idx], dict):
+                metadata = dict(metadatas[idx])
+
+            metadata.setdefault('doc_id', str(metadata.get('source', 'unknown_source')))
+            metadata.setdefault('chunk_id', f'fullscan:{idx}')
+            candidates.append(
+                {
+                    'chunk_text': str(documents[idx]),
+                    'metadata': metadata,
+                }
+            )
+
+        return candidates, truncated
+
+    def _retrieve_hybrid_original(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        if not self._is_sparse_ready():
             # Fallback nếu index BM25 chưa load được
             return [], 'sparse_index_not_built', None
 
-        # 1. Hybrid Search (Sparse + Dense) -> RRF Fusion
         hybrid_candidates = self._hybrid_retriever.hybrid_search(
-            query=query, 
-            top_k_candidate=20
+            query=query,
+            top_k_candidate=settings.retrieval_candidate_k,
+            rrf_k=settings.rrf_k,
         )
-        
-        # 2. Rerank bằng Cross-Encoder
-        reranked_results = self._reranker.rerank_candidates(
-            query=query, 
-            candidates=hybrid_candidates, 
-            top_n=settings.top_k
-        )
-
-        selected: list[RetrievalItem] = []
-        for item in reranked_results:
-            score = item.get("score_cross_encoder", 0.0)
-            
-            # Lưu ý BGE-Reranker M3 có thể trả về logit âm
-            # Bạn có thể cân nhắc tắt `if score < settings.score_threshold` nếu kết quả bị chặn quá nhiều
-            if score < settings.score_threshold:
-                 continue
-                
-            selected.append(
-                RetrievalItem(
-                    doc_id=str(item.get("metadata", {}).get("doc_id", "unknown_source")),
-                    chunk_id=str(item.get("metadata", {}).get("chunk_id", "unknown_chunk")),
-                    score=float(score),
-                    text=item.get("chunk_text", ""),
-                )
-            )
 
         if not hybrid_candidates:
             return [], 'empty_index', None
+
+        reranked_results = self._reranker.rerank_candidates(
+            query=query,
+            candidates=hybrid_candidates,
+            top_n=settings.top_k,
+        )
+
+        selected = self._build_retrieval_items(
+            candidates=reranked_results,
+            score_key='score_cross_encoder',
+            apply_threshold=True,
+        )
         if not selected:
             return [], 'no_match', None
 
-        scores = [item.score for item in selected]
-        summary = {
-            'max': max(scores),
-            'min': min(scores),
-            'avg': sum(scores) / len(scores),
-        }
-        return selected, 'success', summary
+        return selected, 'success', self._summarize_scores(selected)
+
+    def _retrieve_dense_only(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        dense_results = self._retrieve_dense(query=query, top_k=settings.top_k)
+        if not dense_results:
+            return [], 'empty_index', None
+
+        selected = self._build_retrieval_items(
+            candidates=dense_results,
+            score_key='score_dense',
+        )
+        if not selected:
+            return [], 'no_match_dense_only', None
+
+        return selected, 'success_dense_only', self._summarize_scores(selected)
+
+    def _retrieve_sparse_only(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        if not self._is_sparse_ready():
+            return [], 'sparse_index_not_built', None
+
+        sparse_results = self._sparse_retriever.retrieve_bm25(query=query, top_k=settings.top_k)
+        if not sparse_results:
+            return [], 'no_match_sparse_only', None
+
+        selected = self._build_retrieval_items(
+            candidates=sparse_results,
+            score_key='score_bm25',
+        )
+        if not selected:
+            return [], 'no_match_sparse_only', None
+
+        return selected, 'success_sparse_only', self._summarize_scores(selected)
+
+    def _retrieve_hybrid_rrf(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        if not self._is_sparse_ready():
+            return [], 'sparse_index_not_built', None
+
+        hybrid_candidates = self._hybrid_retriever.hybrid_search(
+            query=query,
+            top_k_candidate=settings.retrieval_candidate_k,
+            rrf_k=settings.rrf_k,
+        )
+        if not hybrid_candidates:
+            return [], 'empty_index', None
+
+        selected = self._build_retrieval_items(
+            candidates=hybrid_candidates[: settings.top_k],
+            score_key='score_rrf',
+        )
+        if not selected:
+            return [], 'no_match_hybrid_rrf', None
+
+        return selected, 'success_hybrid_rrf', self._summarize_scores(selected)
+
+    def _retrieve_cross_encoder_only(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        candidates, truncated = self._full_corpus_candidates()
+        if not candidates:
+            return [], 'empty_index', None
+
+        reranked_results = self._reranker.rerank_candidates(
+            query=query,
+            candidates=candidates,
+            top_n=settings.top_k,
+        )
+        selected = self._build_retrieval_items(
+            candidates=reranked_results,
+            score_key='score_cross_encoder',
+        )
+        if not selected:
+            return [], 'no_match_cross_encoder_only', None
+
+        status = 'success_cross_encoder_only_limited' if truncated else 'success_cross_encoder_only'
+        return selected, status, self._summarize_scores(selected)
+
+    def retrieve(
+        self,
+        query: str,
+        mode: str | None = None,
+    ) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        mode_name = self._resolve_mode(mode)
+
+        if mode_name == 'dense_only':
+            return self._retrieve_dense_only(query)
+        if mode_name == 'sparse_only':
+            return self._retrieve_sparse_only(query)
+        if mode_name == 'hybrid_rrf':
+            return self._retrieve_hybrid_rrf(query)
+        if mode_name == 'cross_encoder_only':
+            return self._retrieve_cross_encoder_only(query)
+        return self._retrieve_hybrid_original(query)
+
+    # Backward-compatible alias for older call sites
+    def _retrieve(self, query: str, mode: str | None = None) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
+        return self.retrieve(query=query, mode=mode)
 
     def answer(self, query: str) -> dict:
         started = time.time()
         try:
-            selected, status, score_summary = self._retrieve(query)
+            selected, status, score_summary = self.retrieve(query)
             text = self._qa_chain.invoke(
                 {
                     'query': query,

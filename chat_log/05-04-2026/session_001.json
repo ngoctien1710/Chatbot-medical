@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho gồm:\n- Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu.\n- Sốt thường gặp, kém đáp ứng với điều trị kháng sinh.\n- Xuất huyết: xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi.\n- Biểu hiện ở xương: biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài.\n- Huyết sắc tố thường giảm, mức độ từ nhẹ đến nặng; tiểu cầu thường giảm hoặc có thể bình thường.\n- Tủy đồ: tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm.\n- Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-).\n- Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…).\n- Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho.\n- Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9511,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:150",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8987,
+            "snippet": "3.2.2.2. Một số đặc điểm lâm sàng\n\nBiểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Thiếu máu là triệu chứng phổ biến nhất ở các nhóm (dao động từ 84,1% - 95%). Sốt cũng là triệu chứng thường thấy ở các nhóm (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:33",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7218,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:36",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5328,
+            "snippet": "+ Huyết sắc tố: Thường giảm, mức độ từ nhẹ đến nặng; + Tiểu cầu: Thường giảm hoặc có thể bình thường. - Tủy đồ: Tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…). - Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho (được trình bày ở phần sau). c. Chẩn đoán xác định - Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:5",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.4949,
+            "snippet": "CHẨN ĐOÁN PHÂN BIỆT Bạch cầu cấp dòng tủy. Các bệnh ác tính khác có di căn tuỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân, sarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ; thiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch Bệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt;"
+          }
+        ],
+        "score_summary": {
+          "max": 0.9511,
+          "min": 0.4949,
+          "avg": 0.7198
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 42802,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "05-04-2026-session-001",
+  "date_folder": "05-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-05T19:06:09.711779",
+  "updated_at": "2026-04-05T19:06:09.711779"
+}

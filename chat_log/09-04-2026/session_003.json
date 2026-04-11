@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Trẻ em tuổi dưới 1 và tên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50000 trên mili mét khối, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu thuộc nhóm nguy cơ nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Trẻ em tuổi dưới 1 và tên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm³ thuộc nhóm nguy cơ cao theo phác đồ FRALLE 2000, vì số lượng bạch cầu ban đầu trong máu lớn hơn 50.000/mm³ là một dấu hiệu cho nguy cơ cao của ALL. Nếu có bất thường nhiễm sắc thể có tiên lượng xấu, nhóm nguy cơ cao cũng sẽ được chỉ định.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 54.3005,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:24",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 29.3984,
+            "snippet": ". Liều xạ trị tinh hoàn: tổng liều 2400 cGy cho cả 2 tinh hoàn, 300 cGy/liều/ngày. Nếu tinh hoàn vẫn to sau xạ trị 2400 cGy, thêm 300 cGy/liều x 2 liều. Ghép tế bào gốc tạo máu: Chỉ định +Nguy cơ rất cao khi chẩn đoán: không đạt lui bệnh sau 4 tuần điều trị cảm ứng bằng 4 thuốc; bạch cầu cấp dòng lympho T có đáp ứng kém với prednisone và / hoặc có số lượng bạch cầu > 100.000/mm ; số lượng nhiễm sắc thể nửa thiểu bội; có chuyển đoạn t (9;22) và số lượng bạch cầu > 25.000; trẻ dưới 1 tuổi có chuyển đoạn t (4;11); bệnh còn lại tối thiểu (MRD) > 1% khi kết thúc điều trị cảm ứng; MRD > 0,1% sau điều trị tái cảm ứng (khoảng 14 tuần); MRD tăng lên ở bất kỳ thời gian nào. Bệnh nhân sẽ ghép tủy khi đạt lui bệnh lần 1. + Bệnh tái phát lần 1 và đạt lui bệnh lần 2. Không chỉ định cho bệnh tái phát đơn độc ngoài tủy xương hoặc dòng tiền B tái phát tủy xương muộn"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:55",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 27.1701,
+            "snippet": ". Thêm nhiễm sắc thể 4, 10, và 17 liên quan đến tiên lượng tốt trong ALL trẻ em với xác suất sống thêm không sự kiện lên tới gần 90% [52]. Các bệnh nhi có đột biến trên lưỡng bội nhiễm sắc thể thường có đáp ứng tốt với methotrexate liều cao [52]. b. Dƣới lƣỡng bội nhiễm sắc thể (<46 NST) Bất thường dưới lưỡng bội NST có thể gặp là gần đơn bội (24-29 NST), dưới lưỡng bội thấp (33-39 NST), dưới lưỡng bội cao (40-43 NST) và gần lưỡng bội (44 NST). Nhóm có số lượng NST gần một nửa lưỡng bội (24-31 NST) có sự thay đổi đích thụ thể của tín hiệu Tyrosine Kinase và tín hiệu Ras (71%) và yếu tố gen điều hoà phiên mã IKZF3 (13%). Ngược lại, nhóm ALL có số lượng 32 - 39 NST thì được đặc trưng bằng sự thay đổi trong TP53 (91,2%), IKZF2 (53%) và RB1 (41%). Cả hai nhóm có bộ NST dưới lưỡng bội đều hoạt hoá con đường tín hiệu Ras và phosphoinositide 3-kinase (PI3K) [49],[53]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:100",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 26.2413,
+            "snippet": "MLL-AF4 và BCR-ABL1 có ý nghĩa tiên lượng xấu, được xếp vào nhóm nguy cơ rất cao trong phác đồ FRALLE 2000, đột biến gen E2A-PBX1 có tiên lượng trung bình nhưng nguy cơ thâm nhiễm TKTW cao. Đây cũng là 4 đột biến dung hợp gen được khuyến cáo trong phác đồ FRALLE 2000 [79],[80].  Xếp nhóm nguy cơ theo phác đồ FRALLE 2000 tại thời điểm chẩn đoán và nhóm nguy cơ theo biến đổi di truyền đối với lơ xê mi cấp dòng lympho B theo tiêu chuẩn của A. Moorman dựa trên các bất thường nhiễm sắc thể và các đột biến dung hợp gen được khảo sát trong nghiên cứu [81]. + Một số đặc điểm lâm sàng, xét nghiệm theo các nhóm biến đổi di truyền lơ xê mi cấp dòng lympho B và lơ xê mi cấp dòng lympho T: Đặc điểm lâm sàng, tuổi, số lượng bạch cầu tại thời điểm chẩn đoán, các thể dưới nhóm xếp loại miễn dịch, đặc điểm dấu ấn CD10"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:239",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 25.9408,
+            "snippet": ". Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi), chủ yếu thuộc nhóm tiền B. Các tổn thương khác như mất đoạn, đảo đoạn, thêm đoạn NST ít gặp hơn. Nhóm T-ALL chỉ có 4 bệnh nhi có bất thường NST, trong đó có 3 bệnh nhi được phát hiện tổn thương cấu trúc NST, bao gồm mất đoạn, thêm đoạn và đa tổn thương NST. Bất thường về số lượng NST cũng chủ yếu gặp ở bệnh nhi nhóm B chung. Chỉ phát hiện được 1 bệnh nhi có đột biến trên lưỡng bội NST thuộc nhóm T-ALL. Kết quả nghiên cứu tương tự nghiên cứu của tác giả Trần Quỳnh Mai năm 2016, An Thúy Lan năm 2018 [75],[98]. Điều này có thể giải thích là do B-ALL chiếm đến 83,0% trong nghiên cứu. Do vậy, bất thường NST được phát hiện chủ yếu thuộc nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          }
+        ],
+        "score_summary": {
+          "max": 54.3005,
+          "min": 25.9408,
+          "avg": 32.6102
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 9702,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "09-04-2026-session-003",
+  "date_folder": "09-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-09T10:15:27.311418",
+  "updated_at": "2026-04-09T10:15:27.311418"
+}

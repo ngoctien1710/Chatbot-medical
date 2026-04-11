@@ -1,5 +1,5 @@
 from pathlib import Path
-from pydantic import Field
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -7,6 +7,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_DATA_ROOT = PROJECT_ROOT / 'data'
 DEFAULT_PDF_SOURCE_ROOT = PROJECT_ROOT / 'Documents' / 'VietNam'
 DEFAULT_CHAT_LOG_ROOT = PROJECT_ROOT / 'chat_log'
+SUPPORTED_RETRIEVAL_MODES = {
+    'hybrid_original',
+    'dense_only',
+    'sparse_only',
+    'hybrid_rrf',
+    'cross_encoder_only',
+}
 
 
 class Settings(BaseSettings):
@@ -21,6 +28,10 @@ class Settings(BaseSettings):
 
     top_k: int = Field(default=5, alias='RAG_TOP_K')
     score_threshold: float = Field(default=0.35, alias='RAG_SCORE_THRESHOLD')
+    retrieval_mode: str = Field(default='dense_only', alias='RAG_RETRIEVAL_MODE')
+    retrieval_candidate_k: int = Field(default=20, alias='RAG_RETRIEVAL_CANDIDATE_K')
+    rrf_k: int = Field(default=60, alias='RAG_RRF_K')
+    cross_encoder_max_scan_chunks: int = Field(default=2000, alias='RAG_CROSS_ENCODER_MAX_SCAN_CHUNKS')
     chunk_size: int = Field(default=900, alias='RAG_CHUNK_SIZE')
     chunk_overlap: int = Field(default=180, alias='RAG_CHUNK_OVERLAP')
     chunk_token_size: int = Field(default=400, alias='RAG_CHUNK_TOKEN_SIZE')
@@ -48,6 +59,15 @@ class Settings(BaseSettings):
         default='http://127.0.0.1:5500,http://localhost:5500',
         alias='CORS_ORIGINS',
     )
+
+    @field_validator('retrieval_mode')
+    @classmethod
+    def validate_retrieval_mode(cls, value: str) -> str:
+        normalized = value.strip().lower()
+        if normalized not in SUPPORTED_RETRIEVAL_MODES:
+            supported = ', '.join(sorted(SUPPORTED_RETRIEVAL_MODES))
+            raise ValueError(f'RAG_RETRIEVAL_MODE must be one of: {supported}')
+        return normalized
 
     @property
     def cors_origins_list(self) -> list[str]:

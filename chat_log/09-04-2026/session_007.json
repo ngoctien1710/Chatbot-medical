@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Làm thế nào để phân biệt ALL dòng tiền B và ALL dòng T dựa trên dấu ấn miễn dịch?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Trong context cung cấp, ALL dòng tiền B và ALL dòng T có thể được phân biệt dựa trên dấu ấn miễn dịch.\n\n- Dòng tiền B là dòng lympho B, có dấu ấn miễn dịch CD19++, và/hoặc CD79a++, và/hoặc CD22+, HLA-DR+; TdT+; CD19++; CD10-, CyIg-.\n- Dòng tiền T là dòng lympho T hoặc dòng tủy, có dấu ấn miễn dịch CyCD3+ và/hoặc CD3+.\n\nNgoài ra, các dòng tiền B và T cũng có thể được phân biệt theo các kết quả di truyền tế bào (nhuộm băng G, FISH) và nhóm nguy cơ.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:41",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6194,
+            "snippet": "c. Xếp loại theo dấu ấn miễn dịch Xếp loại ALL trẻ em theo kiểu hình miễn dịch có ý nghĩa rất quan trọng trong điều trị và tiên lượng. Các tiêu chuẩn xếp loại ALL theo kiểu hình miễn dịch và xếp loại dưới nhóm ALL tế bào B hay T được xác định bằng hệ thống cho điểm của nhóm EGIL (Châu Âu) [37],[38].\n\nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B Dòng B (CD19++, và/hoặc CD79a++, và/hoặc CD22+) B sớm HLA-DR+; TdT+; CD19++; CD10-, CyIg- B chung HLA-DR+; TdT+; CD19++; CD10++ Tiền B HLA-DR+; TdT+; CD19++; CD10++; CD20+; cyIgM++ B trưởng thành HLA-DR+; CD19++; CD10+/-; CD20++; sIgM++. CD34 và TdT thường âm tính.\n\nBảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.5708,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:156",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5349,
+            "snippet": ". Bất thƣờng nhiễm sắc thể theo xếp loại miễn dịch (n=26) Nhóm BN Công thức nhiễm sắc thể B chung 46,XY[6]/46,XY,t(1,19)[14] 46,XX[5]/46,XX,t(1;19)[15] 46,XY[5]/46,XY,t(1;19)[15] 46,XX[10]/46,XX,t(4;11)[10] 46,XX[16]/46,XX, inv9[4] 46,XY[16]/46,XY,-15,+mar,14q+[4] 46,XY[2]/46,XY, t(9;22) [6]/48,XY,+9,+17, t(9;22) [12] 47,XX,+22, del(3q),7q+,9p+ [20] 58 NST [20] 10 57 NST [20] 11 56,XY,+X,+4,+6,+14,+18,+21,+21,+3 mar [20] 12 46,XY[15]/cụm 56 NST[5] 13 46,XX[5]/cụm 55 NST[15] 14 46,XX[14]/cụm 53 NST[6] Tiền B 15 46, XY[4]/46,XY,t(4;11)[16] 16 46,XY[5]/46,XY,16q+[15] 17 46,XX,t(9;22)[20] 18 46,XX[3]/46,XX,t(9;22)[17] 19 46,XY,t(9;22) [20] 20 46,XY,t(9;22) [20] 21 46,XY[5]/46,XY,t(9;22)[15] 22 45,XX, -20,del(9p)[20] T-ALL 46,XX[10]/46,X,-X,-5,+2mar,del(4q),10p+[4]/47,XX,- 10,+22,+mar,10p+,del(15q)[6] 24 47,XY,+ mar [20] 25 46,XY,3q+[20] 26 46,XX[10]/46,XX,del(14q)[10] Nhận xét: Các bất"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:36",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5315,
+            "snippet": "+ Huyết sắc tố: Thường giảm, mức độ từ nhẹ đến nặng; + Tiểu cầu: Thường giảm hoặc có thể bình thường. - Tủy đồ: Tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…). - Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho (được trình bày ở phần sau). c. Chẩn đoán xác định - Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:42",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4979,
+            "snippet": "Bảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)\n\nT sớm CD2-, CD7+, CD4-, CD8- T trung gian Tiền T CD2+, CD7+, CD4-, CD8- T ở tuyến ức CD7+, CD2+, CD5+, CD4+, CD8+, CD1a+ T trưởng thành CD3+, CD2+, CD7+, CD4+ hoặc CD8+, TdT/CD34/CD1a-\n\nGhi chú: - :< 10%, +/- : 10-25%, + : 25-75%, ++ : > 75% quần thể tế bào non ác tính dương tính.\n\nd. Xếp loại theo nhóm nguy cơ Xếp loại theo nhóm nguy cơ tái phát lần đầu tiên được đưa ra tại Roma (1986) dựa vào tiêu chuẩn lâm sàng cơ bản là tuổi và số lượng bạch cầu tại thời điểm chẩn đoán. Tiêu chuẩn này đã được xem xét lại tại hội thảo của Viện Ung thư Quốc gia Hoa Kỳ - National Cancer Institute, NCI (1996). Tùy theo các nhóm nghiên cứu khác nhau mà ALL được chia ra 2 nhóm nguy cơ"
+          }
+        ],
+        "score_summary": {
+          "max": 0.6194,
+          "min": 0.4979,
+          "avg": 0.5509
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 11771,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "09-04-2026-session-007",
+  "date_folder": "09-04-2026",
+  "sequence": 7,
+  "file_name": "session_007.json",
+  "created_at": "2026-04-09T14:06:01.175641",
+  "updated_at": "2026-04-09T14:06:01.175641"
+}

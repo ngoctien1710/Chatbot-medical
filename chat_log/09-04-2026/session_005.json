@@ -1,0 +1,63 @@
+{
+  "model": "mistral",
+  "query": "Trẻ em tuổi dưới 1 và tên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50000 trên mili mét khối, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu thuộc nhóm nguy cơ nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm": "Trẻ em tuổi dưới 1 và tên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm, có thể nhóm nguy cơ cao theo Context 1 và Context 2. Theo Context 1, nếu số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm thì nguy cơ cao. Theo Context 2, nhóm A có tuổi từ 1 đến dưới 10 tuổi và số lượng bạch cầu ban đầu trong máu < 50G/L, nhưng khi số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm thì nguy cơ cao.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0325,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:82",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0264,
+            "snippet": ". Phác đồ đã được Bộ Y tế phê duyệt [34]. 1.4.1. Xếp loại nhóm nguy cơ điều trị theo phác đồ FRALLE 2000 a. Đối với lơ xê mi cấp dòng lympho B [34] - Nhóm A: Nguy cơ chuẩn (Standard risk): Lơ xê mi cấp dòng lympho B, 1 < tuổi < 10, số lượng bạch cầu < 50G/L và có đủ các yếu tố sau:  Không có thâm nhiễm hệ thần kinh trung ương;  Không có t(9;22), t(4;11) hoặc bộ nhiễm sắc thể < 44;  BCR-ABL1 hay MLL-AF4 âm tính;  Không hiện diện sự tái sắp xếp gen MLL phát hiện bằng kỹ thuật Southern blot hay FISH cho trường hợp CD10 (+) yếu;  CD10 (+). Nhóm A sẽ được chia ra 3 nhóm A1, A2, A3 dựa vào đánh giá tế bào blast trong tủy ngày 21 (bất kể sự nhạy cảm với corticoid vào ngày 8 hay không):  Blast ≤ 5% (type M1): Nhóm A1  Blast 6 - 25% (type M2): Nhóm A2  Blast > 25% (type M3): Nhóm A3 Bệnh nhi có MRD (+) (≥ 10-2) vào ngày 35-42 sẽ được chuyển sang nhóm A3"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:234",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0164,
+            "snippet": ". Do đó, những bệnh nhi có bạch cầu ≥ 50 G/L được xếp vào nhóm nguy cơ cao, đáp ứng kém với điều trị [1],[34]. Trong nghiên cứu này, độ biến thiên về số lượng bạch cầu ở các nhóm đều rất lớn. Trung vị số lượng bạch cầu cao nhất ở nhóm T-ALL (121,0 G/L). Trong các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B, nhóm nguy cơ cao có trung vị số lượng bạch cầu cao nhất (56,6"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:24",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0161,
+            "snippet": ". Liều xạ trị tinh hoàn: tổng liều 2400 cGy cho cả 2 tinh hoàn, 300 cGy/liều/ngày. Nếu tinh hoàn vẫn to sau xạ trị 2400 cGy, thêm 300 cGy/liều x 2 liều. Ghép tế bào gốc tạo máu: Chỉ định +Nguy cơ rất cao khi chẩn đoán: không đạt lui bệnh sau 4 tuần điều trị cảm ứng bằng 4 thuốc; bạch cầu cấp dòng lympho T có đáp ứng kém với prednisone và / hoặc có số lượng bạch cầu > 100.000/mm ; số lượng nhiễm sắc thể nửa thiểu bội; có chuyển đoạn t (9;22) và số lượng bạch cầu > 25.000; trẻ dưới 1 tuổi có chuyển đoạn t (4;11); bệnh còn lại tối thiểu (MRD) > 1% khi kết thúc điều trị cảm ứng; MRD > 0,1% sau điều trị tái cảm ứng (khoảng 14 tuần); MRD tăng lên ở bất kỳ thời gian nào. Bệnh nhân sẽ ghép tủy khi đạt lui bệnh lần 1. + Bệnh tái phát lần 1 và đạt lui bệnh lần 2. Không chỉ định cho bệnh tái phát đơn độc ngoài tủy xương hoặc dòng tiền B tái phát tủy xương muộn"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:55",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0159,
+            "snippet": ". Thêm nhiễm sắc thể 4, 10, và 17 liên quan đến tiên lượng tốt trong ALL trẻ em với xác suất sống thêm không sự kiện lên tới gần 90% [52]. Các bệnh nhi có đột biến trên lưỡng bội nhiễm sắc thể thường có đáp ứng tốt với methotrexate liều cao [52]. b. Dƣới lƣỡng bội nhiễm sắc thể (<46 NST) Bất thường dưới lưỡng bội NST có thể gặp là gần đơn bội (24-29 NST), dưới lưỡng bội thấp (33-39 NST), dưới lưỡng bội cao (40-43 NST) và gần lưỡng bội (44 NST). Nhóm có số lượng NST gần một nửa lưỡng bội (24-31 NST) có sự thay đổi đích thụ thể của tín hiệu Tyrosine Kinase và tín hiệu Ras (71%) và yếu tố gen điều hoà phiên mã IKZF3 (13%). Ngược lại, nhóm ALL có số lượng 32 - 39 NST thì được đặc trưng bằng sự thay đổi trong TP53 (91,2%), IKZF2 (53%) và RB1 (41%). Cả hai nhóm có bộ NST dưới lưỡng bội đều hoạt hoá con đường tín hiệu Ras và phosphoinositide 3-kinase (PI3K) [49],[53]"
+          }
+        ],
+        "score_summary": {
+          "max": 0.0325,
+          "min": 0.0159,
+          "avg": 0.0215
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 9277,
+        "context_used": 5,
+        "error": null
+      }
+    }
+  ],
+  "id": "09-04-2026-session-005",
+  "date_folder": "09-04-2026",
+  "sequence": 5,
+  "file_name": "session_005.json",
+  "created_at": "2026-04-09T10:44:53.963404",
+  "updated_at": "2026-04-09T10:44:53.963404"
+}

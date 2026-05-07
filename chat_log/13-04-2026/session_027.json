@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là mệt mỏi, gầy sút, suy sụp nhanh và có thể gặp tắc mạch do tăng bạch cầu. Xét nghiệm tế bào máu ngoại vi có thể cho thấy hồng cầu lưới giảm, số lượng tiểu cầu giảm và bạch cầu thường tăng. Xét nghiệm tủy xương là quyết định chẩn đoán, cho thấy các tế bào blast chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 15.5568,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:2",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 13.6437,
+            "snippet": ". - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương... - Có thể gặp triệu chứng tắc mạch do tăng bạch cầu. - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 2.2. Triệu chứng xét nghiệm a. Xét nghiệm tế bào máu ngoại vi - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm, gặp một tỷ lệ tế bào non (tế bào blast) ác tính. - Số lượng tiểu cầu giảm. b. Xét nghiệm tủy xương - Tuỷ đồ là xét nghiệm quyết định chẩn đoán, cho thấy các tế bào blast chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy; các dòng hồng cầu, bạch cầu hạt và mẫu tiểu cầu bị lấn át bởi tế bào blast. - Sinh thiết tuỷ xương được chỉ định trong trường hợp chọc hút tuỷ không chẩn đoán xác định được do tủy nghèo tế bào thấy ổ tế bào blast. c"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:8",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 13.1452,
+            "snippet": "DANH MỤC CÁC BẢNG Bảng 1.5. Tổng hợp vai trò của các yếu tố tiên lượng lơ xê mi cấp dòng Bảng 1.6. Chức năng của các nhóm gen bị đột biến trong lơ xê mi cấp dòng Bảng 3.9. Số lượng bạch cầu các nhóm lơ xê mi cấp dòng lympho B theo"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 15.5568,
+          "min": 13.1452,
+          "avg": 14.1152
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 7746,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-027",
+  "date_folder": "13-04-2026",
+  "sequence": 27,
+  "file_name": "session_027.json",
+  "created_at": "2026-04-13T02:08:28.346839",
+  "updated_at": "2026-04-13T02:08:28.346839"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Có những điều gì cần thực hiện trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000, cần thực hiện những bước sau:\n\n- Sử dụng Methylprednisone với liều 40mg/m2/ngày, chia 3 lần (uống hoặc tĩnh mạch) từ ngày 8 đến ngày 28.\n- Tiêm Vincristine với liều 1,5mg/m2 các ngày: 8, 15, 22, 29.\n- Truyền Daunorubicin với liều 40mg/m2 ngày 8, 9, 10, 15.\n- Tiêm L-Asparaginase với liều 6.000UI/m2 từ ngày 10, 12, 14, 16, 18, 20, 23, 25, 27.\n- Truyền Cyclophosphamide với liều 1.000 mg/m2 ngày 8.\n\nCác thông tin trên đã được lấy từ phác đồ điều trị chi tiết a của FRALLE 2000.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:102",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8577,
+            "snippet": "3.2.2.2. Phác đồ điều trị chi tiết a. Giai đoạn cảm ứng: - Methylprednisone: 60mg/m2/ngày chia 2 lần (uống hay tĩnh mạch), ngày 1-7. Nếu dùng đường tĩnh mạch: Sử dụng methylprednisolone cùng liều như trên. b. Giai đoạn tấn công: Bắt đầu từ ngày 8, ngay sau điều trị cảm ứng - Methylprednisone: 40mg/m2, ngày 8-28, uống hoặc tĩnh mạch, chia 3 lần. Từ ngày 29: Giảm liều dần và ngừng vào ngày 35. - Vincristine: 1,5mg/m2, ngày 8, 15, 22, 29. Tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch (không quá 2mg). - Daunorubicine: 40mg/m2, ngày 8, 9, 10, 15. Truyền tĩnh mạch trong 60 phút. - L-Asparaginase: 6.000UI/m2, ngày 10, 12, 14, 16, 18, 20, 23, 25, 27. Tiêm bắp hoặc truyền tĩnh mạch trong 1 giờ. - Cyclophosphamide: 1.000 mg/m2, ngày 8. Truyền tĩnh mạch trong 30 phút. - Tiêm tủy sống 3 thuốc theo tuổi, ngày 8, 15 (với MTX, DEPO, cytarabin)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:68",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7607,
+            "snippet": "b. Phác đồ điều trị chi tiết b.1. Giai đoạn cảm ứng - Methylprednisone: 60mg/m2/ngày chia 2 lần (uống hay truyền tĩnh mạch) từ ngày 1 đến ngày 7. Nếu dùng đường tĩnh mạch: Sử dụng methylprednisolone cùng liều như trên). b.2. Giai đoạn tấn công: Từ ngày 8, bắt đầu ngay sau giai đoạn cảm ứng - Dexamethasone: 6 mg/m2/ngày (chia 3 lần uống/ tĩnh mạch): Ngày 8-28. - Vincristine: 1,5 mg/m2 (tĩnh mạch chậm hoặc truyền tĩnh mạch, không quá 2 mg) các ngày: 8, 15, 22, 29. - Daunorubicin: 40 mg/m2 (truyền tĩnh mạch trong 60 phút) ngày 22/29. - L-asparaginase: 6.000 UI/m2 (tiêm bắp/ tiêm tĩnh mạch trong 60 phút) từ ngày 10, 12, 14,16, 18, 20, 23, 25, 27. - Tiêm tủy sống (IT): Ngày 1 (MTX), ngày 15 (MTX, AraC, depomedrol) theo tuổi người bệnh. Lưu ý: - Tiêm tủy sống chỉ với methotrexate vào ngày 1 (không có methylprednisone) với điều kiện tiểu cầu > 100G/L"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:120",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7555,
+            "snippet": "(1) Làm tiêu bản máu ngoại vi và xác định số lượng tế bào non (blast) vào ngày 8; (2) Đánh giá MRD tủy vào ngày 35 hoặc ngày 42\n\nSơ đồ 2.1. PHÁC ĐỒ FRALLE 2000 - NHÓM A (2) (2) (2) (2) (1) Cảm ứng: Ngày 1-7 Corticoid + IT MTX Tấn công VCR, DEX, L-Aspa Tủy đồ ngày 21 Tủy M1: A1 Tủy M2: A2 Tủy M3: A3 DNR Ngày 22 DNR Ngày 22 và 29 Đánh giá tủy: Ngày 35 - Ngày 42, Xác định MRD Củng cố nhóm A1/A2 (12 tuần) VCR, DEX, 6MP, MTX Củng cố nhóm A3 (9 tuần/ 3 đợt) VEDA/COPADM/VED MRD ≥ 10-2 Tăng cƣờng lần 1 (tất cả nhóm) - (8 tuần) VB, DEX, DOXO, L-Aspa/ VP-16, Ara-C, 6MP Trung gian (8 tuần) VCR, DEX, 6-MP, MTX Tăng cƣờng 2 (không có anthracycline) VCR, MTX-DI, L-Aspa Duy trì 24 tháng: 12 tháng (VCR/Dex x 5 ngày) và 6 MP/MTX Trung gian (8 tuần) VCR, DEX, 6-MP, MTX+ MTX-HD x 3 Tăng cƣờng 2 (8 tuần) VCR, PRED, DNR, L-Aspa 53"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.8577,
+          "min": 0.7555,
+          "avg": 0.7913
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 39555,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-084",
+  "date_folder": "13-04-2026",
+  "sequence": 84,
+  "file_name": "session_084.json",
+  "created_at": "2026-04-13T11:22:50.253698",
+  "updated_at": "2026-04-13T11:22:50.253698"
+}

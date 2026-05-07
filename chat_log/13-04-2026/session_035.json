@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Bệnh bạch cầu cấp dòng lympho được phân loại dựa trên các dấu ấn miễn dịch như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh bạch cầu cấp dòng lympho được phân loại dựa trên các chuyển đoạn gen miễn dịch như t(12;21), t(9;22), t(8;14) và số lượng tế bào non ác tính (blast) dòng lympho trong tủy đồ trên 20%.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:59",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 20.6032,
+            "snippet": ". + Các đột biến gen:  Gen kết hợp TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22). t(12;21), 22% của Pre-B ALL;  Gen kết hợp BCR-ABL tạo bởi chuyển đoạn t(9;22) (q34q11). t(9;22), 3% ALL trẻ em;  Tái sắp xếp gen MLL tại vị trí 11q23 ảnh hưởng 80% của trẻ nhũ nhi, 3% của ALL trẻ lớn;  Các chuyển đoạn gen của lơ xê mi lympho B cấp liên quan gen MYC trên NST 8q24. 80% B-ALL có t(8;14) (q24;q32);  > 50% trường hợp Lơ xê mi lympho T cấp có đột biến hoạt động liên quan đến gen NOTCH1. 2.3. Chẩn đoán xác định Chẩn đoán Lơ xê mi lympho cấp dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, phân loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. 3. ĐIỀU TRỊ Các phác đồ điều trị được căn cứ vào các nhóm nguy cơ"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:36",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 19.3006,
+            "snippet": "+ Huyết sắc tố: Thường giảm, mức độ từ nhẹ đến nặng; + Tiểu cầu: Thường giảm hoặc có thể bình thường. - Tủy đồ: Tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…). - Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho (được trình bày ở phần sau). c. Chẩn đoán xác định - Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:111",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 18.0447,
+            "snippet": "máu Trung ương. Các phương pháp xét nghiệm tế bào, miễn dịch, di truyền, sinh học phân tử được tiến hành theo quy trình chuẩn tại Viện Huyết học – Truyền máu Trung ương. Một số tiêu chuẩn đánh giá áp dụng trong nghiên cứu được mô tả dưới đây: - Tiêu chuẩn chẩn đoán lơ xê mi cấp dòng lympho: Theo NCCN 2.2016 [82]: + Tăng sinh ≥ 20% nguyên bào lympho trong tủy xương, được xác định dựa trên:  Hình thái tế bào trên tủy đồ hoặc sinh thiết tủy xương;  Miễn dịch tế bào bằng phương pháp đếm tế bào dòng chảy (flow cytometry): Dương tính với dấu ấn miễn dịch dòng lympho. – Tiêu chuẩn đánh giá mức độ thiếu máu: Theo WHO [83] Bảng 2.1"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 20.6032,
+          "min": 18.0447,
+          "avg": 19.3162
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 3664,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-035",
+  "date_folder": "13-04-2026",
+  "sequence": 35,
+  "file_name": "session_035.json",
+  "created_at": "2026-04-13T02:47:24.471334",
+  "updated_at": "2026-04-13T02:47:24.471334"
+}

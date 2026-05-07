@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 from datetime import datetime
 from pathlib import Path
@@ -8,6 +9,10 @@ from typing import Any
 
 from app.settings import settings
 
+logger = logging.getLogger(__name__)
+
+DATE_FORMAT = '%d-%m-%Y'
+_MAX_SEQUENCE_RETRIES = 10
 
 SESSION_ID_REGEX = re.compile(r'^(\d{2}-\d{2}-\d{4})-session-(\d{3})$')
 DATE_KEY_REGEX = re.compile(r'^(\d{2})-(\d{2})-(\d{4})$')
@@ -20,7 +25,7 @@ class SessionService:
 
     @staticmethod
     def today_date_key() -> str:
-        return datetime.now().strftime('%d-%m-%Y')
+        return datetime.now().strftime(DATE_FORMAT)
 
     @staticmethod
     def parse_date_key(date_key: str) -> dict[str, str] | None:
@@ -98,7 +103,7 @@ class SessionService:
         folder_path = self.date_folder_path(date_key)
         folder_path.mkdir(parents=True, exist_ok=True)
 
-        for _ in range(10):
+        for _ in range(_MAX_SEQUENCE_RETRIES):
             sequence = self.next_session_sequence(date_key)
             file_name = self.build_session_file_name(sequence)
             file_path = folder_path / file_name
@@ -129,7 +134,8 @@ class SessionService:
             return None
         try:
             return self._read_json_file(file_path)
-        except Exception:
+        except Exception as exc:
+            logger.error('Failed to read session file %s: %s', file_path, exc)
             return None
 
     def save_session_by_id(self, session: dict[str, Any]) -> None:
@@ -161,7 +167,8 @@ class SessionService:
                         'history_count': len(session.get('history', [])) if isinstance(session.get('history'), list) else 0,
                     }
                 )
-            except Exception:
+            except Exception as exc:
+                logger.warning('Skipping malformed session file %s: %s', file_name, exc)
                 continue
 
         sessions.sort(key=lambda item: int(item.get('sequence', 0)), reverse=True)
@@ -173,9 +180,9 @@ class SessionService:
             return query
         return '\n'.join(
             [
-                f'Cau hoi goc: {query}',
-                f'Nguoi dung khong dong y voi phan hoi truoc va de xuat: {feedback}',
-                'Hay tra loi lai sat voi du lieu retrieve hon.',
+                f'Câu hỏi gốc: {query}',
+                f'Người dùng không đồng ý với phản hồi trước và đề xuất: {feedback}',
+                'Hãy trả lời lại sát với dữ liệu retrieve hơn.',
             ]
         )
 

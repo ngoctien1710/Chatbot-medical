@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Phân loại bệnh bạch cầu cấp dòng lympho theo miễn dịch tế bào như thế nào",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Phân loại bệnh bạch cầu cấp dòng lympho theo miễn dịch tế bào như thế nào?\n\nBệnh bạch cầu cấp dòng lympho có thể được phân loại dựa trên các yêu cầu miễn dịch tế bào, nhóm nguy cơ và xếp loại theo WHO.\n\n- Theo yêu cầu miễn dịch tế bào: Bệnh bạch cầu có thể được phân loại là ALL dòng tiền B hoặc T, hoặc phối hợp 2 dòng T và B hoặc phối hợp dòng tủy.\n- Theo nhóm nguy cơ: Nguy cơ không cao là cho trẻ em tuổi từ 1 đến dưới 10 tuổi và số lượng bạch cầu ban đầu trong máu < 50.000/mm, không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19). Nguy cơ cao là cho trẻ em tuổi dưới 1 và trên 10 hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu.\n- Theo WHO: Bệnh bạch cầu cấp dòng lympho được phân loại theo các tổn thương di truyền tái diễn, và có các dưới nhóm được xếp loại theo các tiêu chí: đặc điểm tế bào, miễn dịch và bất thường vật chất di truyền tái diễn.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:42",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9448,
+            "snippet": "Bảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)\n\nT sớm CD2-, CD7+, CD4-, CD8- T trung gian Tiền T CD2+, CD7+, CD4-, CD8- T ở tuyến ức CD7+, CD2+, CD5+, CD4+, CD8+, CD1a+ T trưởng thành CD3+, CD2+, CD7+, CD4+ hoặc CD8+, TdT/CD34/CD1a-\n\nGhi chú: - :< 10%, +/- : 10-25%, + : 25-75%, ++ : > 75% quần thể tế bào non ác tính dương tính.\n\nd. Xếp loại theo nhóm nguy cơ Xếp loại theo nhóm nguy cơ tái phát lần đầu tiên được đưa ra tại Roma (1986) dựa vào tiêu chuẩn lâm sàng cơ bản là tuổi và số lượng bạch cầu tại thời điểm chẩn đoán. Tiêu chuẩn này đã được xem xét lại tại hội thảo của Viện Ung thư Quốc gia Hoa Kỳ - National Cancer Institute, NCI (1996). Tùy theo các nhóm nghiên cứu khác nhau mà ALL được chia ra 2 nhóm nguy cơ"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9213,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:39",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9076,
+            "snippet": "b. Xếp loại theo WHO Theo bảng xếp loại của WHO, ALL được xếp loại dựa trên các tiêu chí: đặc điểm tế bào, miễn dịch và bất thường vật chất di truyền ở mức độ NST và gen. Năm 2001, WHO đưa ra xếp loại ALL trong khuôn khổ Bảng xếp loại bệnh lý ác tính dòng lympho (bao gồm LXM cấp, LXM kinh dòng lympho và u lympho ác tính). Bảng xếp loại này được cập nhật năm 2008 và gần đây nhất là năm 2016, ngày càng chú trọng đến vai trò của các biến đổi di truyền. Đặc biệt, phân nhóm LXM cấp dòng lympho B (B-ALL) có các dưới nhóm được xếp loại theo các tổn thương di truyền tái diễn. Xếp loại LXM cấp dòng lympho theo WHO 2016 được mô tả dưới đây [36]:"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9448,
+          "min": 0.9076,
+          "avg": 0.9245
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 38296,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-030",
+  "date_folder": "13-04-2026",
+  "sequence": 30,
+  "file_name": "session_030.json",
+  "created_at": "2026-04-13T02:19:34.616662",
+  "updated_at": "2026-04-13T02:19:34.616662"
+}

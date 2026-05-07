@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhi ALL có triệu chứng khó thở và u trung thất. Xét nghiệm nào cần thực hiện và cảnh báo gì về mặt điều trị?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp ALL (leukemia erythroleukemia) có triệu chứng khó thở và u trung thất, bạn nên thực hiện xét nghiệm xác định đột biến dung hợp gen (với 4 gen đột biến) để đưa ra chẩn đoán chính xác. Ngoài ra, bạn cần thực hiện xét nghiệm công thức NST (Nucleophosmin-STIL) để đánh giá kết quả điều trị sớm và mối liên quan với các bất thường nhiễm sắc thể, đột biến dung hợp một số gen ở trẻ mắc bệnh ALL. Về mặt điều trị, việc điều trị theo phác đồ FRALLE 2000 có thể được áp dụng cho các nhóm nguy cơ. Nếu bạn không có kinh nghiệm hoặc không tự tin về việc thực hiện xét nghiệm, hãy đến với một trung tâm y tế chuyên biệt để được giúp đỡ.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:89",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9694,
+            "snippet": "2.1. ĐỐI TƢỢNG NGHIÊN CỨU Đối tượng nghiên cứu là 288 bệnh nhi được chẩn đoán ALL, điều trị tại Viện Huyết học - Truyền máu Trung ương từ 1/8/2016 đến 1/8/2019. Trong số 288 bệnh nhi nghiên cứu, tất cả các bệnh nhi được thực hiện xét nghiệm xác định đột biến dung hợp gen (với 4 gen đột biến) và xét nghiệm công thức NST (có 188 bệnh nhi trong nghiên cứu có kết quả phân tích công thức NST). Tất cả các bệnh nhi được điều trị bằng phác đồ FRALLE 2000 theo các nhóm nguy cơ. 2.1.1. Tiêu chuẩn lựa chọn bệnh nhi - Bệnh nhi được chẩn đoán xác định là ALL; - Tuổi < 16 tuổi; - Gia đình bệnh nhi chấp nhận điều trị hoá chất và đồng ý tham gia nghiên cứu. 2.1.2. Tiêu chuẩn loại trừ bệnh nhi - Lơ xê mi cấp thể L3; - Lơ xê mi cấp có hội chứng Down; - Lơ xê mi cấp thứ phát; - Bệnh nhi bỏ điều trị. 2.2. PHƢƠNG PHÁP NGHIÊN CỨU 2.2.1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:128",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6305,
+            "snippet": "Sơ đồ 2.4. Sơ đồ nghiên cứu theo mục tiêu\n\nBệnh nhi chẩn đoán xác định ALL Mục tiêu 1: Xác định các bất thƣờng nhiễm sắc thể và đột biến dung hợp một số gen liên quan đến bệnh lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ƣơng trong thời gian 2016 – 2019 Điều trị theo phác đồ FRALLE 2000 các nhóm nguy cơ Theo dõi đáp ứng điều trị, so sánh Mục tiêu 2: Đánh giá kết quả điều trị sớm và mối liên quan với các bất thƣờng nhiễm sắc thể, đột biến dung hợp một số gen ở trẻ mắc bệnh lơ xê mi cấp dòng lympho theo phác đồ FRALLE 2000 tại Viện Huyết học – Truyền máu Trung ƣơng trong thời gian 2016 – 2019 Xét nghiệm di truyền (n=288) Lâm sàng + Xét nghiệm (Huyết học + Miễn dịch) 4 đột biến dung hợp gen (BCR-ABL1, TEL-AML1, MLL-AF4, E2A-PBX1) Nhiễm sắc thể (n=188)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:261",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6141,
+            "snippet": ". Nghiên cứu của tác giả Nguyễn Thị Mai Hương, 102 trẻ ALL nguy cơ cao tại Viện Nhi trung ương điều trị theo phác đồ CCG 1961 ghi nhận được kết quả OS 5 năm đạt 48,6%, EFS 46% [72]. Nghiên cứu của tác giả Châu Văn Hà tại bệnh viện Trung ương Huế ghi nhận EFS 4 năm là 49,7% với nhóm nguy cơ tiêu chuẩn và 36,6% với nhóm nguy cơ cao. Như vậy, nhiều nghiên cứu tại Việt Nam cho kết quả điều trị ALL trẻ em khác nhau có thể do đối tượng nghiên cứu khác nhau, thời gian nghiên cứu khác nhau và phác đồ điều trị khác nhau. Nghiên cứu này trên nhóm bệnh nhi với số lượng tương đối lớn (288 bệnh nhi), đã bước đầu ghi nhận kết quả sớm của điều trị với kết quả OS và EFS 12 tháng khá tốt so với một số nghiên cứu trong nước"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:44",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5797,
+            "snippet": ". - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt. Hầu hết bệnh nhi ngày nay được điều trị thành công, đạt được tình trạng lui bệnh mà không cần sử dụng đến phương pháp ghép tế bào gốc tạo máu. Ghép tế bào gốc tạo máu được đặt ra với nhóm bệnh nhi nguy cơ cao, hoặc không đạt được tình trạng lui bệnh (kháng hoá trị), hoặc tái phát, đặc biệt tái phát sớm sau khi hoàn thành hóa trị liệu [23]. - Điều trị nhắm đích và hƣớng điều trị trong tƣơng lai Điều trị hóa chất có nhược điểm chung, đó là cùng một lúc làm tổn thương cả tế bào ác tính và tế bào lành, dẫn đến một số hạn chế trong hiệu quả điều trị và khả năng phục hồi sau điều trị. Từ nhiều năm nay, các nhà khoa học đã tiến hành nhiều nghiên cứu để tìm ra các loại thuốc đặc hiệu có tác dụng 15"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:91",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5693,
+            "snippet": "2.2.2. Cỡ mẫu - Cỡ mẫu thuận tiện: Tất cả các bệnh nhi mới, được chẩn đoán ALL nhập viện trong thời gian nghiên cứu. Dự kiến ban đầu là 250-300 bệnh nhi. Trong thời gian nghiên cứu, có 322 bệnh nhi chẩn đoán ALL mới, nhưng chỉ có 288 bệnh nhi đủ tiêu chuẩn lựa chọn. 34 bệnh nhi bị loại khỏi nghiên cứu do không được làm đầy đủ xét nghiệm khảo sát hoặc không đảm bảo tiêu chuẩn lựa chọn như: không đồng ý điều trị hóa chất, bỏ điều trị, lơ xê mi cấp thứ phát, lơ xê mi cấp có hội chứng Down. 2.2.3. Nội dung và các thông số nghiên cứu a. Mục tiêu 1: Nghiên cứu mô tả cắt ngang – Nội dung nghiên cứu: Xác định bất thƣờng nhiễm sắc thể, một số đột biến dung hợp gen và liên quan đến một số đặc điểm lâm sàng, xếp loại lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000: + Đặc điểm chung nhóm bệnh nhi nghiên cứu: Tuổi, giới, xếp loại thể bệnh"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9694,
+          "min": 0.5693,
+          "avg": 0.6726
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 37995,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-005",
+  "date_folder": "25-04-2026",
+  "sequence": 5,
+  "file_name": "session_005.json",
+  "created_at": "2026-04-25T16:19:06.803391",
+  "updated_at": "2026-04-25T16:19:06.803391"
+}

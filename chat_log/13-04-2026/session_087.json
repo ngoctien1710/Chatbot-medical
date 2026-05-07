@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Có những điều gì cần thực hiện trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000, không có nhiều thứ cần thực hiện nào trong mục đích đánh giá chính xác hơn và nâng cao hiệu quả điều trị, đặc biệt đối với nhóm nguy cơ cao. Phác đồ FRALLE 2000 sẽ chia nhóm nguy cơ theo phác đồ FRALLE 2000 sau đánh giá đáp ứng sớm với điều trị, sau đó tiếp tục áp dụng các giai đoạn: Tấn công, củng cố, tăng cường 1, tích cực muộn, tăng cường 2 và duy trì trong 24 tháng.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:253",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0318,
+            "snippet": ". Trong một số phác đồ, MRD được thực hiện trong giai đoạn điều trị tấn công. Phác đồ FRALLE 2000 thực hiện xét nghiệm MRD khi bệnh nhi đã kết thúc điều trị tấn công. Tuy nhiên, với kết quả MRD này, nghiên cứu nhận thấy cần có biện pháp nhằm đánh giá chính xác hơn và nâng cao hiệu quả điều trị, đặc biệt đối với nhóm nguy cơ cao. 4.3.4. Chia nhóm nguy cơ theo phác đồ FRALLE 2000 sau đánh giá đáp ứng sớm với điều trị. Trên cơ sở chia nhóm nguy cơ trước điều trị của phác đồ FRALLE 2000, kết hợp đánh giá đáp ứng sớm với điều trị (nhạy cảm với corticoid, 122"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:79",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0318,
+            "snippet": ". Chia nhóm T1 và T2 dựa trên sự đánh giá nhạy cảm corticoid ngày 8, nhạy cảm hóa trị ngày 21, MRD ngày 35 - 42 (xin tham khảo bảng 2.5). 1.4.2. Điều trị các nhóm trong phác đồ FRALLE 2000 Dựa trên kiểu hình miễn dịch và chia nhóm nguy cơ, phác đồ FRALLE 2000 có các nhánh áp dụng riêng cho các nhóm A, B và T và đều bao gồm các giai đoạn: Tấn công, củng cố, tăng cường 1, tích cực muộn, tăng cường 2 và duy trì trong 24 tháng. Sau khi đánh giá đáp ứng sớm với điều trị, phác đồ FRALLE 2000 tiếp tục được phân nhóm nguy cơ lại với từng nhóm A, B, T để lựa chọn phác đồ tiếp theo. Điều trị theo phân nhóm nguy cơ của phác đồ FRALLE 2000 được mô tả tổng quát như sau:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:117",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0296,
+            "snippet": ". + Thời gian sống thêm không sự kiện (EFS): Thời gian từ khi bệnh nhi đạt lui bệnh hoàn toàn đến khi bệnh nhi gặp sự kiện (biến cố trong điều trị, tái phát, tử vong), hay thời điểm kết thúc theo dõi. 2.2.6. Tóm tắt phác đồ FRALLE 2000 sử dụng trong nghiên cứu Phác đồ FRALLE 2000 được áp dụng điều trị theo các nhóm nguy cơ, trải qua các giai đoạn: Tấn công, củng cố, tăng cường, trung gian, tăng cường 51"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0318,
+          "min": 0.0296,
+          "avg": 0.0311
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 17131,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-087",
+  "date_folder": "13-04-2026",
+  "sequence": 87,
+  "file_name": "session_087.json",
+  "created_at": "2026-04-13T13:33:03.927458",
+  "updated_at": "2026-04-13T13:33:03.927458"
+}

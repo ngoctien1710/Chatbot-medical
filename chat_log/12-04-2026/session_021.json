@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "triệu chứng lâm sàng toàn thân của bệnh ung thư lơ xê mi cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng lâm sàng toàn thân của bệnh ung thư lơ xê mi cấp dòng lympho có thể gồm nhiều biểu hiện, nhưng theo context đã cho, triệu chứng phổ biến nhất là thiếu máu (dao động từ 84,1% - 95%) và sốt (dao động từ 56,8% - 65,2%). Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:150",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9796,
+            "snippet": "3.2.2.2. Một số đặc điểm lâm sàng\n\nBiểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Thiếu máu là triệu chứng phổ biến nhất ở các nhóm (dao động từ 84,1% - 95%). Sốt cũng là triệu chứng thường thấy ở các nhóm (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:33",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.95,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:495",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.9266,
+            "snippet": ". Bệnh hay gặp ở người lớn tuổi, nam nhiều hơn nữ (gấp khoảng 2,8 lần). 2. NGUYÊN NHÂN GÂY BỆNH Đến nay, chưa thấy yếu tố đơn độc nào là nguyên nhân gây bệnh. Các nghiên cứu cho rằng việc tiếp xúc lâu với các hóa chất nông nghiệp, chất độc màu da cam và làm việc lâu dài trong môi trường điện từ trường, nhiễm các virus viêm gan C, Epstein-Barr virus có thể làm tăng nguy cơ mắc bệnh. Đã có một vài báo cáo về các gia đình có nhiều người cùng mắc lơ xê mi lympho mạn. 3. TRIỆU CHỨNG 3.1. Lâm sàng - Có đến 25% người bệnh không có triệu chứng lúc chẩn đoán, thường được phát hiện tình cờ là tăng tế bào lympho trong máu ngoại vi không giải thích được. Một số khác chỉ có dấu hiệu mệt mỏi hoặc hạn chế hoạt động thể lực. Ở giai đoạn muộn, người bệnh có thể sụt cân, nhiễm trùng tái diễn, xuất huyết do giảm tiểu cầu và thiếu máu"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9796,
+          "min": 0.9266,
+          "avg": 0.9521
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 38438,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "12-04-2026-session-021",
+  "date_folder": "12-04-2026",
+  "sequence": 21,
+  "file_name": "session_021.json",
+  "created_at": "2026-04-12T22:07:27.702503",
+  "updated_at": "2026-04-12T22:07:27.702503"
+}

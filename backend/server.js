@@ -14,6 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 const SESSION_ID_REGEX = /^(\d{2}-\d{2}-\d{4})-session-(\d{3})$/;
+const MAX_SEQUENCE_RETRIES = 10;
 
 const pad3 = (value) => String(value).padStart(3, '0');
 
@@ -139,7 +140,7 @@ const createSessionFile = (baseSession) => {
     const folderPath = dateFolderPath(dateKey);
     ensureDir(folderPath);
 
-    for (let attempt = 0; attempt < 10; attempt += 1) {
+    for (let attempt = 0; attempt < MAX_SEQUENCE_RETRIES; attempt += 1) {
         const sequence = nextSessionSequence(dateKey);
         const fileName = buildSessionFileName(sequence);
         const filePath = path.join(folderPath, fileName);
@@ -224,6 +225,15 @@ const callRagService = async (pathName, payload = null) => {
     }
 };
 
+const buildProviderMetadata = (diagnostics = {}) => ({
+    request_id: diagnostics.request_id || null,
+    retry_count: diagnostics.retry_count || 0,
+    fallback_used: diagnostics.fallback_used || null,
+    fallback_reason: diagnostics.fallback_reason || null,
+    error_category: diagnostics.error_category || null,
+    http_status: diagnostics.http_status || null,
+});
+
 const answerWithRag = async (query, options = {}) => {
     try {
         const requestPayload = {
@@ -306,14 +316,7 @@ app.post('/chat/start', async (req, res) => {
                     model_provider: diagnostics.provider || null,
                     model_name: diagnostics.model_name || null,
                     retrieval_mode: retrievalModeUsed,
-                    provider_metadata: {
-                        request_id: diagnostics.request_id || null,
-                        retry_count: diagnostics.retry_count || 0,
-                        fallback_used: diagnostics.fallback_used || null,
-                        fallback_reason: diagnostics.fallback_reason || null,
-                        error_category: diagnostics.error_category || null,
-                        http_status: diagnostics.http_status || null,
-                    }
+                    provider_metadata: buildProviderMetadata(diagnostics)
                 }
             ]
         });

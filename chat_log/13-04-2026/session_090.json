@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Nêu lên vai trò của yếu tố môi trường ảnh hưởng thế nào đến khả năng mắc bệnh lơ xê mi cấp?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Vai trò yếu tố môi trường ảnh hưởng quyết định đến khả năng mắc bệnh lơ xê mi cấp là rất quan trọng. Trong ngữ cảnh cung cấp, có thể nhận ra rằng tiếp xúc với bức xạ ion hóa, biến đổi di truyền, sử dụng hóa trị trước, tác nhân gây độc tế bào, virus và các yếu tố môi trường khác có thể làm tăng nguy cơ phát triển bệnh lơ xê mi cấp. Ngoài ra, quá trình sinh lý bệnh chưa được biết đến, nhưng việc uống rượu của cha mẹ có thể làm tăng nguy cơ phát triển bệnh lơ xê mi cấp ở trẻ em.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:25",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9534,
+            "snippet": ". - Tín hiệu gắn (Signal transducers): Gắn kết các receptor Tyrosine Kinase, với thụ thể phối tử thích hợp, dẫn đến sự tổ chức lại và tự phosphoryl hóa Tyrosine trong phần nội bào của các phân tử, điều này làm tăng hoạt động của các thụ thể hoặc tăng sự tương tác của thụ thể trong nội bào với các protein khác qua đó ảnh hưởng đến quá trình sinh trưởng, biệt hóa tế bào. - Các chất điều hòa quá trình chết theo chƣơng trình của tế bào (Regulators of apoptosis): Các chất điều hòa cuối cùng dẫn đến quá trình chết theo chương trình của tế bào, trong đó gen BCL2 mã hoá một protein nội bào được định vị trong ty thể và tăng sự sống còn của tế bào bằng cách ức chế quá trình chết theo chương trình của tế bào. 1.1.2. Vai trò của yếu tố môi trƣờng trong bệnh sinh lơ xê mi cấp - Tiếp xúc với bức xạ ion hóa"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:28",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9422,
+            "snippet": ". Trong khi các cơ chế sinh lý bệnh chưa được biết đến, các nhà khoa học đã chứng minh thừa cân và hút thuốc cũng làm tăng nguy cơ mắc bệnh LXM cấp. Không có bằng chứng rõ ràng về vai trò của việc uống rượu ở người lớn, nhưng việc uống rượu của cha mẹ có thể làm tăng nguy cơ phát triển bệnh LXM cấp ở trẻ em. - Điều trị hóa trị trƣớc đó Các tác nhân gây độc tế bào thường được sử dụng trong điều trị các bệnh ác tính có liên quan đến phát sinh ALL, đặc biệt là các tác nhân alkyl hóa (ví dụ: melphalan, busulfan, cyclophosphamide, carbo- và cisplatin) và chất ức chế topoisomerase II (ví dụ, etoposide và doxorubicin). - Virus Nhiễm virus có liên quan đến bệnh sinh ALL, ví dụ bệnh LXM cấp tế bào T người lớn (do loại virus T-lymphotropic người I (HTLV-I)) và u lympho/lơ xê mi Burkitt, có liên quan với virus Epstein Barr (EBV)\n. Như vậy, thông qua nhiều cơ chế khác nhau, rõ ràng biến đổi di truyền cùng với các yếu tố môi trường là cơ sở phát sinh bệnh ALL [24]."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:19",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9091,
+            "snippet": "1.1. BỆNH SINH LƠ XÊ MI CẤP DÒNG LYMPHO Các giả thuyết về bệnh sinh ALL chủ yếu tập trung vào hai yếu tố là biến đổi di truyền và môi trường sống. Cũng giống như các lơ xê mi (LXM) cấp khác, ALL phát sinh từ các đột biến di truyền của các tế bào tiền thân tế bào gốc tạo máu, tác động đến quá trình sinh trưởng và biệt hoá bình thường của các tế bào dòng lympho. Các tế bào tiền thân bị biến đổi này gọi là các tế bào khởi đầu LXM. Các tế bào tiền thân này cũng quy định loại tế bào định hướng phát triển theo dòng, đặc tính chức năng hay dấu ấn trên bề mặt các tế bào LXM. 1.1.1. Vai trò của biến đổi di truyền trong bệnh sinh lơ xê mi cấp dòng lympho trẻ em Quá trình phát triển của LXM cấp được kiểm soát thông qua hoạt động của các yếu tố phiên mã và lựa chọn thông qua chức năng của các con đường dẫn truyền tín hiệu"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9534,
+          "min": 0.9091,
+          "avg": 0.9349
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35986,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-090",
+  "date_folder": "13-04-2026",
+  "sequence": 90,
+  "file_name": "session_090.json",
+  "created_at": "2026-04-13T13:51:39.392911",
+  "updated_at": "2026-04-13T13:51:39.392911"
+}

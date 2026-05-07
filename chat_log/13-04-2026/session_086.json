@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Có những điều gì cần thực hiện trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000, cần thực hiện xét nghiệm MRD (Molecular Remission Detection) để đánh giá chính xác hơn và nâng cao hiệu quả điều trị, đặc biệt đối với nhóm nguy cơ cao.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:253",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 26.3116,
+            "snippet": ". Trong một số phác đồ, MRD được thực hiện trong giai đoạn điều trị tấn công. Phác đồ FRALLE 2000 thực hiện xét nghiệm MRD khi bệnh nhi đã kết thúc điều trị tấn công. Tuy nhiên, với kết quả MRD này, nghiên cứu nhận thấy cần có biện pháp nhằm đánh giá chính xác hơn và nâng cao hiệu quả điều trị, đặc biệt đối với nhóm nguy cơ cao. 4.3.4. Chia nhóm nguy cơ theo phác đồ FRALLE 2000 sau đánh giá đáp ứng sớm với điều trị. Trên cơ sở chia nhóm nguy cơ trước điều trị của phác đồ FRALLE 2000, kết hợp đánh giá đáp ứng sớm với điều trị (nhạy cảm với corticoid, 122"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:252",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 21.9418,
+            "snippet": ". Ngược lại, các bệnh nhi có MRD > 10-2 thì nguy cơ tái phát rất cao và tỷ lệ sống thêm thấp hơn [103],[140],[141],[142]. Nghiên cứu về xác định mức độ đáp ứng bằng MRD trên các yếu tố tiên lượng khác nhau, trong đó có bất thường di truyền, tác giả Borowizt và cộng sự nhận thấy: Những bệnh nhi có đột biến gen TEL-AML1 hay trên lưỡng bội NST với thêm NST số 4, 10 thường có đáp ứng tốt nhất với tỷ lệ bệnh nhi có MRD âm tính sau điều trị tấn công cao, tỷ lệ sống thêm trên 10 năm của các nhóm bệnh nhi này cũng đạt mức cao nhất [143]. Như vậy, MRD của các bệnh nhi trong nghiên cứu này ở mức cao hơn so với một số nghiên cứu trong và ngoài nước. Trong một số phác đồ, MRD được thực hiện trong giai đoạn điều trị tấn công. Phác đồ FRALLE 2000 thực hiện xét nghiệm MRD khi bệnh nhi đã kết thúc điều trị tấn công"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:93",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 20.7197,
+            "snippet": "- Vincristine 1,5mg/m2/ngày (tối đa 2mg), tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch, ngày 1, 8, 15 - L-Asparaginase: 6.000UI/m2, ngày 3, 5, 7, 9, 11, 13 truyền tĩnh mạch trong 60 phút. - Doxorubicin: 25mg/m2, ngày 1, 8, 15. Truyền tĩnh mạch trong 60 phút. - Tiêm tủy sống 3 thuốc ngày 1 (ngày 15). ĐỢT 2: Bắt đầu ngay khi bạch cầu trung tính > 1G/L và tiểu cầu > 100G/L. - Mercaptopurine: 50 mg/m2/ngày: 60mg/m2, ngày 29-49. Uống 1 lần, sáng, đói. - Etoposide: 150mg/m2, ngày 29, 36, 43. Truyền tĩnh mạch trong 60 phút. - Cytarabine: 30mg/m2 x 2, ngày 29-30, ngày 36-37, ngày 43-44. Tiêm dưới da (tổng cộng 12 mũi). - Tiêm tủy sống 3 thuốc, ngày 29. Lưu ý: - Thuốc ngày 8, 15, 36, 43 được tiếp tục bất kể số lượng tế bào máu (và không có vấn đề gì về lâm sàng, sinh hóa). - Ngừng hóa trị và nghỉ từ ngày 50-57. b.5. Giai đoạn trung gian b.5.1"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 26.3116,
+          "min": 20.7197,
+          "avg": 22.991
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 12125,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-086",
+  "date_folder": "13-04-2026",
+  "sequence": 86,
+  "file_name": "session_086.json",
+  "created_at": "2026-04-13T13:24:25.740725",
+  "updated_at": "2026-04-13T13:24:25.740725"
+}

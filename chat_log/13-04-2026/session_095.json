@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Các nhà khoa học đã có bước tiến như nào trong công cuộc tìm ra các loại thuốc đặc hiệu có tác dụng chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh lơ xê mi cấp dòng lympho",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình tìm kiếm thuốc đặc hiệu cho điều trị bệnh lơ xê mi cấp dòng lympho (ALL), nhà khoa học đã có bước tiến quan trọng với sử dụng thuốc ức chế Tyrosine Kinase, như Imatinib và Dasatinib, tấn công vào các bản dịch mã đặc hiệu protein lai BCR-ABL1. Cũng như việc sử dụng liệu pháp kháng thể đơn dòng đặc hiệu, như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine đang được nghiên cứu kết hợp với các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9635,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9335,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:28",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8601,
+            "snippet": ". Trong khi các cơ chế sinh lý bệnh chưa được biết đến, các nhà khoa học đã chứng minh thừa cân và hút thuốc cũng làm tăng nguy cơ mắc bệnh LXM cấp. Không có bằng chứng rõ ràng về vai trò của việc uống rượu ở người lớn, nhưng việc uống rượu của cha mẹ có thể làm tăng nguy cơ phát triển bệnh LXM cấp ở trẻ em. - Điều trị hóa trị trƣớc đó Các tác nhân gây độc tế bào thường được sử dụng trong điều trị các bệnh ác tính có liên quan đến phát sinh ALL, đặc biệt là các tác nhân alkyl hóa (ví dụ: melphalan, busulfan, cyclophosphamide, carbo- và cisplatin) và chất ức chế topoisomerase II (ví dụ, etoposide và doxorubicin). - Virus Nhiễm virus có liên quan đến bệnh sinh ALL, ví dụ bệnh LXM cấp tế bào T người lớn (do loại virus T-lymphotropic người I (HTLV-I)) và u lympho/lơ xê mi Burkitt, có liên quan với virus Epstein Barr (EBV)\n. Như vậy, thông qua nhiều cơ chế khác nhau, rõ ràng biến đổi di truyền cùng với các yếu tố môi trường là cơ sở phát sinh bệnh ALL [24]."
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9635,
+          "min": 0.8601,
+          "avg": 0.919
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 48847,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-095",
+  "date_folder": "13-04-2026",
+  "sequence": 95,
+  "file_name": "session_095.json",
+  "created_at": "2026-04-13T14:18:20.662953",
+  "updated_at": "2026-04-13T14:18:20.662953"
+}

@@ -1,0 +1,59 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Trẻ em bị ALL gặp những bất thường gì trên lưỡng bội nhiễm sắc thể (> 46 NST)",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trẻ em bị ALL có thể gặp những bất thường gì trên lưỡng bội nhiễm sắc thể (> 46 NST), ví dụ như giảm bội (hypodiploid) < 46NST, 46 NST với cấu trúc bất thường (pseudodiploid), trên lưỡng bội 47-50 NST (hyperdiploid), hoặc > 50 NST (hyper-hyperdiploid). Các đột biến gen như TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22) cũng có thể xảy ra trong ALL.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 1,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:55",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7985,
+            "snippet": "- Tủy đồ: Tỷ lệ tế bào non ác tính trong tủy ≥ 20%. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34 (+), HLA-DR (+), TdT (+); + Dòng lympho B (85%):  Pro B-ALL: HLA-DR+, TdT+, CD19+ (5%);  Common ALL: HLA-DR+, TdT+, CD19+, CD10+ (65%);  Pre B-ALL: HLA-DR+, TdT+, CD19+, CD10±, cytoplasmic IgM+ (15%). + Dòng Lympho T (15%):  Pre T-ALL: TdT+, Cytoplasmic CD3+, CD7+ (2%);  T cell-ALL: TdT+, Cytoplasmic CD3+, CD1a/2/3+, CD5+ (13%). - Di truyền tế bào và sinh học phân tử: + Bất thường về NST:  Giảm bội (hypodiploid) < 46NST;  46 NST với cấu trúc bất thường (pseudodiploid);  Trên lưỡng bội 47-50 NST (hyperdiploid);  > 50 NST (hyper-hyperdiploid). + Các đột biến gen:  Gen kết hợp TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.7985,
+          "min": 0.7985,
+          "avg": 0.7985
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 75466,
+        "context_used": 1,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-062",
+  "date_folder": "13-04-2026",
+  "sequence": 62,
+  "file_name": "session_062.json",
+  "created_at": "2026-04-13T09:49:35.598926",
+  "updated_at": "2026-04-13T09:49:35.598926"
+}

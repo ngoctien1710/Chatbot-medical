@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Tư vấn cho gia đình: con 8 tuổi, giới tính nam, mắc bệnh ALL đang duy trì năm thứ 2, bỗng xuất hiện đau đầu, nôn, liệt dây thần kinh mặt. Nghi ngờ gì? Cần làm thêm xét nghiệm gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, gia đình có thể nghi ngờ bệnh tái phát ALL cho con 8 tuổi vì việc xuất hiện đau đầu, nôn, liệt dây thần kinh mặt. Cần làm thêm xét nghiệm BCTT (số lượng bạch cầu trong máu) và TC (tiểu cầu trong máu) để kiểm tra tình trạng tái phát ALL. Nếu kết quả xét nghiệm cho thấy BCTT lớn hơn 2.000/mm và TC lớn hơn 100.000/mm, có thể chỉ định dựphòng xạ trị cho ALL nhóm nguy cơ cao tái phát thần kinh trung ương.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:89",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8014,
+            "snippet": "2.1. ĐỐI TƢỢNG NGHIÊN CỨU Đối tượng nghiên cứu là 288 bệnh nhi được chẩn đoán ALL, điều trị tại Viện Huyết học - Truyền máu Trung ương từ 1/8/2016 đến 1/8/2019. Trong số 288 bệnh nhi nghiên cứu, tất cả các bệnh nhi được thực hiện xét nghiệm xác định đột biến dung hợp gen (với 4 gen đột biến) và xét nghiệm công thức NST (có 188 bệnh nhi trong nghiên cứu có kết quả phân tích công thức NST). Tất cả các bệnh nhi được điều trị bằng phác đồ FRALLE 2000 theo các nhóm nguy cơ. 2.1.1. Tiêu chuẩn lựa chọn bệnh nhi - Bệnh nhi được chẩn đoán xác định là ALL; - Tuổi < 16 tuổi; - Gia đình bệnh nhi chấp nhận điều trị hoá chất và đồng ý tham gia nghiên cứu. 2.1.2. Tiêu chuẩn loại trừ bệnh nhi - Lơ xê mi cấp thể L3; - Lơ xê mi cấp có hội chứng Down; - Lơ xê mi cấp thứ phát; - Bệnh nhi bỏ điều trị. 2.2. PHƢƠNG PHÁP NGHIÊN CỨU 2.2.1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7035,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:21",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6838,
+            "snippet": ". Giảm 50% liều nếu BCTT từ 500 đến < 750 và TC từ 50.000 đến < 75.000. Giữ nguyên liều và xét nghiệm BCTT và TC hàng tuần nếu BCTT 750 - < 1.000 và TC 75.000 - < 100.000. Tăng liều thêm 25% nếu BCTT ≥ 2.000/mm và tiểu cầu ≥ 100.000/mm Xạ trị Chỉ định điều trị: ALL có thâm nhiễm thầ n9n kinh trung ương (TKTƯ 3) hoặc tinh hoàn ngay khi chẩn đoán hoặc khi tái phát. Chỉ định dựphòng: ALL nguy cơ cao tái phát thần kinh trung ương như ALL dòng T có số 3 lượng bạch cầu > 200.000/mm , ALL dòng tiền B đáp ứng điều trị chậm, TKTƯ – 2 hoặc chọc dò dịch não tủy có máu và có BCN. Liều xạ trị sọ não điều trị cho ALL nhóm nguy cơ không cao hoặc xạ trị dựphòng: tổng liều 1800 cGy, 180 cGy/liều/ngày, 5 ngày/tuần. Liều xạ trị tinh hoàn: tổng liều 2400 cGy cho cả 2 tinh hoàn, 300 cGy/liều/ngày. Nếu tinh hoàn vẫn to sau xạ trị 2400 cGy, thêm 300 cGy/liều x 2 liều"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:31",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6036,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.591,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.8014,
+          "min": 0.591,
+          "avg": 0.6766
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35886,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-026",
+  "date_folder": "23-04-2026",
+  "sequence": 26,
+  "file_name": "session_026.json",
+  "created_at": "2026-04-23T13:53:07.698488",
+  "updated_at": "2026-04-23T13:53:07.698488"
+}

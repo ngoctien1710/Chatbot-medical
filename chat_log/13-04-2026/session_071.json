@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Cần thực hiện nhiệm vụ gì trong giai đoạn test corticoid của phác đồ GRAALL 2005?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn test corticoid của phác đồ GRAALL 2005, bạn cần thực hiện việc điều trị corticoid cho bệnh nhân. Trong giai đoạn này, bệnh nhân sẽ được điều trị với Methylprednisone liều 60 mg/m2 đường uống hoặc methylprednisolone liều 48mg/m2 đường tĩnh mạch từ ngày 1-7 (hoặc đến ngày thứ 10). Sau khi điều trị, bệnh nhân sẽ được chia thành hai nhóm để lựa chọn phác đồ điều trị dựa trên kết quả kiểm tra nhạy cảm corticoid và hóa trị.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:32",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0328,
+            "snippet": "dụng liệu trình điều trị quay vòng nhiều đợt, mỗi đợt ngắn ngày nhưng hoá chất sử dụng liều rất cao. Phác đồ thường dùng là Hyper-CVAD, bao gồm 8 đợt điều trị liều cao phân liều, không điều trị duy trì; - Phác đồ Hyper-CVAD: Gồm 8 đợt điều trị, chia thành 2 liệu trình A và B, điều trị xen kẽ. b. Điều trị bệnh nhân LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (AYA) Phác đồ GRAALL 2005 Giai đoạn test corticoid: Thực hiện từ ngày 1-7, tối đa là ngày thứ 10. - Methylprednisone: liều 60 mg/m2 đường uống hoặc methylprednisolone liều 48mg/m2 đường tĩnh mạch từ ngày 1-7 (hoặc đến ngày thứ 10). Sau đó bệnh nhân được chia thành 2 nhóm để lựa chọn phác đồ điều trị là nhóm có NST Ph(+) và nhóm có NST Ph(-)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:62",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.03,
+            "snippet": "Nhóm T1 (Khi có đủ cả 3 tiêu chuẩn) Nhóm T2 (Có từ 1 trong 3 tiêu chuẩn) - Nhạy cảm corticoid ngày 8 - Nhạy cảm hóa trị ngày 21 - MRD ngày 35 < 10-2 - Kháng corticoid ngày 8 - Kháng hóa trị ngày 21 - MRD ngày 35 > 10-2\n\nLưu ý: - Tiêu chuẩn nhạy cảm corticoid trên huyết đồ ngày 8: + Nhạy cảm corticoid ngày 8: Tế bào blast trong máu ngoại vi ngày 8: < 1 G/L; + Kháng corticoid ngày 8: Tế bào blast trong máu ngoại vi ngày 8: ≥ 1 G/L. - Tiêu chuẩn nhạy cảm hóa trị ngày 21: + Nhạy với hóa trị ngày 21: Tủy đồ ngày 21 có blast ≤ 5%; ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 181"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:61",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0295,
+            "snippet": ". - Xếp nhóm B1 và B2 vào ngày 21 của điều trị tấn công dựa vào sự nhạy cảm với corticoid vào ngày 8 và nhạy cảm hóa trị vào ngày 21. Nhóm B1 (Tất cả các tiêu chuẩn sau) Nhóm B2 (Chỉ có từ 1 trong các tiêu chuẩn) - Không có thể thiểu bội < 44, hoặc t(4;11) hoặc t(9 ;22) - Không có gen MLL-AF4 hay BCR-ABL - Nhạy cảm corticoid ngày 8 - Nhạy cảm hóa trị ngày 21 - Có thể thiểu bội < 44, hoặc t(4;11) hoặc t(9 ;22) - Có gen MLL-AF4 hay BCR-ABL - Kháng corticoid ngày 8 - Kháng hóa trị ngày 21 - MRD (+) (≥ 10-2) vào ngày 35-42 c. Nhóm T: Lơ xê mi lympho T cấp. Chia nhóm T1 và T2 dựa vào tiêu chuẩn:"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0328,
+          "min": 0.0295,
+          "avg": 0.0308
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 6578,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-071",
+  "date_folder": "13-04-2026",
+  "sequence": 71,
+  "file_name": "session_071.json",
+  "created_at": "2026-04-13T10:28:50.207173",
+  "updated_at": "2026-04-13T10:28:50.207173"
+}

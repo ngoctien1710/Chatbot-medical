@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Đặc điểm máu ngoại vi và tủy xương trong xơ tủy nguyên phát có gì đặc trưng?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Xơ tủy nguyên phát có đặc điểm máu ngoại vi và tủy xương trong xơ tủy nguyên phát gì đặc trưng? Xơ tủy nguyên phát là một bệnh máu khác biệt, đặc trưng là tăng sinh xơ trong tủy xương và sinh máu ngoài tủy. Nguyên nhân gây bệnh chưa được rõ, nhưng có thể liên quan đến yếu tố nguy cơ như tiếp xúc với hóa chất benzen, toluen, thorium dioxide và tia xạ. Triệu chứng bao gồm lâm sàng, xét nghiệm máu ngoại vi và tuỷ xương, có thể gặp biểu hiện như lách to, giảm số lượng hồng cầu, tủy đồ, khó hút dịch tuỷ, tăng mẫu tiểu cầu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:233",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9405,
+            "snippet": "1. ĐẠI CƯƠNG Xơ tủy nguyên phát là bệnh máu, đặc trưng là tăng sinh xơ trong tủy xương và sinh máu ngoài tủy, thuộc nhóm các bệnh tăng sinh tủy mạn ác tính. 2. NGUYÊN NHÂN GÂY BỆNH Nguyên nhân chính xác gây bệnh chưa được biết rõ. Người ta cho rằng xơ tủy nguyên phát cùng với các bệnh khác thuộc nhóm bệnh tăng sinh tủy mạn ác tính từ đột biến soma của các tế bào gốc sinh máu đa tiềm năng. Đột biến gen JAK2 gây giảm tự ức chế sinh sản tế bào của JAK2 - một protein tyrosin kinase thuộc họ Janus kinase (JAK), dẫn tới tăng sinh tế bào tạo máu. Sự khu trú của tế bào gốc bị đột biến tại các ổ sinh máu trong tủy xương là điều kiện cần để hình thành bệnh xơ tủy. Một số trường hợp xơ tủy nguyên phát có liên quan đến yếu tố nguy cơ: tiếp xúc hóa chất benzen, toluen, thorium dioxide và tia xạ. 3. TRIỆU CHỨNG 3.1"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:222",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8296,
+            "snippet": "chủ yếu là NST Ph và/ hoặc gen BCR-ABL1 dương tính cùng với biểu hiện lâm sàng và xét nghiệm ban đầu của bệnh khi chẩn đoán xác định; + Xơ tủy nguyên phát giai đoạn sớm (tiền xơ): Chủ yếu dựa vào sự tăng sinh và đặc điểm rối loạn hình thái của mẫu tiểu cầu, mức độ xơ tủy xương và lách to, xuất hiện tuổi trung gian dòng bạch cầu hạt và hồng cầu non ở máu ngoại vi; + Hội chứng rối loạn sinh tủy có tăng tiểu cầu: thường có bất thường NST 5q-, 3q21q26, hội chứng rối loạn sinh tủy/tăng sinh tủy có sideroblast vòng và tăng tiểu cầu; + Tăng tiểu cầu có tính chất gia đình: bệnh rất hiếm gặp, di truyền trội trên NST thường; đột biến gen thrombopoietin. 4.3. Phân nhóm nguy cơ Thang điểm IPSET - thrombosis sửa đổi theo WHO (The revised international prognostic score of thrombosis for ET)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:234",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7071,
+            "snippet": ". Một số trường hợp xơ tủy nguyên phát có liên quan đến yếu tố nguy cơ: tiếp xúc hóa chất benzen, toluen, thorium dioxide và tia xạ. 3. TRIỆU CHỨNG 3.1. Lâm sàng - Triệu chứng thường gặp là lách to, thiếu máu; Xuất huyết do giảm tiểu cầu có thể thấy ở những người bệnh có giảm số lượng tiểu cầu dưới 50G/l; Có thể có biểu hiện nhiễm trùng, nhất là nếu người bệnh có giảm số lượng bạch cầu hạt. 3.2. Xét nghiệm a. Máu ngoại vi - Giảm số lượng hồng cầu; Có biểu hiện bất thường về hình thái hồng cầu, thường gặp nhất là hồng cầu hình giọt lệ, mảnh hồng cầu, gặp hồng cầu có nhân; Tăng bạch cầu chủ yếu là dòng bạch cầu hạt, công thức bạch cầu chuyển trái (gặp một số tuổi trung gian dòng bạch cầu hạt); Có thể gặp tiểu cầu khổng lồ. LDH huyết thanh tăng. b. Tuỷ xương - Tủy đồ: Khó hút dịch tuỷ; tủy nghèo tế bào; tăng mẫu tiểu cầu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:184",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6585,
+            "snippet": ". - Không có gen PDGFRA hoặc PDGFRB (đặc biệt, trong các trường hợp tăng bạch cầu ưa acid). - Blast ở máu ngoại vi và trong tủy < 20%. - Có ít nhất một trong các biểu hiện sau: + Rối loạn sinh sản của một hoặc nhiều dòng tế bào tủy; + Xuất hiện bất thường về di truyền tế bào hoặc bất thường di truyền phân tử mắc phải trong các tế bào tạo máu; + Tăng bạch cầu mono dai dẳng ít nhất 3 tháng mà các nguyên nhân tăng bạch cầu mono khác đã được loại trừ (như nhiễm trùng, viêm, hoặc bệnh ác tính). c. Tiêu chuẩn chẩn đoán CMML theo WHO (2016): - Tăng bạch cầu mono máu ngoại vi dai dẳng (≥ 1 G/l), với tỷ lệ bạch cầu mono ≥ 10% tỷ lệ bạch cầu. - Loại trừ CML, xơ tủy nguyên phát, đa hồng cầu nguyên phát, tăng tiểu cầu nguyên phát theo WHO (như các đặc trưng trong trong tủy xương, sự có mặt của các đột biến JAK2, CALR, MPL có NST Philadelphia hoặc gen BCR-ABL1)\n. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 223"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:186",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5298,
+            "snippet": ". - CMML-1: Blast < 2-4% ở máu ngoại vi và < 5-9% trong tủy xương. - CMML-2: Blast từ 5-19% ở máu ngoại vi và từ 10-19% trong tủy xương. - CMML có tăng bạch cầu ưa acid: Tiêu chuẩn chẩn đoán CMML + bạch cầu ưa acid máu ngoại vi > 1,5G/l; xét nghiệm NST thường thấy có t(5;12). 2.5. Chẩn đoán phân biệt: - Tăng sinh mono nguyên nhân không phải bệnh lý ác tính (lao, bệnh nấm mạn tính, viêm nội tâm mạc…), thường có các triệu chứng biểu hiện bệnh kèm theo. - Phân biệt bệnh tăng sinh tủy ác tính: Xơ tủy tiên phát, lơ xê mi tủy mạn (CML). Bảng 21. Phân biệt CMML, CML, CML không điển hình"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9405,
+          "min": 0.5298,
+          "avg": 0.7331
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 31082,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-021",
+  "date_folder": "24-04-2026",
+  "sequence": 21,
+  "file_name": "session_021.json",
+  "created_at": "2026-04-24T19:49:26.723096",
+  "updated_at": "2026-04-24T19:49:26.723096"
+}

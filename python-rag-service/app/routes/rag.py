@@ -34,12 +34,12 @@ def capabilities() -> dict:
                 'model_name': settings.chat_model,
             },
             'gpt': {
-                'available': bool(settings.openai_api_key and settings.openai_chat_model),
+                'available': settings.openai_api_key is not None and settings.openai_chat_model is not None,
                 'provider': 'openai',
                 'model_name': settings.openai_chat_model,
             },
             'gemini': {
-                'available': bool(settings.gemini_api_key and settings.gemini_chat_model),
+                'available': settings.gemini_api_key is not None and settings.gemini_chat_model is not None,
                 'provider': 'gemini',
                 'model_name': settings.gemini_chat_model,
             },

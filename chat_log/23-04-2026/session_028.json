@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "MRD (bệnh tồn dư tối thiểu) trong ALL được đo bằng kỹ thuật gì và tại thời điểm nào theo các phác đồ khác nhau?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "MRD (bệnh tồn dư tối thiểu) ở ALL được đo bằng kỹ thuật Flow cytometry, và đánh giá sau 28 ngày của giai đoạn cảm ứng.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9843,
+            "snippet": "ĐIỀU TRỊ Hóa trị liệu toàn thân Bạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời lần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao . TX: tình trạng của tủy xương. TX1: BCN ≤ 5% tế bào tủy; TX2: 5 - ≤ 25%; TX3: > 25%. Xét nghiệm tủy đồ ngày thứ 7, 14 và 28 của giai đoạn điều trị cảm ứng để đánh giá đáp ứng điều trị. Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau)"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:7",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9715,
+            "snippet": ". Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau). Bệnh nhân đáp ứng điều trị chậm nếu xét nghiệm tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX3 và ngày thứ 14 là TX2 hoặc ngày thứ 14 là TX3, chuyển sang phác đồ tăng cường. Nhóm nguy cơ cao: điều trị phác đồ CCG 1961, nhánh B (chi tiết xem sau). Bệnh nhân đáp ứng điều trị chậm nếu xét nghiệm tủy đồ ngày thứ 7 là TX3, chuyển sang phác đồ đáp ứng chậm. Bệnh nhân có tủy đồ ngày thứ 28 của giai đoạn cảm ứng là TX3 sẽ không tiếp tục điều trị * theo phác đồ. Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường. Bạch cầu cấp dòng lympho T: điều trị theo phác đồ AZNCCSG Study VII (chi tiết xem sau)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:249",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9378,
+            "snippet": ". Các bệnh nhi được thực hiện xét nghiệm xác định MRD bằng kỹ thuật flow cytometry từ dịch hút tủy xương sau điều trị tấn công. Trong nghiên cứu này, chỉ 137 bệnh nhi được làm xét nghiệm đánh giá MRD do nhiều lý do: không chọc hút được dịch tủy, dịch hút tủy bị đông, không đạt lui bệnh hoàn toàn về huyết học…Kết quả bảng 3.18 và bảng 3.24 ghi nhận các mức độ MRD của nhóm bệnh nhi nghiên cứu được chia các nhóm nguy cơ theo phác đồ FRALLE 2000 và nhóm nguy cơ theo biến đổi di truyền đối với nhóm B-ALL. Trong tổng số 137 bệnh nhi, không có bệnh nhi nào có mức MRD ≥ 0,01 (mức chuyển đổi phác đồ trong phác đồ FRALLE 2000), tuy nhiên tỷ lệ bệnh nhi đạt mức MRD < 10-4 ở mức thấp (3,6%). Đa số bệnh nhi được khảo sát có mức MRD từ 10-3 đến 10-4"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:248",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.921,
+            "snippet": "nhóm nguy cơ cao được điều trị bằng phác đồ dành cho nhóm nguy cơ cao và có 13/24 bệnh nhi được kết hợp điều trị bằng Imatinib tuy nhiên vì số lượng bệnh nhi còn thấp và đa số bệnh nhi không được điều trị imatinib ngay từ điều trị tấn công ban đầu nên kết quả còn nhiều hạn chế. 4.3.3. Đánh giá tồn dƣ tối thiểu của bệnh Xác định mức độ tồn dư tối thiểu của bệnh (MRD) là một trong những yếu tố quan trọng để đánh giá đáp ứng sớm với điều trị và cũng là một trong những yếu tố quan trọng trong tiên lượng, giúp đánh giá nguy cơ tái phát trên bệnh nhi. Các bệnh nhi được thực hiện xét nghiệm xác định MRD bằng kỹ thuật flow cytometry từ dịch hút tủy xương sau điều trị tấn công"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:250",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8599,
+            "snippet": ". Đa số bệnh nhi được khảo sát có mức MRD từ 10-3 đến 10-4. Nghiên cứu không ghi nhận sự khác biệt có ý nghĩa thống kê về MRD giữa các nhóm nguy cơ theo phác đồ FRALLE 2000 và nhóm nguy cơ theo biến đổi di truyền đối với nhóm B- ALL. Huỳnh Thiện Ngôn nghiên cứu trên 129 bệnh nhi được phân tích MRD trong 10 năm từ 2005 - 2015 thấy 26,4% bệnh nhi đạt MRD ≤ 10-4; 62% bệnh nhi có 10-4 < MRD ≤ 10-2; 11,6% bệnh nhi có MRD > 10-2 [77]. Kết quả nghiên cứu này cũng thấp hơn tác giả Võ Thị Thanh Trúc, nghiên cứu trên 95 bệnh nhi từ 2010 - 2012, với kết quả MRD sau tấn công: 25,3% bệnh nhi đạt 121"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9843,
+          "min": 0.8599,
+          "avg": 0.9349
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 29145,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-028",
+  "date_folder": "23-04-2026",
+  "sequence": 28,
+  "file_name": "session_028.json",
+  "created_at": "2026-04-23T14:01:29.098302",
+  "updated_at": "2026-04-23T14:01:29.098302"
+}

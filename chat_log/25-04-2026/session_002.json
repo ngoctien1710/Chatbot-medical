@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Giai đoạn Duy trì cho ALL tiền B sử dụng phác đồ nào và thời gian điều trị khác nhau giữa trẻ trai và trẻ gái như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn duy trì cho ALL, trẻ trai sẽ sử dụng phác đồ bao gồm Mercaptopurin, Methotrexate, ASP, CPM, MP, ARA-C, Tia xạ sọ não hoặc tinh hoàn với thời gian điều trị khác nhau so với trẻ gái. Thời gian duy trì cho trẻ trai là 3 năm, trong khi cho trẻ gái là 2 năm, tính từ ngày 0.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:19",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9763,
+            "snippet": "giảm liều dần VCR 1,5 mg/m (tối đa 2mg) tiêm TM, ngày 0, 7, 14, 21 ASP 25.000 UI/m /liều, TB, ngày 0, 7, 14, 21, 28, 35, tổng số 5 liều DOXO** 25 mg/m , truyền TMC, ngày 0, 7, 14, 21 CPM 1.000 mg/m , truyền TMC ngày 35 6 MP 75 mg/m /ngày, uống hàng ngày, từ ngày 35-48 ARA-C tiêm dưới da hoặc TM 75 mg/m /ngày, ngày 35-38 và 42-45 Tia xạ sọ não hoặc tinh hoàn: trước khi điều trị duy trì Duy trì: Tiền B (nguy cơ cao và không cao): 84 ngày/đợt, trẻ gái điều trị 2 năm, trẻ trai 3 năm, tính từ ngày 0 giai đoạn Duy trì tạm thời lần 1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:261",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.93,
+            "snippet": ". Nghiên cứu của tác giả Nguyễn Thị Mai Hương, 102 trẻ ALL nguy cơ cao tại Viện Nhi trung ương điều trị theo phác đồ CCG 1961 ghi nhận được kết quả OS 5 năm đạt 48,6%, EFS 46% [72]. Nghiên cứu của tác giả Châu Văn Hà tại bệnh viện Trung ương Huế ghi nhận EFS 4 năm là 49,7% với nhóm nguy cơ tiêu chuẩn và 36,6% với nhóm nguy cơ cao. Như vậy, nhiều nghiên cứu tại Việt Nam cho kết quả điều trị ALL trẻ em khác nhau có thể do đối tượng nghiên cứu khác nhau, thời gian nghiên cứu khác nhau và phác đồ điều trị khác nhau. Nghiên cứu này trên nhóm bệnh nhi với số lượng tương đối lớn (288 bệnh nhi), đã bước đầu ghi nhận kết quả sớm của điều trị với kết quả OS và EFS 12 tháng khá tốt so với một số nghiên cứu trong nước"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:83",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6983,
+            "snippet": ". Tổ chức CCG đã thực hiện điều trị trên 13.298 bệnh nhi ALL dưới 21 tuổi với 16 thử nghiệm lâm sàng từ năm 1983 đến 2002 [70]. Kết quả được tổng hợp qua ba giai đoạn, giai đoạn 1983–1988, giai đoạn 1989–1995 và giai đoạn 1996–2002. Trong ba khoảng thời gian, tỷ lệ EFS tại thời điểm 10 năm cho nhóm nguy cơ tiêu chuẩn và nguy cơ cao ở bệnh nhi B-ALL lần lượt là 68% và 58%, 77% và 63%, 78% và 67%; trong khi đối với nguy cơ tiêu chuẩn và nguy cơ cao hơn ở nhóm bệnh nhi T-ALL, EFS lần lượt là 65% và 56%, 78% và 68%, và 70% và 72%. EFS 5 năm cho trẻ sơ sinh lần lượt là 36%, 38% và 43% [71]. Dưới đây là tổng hợp một số báo cáo theo dõi kết quả điều trị của một số nhóm nghiên cứu [71]."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:440",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6016,
+            "snippet": "Đợt 7: ( điều trị duy trì)\n\nTHUỐC LIỀU LƯỢNG, ĐƯỜNG DÙNG NGÀY DÙNG Mercaptopurin 50 mg/m2/ ngày, uống Hàng ngày Methotrexate 25 mg/m2/tuần 1 lần , uống Tuần 1 lần\n\nThời gian điều trị duy trì: Giai đoạn điều trị duy trì bổ sung cho đợt điều trị để: Tổng thời gian điều trị của các giai đoạn I, II, III đủ 18 tháng hoặc tổng thời gian điều trị của các giai đoạn IV là 24 tháng ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 322\n\n Trong trường hợp bệnh giai đoạn IV có xân lấn não- màng não: - Tiêm tủy bằng 3 thuốc: MTX, ARAC, HSHC, liều theo lứa tuổi - Điều trị tái tấn công ( đợt 6): Phác đồ A: tháng 1,2,3 Phác đồ B: tháng 4,5,6 - Xạ trị thần kinh: 18 Gy tới C2, giữa tháng thứ 5 và thứ 6  Sử dụng Bactrim ( sulfamethoxazole - trimethoprim) để dự phòng viêm phổi do Pneumocystis carinii  Liều thuốc tiêm tủy sống theo lứa tuổi trong trưởng hợp xâm lấn não- màng não:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:118",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5522,
+            "snippet": "muộn, duy trì. Trước khi điều trị, bệnh nhi được làm đầy đủ xét nghiệm chẩn đoán, tiên lượng và xếp nhóm nguy cơ ABT. Trong quá trình điều trị, bệnh nhi được đánh giá đáp ứng sớm (nhạy cảm với corticoid trên huyết đồ ngày 8, nhạy cảm với hóa trị trên tủy đồ ngày 21), đánh giá tồn dư tối thiểu của bệnh, thông qua đó tiếp tục đánh giá và xếp loại lại nhóm nguy cơ sau kết quả đáp ứng sớm: nhóm nguy cơ chuẩn (A1), nguy cơ cao (A2, B1, T1) và nguy cơ rất cao (A3, B2, T2). Phác đồ có thể chuyển đổi dựa trên đánh giá đáp ứng sớm và nhóm nguy cơ sau điều trị tấn công. Một số thuốc trong phác đồ được thay đổi để phù hợp với điều kiện tại Việt Nam. Thuốc 6 thioguanine (6TG) của giai đoạn tăng cường được thay bằng 6 - mercatopurine (6MP); vindesine được thay bằng vincristin. Sự thay thế được thực hiện với các loại thuốc cùng nhóm theo khuyến cáo nên không ảnh hưởng nhiều đến phác đồ [34]"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9763,
+          "min": 0.5522,
+          "avg": 0.7517
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 32579,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-002",
+  "date_folder": "25-04-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-04-25T16:06:54.176813",
+  "updated_at": "2026-04-25T16:06:54.176813"
+}

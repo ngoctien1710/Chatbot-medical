@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác nhau như nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác biệt trong việc tỷ lệ blast trong tủy xương.\n\nNgười dùng đang hỏi về một bệnh nhân lơ xê mi cấp dòng Lympho, trong đó chỉ số blast trong tủy xương của bệnh nhân làm việc hoàn toàn về mặt huyết học (CR) theo tiêu chuẩn NCCN 2.2016, có nghĩa là tỷ lệ blast trong tủy xương của bệnh nhân phải nằm trong khoảng <5%. Trong khi đó, cho một bệnh nhân lơ xê mi cấp dòng Lympho \"lui bệnh không hoàn toàn\", tỷ lệ blast trong tủy xương có thể lớn hơn 5%, nhưng chưa vượt quá 20%.\n\nVì vậy, chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác biệt trong việc tỷ lệ blast trong tủy xương.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:121",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0315,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:45",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0315,
+            "snippet": "- Tiêu chuẩn lui bệnh về huyết học: Bằng xét nghiệm tủy đồ (3-4 tuần sau điều trị) theo tiêu chuẩn của Viện Ung thư quốc gia Hoa Kỳ (1990): + Lui bệnh hoàn toàn: Lâm sàng ổn định, số lượng bạch cầu trung tính > 1,5G/L, Hematocrit > 0,3 l/l, số lượng tiểu cầu > 100G/L, không còn tế bào blast ở máu ngoại vi, tỷ lệ tế bào blast trong tủy xương < 5% (trên nền tủy sinh máu bình thường); + Lui bệnh không hoàn toàn: Tỷ lệ tế bào blast ở tủy xương từ 5-20%; + Không lui bệnh: Tỷ lệ tế bào blast ở tủy xương > 20%. - Phát hiện tồn dư tối thiểu của bệnh: Kỹ thuật đếm tế bào dòng chảy đa màu (ngưỡng phát hiện < 1 x 10-4.), kỹ thuật PCR định lượng (ngưỡng phát hiện < 1 x 10-5/6). - Xét nghiệm đánh giá lại gen bệnh sau 2-3 chu kỳ hoá chất hoặc trước khi ghép tế bào gốc tạo máu. - Bệnh nhân tái phát cần làm lại xét nghiệm chẩn đoán như bệnh nhân mới. 3.6"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:535",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0269,
+            "snippet": "Lui bệnh hoàn toàn Hb > 110 g/l (không do truyền máu), TC > 100 G/l, ANC > 1,5 G/l; không tìm thấy tế bào tóc ở máu ngoại vi và tủy xương; Lách nhỏ lại trên lâm sàng. Lui bệnh một phần Hb > 110 g/l (không do truyền máu), TC > 100 G/l, ANC > 1,5 G/l; vẫn còn tế bào tóc xâm lấn tủy xương; lách nhỏ lại > 50% trên lâm sàng. Bệnh ổn định Không đáp ứng các tiêu chuẩn lui bệnh như trên sau khi kết thúc điều trị. Bệnh tiến triển Gia tăng các triệu chứng liên quan đến bệnh; tăng kích thước gan, lách, hạch > 25%; giảm > 25% các chỉ số tế bào máu ngoại vi so với tiêu chuẩn lui bệnh 1 phần (lưu ý phân biệt với tác dụng phụ ức chế tủy do thuốc điều trị)"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0315,
+          "min": 0.0269,
+          "avg": 0.03
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 12084,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-048",
+  "date_folder": "13-04-2026",
+  "sequence": 48,
+  "file_name": "session_048.json",
+  "created_at": "2026-04-13T03:29:58.412608",
+  "updated_at": "2026-04-13T03:29:58.412608"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "triệu chứng toàn thân của người bị bệnh ung thư máu cấp tính dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh ung thư máu cấp tính dòng lympho có thể gồm:\n- Mệt mỏi, gầy sút cân, chán ăn (đột biến hoặc liên tục)\n- Sốt thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh\n- Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết\n- Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi\n- Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính\n- Hạch to khu trú hoặc toàn thân (ngoại vi, trung thất trên hoặc mạc treo ổ bụng)\n- Lách to, từ nhẹ đến vừa\n- Gan to, mức độ nhẹ đến vừa\n- Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy\n- Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài\n\nNgoài ra, một số triệu chứng phổ biến nhất ở các nhóm ung thư máu cấp tính dòng lympho là thiếu máu và sốt. Có thể có xuất huyết dao động trong khoảng 50%, các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9787,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:336",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8358,
+            "snippet": ". - Lách thường to độ I/II. Tuy nhiên, trong u lympho thể lách hoặc giai đoạn muộn của bệnh, lách có thể to độ III/IV. - Gan to ít gặp hơn và thường kèm theo hạch to và/ hoặc lách to. - Khoảng < 25% trường hợp có triệu chứng “B” gồm: Sốt, ra mồ hôi đêm, sút cân trên 10% trọng lượng cơ thể trong 6 tháng không giải thích được nguyên nhân. - Có thể thiếu máu do xâm lấn tủy xương, tan máu tự miễn, cường lách hoặc hiếm hơn là do hiện tượng thực bào tế bào máu. - Giai đoạn muộn, thường có biểu hiện chèn ép, xâm lấn của mô lympho như: Hội chứng trung thất; liệt do chèn ép tủy sống; lồi mắt; tắc ruột nếu u ống tiêu hóa… b"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:150",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7374,
+            "snippet": "3.2.2.2. Một số đặc điểm lâm sàng\n\nBiểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Thiếu máu là triệu chứng phổ biến nhất ở các nhóm (dao động từ 84,1% - 95%). Sốt cũng là triệu chứng thường thấy ở các nhóm (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05."
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9787,
+          "min": 0.7374,
+          "avg": 0.8506
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 39989,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "12-04-2026-session-028",
+  "date_folder": "12-04-2026",
+  "sequence": 28,
+  "file_name": "session_028.json",
+  "created_at": "2026-04-12T23:59:44.971447",
+  "updated_at": "2026-04-12T23:59:44.971447"
+}

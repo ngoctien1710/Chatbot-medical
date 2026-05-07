@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Người lớn bị mắc bệnh lơ xê mi lympho cấp được chia thành những nhóm điều trị nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Người lớn mắc bệnh lơ xê mi lympho cấp được chia thành những nhóm điều trị theo tuổi đột pháp và tình trạng NST Ph (Nguyên tắc điều trị) theo các nhóm sau:\n\n1. LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39.\n2. LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39.\n3. LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64.\n4. LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64.\n\nTrong đó, phác đồ Cooprall 2005 là một trong những phác đồ thường được sử dụng để điều trị lơ xê mi lympho cấp.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:27",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9996,
+            "snippet": ". Trong các đợt sau làm điện tim trước mỗi đợt điều trị. 3.3. Điều trị Lơ xê mi lympho cấp ở người lớn 3.3.1. Nguyên tắc điều trị - Dựa trên các tiêu chí: Lâm sàng, miễn dịch, tế bào di truyền, NCCN guideline chia thành các nhóm điều trị sau: + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64; + LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64. - Liệu trình điều trị gồm: Tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9781,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:120",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9735,
+            "snippet": "3.5.2. Phác đồ Cooprall 2005: Phác đồ Cooprall bao gồm nhiều đợt hóa chất với các đợt điều trị phụ thuộc vào vị trí và thời gian tái phát.  Phân nhóm điều trị:  Nhóm S1 Bao gồm tất cả trường hợp tái phát ngoài tủy đơn độc (kể cả ở hệ thần kinh TW) xảy ra ở thời điểm ≥ 6 tháng sau khi ngưng điều trị lần 1, bất kể là kiểu hình lympho T hay không phải lympho T.  Nhóm S2 - Tất cả các Lơ xê mi lympho B cấp tái phát tại tủy xương vào thời điểm ≥ 6 tháng sau khi ngưng điều trị lần 1. - Tất cả các Lơ xê mi lympho B cấp tái phát nhiều nơi (kết hợp) với thời gian từ lúc chẩn đoán ban đầu đến lúc tái phát ≥ 18 tháng. - Tái phát ngoài tủy đơn độc, sớm xảy ra trong quá trình điều trị hoặc < 6 tháng sau khi ngưng điều trị này"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9996,
+          "min": 0.9735,
+          "avg": 0.9838
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 38202,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-056",
+  "date_folder": "13-04-2026",
+  "sequence": 56,
+  "file_name": "session_056.json",
+  "created_at": "2026-04-13T09:16:01.429447",
+  "updated_at": "2026-04-13T09:16:01.429447"
+}

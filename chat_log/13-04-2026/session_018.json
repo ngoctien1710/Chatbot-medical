@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Trẻ em tuổi dưới 1 và trên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50000 trên mili mét khối, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu thuộc nhóm nguy cơ nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trẻ em tuổi dưới 1 và trên 10, có số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm³ hoặc có bất thường nhiễm sắc thể có tiên lượng xấu, thuộc nguy cơ nguy hiểm hơn so với trẻ em tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm³, không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 52.634,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:54",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 32.2121,
+            "snippet": "a. Trên lƣỡng bội nhiễm sắc thể (> 46 NST) Trong ALL trẻ em, bất thường trên lưỡng bội NST có thể gặp là trên lưỡng bội tăng ít NST (47-50 NST), trên lưỡng bội tăng nhiều NST (51-68 NST), tăng bội NST (tam bội, tứ bội). Bất thường trên lưỡng bội tăng nhiều NST (thường từ 51-68 NST) là bất thường hay gặp nhất trong ALL trẻ em (20-22%) [49]. Đây cũng là bất thường có tiên lượng tốt nhất trong các bất thường về số lượng NST [49]. Đột biến trên lưỡng bội NST gặp ở trẻ em nhiều hơn người lớn với tỷ lệ lần lượt là 15% ở trẻ em và 6% ở người lớn [1],[46],[47]. Các nhiễm sắc thể cộng thêm thường gặp là: +4 (78%), +6 (85%), +10 (63%), +14 (84%), +17 (68%), +18 (76%), +21 (99%), và +X (89%) [50],[51],[52]. Thêm nhiễm sắc thể 4, 10, và 17 liên quan đến tiên lượng tốt trong ALL trẻ em với xác suất sống thêm không sự kiện lên tới gần 90% [52]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:68",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 31.2002,
+            "snippet": ". Ngoài ra, các trường hợp ALL có BCR-ABL1 like thường kèm theo mất đoạn/đột biến gen IZKF1 và có tiên lượng xấu [40]. Như vậy, trong số các đột biến gen thường gặp trong lơ xê mi cấp dòng lympho tế bào B ở trẻ em, 4 đột biến gen TEL-AML1, E2A-PBX1, MLL-AF4, BCR-ABL1 là những đột biến dung hợp gen có giá trị trong chẩn đoán cũng như có ý nghĩa tiên lượng trong điều trị và dự đoán nguy cơ tái phát (tủy xương và thần kinh trung ương). Do đó, 4 đột biến gen này được xét nghiệm thường qui tại thời điểm chẩn đoán và được thực hiện trong nghiên cứu. 1.3.2. Bất thƣờng di truyền trong lơ xê mi cấp dòng lympho T T-ALL chiếm khoảng 10-15% ALL ở trẻ em và thường có tiên lượng xấu hơn so với B-ALL. Các bất thường di truyền được phát hiện ở khoảng 50% các trường hợp T-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 52.634,
+          "min": 31.2002,
+          "avg": 38.6821
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 6337,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-018",
+  "date_folder": "13-04-2026",
+  "sequence": 18,
+  "file_name": "session_018.json",
+  "created_at": "2026-04-13T01:33:58.008163",
+  "updated_at": "2026-04-13T01:33:58.008163"
+}

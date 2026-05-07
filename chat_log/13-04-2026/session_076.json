@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Điều trị ALL theo phác đồ FRALLE 2000 bao gồm các giai đoạn nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Phác đồ ALL theo phác đồ FRALLE 2000 bao gồm các giai đoạn tấn công, củng cố, tăng cường 1, trung gian và tăng cường 2.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:79",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9973,
+            "snippet": ". Chia nhóm T1 và T2 dựa trên sự đánh giá nhạy cảm corticoid ngày 8, nhạy cảm hóa trị ngày 21, MRD ngày 35 - 42 (xin tham khảo bảng 2.5). 1.4.2. Điều trị các nhóm trong phác đồ FRALLE 2000 Dựa trên kiểu hình miễn dịch và chia nhóm nguy cơ, phác đồ FRALLE 2000 có các nhánh áp dụng riêng cho các nhóm A, B và T và đều bao gồm các giai đoạn: Tấn công, củng cố, tăng cường 1, tích cực muộn, tăng cường 2 và duy trì trong 24 tháng. Sau khi đánh giá đáp ứng sớm với điều trị, phác đồ FRALLE 2000 tiếp tục được phân nhóm nguy cơ lại với từng nhóm A, B, T để lựa chọn phác đồ tiếp theo. Điều trị theo phân nhóm nguy cơ của phác đồ FRALLE 2000 được mô tả tổng quát như sau:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9958,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:117",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9899,
+            "snippet": ". + Thời gian sống thêm không sự kiện (EFS): Thời gian từ khi bệnh nhi đạt lui bệnh hoàn toàn đến khi bệnh nhi gặp sự kiện (biến cố trong điều trị, tái phát, tử vong), hay thời điểm kết thúc theo dõi. 2.2.6. Tóm tắt phác đồ FRALLE 2000 sử dụng trong nghiên cứu Phác đồ FRALLE 2000 được áp dụng điều trị theo các nhóm nguy cơ, trải qua các giai đoạn: Tấn công, củng cố, tăng cường, trung gian, tăng cường 51"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9973,
+          "min": 0.9899,
+          "avg": 0.9943
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 23883,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-076",
+  "date_folder": "13-04-2026",
+  "sequence": 76,
+  "file_name": "session_076.json",
+  "created_at": "2026-04-13T10:52:21.984314",
+  "updated_at": "2026-04-13T10:52:21.984314"
+}

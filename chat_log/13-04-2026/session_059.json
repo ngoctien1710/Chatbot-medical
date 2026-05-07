@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Người lớn bị mắc bệnh lơ xê mi lympho cấp được chia thành những nhóm điều trị nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Người lớn mắc bệnh lơ xê mi lympho có thể được chia thành những nhóm điều trị theo tiêu chí sau:\n\n1. LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39.\n2. LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39.\n3. LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64.\n4. LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64.\n\nTrình điều trị gồm tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả trên, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:27",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0328,
+            "snippet": ". Trong các đợt sau làm điện tim trước mỗi đợt điều trị. 3.3. Điều trị Lơ xê mi lympho cấp ở người lớn 3.3.1. Nguyên tắc điều trị - Dựa trên các tiêu chí: Lâm sàng, miễn dịch, tế bào di truyền, NCCN guideline chia thành các nhóm điều trị sau: + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64; + LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64. - Liệu trình điều trị gồm: Tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:4",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0306,
+            "snippet": ". h. Xét nghiệm dịch não tủy: Để phát hiện thâm nhiễm thần kinh trung ương (đặc biệt trong LXM lympho cấp). i. Điện tâm đồ và siêu âm tim: Đánh giá chức năng tâm thu thất trái (đặc biệt với với các bệnh nhân có tiền sử bệnh tim mạch hoặc sẽ điều trị bằng nhóm thuốc anthracycline hoặc tia xạ vùng ngực). j. Xét nghiệm HLA: Cho bệnh nhân để tìm nguồn tế bào gốc phù hợp cho ghép tế bào gốc đồng loài. 2.3. Tiêu chuẩn chẩn đoán 2.3.1. Chẩn đoán xác định - Dựa vào triệu chứng lâm sàng điển hình của bệnh. - Xét nghiệm tuỷ đồ thấy tế bào blast  20% tế bào có nhân trong tuỷ. 2.3.2. Chẩn đoán thể bệnh và xếp loại lơ xê mi cấp Chẩn đoán thể bệnh lơ xê mi cấp dựa vào các bảng xếp loại của WHO và FAB. 2.3.2.1. Xếp loại lơ xê mi tủy cấp (Bạch cầu cấp dòng tủy) - Xếp loại lơ xê mi tủy cấp theo FAB 1986 có bổ sung. - Kết hợp miễn dịch chia thành 8 thể, từ M0 đến M7 (bảng 18). Bảng 18"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:58",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0304,
+            "snippet": "vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine,…, kết hợp tiêm tuỷ sống và xạ trị. Phác đồ thường được sử dụng hiện nay là phác đồ FRALLE 2000. Dưới đây là phác đồ điều trị lơ xê mi lympho cấp trẻ em mới chẩn đoán theo FRALLE 2000: 3.1.1. Phân nhóm nguy cơ tổng quát\n\nsau: Sơ đồ 4. Phân nhóm nguy cơ tổng quát ở bệnh nhân lơ xê mi lympho cấp trẻ em Ghi chú: Các nhóm cụ thể căn cứ vào kết quả điều trị tấn công a. Nhóm A: Nguy cơ chuẩn (Standard risk) - Lơ xê mi lympho B cấp, 1-10 tuổi số lượng bạch cầu ≤ 50G/L và có đủ các yếu tố"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0328,
+          "min": 0.0304,
+          "avg": 0.0313
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 14660,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-059",
+  "date_folder": "13-04-2026",
+  "sequence": 59,
+  "file_name": "session_059.json",
+  "created_at": "2026-04-13T09:33:52.336472",
+  "updated_at": "2026-04-13T09:33:52.336472"
+}

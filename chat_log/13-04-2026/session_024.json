@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là có thể gặp mệt mỏi, gầy sút cân, chán ăn, sốt thất thường kém đáp ứng với điều trị kháng sinh, thiếu máu từ nhẹ đến nặng, xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6241,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:5",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.5889,
+            "snippet": "CHẨN ĐOÁN PHÂN BIỆT Bạch cầu cấp dòng tủy. Các bệnh ác tính khác có di căn tuỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân, sarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ; thiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch Bệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt;"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5868,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.6241,
+          "min": 0.5868,
+          "avg": 0.5999
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5525,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-024",
+  "date_folder": "13-04-2026",
+  "sequence": 24,
+  "file_name": "session_024.json",
+  "created_at": "2026-04-13T01:53:31.258732",
+  "updated_at": "2026-04-13T01:53:31.258732"
+}

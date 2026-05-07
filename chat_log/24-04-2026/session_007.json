@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân APL có bạch cầu máu ngoại vi 25 G/L khi chẩn đoán. Phác đồ cảm ứng nào theo NCCN 2020 được áp dụng và các thuốc chính?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân APL có bạch cầu máu ngoại vi 25 G/L khi chẩn đoán. Phác đồ cảm ứng nào theo NCCN 2020 được áp dụng và các thuốc chính cho bệnh nhân APL là phác đồ cytarabin liều cao (Ara-C 3.000 mg/m2 da/12 giờ x 2 lần/ngày, truyền tĩnh mạch ngày 1, 3, 5) và thuốc chính khác phục vụ cho bệnh nhân APL sẽ được quyết định dựa trên nguy cơ tái phát của bệnh nhân. Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:145",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9374,
+            "snippet": ". - Phác đồ cytarabin liều cao: + Ara-C 3.000 mg/m2 da/12 giờ x 2 lần/ngày, truyền tĩnh mạch ngày 1, 3, 5. Các đợt điều trị cách nhau 28 ngày hoặc 1 tuần sau khi tủy xương hồi phục sau đợt điều trị trước đó (số lượng bạch cầu hạt > 1,5G/L; số lượng tiểu cầu > 100G/L). - Cần lưu ý rằng LXM cấp dòng mono hoặc tủy-mono hoặc dòng tủy có SLBC lúc chẩn đoán > 50G/L có tỷ lệ thâm nhiễm thần kinh trung ương đáng kể nên cần được điều trị dự phòng thâm nhiễm thần kinh trung ương như đối với LXM cấp dòng lympho. 4.1.2. Điều trị LXM cấp thể tiền tủy bào a. Phân nhóm nguy cơ Nhóm nghiên cứu Italian Group for Adult Hematologic Diseases (GINEMA) và Spanish PETHEMA phân nhóm nguy cơ đối với bệnh nhân APL theo số lượng bạch cầu và số lượng tiểu cầu: - Nguy cơ thấp SLBC < 10G/L và SLTC > 40G/L. - Nguy cơ trung bình SLBC < 10G/L và SLTC < 40G/L. - Nguy cơ cao SLBC > 10G/L và SLTC < 40G/L"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:8",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.8042,
+            "snippet": ". Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường. Bạch cầu cấp dòng lympho T: điều trị theo phác đồ AZNCCSG Study VII (chi tiết xem sau). Các giai đoạn cụ thể: Cảm ứng  Củng cố  Tích cực muộn  Tái tấn công / Tái củng cố  Duy trì Lưu ý: Chọc dò tuỷ sống có máu do chạm ven (>10 hồng cầu/mm ) và có BCN sẽ điều trị như TKTƯ-2 (tăng cường tiêm tủy sống, không xạ trị). Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:23",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.7584,
+            "snippet": "trị cảm ứng bằng 4 thuốc; bạch cầu cấp dòng lympho T có đáp ứng kém với prednisone và / hoặc có số lượng bạch cầu > 100.000/mm ; số lượng nhiễm sắc thể nửa thiểu bội; có chuyển đoạn t (9;22) và số lượng bạch cầu > 25.000; trẻ dưới 1 tuổi có chuyển đoạn t (4;11); bệnh còn lại tối thiểu (MRD) > 1% khi kết thúc điều trị cảm ứng; MRD > 0,1% sau điều trị tái cảm ứng (khoảng 14 tuần); MRD tăng lên ở bất kỳ thời gian nào. Bệnh nhân sẽ ghép tủy khi đạt lui bệnh lần 1. + Bệnh tái phát lần 1 và đạt lui bệnh lần 2. Không chỉ định cho bệnh tái phát đơn độc ngoài tủy xương hoặc dòng tiền B tái phát tủy xương muộn. + Tái phát lần 2 và đạt lui bệnh lần 3. Điều trị hỗ trợ Truyền khối hồng cầu khi Hb < 80 g/L, 10 mL/kg cân nặng. Nếu BC ≥ 100.000/mm , truyền khối hồng cầu khi Hb < 60 g/L, 5 mL/kg cân nặng"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.7446,
+            "snippet": "ĐIỀU TRỊ Hóa trị liệu toàn thân Bạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời lần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao . TX: tình trạng của tủy xương. TX1: BCN ≤ 5% tế bào tủy; TX2: 5 - ≤ 25%; TX3: > 25%. Xét nghiệm tủy đồ ngày thứ 7, 14 và 28 của giai đoạn điều trị cảm ứng để đánh giá đáp ứng điều trị. Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:510",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7033,
+            "snippet": ". Nhiều tác giả nước ngoài (Mayo Clinic-Mĩ) đang đưa ra đề xuất tiêu chuẩn số lượng tế bào plasmo trong máu ngoại vi ≥ 5% để chẩn đoán PCL thay vì ≥ 20% như hiện tại. 2.4. Chẩn đoán phân biệt: Một số trường hợp có thể xuất hiện tế bào dòng plasmo trong máu ngoại vi như: Đa u tủy xương, nhiễm khuẩn huyết, nhiễm trùng tăng bạch cầu mono. Tuy nhiên, tỷ lệ plasmo < 20% hoặc < 2G/L. 3. ĐIỀU TRỊ 3.1. Điều trị ban đầu - Điều trị ban đầu được chỉ định cho tất cả các người bệnh, có thể chọn một trong các phác đồ phối hợp thuốc, trong đó thuốc chính là bortezomib, như: VTD, VCD, PAD, RVD, VTD-PACE, HyperCVAD-VTD. - Các thuốc điều trị nhắm đích như kháng thể đơn dòng chống CD38 như Daratumumab, các thuốc ức chế chọn lọc proteasome.. cũng được đưa vào phác đồ điều trị ban đầu"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9374,
+          "min": 0.7033,
+          "avg": 0.7896
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 31615,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-007",
+  "date_folder": "24-04-2026",
+  "sequence": 7,
+  "file_name": "session_007.json",
+  "created_at": "2026-04-24T15:25:47.925975",
+  "updated_at": "2026-04-24T15:25:47.925975"
+}

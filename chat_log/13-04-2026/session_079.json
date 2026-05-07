@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Điều trị bệnh lơ xê mi lympho theo phác đồ FRALLE 2000 bao gồm các giai đoạn điều trị nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị lơ xê mi lympho theo phác đồ FRALLE 2000, có 5 giai đoạn khác nhau: Giai đoạn cảm ứng, Điều trị tấn công, Điều trị củng cố, Điều trị tăng cường 1 và Điều trị trung gian. Tuy nhiên, không có thông tin chính xác về giai đoạn điều trị nào được sử dụng trong trường hợp của bệnh nhân đang được điều trị.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8895,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:65",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7733,
+            "snippet": "3.2.1. Phác đồ FRALLE 2000 điều trị lơ xê mi lympho B cấp 3.2.1.1. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm A a. Sơ đồ điều trị tổng quát\n\n(2)\n\nTăng cường 2 (không có anthracycline) VCR, MTX-DI, L-Aspa Tăng cường 2 (8 tuần) VCR, PRED, DNR, L-Aspa, Endox, ... Endoxan, Ara-C, 6 MP"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:80",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7539,
+            "snippet": "Sơ đồ 1.1. Chia nhóm điều trị lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 Các phác đồ chi tiết cho các nhóm bao gồm các giai đoạn được trình bày trong phần đối tượng và phương pháp nghiên cứu. 1.5. MỘT SỐ NGHIÊN CỨU VỀ ĐIỀU TRỊ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.5.1. Nghiên cứu về điều trị lơ xê mi cấp dòng lympho trẻ em trên thế giới Trong vòng hơn 50 năm qua, thế giới đã chứng kiến sự thay đổi đáng kinh ngạc trong hiệu quả điều trị ALL trẻ em. Kết quả điều trị đã tăng từ xác suất sống thêm toàn bộ 5 năm (OS) 10% ở những năm 1960, lên tới trên 90% sống thêm toàn bộ 10 năm trong những nghiên cứu gần đây [1]"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.8895,
+          "min": 0.7539,
+          "avg": 0.8056
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5361,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-079",
+  "date_folder": "13-04-2026",
+  "sequence": 79,
+  "file_name": "session_079.json",
+  "created_at": "2026-04-13T11:00:47.688441",
+  "updated_at": "2026-04-13T11:00:47.688441"
+}

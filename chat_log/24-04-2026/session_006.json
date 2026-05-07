@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Một bệnh nhi đang điều trị ALL giai đoạn cảm ứng, ngày 14 có giảm sản tủy (tủy đồ nghèo tế bào, cellularity <25%). Xử trí điều trị tiếp theo như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, bệnh nhân đang điều trị ALL giai đoạn cảm ứng với tỉ lệ tủy xương ngày 14 kém hơn 25%, do đó, điều trị tiếp theo sẽ là các giai đoạn cụ thể của phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Tuy nhiên, nếu ngày thứ 5 có giảm sản tủy, hãy tạm ngừng điều trị và tiếp tục theo dõi.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.957,
+            "snippet": "ĐIỀU TRỊ Hóa trị liệu toàn thân Bạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời lần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao . TX: tình trạng của tủy xương. TX1: BCN ≤ 5% tế bào tủy; TX2: 5 - ≤ 25%; TX3: > 25%. Xét nghiệm tủy đồ ngày thứ 7, 14 và 28 của giai đoạn điều trị cảm ứng để đánh giá đáp ứng điều trị. Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau)"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:11",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9326,
+            "snippet": "28 của giai đoạn Tấn công, khi BCTT > 1000/mm , TC > 100.000/mm 6MP 75 mg/m /ngày, uống hàng ngày, ngày 0-27 VCR 1,5 mg/m (tối đa 2 mg) tiêm TM, ngày 0 MTX tiêm TS, liều theo tuổi, ngày 7, 14, 21 Tiền B, nguy cơ cao, đáp ứng nhanh (8 tuần): bắt đầu từ ngày thứ 35 của giai đoạn Tấn công, khi BCTT > 750/mm , TC > 75.000/mm . Tạm ngừng điều trị nếu ngày thứ ề ế ố ề ế 3 14 có giảm sản tủy. Ngừng điều trị nếu sốt, giảm BC hạt và nhiễm trùng. Điều trị tiếp khi hết nhiễm trùng. CPM 1000 mg/m²/liều, truyền tĩnh mạch chậm( TMC) trong 30 phút\n\nAra-C: 75 mg/m²/ngày, TMC hoặctiêm dưới da x 16 liều, ngày 1-4, 8- 11, 15-18, 22-25 Mercaptopurine: 75 mg/m²/ngày, ngày 0-13 và 28-41 MTX tiêm TS, liều theo tuổi (tối đa 12 mg), ngày 0, 7, 14, 21 Tiền B, nguy cơ cao, đáp ứng chậm: CPM 1000 mg/m²/liều, truyền TMC trong 30 phút"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:43",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8824,
+            "snippet": "để đạt lui bệnh, (2) điều trị củng cố để tăng cường lui bệnh hoặc giảm tồn dư tối thiểu của bệnh, (3) điều trị dự phòng bệnh lý ALL ở hệ thống thần kinh trung ương, và (4) điều trị duy trì để kéo dài tình trạng lui bệnh, giảm tái phát. Nguyên tắc điều trị đa hoá trị liệu là [42]: + Điều trị cá thể hoá: Dựa trên xếp loại nhóm nguy cơ của từng bệnh nhi cụ thể để lựa chọn phác đồ điều trị thích hợp; + Theo dõi đáp ứng điều trị và tồn dư tối thiểu của bệnh; + Hoá trị tăng cường sau khi đạt được lui bệnh sau điều trị tấn công; + Điều trị dự phòng thâm nhiễm thần kinh trung ương; + Có khoảng thời gian điều trị hợp lý; + Có kế hoạch ghép tế bào gốc tạo máu trên những bệnh nhi có chỉ định. - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:23",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.8751,
+            "snippet": "trị cảm ứng bằng 4 thuốc; bạch cầu cấp dòng lympho T có đáp ứng kém với prednisone và / hoặc có số lượng bạch cầu > 100.000/mm ; số lượng nhiễm sắc thể nửa thiểu bội; có chuyển đoạn t (9;22) và số lượng bạch cầu > 25.000; trẻ dưới 1 tuổi có chuyển đoạn t (4;11); bệnh còn lại tối thiểu (MRD) > 1% khi kết thúc điều trị cảm ứng; MRD > 0,1% sau điều trị tái cảm ứng (khoảng 14 tuần); MRD tăng lên ở bất kỳ thời gian nào. Bệnh nhân sẽ ghép tủy khi đạt lui bệnh lần 1. + Bệnh tái phát lần 1 và đạt lui bệnh lần 2. Không chỉ định cho bệnh tái phát đơn độc ngoài tủy xương hoặc dòng tiền B tái phát tủy xương muộn. + Tái phát lần 2 và đạt lui bệnh lần 3. Điều trị hỗ trợ Truyền khối hồng cầu khi Hb < 80 g/L, 10 mL/kg cân nặng. Nếu BC ≥ 100.000/mm , truyền khối hồng cầu khi Hb < 60 g/L, 5 mL/kg cân nặng"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:44",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8742,
+            "snippet": ". - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt. Hầu hết bệnh nhi ngày nay được điều trị thành công, đạt được tình trạng lui bệnh mà không cần sử dụng đến phương pháp ghép tế bào gốc tạo máu. Ghép tế bào gốc tạo máu được đặt ra với nhóm bệnh nhi nguy cơ cao, hoặc không đạt được tình trạng lui bệnh (kháng hoá trị), hoặc tái phát, đặc biệt tái phát sớm sau khi hoàn thành hóa trị liệu [23]. - Điều trị nhắm đích và hƣớng điều trị trong tƣơng lai Điều trị hóa chất có nhược điểm chung, đó là cùng một lúc làm tổn thương cả tế bào ác tính và tế bào lành, dẫn đến một số hạn chế trong hiệu quả điều trị và khả năng phục hồi sau điều trị. Từ nhiều năm nay, các nhà khoa học đã tiến hành nhiều nghiên cứu để tìm ra các loại thuốc đặc hiệu có tác dụng 15"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.957,
+          "min": 0.8742,
+          "avg": 0.9042
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 31993,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-006",
+  "date_folder": "24-04-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-04-24T15:24:05.029555",
+  "updated_at": "2026-04-24T15:24:05.029555"
+}

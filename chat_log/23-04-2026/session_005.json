@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Theo phác đồ Fralle2000 để điều trị Lơ xê mi lympho B cấp cho nhóm A (Nhóm nguy cơ chuẩn - Standard Risk), điều kiện để bắt đầu giai đoạn tăng cường 1, đợt 1 là gì? Trong giai đoạn này sử dụng thuốc nào và liệu lượng bao nhiêu?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Theo phác đồ Fralle2000, điều kiện để bắt đầu giai đoạn tăng cường 1, đợt 1 cho nhóm A (Nhóm nguy cơ chuẩn - Standard Risk) là khi số lượng blast (bạch cầu) trong tủy ngày 21 có blast từ 5% trở lên. Trong giai đoạn này, sử dụng thuốc vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:108",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9921,
+            "snippet": "Nguy cơ thấp Trên lưỡng bội tăng nhiều nhiễm sắc thể (51-65 NST) t(12;21)(p13;q32) TEL-AML1 Nguy cơ trung bình B-ALL khác t(1;19) E2A-PBX1 IGH translocations\n\nNguy cơ cao Dưới lưỡng bội Gần nửa lưỡng bội iAMP21 t(v;11q23): sự sắp xếp lại gen MLL; trong đó có t(4;11) t(9;22)(q34;q11.2) BCR-ABL1 Tổn thương NST phức tạp t(17;19) E2A-HLF Hạn chế của nghiên cứu là một số đột biến gen chưa thực hiện được như iAMP21, IGH translocations, các biến đổi khác của gen MLL. Những trường hợp không phát hiện đột biến, bệnh nhi được xếp loại vào nhóm nguy cơ trung bình. - Xếp loại nhóm nguy cơ điều trị (ABT) theo phác đồ FRALLE 2000 [34]: + Nhóm A: Nguy cơ chuẩn (Standard risk): Lơ xê mi cấp dòng lympho B, 1<tuổi<10, số lượng bạch cầu < 50G/L và có đủ các yếu tố sau:  Không có thâm nhiễm hệ thần kinh trung ương;  Không có t(9;22), t(4;11) hoặc bộ nhiễm sắc thể < 44;"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:77",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9844,
+            "snippet": ". Phác đồ đã được Bộ Y tế phê duyệt [34]. 1.4.1. Xếp loại nhóm nguy cơ điều trị theo phác đồ FRALLE 2000 a. Đối với lơ xê mi cấp dòng lympho B [34] - Nhóm A: Nguy cơ chuẩn (Standard risk): Lơ xê mi cấp dòng lympho B, 1 < tuổi < 10, số lượng bạch cầu < 50G/L và có đủ các yếu tố sau:  Không có thâm nhiễm hệ thần kinh trung ương;  Không có t(9;22), t(4;11) hoặc bộ nhiễm sắc thể < 44;  BCR-ABL1 hay MLL-AF4 âm tính;  Không hiện diện sự tái sắp xếp gen MLL phát hiện bằng kỹ thuật Southern blot hay FISH cho trường hợp CD10 (+) yếu;  CD10 (+). Nhóm A sẽ được chia ra 3 nhóm A1, A2, A3 dựa vào đánh giá tế bào blast trong tủy ngày 21 (bất kể sự nhạy cảm với corticoid vào ngày 8 hay không):  Blast ≤ 5% (type M1): Nhóm A1  Blast 6 - 25% (type M2): Nhóm A2  Blast > 25% (type M3): Nhóm A3 Bệnh nhi có MRD (+) (≥ 10-2) vào ngày 35-42 sẽ được chuyển sang nhóm A3 31"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:58",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9803,
+            "snippet": "vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine,…, kết hợp tiêm tuỷ sống và xạ trị. Phác đồ thường được sử dụng hiện nay là phác đồ FRALLE 2000. Dưới đây là phác đồ điều trị lơ xê mi lympho cấp trẻ em mới chẩn đoán theo FRALLE 2000: 3.1.1. Phân nhóm nguy cơ tổng quát\n\nsau: Sơ đồ 4. Phân nhóm nguy cơ tổng quát ở bệnh nhân lơ xê mi lympho cấp trẻ em Ghi chú: Các nhóm cụ thể căn cứ vào kết quả điều trị tấn công a. Nhóm A: Nguy cơ chuẩn (Standard risk) - Lơ xê mi lympho B cấp, 1-10 tuổi số lượng bạch cầu ≤ 50G/L và có đủ các yếu tố"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9662,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:84",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9534,
+            "snippet": "- Nhóm A3 và A1/A2 có MRD dương tính (≥ 10-2): + Bắt đầu ngày 57 sau giai đoạn tăng cường II, điều trị tương tự nhóm A1 nhưng thay dexa bằng corticoid 40 mg/m2 ngày 1-7; + Tổng cộng có 6 mũi IT (duy trì tháng 3, 6, 9, 12, 15, 18). 3.2.1.2. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm B a. Sơ đồ điều trị tổng quát: FRALLE 2000-B: NHÓM B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9921,
+          "min": 0.9534,
+          "avg": 0.9753
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35583,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-005",
+  "date_folder": "23-04-2026",
+  "sequence": 5,
+  "file_name": "session_005.json",
+  "created_at": "2026-04-23T03:07:40.660094",
+  "updated_at": "2026-04-23T03:07:40.660094"
+}

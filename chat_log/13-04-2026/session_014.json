@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Trẻ em tuổi dưới 1 và trên 10, số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50000 trên mili mét khối, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu thuộc nhóm nguy cơ nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, trẻ em tuổi dưới 1 và trên 10 có số lượng bạch cầu ban đầu trong máu lớn hơn hoặc bằng 50.000/mm, hoặc có bất thường nhiễm sắc thể có tiên lượng xấu, thuộc nhóm nguy cơ cao theo context đã cho.\n\nNhững trẻ em này có khả năng bị bệnh nhi ALL (leukemia erythroblastoid) với tiên lượng xấu, do đó cần được chẩn đoán và điều trị theo quy trình y tế.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0325,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:235",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0292,
+            "snippet": "G/L). Hai nhóm nguy cơ thấp và nguy cơ trung bình có trung vị số lượng bạch cầu tương đương nhau (11,2 và 12,1 G/L) (bảng 3.9). Để so sánh đặc điểm về số lượng bạch cầu giữa các nhóm, nghiên cứu chia nhóm theo mức độ số lượng bạch cầu (bạch cầu < 50 G/L và bạch cầu ≥ 50 G/L) ở các nhóm biến đổi di truyền lơ xê mi cấp dòng lympho B và lơ xê mi cấp dòng lympho T. Kết quả được thể hiện trên biểu đồ 3.6 cho thấy: Tỷ lệ bệnh nhi có số lượng bạch cầu < 50 G/L chiếm tỷ lệ tương đương ở nhóm B-ALL nguy cơ thấp và nguy cơ trung bình (trên 80%). Nhóm T-ALL và B-ALL nguy cơ cao đều có tỷ lệ khá cao bệnh nhi có số lượng bạch cầu ≥ 50 G/L (yếu tố tiên lượng xấu), chiếm hơn 50% bệnh nhi mỗi nhóm."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:55",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0281,
+            "snippet": ". Thêm nhiễm sắc thể 4, 10, và 17 liên quan đến tiên lượng tốt trong ALL trẻ em với xác suất sống thêm không sự kiện lên tới gần 90% [52]. Các bệnh nhi có đột biến trên lưỡng bội nhiễm sắc thể thường có đáp ứng tốt với methotrexate liều cao [52]. b. Dƣới lƣỡng bội nhiễm sắc thể (<46 NST) Bất thường dưới lưỡng bội NST có thể gặp là gần đơn bội (24-29 NST), dưới lưỡng bội thấp (33-39 NST), dưới lưỡng bội cao (40-43 NST) và gần lưỡng bội (44 NST). Nhóm có số lượng NST gần một nửa lưỡng bội (24-31 NST) có sự thay đổi đích thụ thể của tín hiệu Tyrosine Kinase và tín hiệu Ras (71%) và yếu tố gen điều hoà phiên mã IKZF3 (13%). Ngược lại, nhóm ALL có số lượng 32 - 39 NST thì được đặc trưng bằng sự thay đổi trong TP53 (91,2%), IKZF2 (53%) và RB1 (41%). Cả hai nhóm có bộ NST dưới lưỡng bội đều hoạt hoá con đường tín hiệu Ras và phosphoinositide 3-kinase (PI3K) [49],[53]"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0325,
+          "min": 0.0281,
+          "avg": 0.03
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8359,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-014",
+  "date_folder": "13-04-2026",
+  "sequence": 14,
+  "file_name": "session_014.json",
+  "created_at": "2026-04-13T01:19:00.791183",
+  "updated_at": "2026-04-13T01:19:00.791183"
+}

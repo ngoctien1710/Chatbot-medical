@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Các nhà khoa học đã có bước tiến như nào trong công cuộc tìm ra các loại thuốc đặc hiệu có tác dụng chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế sinh bệnh",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong công cuộc tìm ra các loại thuốc đặc hiệu có tác dụng chọn lọc trên tế bào ác tính hoặc một số phân tử đặc hiệu có tính quyết định trong cơ chế sinh bệnh, những bước tiến quan trọng đã được thực hiện bằng cách sử dụng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu như phân tử protein lai BCR-ABL1 bằng các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib...). Các thuốc kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu để điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4404,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:46",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.3351,
+            "snippet": ". Ngoài ra, các thuốc ức chế Proteasome (Bortezomib), thuốc ức chế JAK (Ruxolitinib), thuốc làm giảm quá trình Methyl hoá (Decitabine), thuốc ức chế PI3K/mTOR cũng đang bắt đầu với các thử nghiệm lâm sàng pha 2, pha 3. Liệu pháp miễn dịch tế bào CAR – Ts (Chemeric Antigen Receptor T cells) cũng là một trong các liệu pháp đang được lựa chọn sử dụng cho các bệnh nhi kháng trị/tái phát [43], [44]. 1.2.5. Một số yếu tố tiên lƣợng lơ xê mi cấp dòng lympho trẻ em Trong hơn nửa thập kỷ vừa qua, để nâng cao hiệu quả điều trị bệnh ALL, rất nhiều nhóm nghiên cứu ung thư trẻ em trên thế giới đã tiến hành một loạt các thử nghiệm lâm sàng. Từ các thử nghiệm lâm sàng đó, dựa trên phân tích ảnh hưởng của các yếu tố đến kết quả điều trị, các nhà khoa học đã rút ra được các yếu tố có ý nghĩa tiên lượng"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:283",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.298,
+            "snippet": "246.\n\n5/1. b. Nhắm đích TP53: - Điều chế hoạt động phiên mã của đột biến TP53 bằng các loại thuốc như APR-\n\nc. Các lựa chọn ở bệnh nhân thất bại liệu pháp HMA - CPX-351 là công thức liposom mới với tỷ lệ Cytarabine/Daunorubicin cố định"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.4404,
+          "min": 0.298,
+          "avg": 0.3579
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 14329,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-096",
+  "date_folder": "13-04-2026",
+  "sequence": 96,
+  "file_name": "session_096.json",
+  "created_at": "2026-04-13T14:20:08.559752",
+  "updated_at": "2026-04-13T14:20:08.559752"
+}

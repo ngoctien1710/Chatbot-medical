@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Chỉ định ghép tế bào gốc tạo máu ngay khi chẩn đoán ALL cho nhóm nguy cơ rất cao gồm những tiêu chí cụ thể nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Chỉ định ghép tế bào gốc tạo máu được thực hiện cho những bệnh nhi có chuyển đoạn t(9;22) và được xếp nhóm nguy cơ rất cao, khi đạt được lui bệnh hoàn toàn.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:258",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9637,
+            "snippet": ". Tỷ lệ tái phát thấp nhất ở nhóm A (nguy cơ chuẩn). Như vậy, mặc dù kết quả điều trị tấn công của nhóm T-ALL tương tự nhóm B-ALL nhưng tỷ lệ tái phát cao hơn có ý nghĩa thống kê. Đây cũng là dữ liệu cho thấy với nhóm bệnh nhi T-ALL nên có chỉ định ghép tế bào gốc sớm ngay sau khi đạt lui bệnh lần 1. Chia lại nhóm nguy cơ sau điều trị và kết quả đánh giá tái phát sau đó trên bảng 3.20 thì thấy tỷ lệ tái phát TX và TKTW đều cao nhất ở nhóm nguy cơ rất cao (34,1% và 17,1%). Điều này cho thấy xếp lại nhóm nguy cơ sau khi đánh giá đáp ứng sớm trong điều trị tấn công ở phác đồ FRALLE 2000 có giá trị tiên lượng nguy cơ tái phát và là cơ sở để lập kế hoạch điều trị tiếp theo bao gồm liệu pháp ghép tế bào gốc cho những bệnh nhi thuộc nhóm nguy cơ cao và rất cao"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:281",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9273,
+            "snippet": ". 3.3.2.2. Ghép tế bào gốc đồng loài - Tiêu chí IPSS nên được xem xét ngay tại thời điểm chẩn đoán cho ghép tế bào gốc đồng loài. - Ghép tế bào gốc đồng loài nên được thực hiện cho nhóm: Rối loạn sinh tủy IPSS giai đoạn trung bình 2 / cao hoặc IPSS-R cao / rất cao. - Tiêu chí lựa chọn: Có nguồn cho phù hợp HLA, tuổi < 70, không có bệnh lý nền nặng, thể trạng tốt có thể trải qua cuộc ghép. - Cần đánh giá cụ thể các tổn thương di truyền cho bệnh nhân để lựa chọn thời điểm ghép phù hợp và có chiến lược duy trì sau ghép trên những nhóm có tổn thương di truyền tiên lượng xấu. - Duy trì sau ghép: Rất quan trọng trong ghép rối loạn sinh tủy (có thể duy trì bằng HMA hoặc các nhóm thuốc mới). 3.3.2.3. Hướng mới trong điều trị rối loạn sinh tủy nguy cơ cao a. Các tác nhân có thể kết hợp với HMA: - Azacitidine kết hợp với lenalidomide... hoặc eltrombopag"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:44",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.921,
+            "snippet": ". - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt. Hầu hết bệnh nhi ngày nay được điều trị thành công, đạt được tình trạng lui bệnh mà không cần sử dụng đến phương pháp ghép tế bào gốc tạo máu. Ghép tế bào gốc tạo máu được đặt ra với nhóm bệnh nhi nguy cơ cao, hoặc không đạt được tình trạng lui bệnh (kháng hoá trị), hoặc tái phát, đặc biệt tái phát sớm sau khi hoàn thành hóa trị liệu [23]. - Điều trị nhắm đích và hƣớng điều trị trong tƣơng lai Điều trị hóa chất có nhược điểm chung, đó là cùng một lúc làm tổn thương cả tế bào ác tính và tế bào lành, dẫn đến một số hạn chế trong hiệu quả điều trị và khả năng phục hồi sau điều trị. Từ nhiều năm nay, các nhà khoa học đã tiến hành nhiều nghiên cứu để tìm ra các loại thuốc đặc hiệu có tác dụng 15"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:200",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8971,
+            "snippet": "tế bào và hạn chế quá trình chết tế bào theo chương trình, qua đó phát sinh các tế bào LXM. Cho đến nay, bệnh nhân ALL có chuyển đoạn t(9;22) tạo NST Ph vẫn luôn được xếp nhóm nguy cơ rất cao, đáp ứng kém với điều trị. Hiện nay, việc phối hợp thêm các thuốc ức chế Tyrosine Kinase (thuốc nhắm đích) trong phác đồ điều trị được khuyến cáo đã nâng hiệu quả điều trị ở nhóm bệnh nhân có đột biến này, tuy nhiên tỷ lệ đáp ứng vẫn thấp so với các nhóm khác. Do đó, chỉ định ghép tế bào gốc cũng được khuyến cáo cho những bệnh nhi này khi đạt được lui bệnh hoàn toàn [103]. Chuyển đoạn t(9;22) được phát hiện nhiều nhất trong các đột biến cấu trúc trong nghiên cứu này, tuy nhiên không phải trường hợp nào cũng dễ quan sát được trên xét nghiệm NST. Trong nghiên cứu này có 24 trường hợp có đột biến gen BCR-ABL1 (biểu đồ 3.3) nhưng chỉ có 6 trường hợp phát hiện chuyển đoạn t(9;22) trên bộ NST"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:43",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8007,
+            "snippet": "để đạt lui bệnh, (2) điều trị củng cố để tăng cường lui bệnh hoặc giảm tồn dư tối thiểu của bệnh, (3) điều trị dự phòng bệnh lý ALL ở hệ thống thần kinh trung ương, và (4) điều trị duy trì để kéo dài tình trạng lui bệnh, giảm tái phát. Nguyên tắc điều trị đa hoá trị liệu là [42]: + Điều trị cá thể hoá: Dựa trên xếp loại nhóm nguy cơ của từng bệnh nhi cụ thể để lựa chọn phác đồ điều trị thích hợp; + Theo dõi đáp ứng điều trị và tồn dư tối thiểu của bệnh; + Hoá trị tăng cường sau khi đạt được lui bệnh sau điều trị tấn công; + Điều trị dự phòng thâm nhiễm thần kinh trung ương; + Có khoảng thời gian điều trị hợp lý; + Có kế hoạch ghép tế bào gốc tạo máu trên những bệnh nhi có chỉ định. - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9637,
+          "min": 0.8007,
+          "avg": 0.902
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 30764,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-003",
+  "date_folder": "25-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-25T16:11:26.277787",
+  "updated_at": "2026-04-25T16:11:26.277787"
+}

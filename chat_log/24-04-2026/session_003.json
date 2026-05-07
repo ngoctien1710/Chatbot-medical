@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhi AML có triệu chứng tắc mạch do tăng bạch cầu cao có thể xảy ra ở những vị trí nào? Biểu hiện lâm sàng khác gồm gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhiễm đột xuất AML có thể gặp triệu chứng tắc mạch do tăng bạch cầu cao ở vị trí như: tắc mạch não, tắc mạch phổi. Biểu hiện lâm sàng khác gồm có sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da, gan to, lách to, hạch to, phì đại lợi, thâm nhiễm da, đau xương, thâm nhiễm thần kinh trung ương. Các biểu hiện toàn thân do bệnh lý ác tính gồm mệt mỏi, gầy sút, suy sụp nhanh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:134",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8657,
+            "snippet": ". - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da... - Hội chứng thâm nhiễm: Gan to, lách to, hạch to, phì đại lợi, thâm nhiễm da, đau xương, thâm nhiễm thần kinh trung ương với các dấu hiệu thần kinh khu trú... - Trong trường hợp số lượng bạch cầu tăng cao có thể gặp triệu chứng tắc mạch do tăng bạch cầu: Tắc mạch não, tắc mạch phổi, tắc mạch dương vật… - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 3.2. Triệu chứng xét nghiệm 3.2.1. Xét nghiệm tế bào máu ngoại vi và tủy xương a. Xét nghệm tế bào máu ngoại vi: Thường có các biểu hiện sau: - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Số lượng bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm; gặp một tỷ lệ tế bào non (tế bào blast) - ác tính. - Số lượng tiểu cầu giảm. b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:1",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7888,
+            "snippet": ". - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương... - Có thể gặp triệu chứng tắc mạch do tăng bạch cầu. - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 2.2. Triệu chứng xét nghiệm a. Xét nghiệm tế bào máu ngoại vi - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm, gặp một tỷ lệ tế bào non (tế bào blast) ác tính. - Số lượng tiểu cầu giảm. b. Xét nghiệm tủy xương - Tuỷ đồ là xét nghiệm quyết định chẩn đoán, cho thấy các tế bào blast chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy; các dòng hồng cầu, bạch cầu hạt và mẫu tiểu cầu bị lấn át bởi tế bào blast. - Sinh thiết tuỷ xương được chỉ định trong trường hợp chọc hút tuỷ không chẩn đoán xác định được do tủy nghèo tế bào thấy ổ tế bào blast. c"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:408",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6498,
+            "snippet": ". - Các triệu chứng toàn thân: Sốt và sụt cân tương đối hiếm gặp ngoại trừ trong anaplastic large cell lymphoma. Sụt cân cũng có thể xảy ra thứ phát sau tắc ruột. b. Cận lâm sàng - Hạch đồ: Hạch tăng sinh, khá đồng nhất, chủ yếu là lymphoblast hoặc prolymphocyte: Kích thước to, nhân lớn (có thể có hạt nhân, nhân chẻ, nhân chia, nhân quái), nguyên sinh chất hẹp, không tạo đám; ít gặp bạch cầu đoạn trung tính, bạch cầu đoạn ưa acid, plasmocyte, đại thực bào, tế bào xơ. - Sinh thiết hạch hoặc tổ chức lympho nhằm làm xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học là tiêu chuẩn vàng giúp chẩn đoán bệnh. - Xét nghiệm khác: + Tổng phân tích tế bào máu ngoại vi (huyết đồ) có thể gặp giảm lượng huyết sắc tố, giảm số lượng tiểu cầu, số lượng bạch cầu có thể tăng hoặc giảm; + LDH tăng trong khoảng 30% trường hợp; tăng calci máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:216",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6321,
+            "snippet": ". - Tắc mạch vừa và lớn (mạch mãu não, mạch vành, mạch ngoại biên, tĩnh mạch sâu); tắc mạch tái đi tái lại gặp trên 15-20% người bệnh. - Biểu hiện chảy máu ít gặp; tuy nhiên, khi số lượng tiểu cầu tăng trên 1.000 G/L thì tỷ lệ biến chứng chảy máu tăng lên; biểu hiện chảy máu hơi giống với bệnh von Willebrand: Chảy máu chân răng, xuất huyết tiêu hoá, chảy máu sau phẫu thuật. - Phối hợp với triệu chứng rối loạn vận mạch: Thiếu máu đầu ngón tay, chân; đau, tê bì đầu ngón; đau đầu, đau nửa đầu, thiếu máu não thoáng qua, xây xẩm, đột ngột giảm hoặc mất thị lực từng bên. 3.2. Xét nghiệm a. Máu ngoại vi - Số lượng tiểu cầu tăng trên 450 G/L. - Số lượng bạch cầu thường tăng. - Số lượng hồng cầu, nồng độ hemoglobin bình thường hoặc giảm. b. Tuỷ xương - Tuỷ giàu tế bào. - Tăng sinh dòng mẫu tiểu cầu. - Có thể gặp các mẫu tiểu cầu khổng lồ, nhân nhiều múi, không đồng bộ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:200",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4333,
+            "snippet": ". - Các triệu chứng chính theo thứ tự gặp là: Lách to (75% người bệnh), có thể có nhồi máu lách; gan to (30%); biểu hiện ngứa (trên 40% người bệnh), gặp sau tắm nước nóng; cao huyết áp; nóng bừng mặt; ngoài ra có thể đau bụng vì viêm loét dạ dày do tăng tiết histamine và tăng tiết acid hay do tắc mạch (tắc mạch mạc treo, tĩnh mạch cửa). - Giai đoạn cuối có thể kiệt quệ, biểu hiện chủ yếu là thiếu máu, số lượng tiểu cầu có thể tăng, tình trạng xơ tủy tăng dần và kết thúc bằng chuyển thành lơ xê mi cấp. 3.2. Xét nghiệm - Máu ngoại vi: Tăng tất cả các tế bào thuộc dòng tuỷ (hồng cầu, bạch cầu hạt, tiểu cầu); tăng hematocrit; tăng acid uric; erythropoietin huyết thanh không tăng. - Tủy xương: Tăng sinh các dòng tế bào tủy (hồng cầu, bạch cầu hạt, mẫu tiểu cầu). Có hiện tượng xơ hóa tủy từng phần. - Có đột biến JAK2 V617F, hoặc đột biến JAK2 exon 12. 4. CHẨN ĐOÁN 4.1"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.8657,
+          "min": 0.4333,
+          "avg": 0.6739
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35407,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-003",
+  "date_folder": "24-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-24T15:11:36.422757",
+  "updated_at": "2026-04-24T15:11:36.422757"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "phân loại bệnh bạch cầu cấp dòng lympho theo dấu ấn miễn dịch như thế nào",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The type of Lymphoma, specifically B-cell lymphoma, can be classified based on the minimal residual disease (MRD) markers as follows:\n\n1. Pre-T cell lymphoma (cCD3+, CD7+, CD2+, TdT+, CD1a-, CD4-, CD8-, CD34+/-)\n2. Cortical T-cell ALL (cCD3+, CD7+, CD1a+, CD2+, CD4+, CD8+, CD34-)\n3. Medullary T-cell ALL (sCD3+, cCD3+, CD7+, CD1a-, CD2+, CD4+ or CD8+, CD34-)\n\nThese types of lymphoma are classified based on MRD markers, which can help in determining the prognosis and treatment approach. The classification is also related to the risk group:\n\n1. Low-risk group: patients aged 1-10 years, with an initial white blood cell count (WBC) of less than 50,000/mm³, without any abnormal MRD or poor prognosis features such as a low number of leukemia cells (≤44 leukemia cells), the t(9;22), t(4;11), or t(1;19) translocations.\n2. High-risk group: patients under 1 year old or over 10 years, or those with an initial WBC of 50,000/mm³ or more, or with any abnormal MRD or poor prognosis features.\n\nSome specific genetic mutations like ABL1 and MLL-AF4 (which belong to the kinase gene family) are associated with high-risk B-cell ALL due to their impact on lymphocyte B cell growth, differentiation, and response to chemotherapy treatment, thus being classified in the high-risk group.\n\nRegarding MRD markers, research has shown that most abnormalities belong to the B-cell lymphoma group (B-ALL), with translocations such as t(9;22) being the most common (6 cases of leukemia).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:13",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9248,
+            "snippet": "Thể bệnh Đặc điểm dấu ấn miễn dịch Dòng lympho T CD1a (-), CD2 (-), sCD3 (-), CD4 (-), CD8 (-), CD34 (+/-) ALL tế bào tiền T (pre-T) cCD3 (+), CD7 (+), CD2 (+), TdT (+) CD1a (-), CD4 (-), CD8 (-), CD34 (+/-) ALL tế bào T vỏ (cortical T- ALL) cCD3 (+),CD7 (+), CD1a (+), CD2 (+), CD4 (+), CD8 (+), CD34 (-) ALL tế bào T tủy (medullary T-ALL) sCD3 (+), cCD3 (+),CD7 (+), CD1a (-), CD2 (+), CD4 (+) hoặc CD8 (+), CD34 (-) Chú thích: cIG: immunoglobulin bào tương (cytoplasmic); sIg: immunoglobulin bề mặt (surface). - Các thể bệnh LXM lympho cấp theo WHO 2016 (1) LXM cấp/u lympho ác tính dòng tế bào lympho B: + LXM cấp/u lympho ác tính dòng tế bào lympho B không phân loại được theo cách khác. diễn:\n\n+ LXM cấp/u lympho ác tính dòng tế bào lympho B với các biến đổi di truyền tái"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.883,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:238",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8622,
+            "snippet": "ABL1 và MLL-AF4 (thuộc nhóm B-ALL nguy cơ cao) thuộc họ gen kinase, ảnh hưởng đến nhiều con đường dẫn truyền tín hiệu qua đó tác động lên quá trình tăng sinh, biệt hóa của tế bào lympho B [53]. Có lẽ vì thế mà các bệnh nhi có gen BCR-ABL1 và MLL-AF4 thường có số lượng bạch cầu cao, với mức độ tăng sinh tế bào ác tính rất mạnh, ảnh hưởng đến đáp ứng điều trị hóa chất và được xếp vào nhóm nguy cơ cao. d. Đặc điểm bất thƣờng di truyền theo xếp loại miễn dịch Dấu ấn miễn dịch giúp xếp loại tế bào, đồng thời cũng thể hiện giai đoạn biệt hóa của dòng tế bào LXM. Nghiên cứu về đặc điểm xếp loại và dấu ấn miễn dịch theo các nhóm nhận thấy: Đa số bất thường NST thuộc nhóm lơ xê mi cấp tế bào B (B-ALL). Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi), chủ yếu thuộc nhóm tiền B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9248,
+          "min": 0.8622,
+          "avg": 0.89
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 36263,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-029",
+  "date_folder": "13-04-2026",
+  "sequence": 29,
+  "file_name": "session_029.json",
+  "created_at": "2026-04-13T02:17:04.106319",
+  "updated_at": "2026-04-13T02:17:04.106319"
+}

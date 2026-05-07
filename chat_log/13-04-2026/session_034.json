@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Bệnh bạch cầu cấp dòng lympho được phân loại dựa trên các dấu ấn miễn dịch như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh bạch cầu cấp dòng lympho được chẩn đoán dựa trên việc nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:37",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6591,
+            "snippet": ". Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. - Một số phác đồ điều trị trên thế giới lấy ngưỡng NBLP để chẩn đoán và điều trị ALL trẻ em là NBLP chiếm trên 25% tế bào có nhân trong tuỷ (Phác đồ BFM-ALL, phác đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em a. Xếp loại theo FAB 1986 Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc điểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]:"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6563,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:493",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.647,
+            "snippet": "33. LƠ XÊ MI LYMPHO MẠN (Bệnh bạch cầu mạn dòng lympho)"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.6591,
+          "min": 0.647,
+          "avg": 0.6541
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 3308,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-034",
+  "date_folder": "13-04-2026",
+  "sequence": 34,
+  "file_name": "session_034.json",
+  "created_at": "2026-04-13T02:46:02.794901",
+  "updated_at": "2026-04-13T02:46:02.794901"
+}

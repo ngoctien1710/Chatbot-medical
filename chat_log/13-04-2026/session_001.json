@@ -1,0 +1,48 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "alo",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Chào bạn! Tôi là một chuyên gia y khoa giúp đỡ trực tuyến. Tôi sẽ trả lời câu hỏi của bạn nhưng vì không có context nào được retrieve từ kho tài liệu, tôi sẽ chỉ trả lời theo mức độ chắc chắn là rất thấp.\n\nBạn có muốn hỏi gì?",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "no_match",
+        "top_k": 0,
+        "snippets": [],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": null
+      },
+      "diagnostics": {
+        "latency_ms": 15958,
+        "context_used": 0,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-001",
+  "date_folder": "13-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-13T00:01:23.369209",
+  "updated_at": "2026-04-13T00:01:23.369209"
+}

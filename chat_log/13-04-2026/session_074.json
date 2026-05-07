@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Điều trị ALL theo phác đồ FRALLE 2000 bao gồm các giai đoạn nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The ALL treatment according to the FRALLE 2000 protocol consists of six main phases: induction, consolidation, maintenance, intensification 1, interim maintenance, and intensification 2. These stages are continuous, mandatory to follow strictly and closely, and each stage has specific evaluation criteria for starting medication. The phases include:\n\n1. Sensitization phase\n2. Induction phase\n3. Consolidation phase (8 weeks with Endoxan, ARAC, 6TG followed by VCR, PRED, 6MP, MTX + 2 doses of MTX-HD) for group T1 (Note: MRD N35-42 > 10-2 moves the group to T2)\n4. Consolidation phase (9 weeks with 3 doses: VEDA, COPADM2000, VEDA)\n5. Intensification phase I for groups A3 and A1/A2 with MRD positive (≥ 10-2): starting on day 57 after the second intensification phase, treatment is similar to group A1 but dexamethasone is replaced by corticoid 40 mg/m2 daily from day 1-7; a total of 6 IT injections are given (maintained every 3 months at months 3, 6, 9, 12, 15, and 18)\n6. Interim maintenance phase\n7. Intensification phase II",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9958,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:100",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7497,
+            "snippet": "Lưu ý: - Điều kiện duy trì mỗi tháng khi bạch cầu trung tính > 0,5G/L, tiểu cầu > 100G/L. - Người bệnh đã xạ trị thì không được tiêm tủy sống nữa. - Tiếp tục phòng ngừa Pneumocystic carinii trong giai đoạn duy trì với bactrim 25mg/kg x 1 liều, 3 ngày mỗi tuần. 3.2.2. Phác đồ điều trị lơ xê mi lymho T cấp (FRALLE 2000 T) 3.2.2.1. Sơ đồ điều trị tổng quát\n\nCủng cố (8 tuần) Endoxan, ARAC, 6TG rồi đến VCR, PRED, 6MP, MTX + 2 đợt MTX-HD (5.000 mg/m2) NHÓM T1 Chú ý: MRD N35-42 > 10-2, chuyển nhóm T2\n\nCủng cố (9 tuần) 3 đợt : VEDA, COPADM2000, VEDA"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:84",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6736,
+            "snippet": "- Nhóm A3 và A1/A2 có MRD dương tính (≥ 10-2): + Bắt đầu ngày 57 sau giai đoạn tăng cường II, điều trị tương tự nhóm A1 nhưng thay dexa bằng corticoid 40 mg/m2 ngày 1-7; + Tổng cộng có 6 mũi IT (duy trì tháng 3, 6, 9, 12, 15, 18). 3.2.1.2. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm B a. Sơ đồ điều trị tổng quát: FRALLE 2000-B: NHÓM B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9958,
+          "min": 0.6736,
+          "avg": 0.8064
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35108,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-074",
+  "date_folder": "13-04-2026",
+  "sequence": 74,
+  "file_name": "session_074.json",
+  "created_at": "2026-04-13T10:48:22.709382",
+  "updated_at": "2026-04-13T10:48:22.709382"
+}

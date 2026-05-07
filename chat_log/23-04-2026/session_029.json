@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Vì sao cần xét nghiệm dịch não tủy định kỳ trong điều trị ALL, và ý nghĩa của bạch cầu non trong dịch não tủy?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Vì sao cần xét nghiệm dịch não tủy định kỳ trong điều trị ALL? Dịch não tủy là một yếu tố quan trọng trong việc chẩn đoán và theo dõi sự phát triển của bệnh nhân có ALL. Nó giúp cho bác sĩ biết xem bạch cầu non (BCN) có tồn tại trong máu hay không, và đó là một yếu tố quan trọng để chỉ định dựphòng hoặc xác định các loại ALL.\n\nTrong ngữ cảnh cung cấp, bạch cầu non là một yếu tố quan trọng trong việc chỉ định dựphòng cho ALL nhưng không được chỉ định điều trị. Nó có thể được xác định qua các yếu tố khác như số lượng bạch cầu (BC) và tỉ lệ bạch cầu trung tính (BCTT).\n\nVì thế, xét nghiệm dịch não tủy được yêu cầu để phát hiện sự tồn tại của bạch cầu non trong máu của bệnh nhân có ALL, và đó là một yếu tố quan trọng để chỉ định dựphòng hoặc xác định các loại ALL.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:21",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6097,
+            "snippet": ". Giảm 50% liều nếu BCTT từ 500 đến < 750 và TC từ 50.000 đến < 75.000. Giữ nguyên liều và xét nghiệm BCTT và TC hàng tuần nếu BCTT 750 - < 1.000 và TC 75.000 - < 100.000. Tăng liều thêm 25% nếu BCTT ≥ 2.000/mm và tiểu cầu ≥ 100.000/mm Xạ trị Chỉ định điều trị: ALL có thâm nhiễm thầ n9n kinh trung ương (TKTƯ 3) hoặc tinh hoàn ngay khi chẩn đoán hoặc khi tái phát. Chỉ định dựphòng: ALL nguy cơ cao tái phát thần kinh trung ương như ALL dòng T có số 3 lượng bạch cầu > 200.000/mm , ALL dòng tiền B đáp ứng điều trị chậm, TKTƯ – 2 hoặc chọc dò dịch não tủy có máu và có BCN. Liều xạ trị sọ não điều trị cho ALL nhóm nguy cơ không cao hoặc xạ trị dựphòng: tổng liều 1800 cGy, 180 cGy/liều/ngày, 5 ngày/tuần. Liều xạ trị tinh hoàn: tổng liều 2400 cGy cho cả 2 tinh hoàn, 300 cGy/liều/ngày. Nếu tinh hoàn vẫn to sau xạ trị 2400 cGy, thêm 300 cGy/liều x 2 liều"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:2",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.4486,
+            "snippet": "XÉT NGHIỆM Tổng phân tích tế bào máu ngoại vi: hầu hết bệnh nhân có Hb và tiểu cầu (TC) giảm nhưng có thể bình thường; số lượng bạch cầu (BC) tăng, giảm hoặc bình thường, tỉ lệ bạch cầu trung tính (BCTT) giảm, có hoặc không có bạch cầu non (BCN). Tủy đồ: ≥ 25% tế bào của tủy xương là nguyên bào lympho, lấn át các dòng tế bào khác. Đông máu cơ bản: bình thường hoặc rối loạn đông máu Sinh hóa: ure, creatinin, kali, axit uric máu tăng, can xi giảm nếu có hội chứng phân giải khối u. LDH, GOT, GPT máu tăng hoặc bình thường. Xét nghiệm dịch não tủy khi tiêm hóa chất tủy sống X quang phổi: u trung thất trước Siêu âm: thâm nhiễm thận, hạch ổ bụng, gan lách to"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:3",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4022,
+            "snippet": "- Với LXM tủy cấp cần làm các đột biến sau: c-KIT, FLT3-ITD, FLT3-TKD, NPM1, CEBPA, IDH1, IDH2, ASXL1, TP53, RUNX1-RUNXT1, CBFB-MYH11, MLLT3-KMT2A, GATA2… - Với LXM lympho cấp (acute lymphoblastic leukemia - ALL): NST Ph - t(9;22) và/hoặc gen bcr-abl, t(4;11), t(1;19), t(12;21), t(11;19)… hoặc tái tổ hợp gen MLL, tái sắp xếp gen KMT2A, đột biến ETV6-RUNX1... e. Xét nghiệm hóa sinh Chức năng gan thận, điện giải đồ, calci, phospho, LDH, aicd uric để phát hiện hội chứng tiêu khối u. f. Xét nghiệm các virus Viêm gan B, viêm gan C, HIV, CMV. g. Chụp cắt lớp vi tính hoặc cộng hưởng từ sọ não: Nếu có triệu chứng thần kinh. h. Xét nghiệm dịch não tủy: Để phát hiện thâm nhiễm thần kinh trung ương (đặc biệt trong LXM lympho cấp). i"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.6097,
+          "min": 0.4022,
+          "avg": 0.4868
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 33293,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-029",
+  "date_folder": "23-04-2026",
+  "sequence": 29,
+  "file_name": "session_029.json",
+  "created_at": "2026-04-23T14:04:09.713100",
+  "updated_at": "2026-04-23T14:04:09.713100"
+}

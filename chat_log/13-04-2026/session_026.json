@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh bạch cầu cấp dòng lympho là có thể gặp mệt mỏi, gầy sút cân, chán ăn, sốt thất thường, kém đáp ứng với điều trị kháng sinh, thiếu máu từ nhẹ đến nặng, xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. Có thể còn có hạch to khu trú hoặc toàn thân, lách to, gan to, biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0328,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0315,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:495",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.0303,
+            "snippet": ". Bệnh hay gặp ở người lớn tuổi, nam nhiều hơn nữ (gấp khoảng 2,8 lần). 2. NGUYÊN NHÂN GÂY BỆNH Đến nay, chưa thấy yếu tố đơn độc nào là nguyên nhân gây bệnh. Các nghiên cứu cho rằng việc tiếp xúc lâu với các hóa chất nông nghiệp, chất độc màu da cam và làm việc lâu dài trong môi trường điện từ trường, nhiễm các virus viêm gan C, Epstein-Barr virus có thể làm tăng nguy cơ mắc bệnh. Đã có một vài báo cáo về các gia đình có nhiều người cùng mắc lơ xê mi lympho mạn. 3. TRIỆU CHỨNG 3.1. Lâm sàng - Có đến 25% người bệnh không có triệu chứng lúc chẩn đoán, thường được phát hiện tình cờ là tăng tế bào lympho trong máu ngoại vi không giải thích được. Một số khác chỉ có dấu hiệu mệt mỏi hoặc hạn chế hoạt động thể lực. Ở giai đoạn muộn, người bệnh có thể sụt cân, nhiễm trùng tái diễn, xuất huyết do giảm tiểu cầu và thiếu máu"
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0328,
+          "min": 0.0303,
+          "avg": 0.0315
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8979,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-026",
+  "date_folder": "13-04-2026",
+  "sequence": 26,
+  "file_name": "session_026.json",
+  "created_at": "2026-04-13T01:54:59.314722",
+  "updated_at": "2026-04-13T01:54:59.314722"
+}

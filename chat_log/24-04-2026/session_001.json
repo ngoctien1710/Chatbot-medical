@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Cyclophosphamid (CPM) được sử dụng trong ALL với liều và cách truyền ra sao, và biện pháp dự phòng độc tính tiết niệu?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Cyclophosphamid (CPM) được sử dụng với liều 1000 mg/m²/liều, truyền tĩnh mạch trong 30 phút, pha trong 125 ml/m² Glucose 5% : 1/2 Natriclorua 0.9%, ngày 0,14. Truyền dịch 2 giờ trước mỗi liều để tỉ trọng niệu < 1,015. Dịch truyền sau CPM: 125 ml/m /giờ, tối thiểu 4 giờ. Lasix 0,25-0,5 mg/kg nếu lượng nước tiểu < 3 mL/kg/giờ sau truyền CPM.\n\nĐể đảm bảo an toàn cho bệnh nhân, khi sử dụng Cyclophosphamid (CPM), cần thực hiện biện pháp dự phòng độc tính tiết niệu theo cách sau:\n- Truyền dịch 2 giờ trước mỗi liều CPM để tỉ trọng niệu < 1,015.\n- Sau khi truyền CPM, dịch truyền sau với lượng 125 ml/m²/giờ, tối thiểu 4 giờ.\n- Nếu lượng nước tiểu < 3 mL/kg/giờ sau truyền CPM, cần sử dụng Lasix 0,25-0,5 mg/kg.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:13",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.949,
+            "snippet": "Ara-C: 75 mg/m²/ngày, TMC hoặc tiêm dưới da x 16 liều, ngày 0-3, 710, 14-17, 21-24 Chỉ điều trị bệnh nhân thâm nhiễm TKTƯ ngay khi chẩn đoán. Mercaptopurine, Methotrexate uống sau ăn tối ít nhất 1 giờ, không uống cùng sữa. Mercaptopurine: tính liều hàng ngày đến ½ viên để đạt được liều cả tuần là 525 mg/m , không tăng liều khi BCTT> 2.000/mm . @ Cyclophosphamid (CPM) : 1000 mg/m²/liều, truyền TMC trong 30 phút, pha trong 125 ml/m² Glucose 5% : 1/2 Natriclorua 0.9%, ngày 0,14. Truyền dịch 2 giờ trước mỗi liều để tỉ trọng niệu < 1,015. Dịch truyền sau CPM: 125 ml/m /giờ, tối thiểu 4 giờ. Lasix 0,25-0,5 mg/kg nếu lượng nước tiểu < 3 mL/kg/giờ sau truyền CMP"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:35",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5041,
+            "snippet": "* Block MTX: (Block 2 và 5) - Vincristine liều 2 mg đường tĩnh mạch ngày 15. - Methotrexate (MTX) liều 3.000 mg/m2 đường tĩnh mạch (truyền 24 giờ) ngày 15 dùng với thuốc giải độc Calci folinat/Acid folinic. - 6-Mercartopurine liều 60 mg/m2 đường uống ngày 15-21. - L-Asparaginase 10.000 UI/m2 đường tĩnh mạch ngày 16. - G-CSF liều 300 UI tiêm dưới da ngày 23-27. * Block CPM: (Block 3 và 6) - Methotrexate liều 25 mg/m2 đường tĩnh mạch ngày 29. - Cyclophosphamide liều 500 mg/m2 đường tĩnh mạch (truyền trong 3 giờ) ngày 29, 30. - Etoposide liều 75mg/m2 đường tĩnh mạch ngày 29, 30. - Tiêm tủy sống ngày 29. - G-CSF liều 300 UI tiêm dưới da ngày 31 cho đến khi phục hồi số lượng bạch cầu hạt trung tính > 1 G/l"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:605",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4952,
+            "snippet": ". - Cyclophosphamide 300 mg/m2/ngày truyền tĩnh mạch 1, 8, 15 và 22. - Dexamethasone 40 mg/ngày truyền tĩnh mạch 1, 8, 15 và 22. (Điều trị trong 8 đợt). d. PAD - Bortezomib 1,3 mg/m2 tiêm dưới da hay tiêm tĩnh mạch ngày 1, 4, 8, 11 trong 4 đợt đầu và 1, 8, 15 và 22 trong 4 đợt tiếp. - Doxorubicin 10 mg/m2/ngày truyền tĩnh mạch 1- 4. - Dexamethasone 40 mg/ngày truyền tĩnh mạch 1-4. (Điều trị trong 8 đợt). Lưu ý tác dụng phụ của các thuốc: - Bortezomib: Đau buốt chi, giảm tiểu cầu, nhiễm virus Zoster (biến chứng muộn). Tùy thuộc vào biến chứng có thể thay đổi thành tiêm mỗi tuần một lần hoặc chuyển sang tiêm dưới da. - Thalidomide: Suy thận, tổn thương thần kinh ngoại biên, tắc mạch. - Lenalidomide: Gây ức chế tuỷ (giảm bạch cầu, tiểu cầu), tắc mạch, táo bón"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:424",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.476,
+            "snippet": "Thuốc Liều lượng, đường dùng Ngày dùng Pha trước tấn công: COP Cyclophosphamide Vincristine Methylprednisolone Methotrexate, Hydrocortisone 300 mg/m2, tĩnh mạch 1.0 mg/m2 (tối đa 2.0 mg), tĩnh mạch 60 mg/m2/day (chia 3 liều), đường uông/tĩnh mạch 15mg, tiêm tủy sống* Ngày 1 Ngày 1 Ngày 1- 7 Ngày 1 Tấn công: 2 chu kỳ COPADM, COPADM1 được bắt đầu từ ngày thứ 8 của COP nếu không có chống chỉ định; COPADM2 bắt đầu khi tế bào máu ngoại vi hồi phục ( BCTT > 1 G/L, SLTC > 100 G/L), không nên bắt đầu trước ngày thứ 16 tính từ ngày đầu của COPADM1 và nên trì hoãn sau 48 giờ kể từ liều G- CSF cuối cùng COPADM 1&2 Vincristine Methylprednisolone 2.0 mg/m2 (tối đa 2.0 mg), tĩnh mạch 60 mg/m2/day (chia 3 liều), đường Ngày 1 Ngày 1- 5 uông/ tĩnh mạch Methotrexate 3 g/m2trong 3h, tĩnh mạch Ngày 1 (Axit folinic bắt đầu từ giờ 24 của MTX, 15 mg/m2 mỗi 6h, 12 liều) Cyclophosphamide 250 mg/m2/12 giờ ("
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:143",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4305,
+            "snippet": ". - Củng cố: + Methylprednison 40mg/m2, tiêm tĩnh mạch trong 28 ngày, giảm liều bằng 1/2, 1/4, 1/8 liều ban đầu; + Vincristine 1,5mg/m2, truyền tĩnh mạch hàng tuần x 4 tuần đầu (tối đa 2mg/m2); + Adriamycin 30mg/m2, truyền tĩnh mạch hàng tuần x 4 tuần, vào thứ hai; + Cytarabine 75mg/m2, truyền tĩnh mạch hàng ngày, 4 ngày một tuần, bắt đầu ngày thứ 3 đến thứ 6, tổng cộng 16 liều; + Mercaptopurine 50mg/m2, uống hàng ngày trong 28 ngày đầu; + Cyclophosphamid 500mg/m2, TMx2, liều đầu ngày 35,liều 2 ngày 63; ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 209\nliều; + Cytarabine 75mg/m2/ngày, TM bắt đầu ngày 35, 4 ngày một tuần, tổng cộng 16"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.949,
+          "min": 0.4305,
+          "avg": 0.571
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 50497,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-001",
+  "date_folder": "24-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-24T14:58:39.738067",
+  "updated_at": "2026-04-24T14:58:39.738067"
+}

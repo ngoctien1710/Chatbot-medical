@@ -11,6 +11,13 @@ from typing import Any
 
 from app.settings import settings
 
+# References section is typically in the last 65% of a document
+_REF_SCAN_START_RATIO = 0.35
+
+# GLM output validation: reject if shorter than this absolute minimum OR this ratio of the input
+_GLM_MIN_OUTPUT_CHARS = 60
+_GLM_MIN_OUTPUT_RATIO = 0.12
+
 
 class PdfMarkdownError(RuntimeError):
     pass
@@ -72,6 +79,19 @@ class PdfMarkdownConverter:
         self._glm_unavailable = False
         self._manifest_path = self.output_dir / '.pdf_manifest.json'
         self._cleaner_signature = self._build_cleaner_signature()
+
+    """
+    OCR_MIN_TEXT_CHARS: Ngưỡng ký tự tối thiểu để coi text extract trực tiếp là đủ. Nếu text của 1 trang thấp hơn ngưỡng thì sẽ chạy OCR cho trang đó.
+    OCR_DPI: Độ phân giải khi render trang PDF thành ảnh cho OCR. DPI cao hơn thường nhận diện tốt hơn nhưng chậm và tốn RAM hơn.
+    CLEAN_STRIP_TOC: Bật/tắt lọc dòng mục lục (TOC) để giảm nhiễu.
+    CLEAN_STRIP_REFERENCES: Bật/tắt loại bỏ phần tài liệu tham khảo/citation để giảm đoạn ít giá trị cho retrieval.
+    GLM_CLEANUP_ENABLED: Bật/tắt bước làm sạch bằng model GLM sau khi clean rule-based. Tắt thì bỏ qua bước LLM cleanup.
+    GLM_CLEANUP_MODEL: Tên model Hugging Face dùng để cleanup (hiện là GLM-5-FP8).
+    GLM_CLEANUP_TIMEOUT_SECONDS: Timeout cho mỗi lần gọi model cleanup.
+    GLM_CLEANUP_MAX_CHUNK_CHARS: Độ dài tối đa mỗi chunk text trước khi gửi cleanup.
+    GLM_CLEANUP_MAX_CHUNKS_PER_DOC: Giới hạn số chunk mỗi tài liệu được cleanup bằng GLM; phần vượt giới hạn sẽ giữ nguyên để tránh chậm/tốn chi phí.
+    HF_TOKEN: Token Hugging Face để gọi Inference API ổn định hơn hoặc dùng model private/gated
+    """
 
     def _build_cleaner_signature(self) -> str:
         # Build a config signature to know when markdown must be regenerated.
@@ -186,7 +206,7 @@ class PdfMarkdownConverter:
             return lines
 
         start_idx = -1
-        scan_start = max(0, int(len(lines) * 0.35))
+        scan_start = max(0, int(len(lines) * _REF_SCAN_START_RATIO))
         for idx in range(scan_start, len(lines)):
             lowered = self._fold_for_match(lines[idx]).strip(' :.-')
             if any(lowered.startswith(marker) for marker in self._reference_markers):
@@ -338,7 +358,7 @@ class PdfMarkdownConverter:
 
         original_len = len(original.strip())
         candidate_len = len(normalized_candidate)
-        min_len = max(60, int(original_len * 0.12))
+        min_len = max(_GLM_MIN_OUTPUT_CHARS, int(original_len * _GLM_MIN_OUTPUT_RATIO))
         if candidate_len < min_len:
             return original
 

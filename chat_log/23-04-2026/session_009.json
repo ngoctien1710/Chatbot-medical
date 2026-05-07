@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "\"Bệnh nhân nam 68 tuổi, mệt mỏi kéo dài, sụt cân, sốt dai dẳng không đáp ứng kháng sinh. Xét nghiệm máu cho thấy: Bạch cầu mono: 2.5 G/L, chiếm 18% bạch cầu Tình trạng kéo dài > 3 tháng Blast máu ngoại vi: 3% BCR-ABL1 âm tính Chuẩn đoán lâm sàng cho bệnh nhân là gì\"",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The patient is likely suffering from Chronic Myelomonocytic Leukemia (CMML), a type of myeloproliferative neoplasm. This diagnosis is based on the symptoms presented, such as prolonged fatigue, weight loss, persistent fever, and monocyte elevation in the blood. The laboratory test results also support this diagnosis, with an elevated monocytic count (2.5 G/L) and a negative BCR-ABL1 result. However, it's important to note that further tests may be needed for definitive confirmation, such as bone marrow aspiration and cytogenetic analysis.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:53",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.863,
+            "snippet": ". 2. CHẨN ĐOÁN BỆNH 2.1. Triệu chứng lâm sàng - Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn; + Sốt: Thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh; + Hội chứng thiếu máu từ nhẹ đến nặng; + Hội chứng xuất huyết; + Hội chứng nhiễm trùng. - Triệu chứng thâm nhiễm: + Hạch to, hạch to khu trú hoặc toàn thân; + Lách to; + Gan to; + Đau xương: Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài; + Thần kinh trung ương: Đau đầu, nôn và buồn nôn, li bì hoặc kích thích, cứng gáy, phù gai thị, liệt thần kinh sọ; + Hệ sinh dục-tiết niệu: Ít gặp, tinh hoàn to, đau; + Đường tiêu hóa: Ít gặp, có thể gặp thâm nhiễm đại tràng gây hội chứng như thương hàn, hoặc hoại tử và chảy máu thành ruột như viêm ruột. 2.2"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:185",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7441,
+            "snippet": "- Không có gen PDGFRA (4q12) hoặc PDGFRB (5q31-33) hoặc FGFR1, PCM1- JAK2 (đặc biệt, trong các trường hợp tăng bạch cầu ưa acid). - Blast ở máu ngoại vi và trong tủy xương < 20%. - Rối loạn sinh sản của một hoặc nhiều dòng tế bào tủy. - Xuất hiện bất thường về di truyền tế bào hoặc bất thường di truyền phân tử mắc phải trong các tế bào tạo máu như trisomy 8, mất NST Y, monosomy, del 7q… - Tăng bạch cầu mono dai dẳng ít nhất 3 tháng mà các nguyên nhân tăng bạch cầu mono khác đã được loại trừ (như nhiễm trùng, viêm, hoặc bệnh ác tính). - Đếm tế bào mono máu ngoại vi bằng phương pháp flow cytometry có sự xuất hiện của CD14+ và CD16-. 2.4. Chẩn đoán thể bệnh: - CMML-0: Blast < 2% ở máu ngoại vi và < 5% trong tủy xương. - CMML-1: Blast < 2-4% ở máu ngoại vi và < 5-9% trong tủy xương. - CMML-2: Blast từ 5-19% ở máu ngoại vi và từ 10-19% trong tủy xương"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:5",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.6843,
+            "snippet": "CHẨN ĐOÁN PHÂN BIỆT Bạch cầu cấp dòng tủy. Các bệnh ác tính khác có di căn tuỷ xương (u lympho, u nguyên bào thần kinh, u cơ vân, sarcoma Ewing, và u nguyên bào võng mạc). Các nguyên nhân gây suy tuỷ tiên phát như suy tuỷ bẩm sinh hoặc mắc phải, xơ hoá tuỷ; thiếu máu tăng nguyên hồng cầu thoáng qua, giảm bạch cầu hạt; giảm tiểu cầu miễn dịch Bệnh tăng bạch cầu đơn nhân nhiễm trùng ở giai đoạn khởi phát; viêm khớp có sốt;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:408",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6311,
+            "snippet": ". - Các triệu chứng toàn thân: Sốt và sụt cân tương đối hiếm gặp ngoại trừ trong anaplastic large cell lymphoma. Sụt cân cũng có thể xảy ra thứ phát sau tắc ruột. b. Cận lâm sàng - Hạch đồ: Hạch tăng sinh, khá đồng nhất, chủ yếu là lymphoblast hoặc prolymphocyte: Kích thước to, nhân lớn (có thể có hạt nhân, nhân chẻ, nhân chia, nhân quái), nguyên sinh chất hẹp, không tạo đám; ít gặp bạch cầu đoạn trung tính, bạch cầu đoạn ưa acid, plasmocyte, đại thực bào, tế bào xơ. - Sinh thiết hạch hoặc tổ chức lympho nhằm làm xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học là tiêu chuẩn vàng giúp chẩn đoán bệnh. - Xét nghiệm khác: + Tổng phân tích tế bào máu ngoại vi (huyết đồ) có thể gặp giảm lượng huyết sắc tố, giảm số lượng tiểu cầu, số lượng bạch cầu có thể tăng hoặc giảm; + LDH tăng trong khoảng 30% trường hợp; tăng calci máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:183",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6157,
+            "snippet": ". - Xét nghiệm sinh hóa máu: LDH và β2 microglobulin tăng cao. 2.3. Chẩn đoán xác định: a. Tiêu chuẩn chẩn đoán CMML theo FAB (1982): - Tăng bạch cầu mono máu ngoại vi và tủy xương trên 1 G/l. - Rối loạn sinh sản dòng hồng cầu và/ hoặc bạch cầu hạt và/ hoặc bạch cầu đơn nhân. - Blast máu ngoại vi < 5%. - Blast trong tủy < 20%. - Sự vắng mặt các thể Auer trong tế bào tủy. b. Tiêu chuẩn chẩn đoán CMML theo WHO (2008): - Tăng bạch cầu mono máu ngoại vi dai dẳng (trên 1 G/l). - Không có NST Philadelphia hoặc gen BCR-ABL1. - Không có gen PDGFRA hoặc PDGFRB (đặc biệt, trong các trường hợp tăng bạch cầu ưa acid). - Blast ở máu ngoại vi và trong tủy < 20%"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.863,
+          "min": 0.6157,
+          "avg": 0.7076
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 29430,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-009",
+  "date_folder": "23-04-2026",
+  "sequence": 9,
+  "file_name": "session_009.json",
+  "created_at": "2026-04-23T03:40:08.374963",
+  "updated_at": "2026-04-23T03:40:08.374963"
+}

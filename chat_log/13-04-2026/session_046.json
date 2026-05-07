@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác nhau như nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác nhau như sau:\n\n- Bệnh nhân \"đã lui bệnh hoàn toàn về mặt huyết học\" phải đạt tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016, trong đó tỷ lệ blast trong tủy xương phải nhỏ hơn 5%.\n- Bệnh nhân \"lui bệnh không hoàn toàn\" có tỷ lệ blast trong tủy xương lớn hơn 5%, theo tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21.\n\nNgoài ra, bệnh nhân \"lui bệnh không hoàn toàn\" có thể vẫn phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy, không phục hồi các dòng tế bào sinh máu trong tuỷ và số lượng bạch cầu có thể giảm hoặc tăng.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:121",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6512,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:139",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6326,
+            "snippet": ". - Số lượng bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm; gặp một tỷ lệ tế bào non (tế bào blast) - ác tính. - Số lượng tiểu cầu giảm. b. Xét nghiệm tủy xương: - Xét nghiệm tủy đồ: Số lượng tế bào tủy thường tăng, tế bào blast tăng sinh, hình thái dòng tủy, chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy. Các dòng hồng cầu, bạch cầu hạt và mẫu tiểu cầu bị lấn át bởi tế bào blast. - Nhuộm hoá học tế bào cho phép chẩn đoán thể bệnh LXM cấp theo bảng xếp loại FAB: ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:142",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6303,
+            "snippet": ". 3.2.3. Tiêu chuẩn chẩn đoán Chẩn đoán xác định LXM tuỷ cấp dựa vào biểu hiện lâm sàng và xét nghiệm, cụ thể là: - Dựa vào triệu chứng lâm sàng điển hình của bệnh. - Dựa vào triệu chứng cận lâm sàng: Xét nghiệm tuỷ đồ thấy tế bào blast  20% tế bào có nhân trong tuỷ mang đặc tính của dòng tủy (Hoá học tế bào dương tính với MPO, Soudan black). - Mang dấu ấn miễn dịch đặc trưng dòng tủy (CD 13, CD33, CD 117, CD15, CD 64, CD14…). 3.3. Xếp loại LXM tủy cấp trẻ em: Tương tự xếp loại người lớn (tham khảo bài Lơ xê mi cấp): ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.6512,
+          "min": 0.6303,
+          "avg": 0.6381
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 10876,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-046",
+  "date_folder": "13-04-2026",
+  "sequence": 46,
+  "file_name": "session_046.json",
+  "created_at": "2026-04-13T03:28:28.859642",
+  "updated_at": "2026-04-13T03:28:28.859642"
+}

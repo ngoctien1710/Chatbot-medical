@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Xét nghiệm NST và FISH trong đau tủy phát hiện những bất thường gì đặc trưng?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Những bất thường gì đặc trưng trong nghiệm NST và FISH đối với đau tủy là phát hiện bất thường số lượng, cấu trúc NST, chuyển đoạn gen t(14;16), t(11;14), t(6;14), t(4;14), t(14;20) và del 13; del 17.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:542",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9711,
+            "snippet": ". Biến chứng nặng là khối u chèn ép tủy sống (chiếm khoảng 10%), chẩn đoán dựa vào chụp cộng hưởng từ. - Nhiễm trùng tái diễn, là nguyên nhân chính gây tử vong. - Khó thở, có những cơn thiếu máu cơ tim thoáng qua, huyết khối tĩnh mạch sâu, chảy máu võng mạc, mũi do tăng độ quánh máu. 2.2. Cận lâm sàng - Xét nghiệm tủy xương: + Tăng tỷ lệ tế bào dòng plasmo; có thể thấy tăng hủy cốt bào, giảm tạo cốt bào; hình ảnh rối loạn sinh tủy thứ phát…; + Xét nghiệm NST và FISH: Phát hiện bất thường thiểu bội, đa bội, bất thường nhiễm sắc thể số 1, t(14;16), t(11;14), t(6;14), t(4;14), t(14;20) và del 13; del 17…; + Hoá mô miễn dịch (IHC) và/ hoặc phân tích dấu ấn miễn dịch (FC): xác định dấu ấn tế bào dòng plasmo (để đánh giá chính xác tỷ lệ tế bào ác tính và chẩn đoán phân biệt). Các CD tiêu chuẩn xác định plasmo ác tính: CD38, CD138, CD56, CD19, CD45"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:228",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8776,
+            "snippet": ". Do vậy, bất thường NST được phát hiện chủ yếu thuộc nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh. Đột biến về cấu trúc chủ yếu là chuyển đoạn NST, liên quan đến gen TCR [1],[38],[62]. Mặt khác, do số lượng bệnh nhi được phát hiện bất thường NST thấp nên không thấy sự khác biệt về các loại bất thường NST giữa các nhóm B-ALL và T- ALL. Đây là điểm hạn chế của nghiên cứu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:94",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8405,
+            "snippet": ". + Tìm hiểu mối liên quan giữa xếp nhóm nguy cơ theo biến đổi di truyền và xếp nhóm nguy cơ theo phác đồ FRALLE 2000 với nhóm bệnh nhi lơ xê mi cấp dòng lympho B. – Các thông số nghiên cứu: + Thông tin hành chính: Tuổi, giới; + Thông số lâm sàng: Thiếu máu, xuất huyết, sốt, gan to, lách to, hạch to, đau xương…; + Số lượng bạch cầu (SLBC) tại thời điểm chẩn đoán; + Chỉ số xét nghiệm xếp loại miễn dịch: thể LXM cấp theo xếp loại miễn dịch, các dưới nhóm, CD10, các CD khác trong panel xếp loại miễn dịch (Các CD đặc trưng dòng lympho, dấu ấn CD bất thường); + Chỉ số xét nghiệm di truyền, sinh học phân tử:  Xét nghiệm công thức nhiễm sắc thể từ dịch hút tủy xương: phân tích các bất thường số lượng, cấu trúc NST.  Xét nghiệm sinh học phân tử phát hiện 4 đột biến dung hợp gen: BCR-ABL1, MLL-AF4, E2A-PBX1, TEL-AML1."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:203",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.821,
+            "snippet": "t(1;19) có thể phát hiện được bằng kỹ thuật nhuộm băng G nhưng độ nhạy khi phát hiện thấp hơn so với kỹ thuật FISH hoặc kỹ thuật PCR, điều này được giải thích là do kết quả phân tích NST phụ thuộc vào kỹ thuật nuôi cấy NST, tế bào lơ xê mi có thể không phát triển được trong môi trường nuôi cấy hoặc do chỉ phân tích trên 20 bộ NST ở kỳ giữa nên các bất thường dễ bị bỏ sót. Trong nghiên cứu này, không có bệnh nhi nào được phát hiện chuyển đoạn t(12;21) trên bộ NST do đây là chuyển đoạn rất nhỏ, khó phát hiện được bằng kỹ thuật nhuộm băng thông thường. Thực tế, để phát hiện các đột biến chuyển đoạn có ý nghĩa tiên lượng, các trung tâm điều trị bệnh ALL trên thế giới và Việt Nam tiến hành triển khai thêm các kỹ thuật có độ nhạy cao hơn như kỹ thuật FISH, kỹ thuật PCR"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:132",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8015,
+            "snippet": ". 288 bệnh nhi nghiên cứu đều được thực hiện xét nghiệm NST từ dịch hút tủy xương, tuy nhiên chỉ ghi nhận được kết quả phân tích công thức NST ở 188 bệnh nhi (100 bệnh nhi trong nghiên cứu, chiếm 34,7%, không được phân tích kết quả NST do nuôi cấy không thành công hoặc không đủ cụm phân tích). Qua các kết quả phân tích NST, chúng tôi đưa ra được một số đặc điểm bất thường NST nhóm bệnh nhi nghiên cứu như sau:"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9711,
+          "min": 0.8015,
+          "avg": 0.8624
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35954,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-006",
+  "date_folder": "25-04-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-04-25T16:23:30.584521",
+  "updated_at": "2026-04-25T16:23:30.584521"
+}

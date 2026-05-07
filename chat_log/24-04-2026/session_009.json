@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh tăng sinh globulin đại phân tử (Waldenström) có hội chứng cryoglobulinemia biểu hiện thế nào và cơ chế?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh tăng sinh globulin đại phân tử (Waldenström) có thể biểu hiện như sốt, ra mồ hôi đêm, sút cân, mệt mỏi, thiếu máu do xâm lấn tủy xương của tế bào u và do tan máu tự miễn. Có thể có gan lách hạch to, thâm nhiễm da, đường tiêu hóa và phổi. Ngoài ra, có thể xuất hiện triệu chứng do tăng tiết IgM đơn dòng trong huyết thanh như hội chứng tăng độ nhớt huyết tương, xuất hiện globulin “lạnh” trong máu (cryoglobulinemia) gây ra hiện tượng ngưng kết lạnh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:523",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9396,
+            "snippet": "1. ĐẠI CƯƠNG Bệnh tăng sinh globulin đại phân tử (Waldenström’s macroglobulinemia) là bệnh lý dòng tế bào lympho B đặc trưng bởi sự tăng sinh, tích lũy các tế bào lymphoplasmo đơn dòng trong tủy xương và tổ chức lympho kèm theo xuất hiện IgM đơn dòng trong huyết thanh. Theo Tổ chức Y tế thế giới, bệnh Waldenström được xếp vào nhóm u lympho tế bào lymphoplasmo, có độ ác tính thấp. 2. NGUYÊN NHÂN GÂY BỆNH - Đến nay còn chưa rõ, một số yếu tố có thể làm tăng nguy cơ mắc bệnh: Viêm gan virus C, tiếp xúc với hóa chất nông nghiệp, thuốc nhuộm tóc, bụi gỗ… 3. TRIỆU CHỨNG 3.1. Lâm sàng a. Triệu chứng do xâm lấn của tế bào u - Triệu chứng B: Sốt, ra mồ hôi đêm, sút cân, mệt mỏi. - Thiếu máu do xâm lấn tủy xương của tế bào u và do tan máu tự miễn. - Có thể có gan lách hạch to, thâm nhiễm da, đường tiêu hóa và phổi. b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:524",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6217,
+            "snippet": ". - Thiếu máu do xâm lấn tủy xương của tế bào u và do tan máu tự miễn. - Có thể có gan lách hạch to, thâm nhiễm da, đường tiêu hóa và phổi. b. Triệu chứng do tăng tiết IgM đơn dòng trong huyết thanh - Hội chứng tăng độ nhớt huyết tương gặp: Đau đầu, nhìn mờ, chóng mặt, điếc đột ngột, chảy máu mũi, chảy máu chân răng. Soi đáy mắt có thể gặp hiện tượng ứ máu trong các tĩnh mạch võng mạc, xuất huyết võng mạc, phù gai thị. - Xuất hiện globulin “lạnh” trong máu (cryoglobulinemia) gây ra hiện tượng ngưng kết lạnh: Xanh tím các đầu chi khi gặp lạnh. - Amyloidosis: Lắng đọng dạng tinh bột ở các cơ quan. - Bệnh lý thần kinh ngoại vi. 3.2. Xét nghiệm a. Tế bào máu và tủy - Hb giảm, số lượng hồng cầu giảm, có thể thấy hồng cầu ngưng kết, chuỗi tiền; Số lượng bạch cầu trung tính giảm, có thể < 1,0 G/L; Số lượng tiểu cầu giảm, có thể < 50 G/L; Tăng số lượng bạch cầu lympho và/ hoặc mono"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:553",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5378,
+            "snippet": ". Không có tổn thương xương, ngoại trừ khối u xương đơn độc. - Lơ xê mi tế bào dòng plasmo: Có thể nguyên phát hay thứ phát sau Đa u tủy xương, được chẩn đoán khi máu ngoại vi có tỷ lệ tế bào dòng plasmo trên 20% hay số lượng tuyệt đối > 2 G/L. - Bệnh Waldenstrom: Tăng IgM > 3 g/dl, tăng sinh lympho và tế bào lympho dạng tế bào dòng plasmo trong tuỷ xương. Không có tổn thương xương. Thường biểu hiện triệu chứng của tăng độ quánh huyết tương; người bệnh hay có gan, lách và hạch to. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 360"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:22",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5189,
+            "snippet": ". Một nghiên cứu ở Canada cho thấy cơ thể có chứa gen kích hoạt KIR có liên quan đến giảm nguy cơ phát triển ALL tế bào B [18]. Cơ sở phân tử bệnh sinh ALL cũng có liên quan đến thay đổi quá trình điều hoà kiểm soát tăng sinh tạo máu, sự biệt hoá và quá trình chết theo chương trình của tế bào [17]. Bất thường có thể xuất hiện ở nhiều cơ chế như thay đổi các tín hiệu tế bào với các đột biến làm ảnh hưởng tới hoạt động của protein hoặc sự xuất hiện của các kinase đặc hiệu và các protein khác, trình diện nhầm gen tiền ung thư hoặc làm cho gen ức chế không hoạt động và biểu lộ các yếu tố phiên mã mới được mã hoá do chuyển đoạn NST. Chuyển đoạn NST thường liên quan đến các yếu tố phiên mã, kết quả xuất hiện một yếu tố phiên mã mới"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:533",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5055,
+            "snippet": ". Điều trị duy trì Người bệnh đáp ứng với các phác đồ trước đó có Rituximab nên được điều trị duy trì Rituximab 375mg/ m2 da cứ 3 tháng một lần trong 2 năm tiếp theo. 5.4. Điều trị hỗ trợ (hội chứng tăng độ nhớt huyết tương) - Hội chứng tăng độ nhớt huyết tương đặc biệt hay gặp khi IgM tăng cao > 4.000mg/dL và cần được can thiệp mang tính cấp cứu bằng phương pháp gạn huyết tương (plasmapheresis) hoặc trao đổi huyết tương (plasma exchange). - Cần tiến hành trao đổi huyết tương trước khi điều trị hóa chất cho những người bệnh có IgM cao > 4.000mg/dL; hạn chế truyền khối hồng cầu cho người bệnh trước khi trao đổi huyết tương bởi nguy cơ làm nặng thêm hội chứng tăng độ nhớt huyết tương. 6. TIÊU CHUẨN ĐÁNH GIÁ ĐÁP ỨNG (theo bảng 43) Bảng 43. Đánh giá đáp ứng với điều trị của bệnh Waldenström)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9396,
+          "min": 0.5055,
+          "avg": 0.6247
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 34289,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-009",
+  "date_folder": "24-04-2026",
+  "sequence": 9,
+  "file_name": "session_009.json",
+  "created_at": "2026-04-24T15:33:56.760907",
+  "updated_at": "2026-04-24T15:33:56.760907"
+}

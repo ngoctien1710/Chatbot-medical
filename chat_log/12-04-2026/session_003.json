@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng lâm sàng của bệnh ung thư bạch cầu cấp dòng lympho là một loại triệu chứng phổ biến nhất ở các nhóm bệnh nhiễm ung thư bạch cầu. Nó có thể gồm:\n\n- Thiếu máu (dao động từ 84,1% - 95%)\n- Sốt (dao động từ 56,8% - 65,2%)\n- Triệu chứng xuất huyết dao động trong khoảng 50%\n- Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL.\n- Nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại.\n\nNgoài ra, triệu chứng khác cũng có thể gặp bằng biểu hiện tăng protein dịch não tuỷ, hạch to, ban đỏ ở da, vàng da và phù.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:392",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.974,
+            "snippet": "Biểu hiện lâm sàng Phần trăm Hạch to 90% Hạch trung thất + Thanh thiếu niên và Thanh niên 75% + Trẻ em dưới 10 tuổi 25% Gan- lách to 25% Triệu chứng B (Sụt cân, đổ mồ hôi trộm, sốt) 20% Ngứa 15% Triệu chứng phổi (ho, khó thở) 10% b. Cận lâm sàng - Hạch đồ: Hạch tăng sinh, đa hình thái, ngoài dòng lympho còn gặp nhiều bạch cầu đoạn trung tính, bạch cầu đoạn ưa acid, tế bào plasmo, đại thực bào, tế bào xơ. Trong trường hợp điển hình có gặp tế bào Reed-Sternberg. - Sinh thiết hạch hoặc tổ chức lympho nhằm làm xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học là tiêu chuẩn vàng giúp chẩn đoán bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9511,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:150",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8987,
+            "snippet": "3.2.2.2. Một số đặc điểm lâm sàng\n\nBiểu đồ 3.5. Một số đặc điểm lâm sàng ở các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T (n=288) Nhận xét: Thiếu máu là triệu chứng phổ biến nhất ở các nhóm (dao động từ 84,1% - 95%). Sốt cũng là triệu chứng thường thấy ở các nhóm (dao động từ 56,8% - 65,2%). Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriBenhTreEm2018_b_n_r_t_g_n.md:26",
+            "doc_id": "HuongDanChanDoanVaDieuTriBenhTreEm2018_b_n_r_t_g_n.md",
+            "score": 0.8938,
+            "snippet": "- Thể thứ phát hay HLH mắc phải: thể này có biểu hiện của hội chứng hoạt động của đại thực bào với biểu hiện thực bào máu, đây là kết quả của hoạt động miễn dịch quá mức của hện thống thực bào đơn nhân xảy ra sau hay phối hợp với một số bệnh lý nhiễm trùng nặng như nhiễm EBV, CMV, Ecoli, kí sinh trùng, nấm,… và bệnh bạch cầu cấp, u lympho, lupus ban đỏ. 4. BIỂU HIỆN LÂM SÀNG VÀ CHẨN ĐOÁN\n\nBiểu hiện lâm sàng của HLH là sốt, gan lách to và giảm các dòng tế bào máu. Những dấu hiệu khác bao gồm tăng triglycerit, giảm fibrinogen, tăng ferritin, rối loạn chức năng gan. Triệu chứng thần kinh có thể gặp bằng biểu hiện tăng protein dịch não tuỷ. Ngoài ra bệnh HLH còn có các biểu hiện khác như hạch to, ban đỏ ở da, vàng da và phù. 4.1. Tiêu chuẩn chẩn đoán năm 2004: Chẩn đoán xác định là HLH khi có 1 hoặc 2 điều kiện sau\n\n- Chẩn đoán phân tử khẳng định là HLH."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md:441",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_B_n_r_t_g_n.md",
+            "score": 0.8341,
+            "snippet": ". Đa số trường hợp có thể phát hiện được cơ quan ung thư nguyên phát. 3. ĐIỀU TRỊ 3.1. Điều trị cấp cứu Ba biểu hiện lâm sàng cần được chú ý ngay lập tức bao gồm: - Hội chứng tĩnh mạch chủ trên thứ phát sau một khối trung thất lớn cản trở lưu lượng máu. - Chèn ép đường hô hấp. - Hội chứng ly giải khối u. 3.2. Hóa trị Phác đồ điều trị được chia thành các nhóm sau: a. Lymphoblastic lymphoma (LL): Bệnh cục bộ và tiến triển được điều trị giống nhau. b. U lympho Hodgkin dòng B (Burkitt lymphoma-BL), u lympho giống Burkitt (Burkitt - like lymphoma - BLL) và u lympho tế bào B lớn lan tỏa (DLCL). - Nguy cơ thấp. - Nguy cơ trung gian. - Nguy cơ cao (CNS hoặc liên quan đến tủy xương). c"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.974,
+          "min": 0.8341,
+          "avg": 0.9103
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 40171,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "12-04-2026-session-003",
+  "date_folder": "12-04-2026",
+  "sequence": 3,
+  "file_name": "session_003.json",
+  "created_at": "2026-04-12T11:14:17.282636",
+  "updated_at": "2026-04-12T11:14:17.282636"
+}

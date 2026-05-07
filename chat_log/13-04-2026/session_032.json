@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Dấu ấn miễn dịch đóng vai trò gì trong việc chẩn đoán và phân định các dòng tế bào (B-ALL và T-ALL) của bệnh bạch cầu cấp dòng lympho?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Dấu ấn miễn dịch là một yếu tố quan trọng trong việc chẩn đoán và phân định các dòng tế bào (B-ALL và T-ALL) của bệnh bạch cầu cấp dòng lympho. Nó được sử dụng để xếp loại tế bào theo kiểu hình miễn dịch, và có quan trọng trong việc điều trị và tiên lượng của bệnh nhân.\n\nThông tin trong ngữ cảnh cho thấy rằng các dòng B (CD19++, và/hoặc CD79a++, và/hoặc CD22+) và T (CyCD3+ và/ hoặc CD3+) được xếp loại theo các dấu ấn miễn dịch khác nhau. Các bệnh nhi có gen ABL1 và MLL-AF4 thuộc họ gen kinase, ảnh hưởng đến nhiều con đường dẫn truyền tín hiệu qua đó tác động lên quá trình tăng sinh, biệt hóa của tế bào lympho B. Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9354,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:41",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9215,
+            "snippet": "c. Xếp loại theo dấu ấn miễn dịch Xếp loại ALL trẻ em theo kiểu hình miễn dịch có ý nghĩa rất quan trọng trong điều trị và tiên lượng. Các tiêu chuẩn xếp loại ALL theo kiểu hình miễn dịch và xếp loại dưới nhóm ALL tế bào B hay T được xác định bằng hệ thống cho điểm của nhóm EGIL (Châu Âu) [37],[38].\n\nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B Dòng B (CD19++, và/hoặc CD79a++, và/hoặc CD22+) B sớm HLA-DR+; TdT+; CD19++; CD10-, CyIg- B chung HLA-DR+; TdT+; CD19++; CD10++ Tiền B HLA-DR+; TdT+; CD19++; CD10++; CD20+; cyIgM++ B trưởng thành HLA-DR+; CD19++; CD10+/-; CD20++; sIgM++. CD34 và TdT thường âm tính.\n\nBảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:238",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.92,
+            "snippet": "ABL1 và MLL-AF4 (thuộc nhóm B-ALL nguy cơ cao) thuộc họ gen kinase, ảnh hưởng đến nhiều con đường dẫn truyền tín hiệu qua đó tác động lên quá trình tăng sinh, biệt hóa của tế bào lympho B [53]. Có lẽ vì thế mà các bệnh nhi có gen BCR-ABL1 và MLL-AF4 thường có số lượng bạch cầu cao, với mức độ tăng sinh tế bào ác tính rất mạnh, ảnh hưởng đến đáp ứng điều trị hóa chất và được xếp vào nhóm nguy cơ cao. d. Đặc điểm bất thƣờng di truyền theo xếp loại miễn dịch Dấu ấn miễn dịch giúp xếp loại tế bào, đồng thời cũng thể hiện giai đoạn biệt hóa của dòng tế bào LXM. Nghiên cứu về đặc điểm xếp loại và dấu ấn miễn dịch theo các nhóm nhận thấy: Đa số bất thường NST thuộc nhóm lơ xê mi cấp tế bào B (B-ALL). Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi), chủ yếu thuộc nhóm tiền B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9354,
+          "min": 0.92,
+          "avg": 0.9256
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 41952,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-032",
+  "date_folder": "13-04-2026",
+  "sequence": 32,
+  "file_name": "session_032.json",
+  "created_at": "2026-04-13T02:28:38.919654",
+  "updated_at": "2026-04-13T02:28:38.919654"
+}

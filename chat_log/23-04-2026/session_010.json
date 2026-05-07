@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân nghi ngờ bị mắc bệnh lơ xê mi tủy mono mạn cần thực hiện các xét nghiệm cụ thể nào",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân có thể cần thực hiện các xét nghiệm sau để chẩn đoán bệnh lơ xê mi tủy mono mạn:\n- Sinh hóa máu: Chức năng gan, thận, đường máu, acid uric, LDH, điện giải đồ, protein, albumin...\n- Đông máu cơ bản vòng 1: Fibrinogen, PT, APTT, TT, D-Dimer. Nếu có bất thường sẽ làm thêm các xét nghiệm chuyên sâu.\n- Tế bào nước tiểu, sinh hóa nước tiểu.\n- HBsAg, HCVAb, HIV Ab với bệnh nhân vào viện lần đầu và khi bệnh nhân có truyền máu nhiều lần.\n- Định nhóm ABO, Rh khi bệnh nhân vào viện lần đầu và khi bệnh nhân có chỉ định truyền máu.\n- Điện tâm đồ, siêu âm tim với bệnh nhân có chỉ định điều trị hóa chất.\n\nNgoài ra, các xét nghiệm vi sinh (HIV, HBV, HCV...), huyết tủy đồ, sinh thiết tủy xương, công thức nhiễm sắc thể, gen bệnh, xét nghiệm phân loại miễn dịch (FCM), đo nồng độ Erythropoietin trước khi truyền khối hồng cầu, folat hồng cầu, Vitamin B12 huyết thanh, Ferritin huyết thanh, sắt huyết thanh và TIBC có thể được chỉ định tùy theo trường hợp của bệnh nhân.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:193",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9775,
+            "snippet": ". 4. TIẾN TRIỂN Thời gian sống trung bình là từ 12-24 tháng, khoảng 15-30% bệnh nhân CMML tiến triển thành Lơ xê mi cấp. 5. XÉT NGHIỆM TRƯỚC VÀ TRONG QUÁ TRÌNH ĐIỀU TRỊ 5.1. Đánh giá trước điều trị Ngoài các xét nghiệm để chẩn đoán bệnh đã nêu ở trên, cần làm các xét nghiệm để đánh giá toàn trạng bệnh nhân trước điều trị, bao gồm: - Sinh hóa máu: Chức năng gan, thận, đường máu, acid uric, LDH, điện giải đồ, protein, albumin... - Đông máu cơ bản vòng 1: Fibrinogen, PT, APTT, TT, D-Dimer. Nếu có bất thường sẽ làm thêm các xét nghiệm chuyên sâu. - Tế bào nước tiểu, sinh hóa nước tiểu. - HBsAg, HCVAb, HIV Ab với bệnh nhân vào viện lần đầu và khi bệnh nhân có truyền máu nhiều lần. - Định nhóm ABO, Rh khi bệnh nhân vào viện lần đầu và khi bệnh nhân có chỉ định truyền máu. - Điện tâm đồ, siêu âm tim với bệnh nhân có chỉ định điều trị hóa chất"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:454",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9644,
+            "snippet": ". - Xét nghiệm vi sinh: HIV, HBV, HCV... (nếu có truyền máu và chế phẩm: HBV mỗi 1 tháng, HCV, HIV mỗi 3 tháng). - Huyết tủy đồ, sinh thiết tủy xương, công thức nhiễm sắc thể, gen bệnh: nghi ngờ tình trạng xâm lấn tủy, chuyển Lơ xê mi cấp... - Định nhóm máu hồng cầu: ABO, Rh(D) (mỗi khi có chỉ định truyền máu). - Khám các chuyên khoa khác (răng hàm mặt, tai mũi họng...) nếu bệnh nhân có biểu hiện bệnh lý ở các cơ quan đó. - Theo dõi độc tính trên các cơ quan: Đánh giá chuyên sâu chức năng tim, chức năng phổi... (siêu âm tim, điện tim, đo chức năng hô hấp...). 5.3. Theo dõi sau điều trị - Các trường hợp đặc biệt như: Hạch to, sốt, gầy sút cân… phải tái khám ngay. - Tái khám: 1- 3 tháng/ lần trong 2 năm đầu. Sau đó, 6 tháng/ lần trong 3 năm tiếp và theo dõi hàng năm"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:260",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.961,
+            "snippet": ". Không gặp bất thường đặc hiệu của lơ xê mi dòng tủy: t(8;21); t(15;17), inv(16). - Sinh học phân tử: + Phát hiện các đột biến gen có giá trị tiên lượng bệnh:  Tiên lượng xấu: ASXL1, EZH2, SRSF2, U2AF1, RUNX1, ZRSR2, TP53, STAG2, NRAS , ETV8, GATA2, BCOR, IDH2, NPM1, WT1, PRPF8, FLT3, CBL;  Tiên lượng tốt: SF3B1. + Phát hiện các gen khác có ý nghĩa chẩn đoán bệnh: IDH1, NEDD, ICPI, TET2, DNMT3A, NF1, JAK2, CALR, MPL, DDX41, SETBP1, PHF6, STAT3, PPM1D, PDGFRβ. đ. Xét nghiệm phân loại miễn dịch (FCM): Nên được cân nhắc trong trường hợp cần phân biệt với bệnh tế bào lympho dạng hạt lớn (LGL) và bệnh đái huyêt sắc tố kịch phát (PNH), hay phát hiện các kháng thể đơn dòng nhắm đích (CD47, CD3, CD123,…). e. Sinh hóa máu - Đo nồng độ Erythropoietin trước khi truyền khối hồng cầu. - Folat hồng cầu, Vitamin B12 huyết thanh. - Ferritin huyết thanh, sắt huyết thanh và TIBC"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:211",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9542,
+            "snippet": ". - Chẩn đoán hình ảnh, thăm dò chức năng, làm để sàng lọc trước điều trị và làm lại khi có dấu hiệu lâm sàng bất thường liên quan. - Xét nghiệm Huyết tủy đồ, STTX, nhuộm sợi xơ làm lúc chẩn đoán và có thể làm lại khi nghi ngờ bệnh tiến triển hoặc chuyển thể; phát hiện gen đột biến JAK2 (V617F, exon 12), CALR, MPL, Công thức nhiễm sắc thể được làm lúc chẩn đoán. Định lượng đột biến gen JAK2 để theo dõi điều trị. - Một số xét nghiệm khác được chỉ định tùy theo bệnh nền và bệnh mắc kèm của người bệnh. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 232\n6. ĐÁNH GIÁ ĐÁP ỨNG Tiêu chuẩn đáp ứng theo hệ thống lơ xê mi châu Âu (ELN - 2013)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:4",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9413,
+            "snippet": ". h. Xét nghiệm dịch não tủy: Để phát hiện thâm nhiễm thần kinh trung ương (đặc biệt trong LXM lympho cấp). i. Điện tâm đồ và siêu âm tim: Đánh giá chức năng tâm thu thất trái (đặc biệt với với các bệnh nhân có tiền sử bệnh tim mạch hoặc sẽ điều trị bằng nhóm thuốc anthracycline hoặc tia xạ vùng ngực). j. Xét nghiệm HLA: Cho bệnh nhân để tìm nguồn tế bào gốc phù hợp cho ghép tế bào gốc đồng loài. 2.3. Tiêu chuẩn chẩn đoán 2.3.1. Chẩn đoán xác định - Dựa vào triệu chứng lâm sàng điển hình của bệnh. - Xét nghiệm tuỷ đồ thấy tế bào blast  20% tế bào có nhân trong tuỷ. 2.3.2. Chẩn đoán thể bệnh và xếp loại lơ xê mi cấp Chẩn đoán thể bệnh lơ xê mi cấp dựa vào các bảng xếp loại của WHO và FAB. 2.3.2.1. Xếp loại lơ xê mi tủy cấp (Bạch cầu cấp dòng tủy) - Xếp loại lơ xê mi tủy cấp theo FAB 1986 có bổ sung. - Kết hợp miễn dịch chia thành 8 thể, từ M0 đến M7 (bảng 18). Bảng 18"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9775,
+          "min": 0.9413,
+          "avg": 0.9597
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 38654,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-010",
+  "date_folder": "23-04-2026",
+  "sequence": 10,
+  "file_name": "session_010.json",
+  "created_at": "2026-04-23T03:41:56.801578",
+  "updated_at": "2026-04-23T03:41:56.801578"
+}

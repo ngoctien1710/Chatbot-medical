@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Các nhà khoa học đã có bước tiến quan trọng nào trong quá trình điều trị nhắm đích?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị nhắm đích, các nhà khoa học đã có bước tiến quan trọng như việc sử dụng liệu pháp phân tử để tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bằng các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib...). Ngoài ra, cũng đang được nghiên cứu việc kết hợp các phương pháp điều trị khác như ghép tế bào gốc với các thuốc điều trị nhắm đích.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:95",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5301,
+            "snippet": "b. Mục tiêu 2: Nghiên cứu can thiệp, không có nhóm đối chứng, không ngẫu nhiên – Nội dung nghiên cứu: Đánh giá kết quả điều trị sớm và liên quan đến một số bất thƣờng nhiễm sắc thể, đột biến dung hợp một số gen. Các bệnh nhi trong nghiên cứu được điều trị theo các phân nhóm nguy cơ của phác đồ FRALLE 2000 và theo dõi sau điều trị. Kết quả điều trị sớm là kết quả đánh giá thông qua đáp ứng sớm, sau điều trị tấn công và đánh giá tái phát sau khi bệnh nhi đạt được lui bệnh hoàn toàn, đánh giá xác suất sống còn tại thời điểm 12 tháng. Thời gian theo dõi dài nhất là 39 tháng, ngắn nhất là 3 tháng, trung vị thời gian theo dõi là 15,9 tháng"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:282",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5166,
+            "snippet": ". Kết quả này cũng cho thấy, cần có nghiên cứu xem xét việc điều chỉnh phác đồ hoặc kết hợp các phương pháp điều trị khác như ghép tế bào gốc, điều trị nhắm đích ở những bệnh nhi có biến đổi di truyền nguy cơ cao nhằm nâng cao hiệu quả điều trị, giảm tỷ lệ tái phát."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5015,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.5301,
+          "min": 0.5015,
+          "avg": 0.5161
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8553,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-097",
+  "date_folder": "13-04-2026",
+  "sequence": 97,
+  "file_name": "session_097.json",
+  "created_at": "2026-04-13T14:21:58.779928",
+  "updated_at": "2026-04-13T14:21:58.779928"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "triêu chứng toàn thân của người bị bệnh ung thư bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh ung thư bạch cầu cấp dòng lympho gồm:\n\n1. Tăng số lượng tế bào lympho trong máu (leukocytosis).\n2. Tăng số lượng tế bào lympho B trong máu (lymphocytosis with predominance of small lymphocytes).\n3. Tăng số lượng tế bào lympho trong hạch (splenomegaly).\n4. Tăng số lượng tế bào lympho trong xương (lymphadenopathy).\n5. Anemia (đột biến của độ ồn máu).\n6. Thiếu magnesium và potassium trong máu.\n7. Tăng số lượng tế bào lympho trong miệng (oral leukocytosis).\n8. Tăng số lượng tế bào lympho trong huyết mạch (bone marrow infiltration).\n9. Thiếu các chất xơ (thrombocytopenia).\n10. Tăng số lượng tế bào lympho trong miệng và huyết mạch (oral and bone marrow infiltration).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:0",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 19.0384,
+            "snippet": "️ Ung thư bạch cầu cấp dòng lympho ĐẠI CƯƠNG Bệnh bạch cầu cấp là bệnh do tăng sinh ác tính trong quá trình tạo máu của dòng tế bào lympho hoặc dòng tế bào tủy. Đây là bệnh ác tính thường gặp nhất ở trẻ em dưới 15 tuổi, chiếm khoảng 31% các bệnh ác tính ở trẻ em. Bạch cầu cấp dòng lympho (ALL) chiếm 75% các bệnh bạch cầu ở trẻ em. Tại Bệnh viện Nhi Trung ương, khoảng 200 trẻ bị ALL được chẩn đoán hàng năm. Bệnh gặp ở mọi lứa tuổi, nhưng tuổi mắc bệnh cao nhất là 3-5 tuổi. Nam nhiều hơn nữ. Bệnh bạch cầu cấp dòng lympho ở trẻ em đã được coi là bệnh chữa khỏi được."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:494",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 13.7658,
+            "snippet": "1. ĐẠI CƯƠNG - Lơ xê mi lympho mạn (Chronic Lymphocytic Leukemia - CLL) là bệnh lý tăng sinh lympho ác tính đặc trưng bởi sự tích lũy các tế bào lympho B trưởng thành, kích thước nhỏ trong máu ngoại vi, tủy xương và hạch. Theo xếp loại của Tổ chức Y tế Thế giới (WHO-2016), lơ xê mi lympho mạn và u lympho tế bào nhỏ (small lymphocytic lymphoma) là 2 biểu hiện khác nhau của cùng một bệnh. - Bệnh gặp nhiều hơn ở châu Âu và Mỹ, ít gặp ở châu Á; chiếm khoảng 0,8% trong tổng số các bệnh ung thư nói chung. Tại Mỹ tỷ lệ mắc Lơ xê mi lympho mạn trung bình là 2,7/100.000 người, tỷ lệ này dao động từ < 1 đến 5,5/100.000 người trên toàn Thế giới. Bệnh hay gặp ở người lớn tuổi, nam nhiều hơn nữ (gấp khoảng 2,8 lần). 2. NGUYÊN NHÂN GÂY BỆNH Đến nay, chưa thấy yếu tố đơn độc nào là nguyên nhân gây bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:8",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 13.1452,
+            "snippet": "DANH MỤC CÁC BẢNG Bảng 1.5. Tổng hợp vai trò của các yếu tố tiên lượng lơ xê mi cấp dòng Bảng 1.6. Chức năng của các nhóm gen bị đột biến trong lơ xê mi cấp dòng Bảng 3.9. Số lượng bạch cầu các nhóm lơ xê mi cấp dòng lympho B theo"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 19.0384,
+          "min": 13.1452,
+          "avg": 15.3164
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8281,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "12-04-2026-session-027",
+  "date_folder": "12-04-2026",
+  "sequence": 27,
+  "file_name": "session_027.json",
+  "created_at": "2026-04-12T23:58:22.520712",
+  "updated_at": "2026-04-12T23:58:22.520712"
+}

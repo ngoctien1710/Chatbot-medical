@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Theo phác đồ Fralle2000 để điều trị Lơ xê mi lympho B cấp (ALL dòng B), giai đoạn tái tấn công (RI) đối với nhóm B (Nhóm nguy cơ cao - High risk) dùng những thuốc nào và kéo dài bao lâu?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Theo phác đồ Fralle2000, cho trường hợp nguy cơ cao (High risk) của Lơ xê mi lympho B cấp, điều trị giai đoạn tái tấn công sẽ sử dụng vincristine, methotrexate, L-asparaginase, cyclophosphamide, prednisone, daunorubicin, endoxan, Ara-C và 6MP. Thời gian điều trị sẽ kéo dài tới 8 tuần.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:445",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9721,
+            "snippet": " Nguy cơ cao: Theo phác đồ này các trường hợp nguy cơ cao sẽ được điều trị với 1 số thuốc mới 3.4. Các phác đồ khác - Hiện nay có nhiều nhóm nghiên cứu đã đưa ra các phác đồ điều trị cho từng thể U lympho không Hodgkin có kết quả tốt, đưa lại tỷ lệ lui bệnh cao và kéo dài: + U lympho không Hodgkin dòng tế bào B: Điều trị như Lơ xê mi cấp dòng lympho tế bào B - phác đồ ANHL01P1/ COG...; + Anaplastic large cell lymphoma: International ALCL, ALCL 0311... - Một số phác đồ khác và một số thuốc mới đang được nghiên cứu (đa số áp dụng ở người lớn và trẻ lớn): CHOP, CHOPE, CVP, EPOCH, DHAP, ICE (có hoặc không kết hợp với Rituximab)... (xem phần điều trị U lumpho không Hodgkin người lớn). 3.5. Xạ trị Nói chung, xạ trị không được sử dụng rộng rãi"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:58",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9714,
+            "snippet": "vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine,…, kết hợp tiêm tuỷ sống và xạ trị. Phác đồ thường được sử dụng hiện nay là phác đồ FRALLE 2000. Dưới đây là phác đồ điều trị lơ xê mi lympho cấp trẻ em mới chẩn đoán theo FRALLE 2000: 3.1.1. Phân nhóm nguy cơ tổng quát\n\nsau: Sơ đồ 4. Phân nhóm nguy cơ tổng quát ở bệnh nhân lơ xê mi lympho cấp trẻ em Ghi chú: Các nhóm cụ thể căn cứ vào kết quả điều trị tấn công a. Nhóm A: Nguy cơ chuẩn (Standard risk) - Lơ xê mi lympho B cấp, 1-10 tuổi số lượng bạch cầu ≤ 50G/L và có đủ các yếu tố"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:65",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9662,
+            "snippet": "3.2.1. Phác đồ FRALLE 2000 điều trị lơ xê mi lympho B cấp 3.2.1.1. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm A a. Sơ đồ điều trị tổng quát\n\n(2)\n\nTăng cường 2 (không có anthracycline) VCR, MTX-DI, L-Aspa Tăng cường 2 (8 tuần) VCR, PRED, DNR, L-Aspa, Endox, ... Endoxan, Ara-C, 6 MP"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:96",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9594,
+            "snippet": ". Thời gian theo dõi dài nhất là 39 tháng, ngắn nhất là 3 tháng, trung vị thời gian theo dõi là 15,9 tháng. + Đánh giá kết quả sớm của điều trị theo phác đồ FRALLE 2000: Đánh giá đáp ứng sớm (huyết đồ ngày 8, tủy đồ ngày 21), đánh giá đáp ứng lui bệnh về huyết học và tồn dư tối thiểu của bệnh sau điều trị tấn công, xác định tỷ lệ tái phát sau điều trị, xác suất sống còn (OS và EFS) 12 tháng). So sánh giữa các nhóm nguy cơ theo xếp nhóm của phác đồ FRALLE 2000, bao gồm đánh giá theo các nhóm nguy cơ ABT tại thời điểm chẩn đoán và đánh giá theo nhóm nguy cơ được chia lại sau khi có kết quả đánh giá đáp ứng sớm trong điều trị tấn công. + Đánh giá kết quả điều trị sớm các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B: So sánh kết quả điều trị sớm giữa các nhóm"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:84",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9405,
+            "snippet": "- Nhóm A3 và A1/A2 có MRD dương tính (≥ 10-2): + Bắt đầu ngày 57 sau giai đoạn tăng cường II, điều trị tương tự nhóm A1 nhưng thay dexa bằng corticoid 40 mg/m2 ngày 1-7; + Tổng cộng có 6 mũi IT (duy trì tháng 3, 6, 9, 12, 15, 18). 3.2.1.2. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm B a. Sơ đồ điều trị tổng quát: FRALLE 2000-B: NHÓM B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9721,
+          "min": 0.9405,
+          "avg": 0.9619
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 36187,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-002",
+  "date_folder": "23-04-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-04-23T02:43:56.865328",
+  "updated_at": "2026-04-23T02:43:56.865328"
+}

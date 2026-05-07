@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Các nhà khoa học đã có bước tiến quan trọng nào trong quá trình điều trị ALL thay cho việc điều trị bằng hóa chất?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị ALL, nhà khoa học đã có bước tiến quan trọng như sử dụng điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Các phác đồ kháng thể đơn dòng đặc hiệu như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu để điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8197,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:14",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7461,
+            "snippet": ". Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]. Các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp loại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất sống thêm toàn bộ đã tăng lên đều đặn kể từ những năm đầu của thập niên 1960 đến nay, từ xấp xỉ 10% đã lên đến gần 80% trong các nghiên cứu [7]. Theo nghiên cứu của Hunger P Stephen và cộng sự, xác suất sống thêm 5 năm không bệnh ở trẻ em ALL tại Mỹ từ năm 2006-2009 thậm chí đã đạt được tỷ lệ lên đến trên 90% [1]. Nhiều nghiên cứu trên thế giới đã cho thấy, có những biến đổi di truyền đặc trưng cho dòng tế bào lympho B hay T"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:43",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7423,
+            "snippet": "để đạt lui bệnh, (2) điều trị củng cố để tăng cường lui bệnh hoặc giảm tồn dư tối thiểu của bệnh, (3) điều trị dự phòng bệnh lý ALL ở hệ thống thần kinh trung ương, và (4) điều trị duy trì để kéo dài tình trạng lui bệnh, giảm tái phát. Nguyên tắc điều trị đa hoá trị liệu là [42]: + Điều trị cá thể hoá: Dựa trên xếp loại nhóm nguy cơ của từng bệnh nhi cụ thể để lựa chọn phác đồ điều trị thích hợp; + Theo dõi đáp ứng điều trị và tồn dư tối thiểu của bệnh; + Hoá trị tăng cường sau khi đạt được lui bệnh sau điều trị tấn công; + Điều trị dự phòng thâm nhiễm thần kinh trung ương; + Có khoảng thời gian điều trị hợp lý; + Có kế hoạch ghép tế bào gốc tạo máu trên những bệnh nhi có chỉ định. - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.8197,
+          "min": 0.7423,
+          "avg": 0.7694
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 9934,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-099",
+  "date_folder": "13-04-2026",
+  "sequence": 99,
+  "file_name": "session_099.json",
+  "created_at": "2026-04-13T14:24:05.506736",
+  "updated_at": "2026-04-13T14:24:05.506736"
+}

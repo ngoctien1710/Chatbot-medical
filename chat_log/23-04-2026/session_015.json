@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Hội chứng rối loạn sinh tủy (MDS) là gì và tại sao được gọi là 'tiền lơ xê mi'?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Hội chứng rối loạn sinh tủy (MDS) là một nhóm bệnh máu ác tính, khiến tủy sinh máu không hiệu lực và có thể gây ra lơ xê mi cấp. Lý do được gọi là \"tiền lơ xê mi\" bởi vì nó có thể tiến triển thành lơ xê mi cấp sau đó.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:255",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9991,
+            "snippet": "1. ĐẠI CƯƠNG - Hội chứng rối loạn sinh tủy (Myelodysplastic Syndrome - MDS) là một nhóm các bệnh ác tính tế bào sinh máu có đặc điểm: Tủy sinh máu không hiệu lực; bất thường hình thái và chức năng tế bào máu; bệnh tiến triển âm ỉ, dai dẳng và thường kết thúc bằng lơ xê mi cấp nên còn gọi là tiền lơ xê mi (pre-leukemia). - Nguyên nhân chưa rõ, được cho là tương tự các nguyên nhân gây ra bệnh lơ xê mi cấp. - Chẩn đoán và tiên lượng dựa vào các tiêu chuẩn của FAB 1982, WHO 2001 và WHO 2008, WHO 2016, tùy vào điều kiện chẩn đoán của cơ sở y tế hiện có. 2. CHẨN ĐOÁN Căn cứ vào lâm sàng và xét nghiệm. 2.1. Lâm sàng - Thường gặp trên 50 tuổi, nam nhiều hơn nữ. - Thiếu máu (> 90% người bệnh) thường là biểu hiện đầu tiên, dai dẳng và đáp ứng kém với điều trị. - Nhiễm trùng (gặp ở khoảng 15% người bệnh). - Có thể gặp xuất huyết do giảm tiểu cầu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:0",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7875,
+            "snippet": "20. LƠ XÊ MI CẤP (Bệnh bạch cầu cấp)\n1. ĐẠI CƯƠNG Lơ xê mi (LXM) cấp là một nhóm bệnh máu ác tính, có đặc trưng là sự tăng sinh một loại tế bào non - ác tính (tế bào blast), nguồn gốc tại tuỷ xương. Có nhiều yếu tố nguy cơ làm tăng tỷ lệ mắc lơ xê mi cấp, như: Tia xạ; hoá chất; virus HTLV1, HTLV2; yếu tố di truyền; lơ xê mi cấp thứ phát sau hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs), sau dùng thuốc hóa chất. 2. CHẨN ĐOÁN 2.1. Triệu chứng lâm sàng - Hội chứng thiếu máu. - Hội chứng xuất huyết: Thường do giảm tiểu cầu, xuất huyết tự nhiên, hay gặp ở da - niêm mạc, nặng hơn có thể gặp xuất huyết nội tạng. Đông máu rải rác trong lòng mạch (DIC), đặc biệt hay gặp trong lơ xê mi tiền tủy bào cấp. - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da... - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương.."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:179",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7536,
+            "snippet": "1. ĐẠI CƯƠNG - Lơ xê mi tủy mono mạn (Chronic Myelomonocytic Leukemia - CMML) là một bệnh máu ác tính ít gặp; biểu hiện đặc trưng là sự tăng cao bạch cầu mono trong máu và tủy xương. CMML mang đặc trưng của 2 nhóm bệnh khác nhau (Hội chứng rối loạn sinh tủy - MDS và tăng sinh tủy - MPNs); theo tổ chức y tế Thế giới (WHO - 2008) CMML như là một bệnh pha trộn giữa MDS và MPNs. - Tuổi mắc bệnh trung bình là 65-70, nam gặp nhiều hơn nữ. - Hầu hết các trường hợp bệnh không rõ nguyên nhân; môi trường và một số yếu tố như tia xạ, tiếp xúc hóa chất (benzen, thuốc trừ sâu...), thuốc lá có thể tác động làm xuất hiện bệnh. 2. CHẨN ĐOÁN 2.1. Lâm sàng: Các triệu chứng lâm sàng có thể gặp: - Thiếu máu: Là triệu chứng hay gặp. - Xuất huyết do giảm tiểu cầu: Xuất huyết dưới da nhiều nơi, chảy máu chân răng hoặc đường tiêu hóa… - Có thể gặp gan to, lách to, thâm nhiễm da (khoảng 50%)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:286",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6791,
+            "snippet": "+ Deferipron: Sử dụng thuốc này khi thuốc deferoxamin không hiệu quả. Liều lượng: 75mg/kg/ngày; Cách dùng: Uống, chia 3 lần/ngày. + Deferasirox: Nếu có thể thì nên lựa chọn điều trị ngay từ đầu. Liều lượng: 20-30 mg/kg mỗi ngày; Cách dùng: Uống trước ăn 30 phút. - Thải sắt là quy trình bắt buộc cho những bệnh nhân có kế hoạch ghép tế bào gốc tạo máu đồng loài. 4. TIẾN TRIỂN VÀ TIÊN LƯỢNG - Hội chứng rối loạn sinh tủy là bệnh khá nặng, dai dẳng và rất khó điều trị. Người bệnh có thể tử vong do các biến chứng như: Nhiễm trùng, chảy máu, ứ sắt gây suy chức năng các cơ quan hoặc do chuyển lơ xê mi cấp. - Thời gian sống thêm trung bình của nhóm tiên lượng xấu là 8 tháng, trong khi đó nhióm tiên lương tốt có thể trên 5 năm và thời gian chuyển lơ xê mi cấp cũng chậm hơn.\n\nTRỊ 5. XÉT NGHIỆM ĐÁNH GIÁ TRƯỚC VÀ TRONG QUÁ TRÌNH ĐIỀU"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:15",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4904,
+            "snippet": "Lơ xê mi cấp cần được chẩn đoán phân biệt với phản ứng giả lơ xê mi gặp trong nhiễm trùng, ung thư di căn tủy xương, hội chứng rối loạn sinh tủy (MDS), các bệnh tăng sinh tủy ác tính (MPNs)… Phân biệt bằng kết hợp các triệu chứng lâm sàng, xét nghiệm tiêu chuẩn chẩn đoán lơ xê mi nêu trên. 3. ĐIỀU TRỊ LƠ XÊ MI CẤP - Điều trị Lơ xê mi cấp là một phương pháp điều trị chuyên khoa sâu. Do đó, việc điều trị chỉ có thể được thực hiện ở các cơ sở chuyên ngành huyết học, do bác sĩ được đào tạo chuyên ngành huyết học và có kinh nghiệm điều trị hóa chất/ ghép tế bào gốc tạo máu thực hiện. - Các cơ sở y tế không chuyên khoa huyết học chủ yếu thực hiện việc phát hiện, chẩn đoán bệnh, điều trị ban đầu trước khi chuyển tuyến chuyên khoa, cũng như theo dõi người bệnh ngoại trú giữa các đợt điều trị hóa chất và sau khi ghép tế bào gốc tạo máu"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9991,
+          "min": 0.4904,
+          "avg": 0.742
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 18416,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-015",
+  "date_folder": "23-04-2026",
+  "sequence": 15,
+  "file_name": "session_015.json",
+  "created_at": "2026-04-23T13:15:56.273138",
+  "updated_at": "2026-04-23T13:15:56.273138"
+}

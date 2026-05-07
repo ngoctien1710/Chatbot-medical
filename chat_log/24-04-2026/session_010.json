@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhi ALL sau điều trị 5 năm không tái phát được coi là 'khỏi bệnh' theo tiêu chí nào, và cần làm xét nghiệm gì để khẳng định?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhi ALL sau 5 năm không tái phát được coi là 'khỏi bệnh' theo tiêu chí NST (Phân tích bộ NST của bệnh nhi ALL). Để xác định, cần thực hiện xét nghiệm phân tích NST.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:191",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.946,
+            "snippet": "4.2. XÁC ĐỊNH BẤT THƢỜNG NHIỄM SẮC THỂ VÀ ĐỘT BIẾN DUNG HỢP MỘT SỐ GEN LIÊN QUAN ĐẾN BỆNH LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM THEO PHÁC ĐỒ FRALLE 2000 4.2.1. Đặc điểm bất thƣờng nhiễm sắc thể và đột biến dung hợp một số gen 4.2.1.1. Đặc điểm bất thường nhiễm sắc thể Phân tích bộ NST của bệnh nhi ALL là một trong những tiêu chí quan trọng để đánh giá tiên lượng, qua đó lựa chọn được phác đồ điều trị phù hợp cho bệnh nhi. Ảnh hưởng độc lập của các bất thường NST đến kết quả điều trị và thời gian sống còn đã được các nhà nghiên cứu đưa ra từ năm 1981 trong hội nghị quốc tế lần thứ 3 về NST trong LXM cấp [95] và thể hiện trong nhiều nghiên cứu về vai trò của bất thường nhiễm sắc thể trong bệnh ALL những năm sau đó [96],[97]. Tại Viện Huyết học – Truyền máu Trung ương, các bệnh nhi chẩn đoán LXM cấp sẽ được chỉ định xét nghiệm phân tích NST từ dịch hút tủy xương"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:89",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9217,
+            "snippet": "2.1. ĐỐI TƢỢNG NGHIÊN CỨU Đối tượng nghiên cứu là 288 bệnh nhi được chẩn đoán ALL, điều trị tại Viện Huyết học - Truyền máu Trung ương từ 1/8/2016 đến 1/8/2019. Trong số 288 bệnh nhi nghiên cứu, tất cả các bệnh nhi được thực hiện xét nghiệm xác định đột biến dung hợp gen (với 4 gen đột biến) và xét nghiệm công thức NST (có 188 bệnh nhi trong nghiên cứu có kết quả phân tích công thức NST). Tất cả các bệnh nhi được điều trị bằng phác đồ FRALLE 2000 theo các nhóm nguy cơ. 2.1.1. Tiêu chuẩn lựa chọn bệnh nhi - Bệnh nhi được chẩn đoán xác định là ALL; - Tuổi < 16 tuổi; - Gia đình bệnh nhi chấp nhận điều trị hoá chất và đồng ý tham gia nghiên cứu. 2.1.2. Tiêu chuẩn loại trừ bệnh nhi - Lơ xê mi cấp thể L3; - Lơ xê mi cấp có hội chứng Down; - Lơ xê mi cấp thứ phát; - Bệnh nhi bỏ điều trị. 2.2. PHƢƠNG PHÁP NGHIÊN CỨU 2.2.1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:82",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8799,
+            "snippet": "2000-2007 đã lên tới 91,1 2,8% [68]. Andre Baruchel và các cộng sự đã tổng hợp các kết quả nghiên cứu của phác đồ FRALLE 2000 A trên 1201 trẻ được chẩn đoán ALL nhóm nguy cơ tiêu chuẩn của các nghiên cứu đa trung tâm từ năm 2000-2010 [69]. Theo các báo cáo ghi nhận, xác suất đạt lui bệnh hoàn toàn sau điều trị cảm ứng là 99,7%. Tỷ lệ sống thêm 5 năm không sự kiện (EFS) là 91,5%; sống thêm toàn bộ (OS) là 97,4%. EFS và OS 5 năm của hai nhóm A1 và A3 lần lượt là 93,1% và 61,2% (p<0.001), 98,3% và 84,2% (p<0.0001). 30 bệnh nhi có MRD > 0,1% sau điều trị cảm ứng, tỷ lệ sống thêm toàn bộ 5 năm của nhóm này là 58,8%. Đặc biệt, tỷ lệ EFS tại thời điểm 5 năm của nhóm bệnh nhi có đột biến gen TEL-AML1 là 96,6% (95% CI: 94,4–98,8) [69]. Tổ chức CCG đã thực hiện điều trị trên 13.298 bệnh nhi ALL dưới 21 tuổi với 16 thử nghiệm lâm sàng từ năm 1983 đến 2002 [70]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:275",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7867,
+            "snippet": ". Tác giả Kirsten và Martin trong một báo cáo tổng quan đã có những so sánh về hiệu quả điều trị ở những bệnh nhi ALL có BCR-ABL1 trước khi được điều trị kết hợp Imatinib và sau điều trị Imatinib đã cho thấy hiệu quả điều trị được nâng lên rõ rệt từ tỷ lệ sống thêm không sự cố ở mức 30 - 40% lên mức 70 - 80 % trong một số các thử nghiệm của COG, EsPhALL…Tuy nhiên, tác giả cũng khẳng định, để nâng cao hiệu quả điều trị ở những bệnh nhi này, cần kết hợp phương pháp ghép tế bào gốc sau khi đạt được lui bệnh hoàn toàn [149]. Nghiên cứu này cho thấy các bệnh nhi có đột biến gen BCR-ABL1 có kết quả điều trị thấp nhất, phù hợp với kết quả của nhiều nghiên cứu. Đồng thời cho thấy sự phù hợp trong xếp nhóm nguy cơ của phác đồ FRALLE 2000, các bệnh nhi có BCR-ABL1 được xếp vào nhóm nguy cơ rất cao (B2) ngay cả khi chưa đánh giá đáp ứng sớm với điều trị"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:87",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7596,
+            "snippet": ". Nghiên cứu của tác giả Võ Thị Thanh Trúc năm 2010 trên 120 bệnh nhi ALL được điều trị bằng phác đồ FRALLE 2000, tỷ lệ đạt lui bệnh hoàn toàn sau điều trị tấn công đạt 97,6%, tỷ lệ lui bệnh một phần đạt 0,8%, chỉ có 1,6% bệnh nhi tử vong trong quá trình điều trị tấn công; OS 5 năm đạt 87,5%, EFS 5 năm đạt 80,0% [73]. Nghiên cứu so sánh đáp ứng điều trị khi áp dụng phác đồ FRALLE 2000 giữa trẻ em Việt Nam và trẻ da trắng (Bỉ) năm 2014 của tác giả Phuong Thu Vu Hoang và cộng sự nhận thấy: trẻ LXM cấp ở Việt Nam có một số hằng số sinh học xấu hơn so với trẻ em da trắng, tỷ lệ sống thêm không tái phát (RFS- Relapse Free Survival) tại thời điểm 18 tháng và 5 năm ở trẻ em Việt Nam thấp hơn có ý nghĩa so với trẻ da trắng với tỷ lệ lần lượt là 70,4% và 47,8% ở trẻ em Việt Nam so với 95,7% và 83,8% ở trẻ da trắng [74]"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.946,
+          "min": 0.7596,
+          "avg": 0.8587
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 24938,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-010",
+  "date_folder": "24-04-2026",
+  "sequence": 10,
+  "file_name": "session_010.json",
+  "created_at": "2026-04-24T15:35:52.111122",
+  "updated_at": "2026-04-24T15:35:52.111122"
+}

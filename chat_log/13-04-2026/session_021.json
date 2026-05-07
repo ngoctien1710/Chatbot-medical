@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Triệu chứng toàn thân của người bị bệnh ung thư bạch cầu cấp dòng lympho là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của người bị bệnh ung thư bạch cầu cấp dòng lympho gồm: mệt mỏi, gầy sút cân, chán ăn, sốt (thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh), thiếu máu từ nhẹ đến nặng (do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết), xuất huyết (xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi), nhiễm khuẩn do hậu quả giảm bạch cầu trung tính.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9845,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:433",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9382,
+            "snippet": ". - Các triệu chứng toàn thân: Sốt và sụt cân tương đối hiếm gặp ngoại trừ trong anaplastic large cell lymphoma. Sụt cân cũng có thể xảy ra thứ phát sau tắc ruột. b. Cận lâm sàng - Hạch đồ: Hạch tăng sinh, khá đồng nhất, chủ yếu là lymphoblast hoặc prolymphocyte: Kích thước to, nhân lớn (có thể có hạt nhân, nhân chẻ, nhân chia, nhân quái), nguyên sinh chất hẹp, không tạo đám; ít gặp bạch cầu đoạn trung tính, bạch cầu đoạn ưa acid, plasmocyte, đại thực bào, tế bào xơ. - Sinh thiết hạch hoặc tổ chức lympho nhằm làm xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học là tiêu chuẩn vàng giúp chẩn đoán bệnh. - Xét nghiệm khác: + Tổng phân tích tế bào máu ngoại vi (huyết đồ) có thể gặp giảm lượng huyết sắc tố, giảm số lượng tiểu cầu, số lượng bạch cầu có thể tăng hoặc giảm; + LDH tăng trong khoảng 30% trường hợp; tăng calci máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:2",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9004,
+            "snippet": ". - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương... - Có thể gặp triệu chứng tắc mạch do tăng bạch cầu. - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 2.2. Triệu chứng xét nghiệm a. Xét nghiệm tế bào máu ngoại vi - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm, gặp một tỷ lệ tế bào non (tế bào blast) ác tính. - Số lượng tiểu cầu giảm. b. Xét nghiệm tủy xương - Tuỷ đồ là xét nghiệm quyết định chẩn đoán, cho thấy các tế bào blast chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy; các dòng hồng cầu, bạch cầu hạt và mẫu tiểu cầu bị lấn át bởi tế bào blast. - Sinh thiết tuỷ xương được chỉ định trong trường hợp chọc hút tuỷ không chẩn đoán xác định được do tủy nghèo tế bào thấy ổ tế bào blast. c"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9845,
+          "min": 0.9004,
+          "avg": 0.941
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 28089,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-021",
+  "date_folder": "13-04-2026",
+  "sequence": 21,
+  "file_name": "session_021.json",
+  "created_at": "2026-04-13T01:37:29.707372",
+  "updated_at": "2026-04-13T01:37:29.707372"
+}

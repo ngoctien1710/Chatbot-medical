@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Theo phác đồ Fralle2000 để điều trị Lơ xê mi lympho B cấp (ALL dòng B), giai đoạn củng cố đối với nhóm A1 và A2 dùng những thuốc nào, liều lượng bao nhiêu",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Theo phác đồ Fralle2000, cho nhóm A1 và A2 có MRD dương tính (≥ 10-2), giai đoạn củng cố sẽ sử dụng vincristine, prednisone, daunorubicin, cytarabine, L-asparaginase, endoxan, aracitabine, 6-mercaptopurine. Liều lượng thuốc sẽ theo phác đồ được chỉ dành cho nhóm A.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:84",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9822,
+            "snippet": "- Nhóm A3 và A1/A2 có MRD dương tính (≥ 10-2): + Bắt đầu ngày 57 sau giai đoạn tăng cường II, điều trị tương tự nhóm A1 nhưng thay dexa bằng corticoid 40 mg/m2 ngày 1-7; + Tổng cộng có 6 mũi IT (duy trì tháng 3, 6, 9, 12, 15, 18). 3.2.1.2. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm B a. Sơ đồ điều trị tổng quát: FRALLE 2000-B: NHÓM B"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:65",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9635,
+            "snippet": "3.2.1. Phác đồ FRALLE 2000 điều trị lơ xê mi lympho B cấp 3.2.1.1. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm A a. Sơ đồ điều trị tổng quát\n\n(2)\n\nTăng cường 2 (không có anthracycline) VCR, MTX-DI, L-Aspa Tăng cường 2 (8 tuần) VCR, PRED, DNR, L-Aspa, Endox, ... Endoxan, Ara-C, 6 MP"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:58",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9617,
+            "snippet": "vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine,…, kết hợp tiêm tuỷ sống và xạ trị. Phác đồ thường được sử dụng hiện nay là phác đồ FRALLE 2000. Dưới đây là phác đồ điều trị lơ xê mi lympho cấp trẻ em mới chẩn đoán theo FRALLE 2000: 3.1.1. Phân nhóm nguy cơ tổng quát\n\nsau: Sơ đồ 4. Phân nhóm nguy cơ tổng quát ở bệnh nhân lơ xê mi lympho cấp trẻ em Ghi chú: Các nhóm cụ thể căn cứ vào kết quả điều trị tấn công a. Nhóm A: Nguy cơ chuẩn (Standard risk) - Lơ xê mi lympho B cấp, 1-10 tuổi số lượng bạch cầu ≤ 50G/L và có đủ các yếu tố"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:100",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9511,
+            "snippet": "Lưu ý: - Điều kiện duy trì mỗi tháng khi bạch cầu trung tính > 0,5G/L, tiểu cầu > 100G/L. - Người bệnh đã xạ trị thì không được tiêm tủy sống nữa. - Tiếp tục phòng ngừa Pneumocystic carinii trong giai đoạn duy trì với bactrim 25mg/kg x 1 liều, 3 ngày mỗi tuần. 3.2.2. Phác đồ điều trị lơ xê mi lymho T cấp (FRALLE 2000 T) 3.2.2.1. Sơ đồ điều trị tổng quát\n\nCủng cố (8 tuần) Endoxan, ARAC, 6TG rồi đến VCR, PRED, 6MP, MTX + 2 đợt MTX-HD (5.000 mg/m2) NHÓM T1 Chú ý: MRD N35-42 > 10-2, chuyển nhóm T2\n\nCủng cố (9 tuần) 3 đợt : VEDA, COPADM2000, VEDA"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:286",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9482,
+            "snippet": "+ Deferipron: Sử dụng thuốc này khi thuốc deferoxamin không hiệu quả. Liều lượng: 75mg/kg/ngày; Cách dùng: Uống, chia 3 lần/ngày. + Deferasirox: Nếu có thể thì nên lựa chọn điều trị ngay từ đầu. Liều lượng: 20-30 mg/kg mỗi ngày; Cách dùng: Uống trước ăn 30 phút. - Thải sắt là quy trình bắt buộc cho những bệnh nhân có kế hoạch ghép tế bào gốc tạo máu đồng loài. 4. TIẾN TRIỂN VÀ TIÊN LƯỢNG - Hội chứng rối loạn sinh tủy là bệnh khá nặng, dai dẳng và rất khó điều trị. Người bệnh có thể tử vong do các biến chứng như: Nhiễm trùng, chảy máu, ứ sắt gây suy chức năng các cơ quan hoặc do chuyển lơ xê mi cấp. - Thời gian sống thêm trung bình của nhóm tiên lượng xấu là 8 tháng, trong khi đó nhióm tiên lương tốt có thể trên 5 năm và thời gian chuyển lơ xê mi cấp cũng chậm hơn.\n\nTRỊ 5. XÉT NGHIỆM ĐÁNH GIÁ TRƯỚC VÀ TRONG QUÁ TRÌNH ĐIỀU"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9822,
+          "min": 0.9482,
+          "avg": 0.9613
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 31954,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-004",
+  "date_folder": "23-04-2026",
+  "sequence": 4,
+  "file_name": "session_004.json",
+  "created_at": "2026-04-23T02:52:36.482992",
+  "updated_at": "2026-04-23T02:52:36.482992"
+}

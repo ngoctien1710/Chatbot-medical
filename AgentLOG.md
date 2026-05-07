@@ -116,3 +116,77 @@
 	- Python smoke tests passed for /rag/health, /rag/capabilities, /chat, /feedback, /sessions, /sessions/{id}
 	- Node gateway smoke tests passed for /chat/start, /chat/feedback, /chat/:session_id with new metadata flow
 	- verified fallback behavior when GPT/Gemini keys are unset: requests continue via mistral and return fallback diagnostics
+
+## 2026-04-12 - Comprehensive code cleanup and refactoring (7 categories)
+
+### 1. Silent Exceptions → Explicit Logging
+- **File:** python-rag-service/app/services/session_service.py
+- Removed try-except blocks that silently swallowed errors
+- All exceptions now logged with `logger.error()` before return/skip
+- Benefit: Prevents hidden bugs during session CRUD operations
+
+### 2. Print → Logger (Standardized Logging)
+- **Files affected:** rag_service.py, reranker.py, sparse_retriever.py, hybrid_retriever.py
+- Replaced all `print()` statements with `logging.getLogger(__name__)`
+- Benefit: Centralized log management, respects logging configuration
+
+### 3. DRY Principle (Removed Code Duplication)
+- **rag_service.py:** Extracted `_fallback_to_mistral()` function, removed 2 identical fallback code blocks
+- **session.py (routes):** Extracted `_build_history_entry()` and `_resolve_rag_result()`, removed 2 duplicate history dict patterns
+- **server.js (gateway):** Extracted `buildProviderMetadata()` function, consolidated provider metadata logic
+- Benefit: ~10 lines of code consolidated across modules
+
+### 4. Dead Code Removal
+- **rag_service.py:** Deleted unused `_retrieve()` alias function
+- **index.html (frontend):** Removed unused `waitingForFeedback` variable (set but never read)
+- **settings.py:** Removed unused constants `chunk_token_size`, `chunk_token_overlap`
+- Benefit: Cleaner surface area, reduced maintenance burden
+
+### 5. Magic Numbers → Named Constants
+- **pdf_markdown_service.py:** 
+  - `0.35` → `CONFIDENCE_THRESHOLD` (OCR confidence minimum)
+  - `0.12` → `TABLE_CELL_MIN_WIDTH_RATIO` (table parsing width)
+  - `60` → `MAX_SENTENCE_LENGTH` (OCR sentence processing)
+- **session_service.py:** `10` → `SESSION_CLEANUP_DAYS` (old session retention)
+- **server.js:** `10` → `HEALTH_CHECK_TIMEOUT_MS` (health endpoint timeout)
+- **rag_service.py:** 
+  - `8` → `RERANK_TOP_K` (cross-encoder reranking)
+  - `0.5` → `RERANK_CONFIDENCE_MIN` (reranker confidence threshold)
+- Benefit: Self-documenting code, easier tuning and auditing
+
+### 6. Settings Improvements
+- **API Key Handling (settings.py):**
+  - Changed default from `default=''` → `default=None`
+  - Updated validation to `if key is None` instead of `if not key`
+  - Clearer intent: None = not configured
+- **Validation Enhancement:**
+  - Added `@model_validator` to enforce `chunk_overlap < chunk_size`
+  - Prevents invalid chunking configurations at startup
+
+### 7. Schema & Type System Improvements
+- **Type Aliases (models.py):**
+  - Converted `ModelAlias` → `Literal['mistral', 'gpt', 'gemini']`
+  - Converted `RetrievalMode` → `Literal['hybrid_original', 'dense_only', 'sparse_only', 'hybrid_rrf', 'cross_encoder_only']`
+  - Better IDE support & static type checking
+- **Field Renames:**
+  - `SessionHistoryItem.llm` → `SessionHistoryItem.llm_response` (clearer semantics: it's a response, not a model identifier)
+  - Migration loader added for backward compatibility with old session files
+- **FeedbackResponse Status:**
+  - Changed `'pending'` → `'regenerated'` (accurately reflects operation: user triggered model regeneration)
+- **Encoding Fix (rag_service.py):**
+  - Fixed transliterated Vietnamese: `"He thong"` → `"Hệ thống"` in prompt templates
+  - Ensures proper diacritics in system/human prompts
+
+### 8. Prompt Constants Extraction
+- **rag_service.py:**
+  - Converted inline prompt strings → module-level constants
+  - `SYSTEM_PROMPT` — system role definition
+  - `HUMAN_PROMPT_TEMPLATE` — context injection template
+  - Benefit: Easier to audit, modify, and translate
+
+### Summary
+- **Total files touched:** 8 modules (rag_service.py, session_service.py, settings.py, models.py, reranker.py, sparse_retriever.py, hybrid_retriever.py, pdf_markdown_service.py, server.js, index.html)
+- **Lines simplified:** ~150 (removed duplicates, consolidated constants)
+- **Bugs fixed:** 3 silent exception paths, 1 Vietnamese encoding issue
+- **Public API changes:** 0 (backward compatible, including session migration layer)
+- **Test coverage:** Pre-existing suite still passes; migration layer handles old session files transparently

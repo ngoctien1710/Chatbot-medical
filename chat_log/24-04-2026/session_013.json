@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Đau tủy xương (Multiple Myeloma) là bệnh gì, biểu hiện lâm sàng điển hình gồm những gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Đau tủy xương (Multiple Myeloma) là một bệnh máu ác tính, đặc trưng bởi sự tăng sinh ác tính tế bào dòng plasmo trong tuỷ xương. Biểu hiện lâm sàng gồm có thiếu máu, đau xương, gãy xương và u xương, suy thận, táo bón, buồn nôn, đa niệu, loạn thần, hôn mê, rối loạn nhịp tim do tăng calci máu. Biến chứng nặng là khối u chèn ép tủy sống. Nguyên nhân chính gây tử vong là nhiễm trùng tái diễn.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:541",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.989,
+            "snippet": "1. ĐẠI CƯƠNG Đa u tủy xương (Multiple Myeloma: MM), còn gọi là bệnh Kahler, là một bệnh máu ác tính, đặc trưng bởi sự tăng sinh ác tính tế bào dòng plasmo trong tuỷ xương, xuất hiện protein đơn dòng trong huyết thanh và nước tiểu, tổn thương các cơ quan đích. 2. CHẨN ĐOÁN 2.1. Lâm sàng - Khoảng 70% có thiếu máu lúc chẩn đoán; khoảng 60% biểu hiện đau xương, gãy xương và u xương; có 20% suy thận, trong đó 10% người bệnh mới chẩn đoán suy thận nặng cần thận nhân tạo; ngoài ra gặp khoảng 15 - 20 % có táo bón, buồn nôn; đa niệu, loạn thần, hôn mê, rối loạn nhịp tim do tăng calci máu. Biểu hiện thần kinh: Chèn ép rễ - tuỷ sống; bệnh lý thần kinh ngoại biên; thâm nhiễm thần kinh trung ương. Biến chứng nặng là khối u chèn ép tủy sống (chiếm khoảng 10%), chẩn đoán dựa vào chụp cộng hưởng từ. - Nhiễm trùng tái diễn, là nguyên nhân chính gây tử vong"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:545",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8917,
+            "snippet": "- Chẩn đoán hình ảnh: + Chụp cắt lớp vi tính liều thấp toàn thân: Là kỹ thuật chuẩn mới để phát hiện tổn thương tiêu xương; + Chụp X-quang xương (cột sống, xương chậu, xương sọ, xương sườn...): Chỉ định khi không thể chụp cắt lớp vi tính toàn thân liều thấp, phát hiện tổn thương tiêu xương; + Chụp cộng hưởng từ toàn thân: cần thiết trong những trường hợp có biểu hiện đau xương nhưng chụp X-quang không thấy tổn thương hoặc phát hiện tổn thương chèn ép tuỷ sống; + Chụp PET/CT: Phát hiện những tổn thương xương, tổn thương ngoài tuỷ. 2.3. Tiêu chuẩn chẩn đoán Hiệp hội Đa u tủy xương quốc tế năm 2014 đưa tiêu chuẩn chẩn đoán bệnh Đa u tủy xương và các rối loạn dòng plasmo ở bệnh nhân có một hay nhiều triệu chứng lâm sàng và cận lâm sàng nêu trên (Bảng 45), gồm: - Bệnh lý gamma đơn dòng có ý nghĩa không xác định (monoclonal gammopathy of undetermined significance: MGUS)\n. - Đa u tủy xương tiềm tàng (smouldering multiple myeloma: SMM). - Đa u tủy xương có triệu chứng (multiple myeloma: MM). Bảng 45. Tiêu chuẩn chẩn đoán cho các thể bệnh Đa u tủy xương"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:31",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6468,
+            "snippet": ". 1.2.2. Chẩn đoán lơ xê mi cấp dòng lympho trẻ em a. Triệu chứng lâm sàng Đặc điểm nổi bật của các triệu chứng lâm sàng trong ALL ở trẻ em giai đoạn điển hình là triệu chứng của lấn át các tế bào trong tuỷ xương và các triệu chứng thâm nhiễm [33],[34], biểu hiện:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:179",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6277,
+            "snippet": "1. ĐẠI CƯƠNG - Lơ xê mi tủy mono mạn (Chronic Myelomonocytic Leukemia - CMML) là một bệnh máu ác tính ít gặp; biểu hiện đặc trưng là sự tăng cao bạch cầu mono trong máu và tủy xương. CMML mang đặc trưng của 2 nhóm bệnh khác nhau (Hội chứng rối loạn sinh tủy - MDS và tăng sinh tủy - MPNs); theo tổ chức y tế Thế giới (WHO - 2008) CMML như là một bệnh pha trộn giữa MDS và MPNs. - Tuổi mắc bệnh trung bình là 65-70, nam gặp nhiều hơn nữ. - Hầu hết các trường hợp bệnh không rõ nguyên nhân; môi trường và một số yếu tố như tia xạ, tiếp xúc hóa chất (benzen, thuốc trừ sâu...), thuốc lá có thể tác động làm xuất hiện bệnh. 2. CHẨN ĐOÁN 2.1. Lâm sàng: Các triệu chứng lâm sàng có thể gặp: - Thiếu máu: Là triệu chứng hay gặp. - Xuất huyết do giảm tiểu cầu: Xuất huyết dưới da nhiều nơi, chảy máu chân răng hoặc đường tiêu hóa… - Có thể gặp gan to, lách to, thâm nhiễm da (khoảng 50%)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:596",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5262,
+            "snippet": ". b. Triệu chứng lâm sàng: - U plasmo tại xương: Đau xương, gãy xương bệnh lý tại chỗ, liệt do chèn ép vào rễ thần kinh. - U plasmo tại mô mềm: Tăng tiết đờm dãi, chèn ép đường thở, chảy máu mũi, đau bụng, đau đầu, buồn nôn… do khối u chèn ép tại chỗ. 2.2. Cận lâm sàng a. Xét nghiệm mô bệnh học tổ chức khối u: Là xét nghiệm cơ bản để chẩn đoán. Hình thái của tế bào plasmo khá đặc trưng và được khẳng định bằng nhuộm hóa mô miễn dịch. Trường hợp hiếm gặp như u nguyên bào plasmo (plasmablastic) hoặc kém biệt hóa (anaplastic) có thể gây khó khăn cho chẩn đoán. b. Xét nghiệm tủy xương - Xét nghiệm huyết tủy đồ. - Sinh thiết tủy xương. Tỷ lệ tế bào plasmo trong tủy < 10%. c. Điện di protein, điện di miễn dịch huyết thanh và nước tiểu: Phát hiện thành phần đơn dòng chuỗi nặng và nhẹ. Khoảng 20% bệnh nhân u tương bào có đỉnh đơn dòng protein (mức độ nhẹ), chủ yếu là IgA. d"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.989,
+          "min": 0.5262,
+          "avg": 0.7363
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 31814,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-013",
+  "date_folder": "24-04-2026",
+  "sequence": 13,
+  "file_name": "session_013.json",
+  "created_at": "2026-04-24T15:46:34.521053",
+  "updated_at": "2026-04-24T15:46:34.521053"
+}

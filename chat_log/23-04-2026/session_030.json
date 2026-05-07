@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Xét nghiệm nhiễm sắc thể và gen trong ALL được thực hiện để phát hiện những bất thường nào, và kỹ thuật nào được sử dụng?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong việc phát hiện những bất thường nào trong lơ xê mi cấp dòng lympho tế bào B (ALL) ở trẻ em, các nghiên cứu đã chỉ định các xét nghiệm tìm 4 đột biến dung hợp gen (BCR-ABL1, MLL-AF4, E2A-PBX1, TEL-AML1) bằng kỹ thuật PCR. Ngoài ra, các trường hợp ALL có BCR-ABL1 like thường kèm theo mất đoạn/đột biến gen IZKF1 và có tiên lượng xấu. Trong số các đột biến gen thường gặp trong lơ xê mi cấp dòng lympho tế bào B ở trẻ em, 4 đột biến gen TEL-AML1, E2A-PBX1, MLL-AF4, BCR-ABL1 là những đột biến dung hợp gen có giá trị trong chẩn đoán cũng như có ý nghĩa tiên lượng trong điều trị và dự đoán nguy cơ tái phát (tủy xương và thần kinh trung ương). Do đó, 4 đột biến gen này được xét nghiệm thường qui tại thời điểm chẩn đoán và được thực hiện trong nghiên cứu.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:204",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.952,
+            "snippet": ". Ngoài xét nghiệm công thức NST, tại Viện Huyết học – Truyền máu Trung ương, các bệnh nhi ALL đều được chỉ định các xét nghiệm tìm 4 đột biến dung hợp gen (BCR-ABL1, MLL-AF4, E2A-PBX1, TEL-AML1) bằng kỹ thuật PCR. Tỷ lệ xuất hiện của các đột biến dung hợp gen này sẽ được bàn luận trong phần sau. Bất thường thêm đoạn và mất đoạn NST trong ALL trẻ em thường không mang tính đặc hiệu. Nghiên cứu của tác giả Osman gặp 15 bệnh nhi có mất đoạn NST và 6 bệnh nhi có thêm đoạn. Các tổn thương mất đoạn và thêm đoạn có thể gặp trên các NST khác nhau [100]. Trong nghiên cứu này, chúng tôi ghi nhận được 3 trường hợp có thêm đoạn NST, 2 trường hợp có mất đoạn NST và một trường hợp đảo đoạn NST số 9. Có 3 trường hợp mất đoạn, thêm đoạn và cả đảo đoạn đều có liên quan đến NST số 9"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:65",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9269,
+            "snippet": ". Ngoài ra, các trường hợp ALL có BCR-ABL1 like thường kèm theo mất đoạn/đột biến gen IZKF1 và có tiên lượng xấu [40]. Như vậy, trong số các đột biến gen thường gặp trong lơ xê mi cấp dòng lympho tế bào B ở trẻ em, 4 đột biến gen TEL-AML1, E2A-PBX1, MLL-AF4, BCR-ABL1 là những đột biến dung hợp gen có giá trị trong chẩn đoán cũng như có ý nghĩa tiên lượng trong điều trị và dự đoán nguy cơ tái phát (tủy xương và thần kinh trung ương). Do đó, 4 đột biến gen này được xét nghiệm thường qui tại thời điểm chẩn đoán và được thực hiện trong nghiên cứu. 1.3.2. Bất thƣờng di truyền trong lơ xê mi cấp dòng lympho T T-ALL chiếm khoảng 10-15% ALL ở trẻ em và thường có tiên lượng xấu hơn so với B-ALL. Các bất thường di truyền được phát hiện ở khoảng 50% các trường hợp T-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:228",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9212,
+            "snippet": ". Do vậy, bất thường NST được phát hiện chủ yếu thuộc nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh. Đột biến về cấu trúc chủ yếu là chuyển đoạn NST, liên quan đến gen TCR [1],[38],[62]. Mặt khác, do số lượng bệnh nhi được phát hiện bất thường NST thấp nên không thấy sự khác biệt về các loại bất thường NST giữa các nhóm B-ALL và T- ALL. Đây là điểm hạn chế của nghiên cứu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:287",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8919,
+            "snippet": "KIẾN NGHỊ\n\n1. Thực hiện xét nghiệm phát hiện bất thường nhiễm sắc thể và một số đột biến dung hợp gen có ý nghĩa để xếp loại nhóm nguy cơ ở bệnh nhi bị lơ xê mi cấp dòng lympho trước khi điều trị. 2. Bệnh nhi lơ xê mi cấp dòng lympho B có biến đổi di truyền thuộc nhóm nguy cơ cao và nhóm lơ xê mi cấp dòng lympho T nên được xem xét các phương án điều trị thay thế hoặc phối hợp các phương pháp như điều trị nhắm đích, ghép tế bào gốc nhằm đạt kết quả cao hơn, giảm tỷ lệ tái phát.\n\nPHỤ LỤC NGHIÊN CỨU MỘT SỐ HÌNH ẢNH NHIỄM SẮC THỂ BỆNH NHI NGHIÊN CỨU\n\nHình 1. Hình ảnh NST bệnh nhi mã 18045426 46,XY,t(9;22) tạo NST Philadelphia (Ph)\n\nHình 2. Hình ảnh NST bệnh nhi mã 17023232 46,XX/46,XX,t(1;19)\n\nHình 3. Hình ảnh NST bệnh nhi mã 17002618 46,XX[10]/46,XX,t(4;11)[10]\n\nHình 4. Hình ảnh NST bệnh nhi mã 1920031048 45,XX,-20,del(9p)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:194",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8594,
+            "snippet": "truyền trên 109 bệnh nhi ALL điều trị tại Viện nhi Trung ương từ tháng 1/2017-6/2018, phát hiện 36,7% bất thường di truyền (bao gồm cả kỹ thuật nhuộm băng G và kỹ thuật FISH) [98]. Tại Ấn Độ, một nghiên cứu của tác giả Rachana trên 240 trẻ, trong đó có 125 trẻ có kết quả phân tích NST, ghi nhận 38,6% có bất thường NST (bao gồm kỹ thuật FISH) [99]. Nghiên cứu tại Iran của tác giả G. Bahoush có 40,8% bệnh nhi có bất thường NST [86]. Tác giả Osman nghiên cứu tại Thổ Nhĩ Kỳ trên bệnh nhân ALL trẻ em và người lớn phát hiện 23,1% bệnh nhân có bất thường NST [100]. Như vậy, có thể nhận thấy tỷ lệ phát hiện bất thường NST trong các nghiên cứu trên thế giới có tỷ lệ cao hơn so với nghiên cứu này. Theo Faderl (1998), nuôi cấy tế bào LXM thuộc dòng lympho rất khó và nếu sử dụng nhuộm băng thông thường chỉ phát hiện tối đa 50 - 60% bất thường NST [101]"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.952,
+          "min": 0.8594,
+          "avg": 0.9103
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 34506,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-030",
+  "date_folder": "23-04-2026",
+  "sequence": 30,
+  "file_name": "session_030.json",
+  "created_at": "2026-04-23T14:05:53.535666",
+  "updated_at": "2026-04-23T14:05:53.535666"
+}

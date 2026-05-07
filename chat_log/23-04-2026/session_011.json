@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân 51 tuổi mắc bệnh lơ xê mi tủy cấp cần tuân theo phác đồ hóa trị liệu tiêu chuẩn nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân 51 tuổi mắc bệnh lơ xê mi tủy cấp có thể được điều trị theo phác đồ hóa trị liệu tiêu chuẩn cho LXM tủy cấp người lớn, bao gồm: Phác đồ tấn công (điều trị cảm ứng) “3+7”, củng cố bằng cytarabin liều cao (Hi-DAC) 2 đợt. Cụ thể như sau:\n\n- Phác đồ \"3+7\": Daunorubicin 45-60 mg/m2 da/ngày, truyền tĩnh mạch ngày 1-3 hoặc Idarubicin 12mg/m2/ngày x 3 ngày; Ara-C 100-200 mg/m2 da/ngày, truyền tĩnh mạch ngày 1-7.\n- Phác đồ cytarabin liều cao (Hi-DAC).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:18",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.973,
+            "snippet": "Phác đồ hóa trị liệu tiêu chuẩn bao gồm: Phác đồ tấn công (điều trị cảm ứng) “3+7”, củng cố bằng cytarabin liều cao (Hi-DAC) 4 đợt. Cụ thể như sau: - Phác đồ “3+7”. - Phác đồ cytarabin liều cao (Hi-DAC). - Lơ xê mi mono cấp hoặc tủy-mono hoặc tủy cấp có số lượng bạch cầu lúc chẩn đoán > 50 G/L cần được điều trị dự phòng thâm nhiễm thần kinh trung ương. b. Đối với người bệnh trên 60 tuổi Tùy theo thể trạng người bệnh, có thể sử dụng cytarabin liều thấp (20mg/m2 da tiêm dưới da trong 10 ngày), hoặc phác đồ “3+7” giảm số ngày điều trị (“2+5”), hoặc Decitabine 20mg/m2 da/ngày x 5 ngày, hoặc Azacitidine 75mg/m2 da tiêm tĩnh mạch hoặc dưới da trong 7 ngày. 3.1.3"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:144",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9041,
+            "snippet": "+ Mercaptopurine 50mg/m2, uống hàng ngày, từ ngày 35-63. - Duy trì: 12 chu kỳ, mỗi chu kỳ bao gồm 8 tuần: + Doxorubicin 25 mg/m2 ngày 1 trong 12 tháng đầu; + Cytarabine 40 mg/m2 ngày 1-4 và ngày 29-32; + Mercaptopurine 40 mg/m2, uống hàng ngày, từ ngày 1-56. c. Phác đồ hóa trị liệu tiêu chuẩn: Điều trị như LXM tủy cấp người lớn, bao gồm: Phác đồ tấn công (điều trị cảm ứng) “3+7”, ADE, củng cố bằng cytarabin liều cao (HDAC) 2 đợt. Cụ thể như sau: - Phác đồ \"3+7\": + Daunorubicin 45-60 mg/m2 da/ngày, truyền tĩnh mạch ngày 1-3; hoặc Idarubicin 12mg/m2/ngày x 3 ngày; + Ara-C 100-200 mg/m2 da/ngày, truyền tĩnh mạch ngày 1-7. - Phác đồ ADE + Truyền tĩnh mạch Cytarabine 100 mg/m2/ liều 12 giờ 20 liều (10 ngày); + Truyền tĩnh mạch Daunorubicin 50mg/m2/ liều mỗi ngày vào ngày 1, 3 và 5; + Truyền tĩnh mạch Etoposide 100 mg/m2/ liều truyền trong vòng 1 giờ ngày 1-5"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:19",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9002,
+            "snippet": ". 3.1.3. Điều trị LXM tủy cấp tái phát, kháng thuốc Với LXM tủy cấp tái phát hoặc kháng thuốc, có thể sử dụng các phác đồ hóa trị liệu liều cao như phác đồ ADE, MEC, HAM, FLAG ± Daunorubicin hoặc Idarubicin hoặc Mitoxantron, Hi-DAC ± Daunorubicin hoặc Mitoxantron; nên tiến tới ghép đồng loài nếu đủ điều kiện. 3.1.4. Chỉ định ghép tế bào gốc tạo máu đồng loài (chi tiết xin xem bài Ghép tế bào gốc tạo máu) - AML nguy cơ thấp nên được điều trị hóa chất. Ghép tế bào gốc tạo máu đồng loài được chỉ định sau khi tái phát và đã điều trị đạt lui bệnh hoàn toàn lần 2. - AML nguy cơ hoặc cao ít khi đáp ứng tốt với hóa trị liệu vì thế nên chỉ định ghép tế bào gốc tạo máu đồng loài sau lui bệnh hoàn toàn lần 1. 3.2. Điều trị Lơ xê mi cấp thể tiền tủy bào (APL) a"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:20",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8388,
+            "snippet": ". 3.2. Điều trị Lơ xê mi cấp thể tiền tủy bào (APL) a. Phác đồ CALGB 9710 - Điều trị tấn công: + Người lớn: ATRA (45 mg/m2 da/ngày đến khi lui bệnh hoàn toàn: Tối đa 90 ngày); Trẻ em: ATRA 25mg/m2 da/ngày chia hai lần; + Daunorubicin 50 mg/m2 da/ngày, truyền tĩnh mạch ngày 3-6; + Ara-C 200 mg/m2 da/ngày, truyền tĩnh mạch ngày 3-9. - Điều trị củng cố: 2-3 đợt: + ATRA: Người lớn 45 mg/m2 da/ngày; trẻ em: 25mg/m2 da/ngày (uống ngày 1-7); + Daunorubicin 50 mg/m2 da/ngày, truyền tĩnh mạch ngày 3-5. - Điều trị duy trì: Bằng ATRA 45 mg/m2 da đường uống hàng ngày trong 15 ngày mỗi 3 tháng, mercaptopurine 60 mg/m2 da 1 lần hàng ngày và methotrexate 20 mg/m2 da 1 lần hàng tuần trong 2 năm"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:27",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6811,
+            "snippet": ". Trong các đợt sau làm điện tim trước mỗi đợt điều trị. 3.3. Điều trị Lơ xê mi lympho cấp ở người lớn 3.3.1. Nguyên tắc điều trị - Dựa trên các tiêu chí: Lâm sàng, miễn dịch, tế bào di truyền, NCCN guideline chia thành các nhóm điều trị sau: + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64; + LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64. - Liệu trình điều trị gồm: Tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.973,
+          "min": 0.6811,
+          "avg": 0.8594
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 45210,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-011",
+  "date_folder": "23-04-2026",
+  "sequence": 11,
+  "file_name": "session_011.json",
+  "created_at": "2026-04-23T13:01:40.910492",
+  "updated_at": "2026-04-23T13:01:40.910492"
+}

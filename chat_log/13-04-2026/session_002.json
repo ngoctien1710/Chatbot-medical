@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "triệu chứng toàn thân của bệnh bạch cầu cấp dòng lympho là gì",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng toàn thân của bệnh bạch cầu cấp dòng lympho gồm nhiều biểu hiện, một số chính quyết định là:\n\n1. Sốt thường gặp, kém đáp ứng với điều trị kháng sinh.\n2. Mệt mỏi, gầy sút cân, chán ăn.\n3. Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết.\n4. Xuất huyết: có thể là chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi.\n5. Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính.\n6. Triệu chứng thâm nhiễm: gan to, lách to, hạch to, phì đại lợi, thâm nhiễm da, đau xương, thâm nhiễm thần kinh trung ương với các dấu hiệu thần kinh khu trú.\n7. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài.\n\nNgoài ra, trong quá trình diagnostich bệnh, có thể sử dụng các kiểm tra như:\n\n1. Xét nghiệm tế bào máu ngoại vi và tủy xương để xác định số lượng bạch cầu, huyết sắc tố, tiểu cầu.\n2. Sinh thiết hạch hoặc tổ chức lympho để xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học.\n3. Các kiểm tra khác như LDH, calci máu để xác định các biomarker của bệnh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:34",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9834,
+            "snippet": "- Triệu chứng toàn thân: + Mệt mỏi, gầy sút cân, chán ăn. + Sốt: thường gặp sốt thất thường, kém đáp ứng với điều trị kháng sinh. + Thiếu máu từ nhẹ đến nặng, do nguyên bào lympho lấn át dòng hồng cầu, hoặc do xuất huyết. + Xuất huyết: Xuất huyết dưới da, niêm mạc, đa hình thái hoặc chảy máu mũi, chân răng, võng mạc hoặc đôi khi gặp chảy máu tiêu hoá, nội sọ, phổi. + Nhiễm khuẩn do hậu quả giảm bạch cầu trung tính. - Triệu chứng thâm nhiễm: + Hạch to khu trú hoặc toàn thân. Có thể là ngoại vi, trung thất trên hoặc mạc treo ổ bụng. U trung thất gặp trong 10% bệnh nhi. + Lách to, từ nhẹ đến vừa. + Gan to, mức độ nhẹ đến vừa. + Biểu hiện ở xương gặp ở 1/3 bệnh nhi, nhất là trẻ nhỏ do thâm nhiễm nguyên bào lympho vào màng xương, xương, khớp, hoặc khoang tủy. Biểu hiện sớm như đi khập khiễng, không chịu đi bộ, đau khớp, đau các xương dài"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:138",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9244,
+            "snippet": ". - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da... - Hội chứng thâm nhiễm: Gan to, lách to, hạch to, phì đại lợi, thâm nhiễm da, đau xương, thâm nhiễm thần kinh trung ương với các dấu hiệu thần kinh khu trú... - Trong trường hợp số lượng bạch cầu tăng cao có thể gặp triệu chứng tắc mạch do tăng bạch cầu: Tắc mạch não, tắc mạch phổi, tắc mạch dương vật… - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 3.2. Triệu chứng xét nghiệm 3.2.1. Xét nghiệm tế bào máu ngoại vi và tủy xương a. Xét nghệm tế bào máu ngoại vi: Thường có các biểu hiện sau: - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Số lượng bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm; gặp một tỷ lệ tế bào non (tế bào blast) - ác tính. - Số lượng tiểu cầu giảm. b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:433",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9212,
+            "snippet": ". - Các triệu chứng toàn thân: Sốt và sụt cân tương đối hiếm gặp ngoại trừ trong anaplastic large cell lymphoma. Sụt cân cũng có thể xảy ra thứ phát sau tắc ruột. b. Cận lâm sàng - Hạch đồ: Hạch tăng sinh, khá đồng nhất, chủ yếu là lymphoblast hoặc prolymphocyte: Kích thước to, nhân lớn (có thể có hạt nhân, nhân chẻ, nhân chia, nhân quái), nguyên sinh chất hẹp, không tạo đám; ít gặp bạch cầu đoạn trung tính, bạch cầu đoạn ưa acid, plasmocyte, đại thực bào, tế bào xơ. - Sinh thiết hạch hoặc tổ chức lympho nhằm làm xét nghiệm mô bệnh học kết hợp miễn dịch học (hóa mô miễn dịch hoặc đếm tế bào dòng chảy) và di truyền học là tiêu chuẩn vàng giúp chẩn đoán bệnh. - Xét nghiệm khác: + Tổng phân tích tế bào máu ngoại vi (huyết đồ) có thể gặp giảm lượng huyết sắc tố, giảm số lượng tiểu cầu, số lượng bạch cầu có thể tăng hoặc giảm; + LDH tăng trong khoảng 30% trường hợp; tăng calci máu"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9834,
+          "min": 0.9212,
+          "avg": 0.943
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 39256,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-002",
+  "date_folder": "13-04-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-04-13T00:02:22.876586",
+  "updated_at": "2026-04-13T00:02:22.876586"
+}

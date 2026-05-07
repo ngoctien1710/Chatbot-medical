@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Liều Methotrexat tiêm tủy sống trong phác đồ ALL trẻ em được điều chỉnh theo tuổi như thế nào, và phải pha trong dung dịch gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Liều Methotrexat tiêm tủy sống trong phác đồ ALL trẻ em được điều chỉnh theo tuổi như sau:\n- Dàn 1 tuổi: 8 mg\n- Dàn 2 tuổi: 10 mg\n- Dàn 3 tuổi trở lên: 15 mg\n\nPhải pha trong dung dịch Ringer lactat hoặc Natriclorua 0,9%.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:437",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9745,
+            "snippet": "Methotrexate 3g/m2, tĩnh mạch, truyền trong 3h (giải độc bằng acid folic) Methotrexate Hydrocortisol 8-15mg, tiêm tủy sông 8-15mg, tiêm tủy sống (liều lượng thay đổi theo tuổi) 1, 8, 15 Đợt 2 và đợt 3: bắt đầu khi số lượng BC trung tính trên 1000 và Tiểu cầu trên 100 000. Ngày thứ 15 có thể hoãn tới ngày thứ 22 trong trường hợp có suy tủy ( BC hạt dưới 500 và Tiểu cầu dưới 50 000) hoặc trong tình trạng lâm sàng không ổn định. THUỐC LIỀU LƯỢNG, ĐƯỜNG DÙNG NGÀY DÙNG Vincristine 1,5mg/m2, tĩnh mạch (tối đa 2mg) Cyclophosphamide 1g/m2, tĩnh mạch Cytarabin 75mg/m2, tĩnh mạch 2,3,4,5 và 8,9, 10,11 L-asparaginase 25 000 UI/m2 , tiêm bắp/tĩnh mạch 16, 23 Methotrexate 3g/m2, tĩnh mạch, truyền trong 3h (giải độc bằng acid folic) 1, 15 Methotrexate Hydrocortisol 8-15mg, tiêm tủy sống 8-15mg, tiêm tủy sống (Liều lượng thay đổi theo tuổi) 2, 16 Đợt 4"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:9",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9667,
+            "snippet": ". Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc. DXM 6mg/m uống hàng ngày, ngày 0-27 VCR 1,5 mg/m (tối đa 2mg) tiêm TM, ngày 0, 7, 14, 21 ASP 6.000 UI/m /liều, TB, từ ngày 3, thứ 2, 4, 6, tổng số 9 liều DAUNO** 25 mg/m , truyền TMC, ngày 0, 7, 14, 21 MTX tiêm TS, liều theo tuổi (tối đa 12 mg), ngày 0, 7, 14*, 21*, 28 (tiền B) / ngày 0, 14 (tế bào T) Liều MTX theo tuổi: 1 đến < 2 tuổi: 8 mg; 2 đến <3 tuổi: 10 mg; ≥3 tuổi: g, pha trong dung dịch Ringer lactat hoặc Natriclorua 0,9% vừa đủ 4-5 ml *.Chỉ điều trị bệnh nhân thâm nhiễm TKTƯ ngay khi chẩn đoán bệnh *.Chỉ điều trị bệnh nhân ALL nhóm nguy cơ cao x 4 liều hoặc bệnh nhân nhóm nguy cơ không cao đáp ứng điều trị chậm (phác đồ tăng cường) x 2 liều (ngày 14, 21). Nếu không có DAUNO, thay bằng DOXO với liều và ngày dùng tương tựDAUNO"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:442",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9621,
+            "snippet": "Methotrexate 8- 15mg, tiêm tủy sống (Liều lượng thay đổi theo tuổi) 8 , 29 Đợt 2\n\nTHUỐC LIỀU LƯỢNG, ĐƯỜNG DÙNG NGÀY DÙNG Intrathecal Methotrexate (IT MTX) 8- 15mg, Tiêm tủy sống (Liều lượng thay đổi theo tuổi) 1, 8, 15, 22 Cyclophosphamide 1000 mg/m2, tĩnh mạch 1, 29 Cytarabine 75mg/m2, tĩnh mạch/ dưới da 1-4, 8-11, 29-32, 36-39 Mercaptopurine 60 mg/m2, uống 1-14, 29-42 Vincristine 1,5mg/m2, tĩnh mạch (tối đa 2mg) 15, 22, 43, 50 L- asparaginase 2500 UI/m2, tiêm bắp/ tĩnh mạch 15, 17, 19, 21, 23, 25, 27, 29, 31 Đợt 3\n\nTHUỐC LIỀU LƯỢNG, ĐƯỜNG DÙNG NGÀY DÙNG Vincristine 1,5mg/m2, tĩnh mạch, (tối đa 2mg) 1, 11, 21, 31, 41 Methotrexate 100 mg/m2/liều, sau đó tăng 50 mg/m2/ mỗi liều sau , tĩnh mạch 1, 11, 21, 31, 41 L- asparaginase 6000 UI/m2 tiêm bắp/ tĩnh mạch ( 9 mũi) 2,4,6,8,10, 12,14,16,18 Methotrexate 8- 15mg, tiêm tủy sống (Liều lượng thay đổi theo tuổi) 1, 31 Đợt 4"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:441",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9519,
+            "snippet": "Tuổi Thuốc Liều lượng < 1 tuổi HSHC 8mg Methotrexate 8mg Aracytine ( Cytarabine) 15mg 1-2 tuổi HSHC 10mg Methotrexate 10mg Aracytine ( Cytarabine) 20mg 2- 3 tuổi HSHC 12mg Methotrexate 12mg Aracytine ( Cytarabine) 25mg >3 tuổi HSHC 15mg Methotrexate 15mg Aracytine ( Cytarabine) 30mg\n\n Phác đồ AALL 0434: gồm các đợt hóa chất như sau, đợt kế tiếp bắt đầu khi tế bào máu ngoại vi hồi phục ( BCTT > 0.75 G/L, SLTC > 75 G/L)  Nguy cơ thường Đợt 1\n\nTHUỐC LIỀU LƯỢNG, ĐƯỜNG DÙNG NGÀY DÙNG Vincristine 1,5mg/m2, tĩnh mạch (tối đa 2mg) 1, 8, 15, 22 Methylprednisone 60mg/m2, tĩnh mạch 1- d28 Daunorubicin 25 mg/m2, tĩnh mạch 1,8, 15, 22 L- asparaginase 6000 UI/m2, tiêm bắp/ tĩnh mạch (6 mũi) 4,6,8,10,12,14 Cytarabine 30- 70mg, tiêm tủy sống (Liều lượng thay đổi theo tuổi) ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 323"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:421",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9026,
+            "snippet": ". - Xạ trị sọ não (CRT): + Chỉ áp dụng cho bệnh nhân giai đoạn III và IV, không áp dụng trẻ dưới 1 tuổi; + Xạ trị dự phòng cho tất cả bệnh nhân không có thâm nhiễm TKTW với liều 12Gy; + Xạ trị điều trị (Bệnh nhân có thâm nhiễm TKTW) cho trẻ từ trên 1- 2 tuổi là 18Gy, trẻ lớn hơn là 24 Gy. Thời điểm: CRT ở pha 2 của Tái tấn công (tuần thứ 27- 29). - Trường hợp có thâm nhiễm tinh hoàn: Xạ trị tinh hoàn liều 20 Gy sau khi điều trị xong Giai đoạn củng cố (phác đồ M). - Liều Methotrexat tiêm tủy sống theo tuổi:"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9745,
+          "min": 0.9026,
+          "avg": 0.9516
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 48981,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-001",
+  "date_folder": "25-04-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-04-25T16:05:10.442286",
+  "updated_at": "2026-04-25T16:05:10.442286"
+}

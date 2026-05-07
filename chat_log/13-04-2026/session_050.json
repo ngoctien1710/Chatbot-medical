@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Điều trị hóa chất ở người bị bệnh lơ xê mi cấp dòng Lympho có bao nhiêu giai đoạn và mục đích của từng giai đoạn là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, điều trị hóa chất cho bệnh nhân bị lơ xê mi cấp dòng Lympho có 5 giai đoạn. Mục đích của từng giai đoạn là:\n\n1. Giai đoạn cảm ứng: Đây là giai đoạn điều trị kéo dài 4 - 5 tuần, mục đích để kiểm tra tính chất và phát triển của bệnh.\n2. Điều trị tấn công: Khi bệnh tiến triển, sẽ được áp dụng điều trị hóa chất để giảm số lượng tế bào lympho ngoại vi và chữa trị biểu hiện tiến triển của bệnh.\n3. Điều trị củng cố: Sau khi giảm số lượng tế bào lympho, sẽ được áp dụng điều trị củng cố để chữa trị và ngăn ngừa việc phát triển tiếp tục của bệnh.\n4. Điều trị tăng cường 1: Khi số lượng tế bào lympho quay trở lại lên, sẽ áp dụng điều trị tăng cường để giảm số lượng tế bào lympho và chữa trị biểu hiện tiến triển của bệnh.\n5. Điều trị duy trì: Sau khi bệnh đã được kiểm soát, sẽ áp dụng điều trị duy trì để giữ bệnh ở mức độ được kiểm soát.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:66",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9928,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9658,
+            "snippet": ". b. Các phương pháp điều trị - Điều trị hóa chất Điều trị hóa chất là phương pháp điều trị tiên phong và chủ yếu trong ALL trẻ em. Có nhiều phác đồ điều trị, song tất cả các phác đồ đều bao gồm 4 giai đoạn với các mục đích khác nhau: (1) điều trị cảm ứng kéo dài 4 - 5 tuần"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:502",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9244,
+            "snippet": ". - Lơ xê mi tế bào tóc: Có tế bào “tóc” ở máu ngoại vi, CD5 âm tính, bạch cầu mono thường giảm. - U lympho tế bào lympho-plasmo: Tế bào lympho máu ngoại vi có thể bình thường hoặc tăng ít, sinh thiết hạch thấy tế bào lympho-plasmo, CD5 và CD23 âm tính. 5. ĐIỀU TRỊ 5.1. Điều trị bệnh chính - Với những người bệnh giai đoạn sớm, bệnh ổn định (Binet A, B và Rai 0, I, II không có biểu hiện tiến triển của bệnh) thì không cần thiết phải điều trị ngay, theo dõi các dấu hiệu lâm sàng và xét nghiệm 3 tháng một lần. - Chỉ định điều trị hóa chất với những người bệnh giai đoạn Binet A, B và Rai 0, I, II có dấu hiệu bệnh tiến triển; Binet C và Rai III, IV. - Biểu hiện tiến triển của bệnh gồm: Triệu chứng B, thiếu máu và giảm tiểu cầu do xâm lấn tủy xương, gan lách hạch to nhiều, thời gian tăng gấp đôi số lượng tế bào lympho ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9928,
+          "min": 0.9244,
+          "avg": 0.961
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 49097,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-050",
+  "date_folder": "13-04-2026",
+  "sequence": 50,
+  "file_name": "session_050.json",
+  "created_at": "2026-04-13T08:36:07.816160",
+  "updated_at": "2026-04-13T08:36:07.816160"
+}

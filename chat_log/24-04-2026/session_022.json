@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Triệu chứng lâm sàng của xơ tủy nguyên phát điển hình gồm những gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Triệu chứng lâm sàng của xơ tủy nguyên phát gồm có lách to, thiếu máu, xuất huyết do giảm tiểu cầu, có thể thấy ở người bệnh có giảm số lượng tiểu cầu dưới 50G/l, có biểu hiện nhiễm trùng, tăng sinh máu ngoài tủy, tăng hematocrit, tăng acid uric.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:234",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.991,
+            "snippet": ". Một số trường hợp xơ tủy nguyên phát có liên quan đến yếu tố nguy cơ: tiếp xúc hóa chất benzen, toluen, thorium dioxide và tia xạ. 3. TRIỆU CHỨNG 3.1. Lâm sàng - Triệu chứng thường gặp là lách to, thiếu máu; Xuất huyết do giảm tiểu cầu có thể thấy ở những người bệnh có giảm số lượng tiểu cầu dưới 50G/l; Có thể có biểu hiện nhiễm trùng, nhất là nếu người bệnh có giảm số lượng bạch cầu hạt. 3.2. Xét nghiệm a. Máu ngoại vi - Giảm số lượng hồng cầu; Có biểu hiện bất thường về hình thái hồng cầu, thường gặp nhất là hồng cầu hình giọt lệ, mảnh hồng cầu, gặp hồng cầu có nhân; Tăng bạch cầu chủ yếu là dòng bạch cầu hạt, công thức bạch cầu chuyển trái (gặp một số tuổi trung gian dòng bạch cầu hạt); Có thể gặp tiểu cầu khổng lồ. LDH huyết thanh tăng. b. Tuỷ xương - Tủy đồ: Khó hút dịch tuỷ; tủy nghèo tế bào; tăng mẫu tiểu cầu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:240",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8437,
+            "snippet": ". - Tăng tiểu cầu tiên phát, nhất là sau một thời gian điều trị, khi số lượng tiểu cầu không còn tăng cao nhưng biểu hiện xơ tủy thì lại thể hiện rất rõ. Việc chẩn đoán phân biệt chủ yếu dựa vào biểu hiện lâm sàng và xét nghiệm lúc ban đầu của bệnh. Đối với xơ tủy nguyên phát, biểu hiện ban đầu này chính là tình trạng xơ tủy điển hình và biểu hiện sinh máu ngoài tủy trong một khoảng thời gian dài trong tiến trình của bệnh. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 242"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:200",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8277,
+            "snippet": ". - Các triệu chứng chính theo thứ tự gặp là: Lách to (75% người bệnh), có thể có nhồi máu lách; gan to (30%); biểu hiện ngứa (trên 40% người bệnh), gặp sau tắm nước nóng; cao huyết áp; nóng bừng mặt; ngoài ra có thể đau bụng vì viêm loét dạ dày do tăng tiết histamine và tăng tiết acid hay do tắc mạch (tắc mạch mạc treo, tĩnh mạch cửa). - Giai đoạn cuối có thể kiệt quệ, biểu hiện chủ yếu là thiếu máu, số lượng tiểu cầu có thể tăng, tình trạng xơ tủy tăng dần và kết thúc bằng chuyển thành lơ xê mi cấp. 3.2. Xét nghiệm - Máu ngoại vi: Tăng tất cả các tế bào thuộc dòng tuỷ (hồng cầu, bạch cầu hạt, tiểu cầu); tăng hematocrit; tăng acid uric; erythropoietin huyết thanh không tăng. - Tủy xương: Tăng sinh các dòng tế bào tủy (hồng cầu, bạch cầu hạt, mẫu tiểu cầu). Có hiện tượng xơ hóa tủy từng phần. - Có đột biến JAK2 V617F, hoặc đột biến JAK2 exon 12. 4. CHẨN ĐOÁN 4.1"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:233",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.813,
+            "snippet": "1. ĐẠI CƯƠNG Xơ tủy nguyên phát là bệnh máu, đặc trưng là tăng sinh xơ trong tủy xương và sinh máu ngoài tủy, thuộc nhóm các bệnh tăng sinh tủy mạn ác tính. 2. NGUYÊN NHÂN GÂY BỆNH Nguyên nhân chính xác gây bệnh chưa được biết rõ. Người ta cho rằng xơ tủy nguyên phát cùng với các bệnh khác thuộc nhóm bệnh tăng sinh tủy mạn ác tính từ đột biến soma của các tế bào gốc sinh máu đa tiềm năng. Đột biến gen JAK2 gây giảm tự ức chế sinh sản tế bào của JAK2 - một protein tyrosin kinase thuộc họ Janus kinase (JAK), dẫn tới tăng sinh tế bào tạo máu. Sự khu trú của tế bào gốc bị đột biến tại các ổ sinh máu trong tủy xương là điều kiện cần để hình thành bệnh xơ tủy. Một số trường hợp xơ tủy nguyên phát có liên quan đến yếu tố nguy cơ: tiếp xúc hóa chất benzen, toluen, thorium dioxide và tia xạ. 3. TRIỆU CHỨNG 3.1"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:222",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6734,
+            "snippet": "chủ yếu là NST Ph và/ hoặc gen BCR-ABL1 dương tính cùng với biểu hiện lâm sàng và xét nghiệm ban đầu của bệnh khi chẩn đoán xác định; + Xơ tủy nguyên phát giai đoạn sớm (tiền xơ): Chủ yếu dựa vào sự tăng sinh và đặc điểm rối loạn hình thái của mẫu tiểu cầu, mức độ xơ tủy xương và lách to, xuất hiện tuổi trung gian dòng bạch cầu hạt và hồng cầu non ở máu ngoại vi; + Hội chứng rối loạn sinh tủy có tăng tiểu cầu: thường có bất thường NST 5q-, 3q21q26, hội chứng rối loạn sinh tủy/tăng sinh tủy có sideroblast vòng và tăng tiểu cầu; + Tăng tiểu cầu có tính chất gia đình: bệnh rất hiếm gặp, di truyền trội trên NST thường; đột biến gen thrombopoietin. 4.3. Phân nhóm nguy cơ Thang điểm IPSET - thrombosis sửa đổi theo WHO (The revised international prognostic score of thrombosis for ET)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.991,
+          "min": 0.6734,
+          "avg": 0.8297
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 49447,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-022",
+  "date_folder": "24-04-2026",
+  "sequence": 22,
+  "file_name": "session_022.json",
+  "created_at": "2026-04-24T19:55:31.965437",
+  "updated_at": "2026-04-24T19:55:31.965437"
+}

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Chuẩn đoán lâm sàng của bệnh lơ xê mi tủy mono mạn (bệnh bạch cầu mạn dòng tủy - mono) là gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Lâm sàng của bệnh lơ xê mi tủy mono mạn (CMML) là triệu chứng thiếu máu, xuất huyết do giảm tiểu cầu, có thể gặp gan to, lách to, nhiễm trùng da. Ngoài ra, CMML còn có triệu chứng tăng số lượng bạch cầu và dịch tủy dễ hút hơn so với lơ xê mi tế bào tóc thể thông thường.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:179",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9986,
+            "snippet": "1. ĐẠI CƯƠNG - Lơ xê mi tủy mono mạn (Chronic Myelomonocytic Leukemia - CMML) là một bệnh máu ác tính ít gặp; biểu hiện đặc trưng là sự tăng cao bạch cầu mono trong máu và tủy xương. CMML mang đặc trưng của 2 nhóm bệnh khác nhau (Hội chứng rối loạn sinh tủy - MDS và tăng sinh tủy - MPNs); theo tổ chức y tế Thế giới (WHO - 2008) CMML như là một bệnh pha trộn giữa MDS và MPNs. - Tuổi mắc bệnh trung bình là 65-70, nam gặp nhiều hơn nữ. - Hầu hết các trường hợp bệnh không rõ nguyên nhân; môi trường và một số yếu tố như tia xạ, tiếp xúc hóa chất (benzen, thuốc trừ sâu...), thuốc lá có thể tác động làm xuất hiện bệnh. 2. CHẨN ĐOÁN 2.1. Lâm sàng: Các triệu chứng lâm sàng có thể gặp: - Thiếu máu: Là triệu chứng hay gặp. - Xuất huyết do giảm tiểu cầu: Xuất huyết dưới da nhiều nơi, chảy máu chân răng hoặc đường tiêu hóa… - Có thể gặp gan to, lách to, thâm nhiễm da (khoảng 50%)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:493",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9673,
+            "snippet": ". 4. CHẨN ĐOÁN BỆNH 4.1. Chẩn đoán xác định - Lâm sàng: Lách to, thiếu máu, nhiễm trùng cơ hội. - Xét nghiệm: + Giảm 3 dòng tế bào máu; + Tuỷ: Giàu tế bào, chủ yếu tế bào tóc; các tế bào dương tính với CD19, CD20, CD22, CD11c, CD25, CD103, CD123; + Hóa mô miễn dịch tủy xương: dương tính với CD20, TRAP, DBA.44. 4.2. Biến thể của Lơ xê mi tế bào tóc Tỷ lệ gặp khoảng 10% tổng số ca bệnh; đặc điểm có tăng số lượng bạch cầu, không giảm bạch cầu mono, dịch tủy dễ hút hơn; đáp ứng với điều trị kém hơn so với lơ xê mi tế bào tóc thể thông thường. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 339\n4.3. Chẩn đoán phân biệt Bảng 41. Phân biệt với những bệnh tăng sinh lympho B có lách to."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:489",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9672,
+            "snippet": ". - Gan to (khoảng 20% người bệnh). - Hạch to chỉ có ở 10% người bệnh Lơ xê mi tế bào tóc, chủ yếu là các hạch ở sâu (trung thất và ổ bụng). 3.2. Cận lâm sàng - Giảm các dòng tế bào máu: Trong đó có khoảng 50% người bệnh giảm cả 3 dòng, các người bệnh còn lại có biểu hiện giảm 1 hoặc 2 dòng tế bào máu. Chủ yếu giảm bạch cầu, thường gặp giảm bạch cầu mono. Chỉ 10% người bệnh có tăng bạch cầu. - Tế bào tóc ở máu ngoại vi xuất hiện ở 90% các trường hợp với đặc điểm: Tế bào kích thước bằng hoặc gấp 2 lần lympho trưởng thành, nguyên sinh chất bắt màu kiềm nhạt, có các sợi nguyên sinh chất tỏa ra xung quanh gợi hình ảnh “sợi tóc”, nhân có các hạt nhân rõ. - Tăng nồng độ các cytokin đặc biệt là TNF- α. - Xét nghiệm tuỷ xương: + Tuỷ đồ: Thường rất khó hút được dịch tủy"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:133",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9412,
+            "snippet": "1. ĐẠI CƯƠNG Lơ xê mi (LXM) tuỷ cấp là một nhóm bệnh máu ác tính. Đặc trưng của bệnh là sự tăng sinh một loại tế bào non ác tính (tế bào blast) có nguồn gốc dòng tủy tại tuỷ xương. Ở trẻ em, LXM tủy cấp hiếm gặp hơn LXM lympho cấp, chiếm khoảng 18% các LXM ở trẻ em, tỷ lệ gặp cao nhất ở trẻ dưới 1 tuổi. 2. NGUYÊN NHÂN Nguyên nhân gây LXM tủy cấp trẻ em chưa được sáng tỏ. Tuy nhiên, các yếu tố được cho là nguy cơ gây LXM tủy cấp ở trẻ bao gồm: Tia xạ, hóa chất, yếu tố di truyền (hội chứng Down, thiếu máu Fanconi…), cách sống của bố mẹ (nghiện rượu, thuốc lá…). 3. CHẨN ĐOÁN 3.1. Triệu chứng lâm sàng - Hội chứng thiếu máu. - Hội chứng xuất huyết. - Có thể gặp tình trạng đông máu rải rác trong lòng mạch (DIC), đặc biệt rất hay gặp trên người bệnh LXM cấp thể tiền tủy bào. - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da.."
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:186",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9398,
+            "snippet": ". - CMML-1: Blast < 2-4% ở máu ngoại vi và < 5-9% trong tủy xương. - CMML-2: Blast từ 5-19% ở máu ngoại vi và từ 10-19% trong tủy xương. - CMML có tăng bạch cầu ưa acid: Tiêu chuẩn chẩn đoán CMML + bạch cầu ưa acid máu ngoại vi > 1,5G/l; xét nghiệm NST thường thấy có t(5;12). 2.5. Chẩn đoán phân biệt: - Tăng sinh mono nguyên nhân không phải bệnh lý ác tính (lao, bệnh nấm mạn tính, viêm nội tâm mạc…), thường có các triệu chứng biểu hiện bệnh kèm theo. - Phân biệt bệnh tăng sinh tủy ác tính: Xơ tủy tiên phát, lơ xê mi tủy mạn (CML). Bảng 21. Phân biệt CMML, CML, CML không điển hình"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9986,
+          "min": 0.9398,
+          "avg": 0.9628
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 34767,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-008",
+  "date_folder": "23-04-2026",
+  "sequence": 8,
+  "file_name": "session_008.json",
+  "created_at": "2026-04-23T03:36:28.716415",
+  "updated_at": "2026-04-23T03:36:28.716415"
+}

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Các bất thường di truyền nào được xem là tiên lượng xấu trong ALL và đưa bệnh nhi vào nhóm nguy cơ cao?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong nghiên cứu, các bất thường di truyền được xem là tiên lượng xấu trong ALL và đưa bệnh nhi vào nhóm nguy cơ cao khi số lượng bạch cầu tại thời điểm chẩn đoán lớn hơn hoặc bằng 50 G/L.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:221",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9878,
+            "snippet": ". Trong nghiên cứu của tác giả Trần Quỳnh Mai, khi đánh giá đặc điểm lâm sàng giữa nhóm có bất thường NST và nhóm không có bất thường NST, tác giả cũng nhận thấy, không có sự khác biệt giữa các nhóm [75]. Nghiên cứu của tác giả Nguyễn Thị Mai Hương và tác giả Bùi Ngọc Lan trên hai nhóm nguy cơ khác nhau nhưng tỷ lệ xuất hiện các triệu chứng cũng tương đương nhau [13],[72]. Như vậy, nghiên cứu này và một số nghiên cứu trước đó đều nhận thấy, triệu chứng lâm sàng không có sự khác biệt giữa các nhóm biến đổi di truyền. c. Đặc điểm về số lƣợng bạch cầu tại thời điểm chẩn đoán Số lượng bạch cầu tại thời điểm chẩn đoán mang ý nghĩa tiên lượng độc lập trong ALL trẻ em. Theo đó, khi số lượng bạch cầu ≥ 50 G/L thường mang ý nghĩa tiên lượng xấu trong điều trị. Do đó, những bệnh nhi có bạch cầu ≥ 50 G/L được xếp vào nhóm nguy cơ cao, đáp ứng kém với điều trị [1],[34]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:214",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.979,
+            "snippet": "truyền mang tiên lượng xấu (dưới lưỡng bội, BCR-ABL1, sắp xếp lại gen MLL), dấu ấn CD10. Thông qua các đặc điểm đó, nhóm bệnh nhi nghiên cứu được xếp vào các nhóm A (B-ALL nguy cơ chuẩn), nhóm B (B-ALL nguy cơ cao) và nhóm T (T-ALL). Kết quả bảng 3.7 cho thấy, nhóm A chiếm tỷ lệ cao nhất với 140 bệnh nhi, chiếm gần nửa số bệnh nhi nghiên cứu (48,6%), nhóm B chiếm tỷ lệ thấp hơn (36,1%). Nghiên cứu của tác giả Võ Thị Thanh Trúc, bệnh nhi chủ yếu được xếp vào nhóm B do không được làm đầy đủ xét nghiệm về di truyền [73]. b. Chia nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B Biến đổi di truyền có vai trò quan trọng trong tiên lượng điều trị ALL trẻ em, đặc biệt là lơ xê mi cấp dòng lympho B"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9755,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:284",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9708,
+            "snippet": ". + Tỷ lệ phát hiện 4 đột biến dung hợp gen khảo sát là 28,1%, theo thứ tự lần lượt là TEL-AML1 (13,5%), BCR-ABL1 (8,3%), E2A-PBX1 (3,5%), MLL- AF4 (2,8%). - Mối liên quan giữa nhóm nguy cơ theo biến đổi di truyền nhóm B –ALL và xếp loại nhóm nguy cơ theo phác đồ FRALLE 2000: + Nhóm nguy cơ thấp theo biến đổi di truyền có nhiều đặc điểm tiên lượng tốt về tuổi, số lượng bạch cầu; 75% được xếp loại vào nhóm nguy cơ chuẩn của phác đồ FRALLE 2000. + Nhóm nguy cơ cao theo biến đổi di truyền mang nhiều đặc điểm tiên lượng xấu về tuổi và số lượng bạch cầu tại thời điểm chẩn đoán; 97,1% được xếp loại vào nhóm nguy cơ cao của phác đồ FRALLE 2000. 2. Đánh giá kết quả điều trị sớm và liên quan tới một số bất thƣờng di truyền ở trẻ lơ xê mi cấp dòng lympho theo phác đồ FRALLE 2000: – Phác đồ FRALLE 2000 là phác đồ có hiệu quả trên bệnh nhi lơ xê mi cấp dòng lympho trẻ em tại Việt Nam:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:65",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9705,
+            "snippet": ". Ngoài ra, các trường hợp ALL có BCR-ABL1 like thường kèm theo mất đoạn/đột biến gen IZKF1 và có tiên lượng xấu [40]. Như vậy, trong số các đột biến gen thường gặp trong lơ xê mi cấp dòng lympho tế bào B ở trẻ em, 4 đột biến gen TEL-AML1, E2A-PBX1, MLL-AF4, BCR-ABL1 là những đột biến dung hợp gen có giá trị trong chẩn đoán cũng như có ý nghĩa tiên lượng trong điều trị và dự đoán nguy cơ tái phát (tủy xương và thần kinh trung ương). Do đó, 4 đột biến gen này được xét nghiệm thường qui tại thời điểm chẩn đoán và được thực hiện trong nghiên cứu. 1.3.2. Bất thƣờng di truyền trong lơ xê mi cấp dòng lympho T T-ALL chiếm khoảng 10-15% ALL ở trẻ em và thường có tiên lượng xấu hơn so với B-ALL. Các bất thường di truyền được phát hiện ở khoảng 50% các trường hợp T-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9878,
+          "min": 0.9705,
+          "avg": 0.9767
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 30785,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-006",
+  "date_folder": "23-04-2026",
+  "sequence": 6,
+  "file_name": "session_006.json",
+  "created_at": "2026-04-23T03:15:04.649596",
+  "updated_at": "2026-04-23T03:15:04.649596"
+}

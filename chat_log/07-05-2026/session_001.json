@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Theo nghiên cứu về ALL trẻ em, đặc trưng di truyền của ALL dòng T khác biệt gì so với ALL dòng B về các gen tín hiệu và phiên mã?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "ALL tế bào B và T có khác biệt đặc trưng di truyền của gen tín hiệu và phiên mã, nhất là các yếu tố phiên mã (BTLA, CD200 TOX, TBL1XR1, ERG, CTCF, CREBBP) và các đồng yếu tố và điều hoà phiên mã (LYL1, TAL1, MLL, TLX1, TLX3, HOX11, NOTCH1). Trong khi đó, ALL dòng lympho T thường có các đột biến NOTCH1 và cấu trúc lại của các yếu tố phiên mã TLX1 (HOX11), TLX3 (HOX11L2), LYL1, TAL1, và MLL.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:21",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9804,
+            "snippet": "gen tín hiệu dòng lympho (BTLA, CD200 TOX), các đồng yếu tố và điều hoà phiên mã (TBL1XR1, ERG), cũng như các yếu tố điều hoà cấu trúc chromatin và yếu tố di truyền ngoài gen (CTCF, CREBBP). LXM cấp dòng lympho T thì đặc trưng bởi hoạt hoá các đột biến NOTCH1 và cấu trúc lại của các yếu tố phiên mã TLX1 (HOX11), TLX3 (HOX11L2), LYL1, TAL1, và MLL. Giải trình tự hệ gen của nhiều dưới nhóm ALL chỉ ra sự thay đổi của nhiều con đường, bao gồm các thụ thể cytokine và con đường Ras, yếu tố ức chế khối u, điều hoà sinh trưởng phát triển dòng lympho [15],[17]. Nhiều nghiên cứu gần đây còn cho thấy vai trò của gen KIR (Killer cell immunoglobin-like receptors) và các HLA (Human leucocyte antigen) liên kết các gen này trong nguyên nhân gây ALL ở trẻ em. Một nghiên cứu ở Canada cho thấy cơ thể có chứa gen kích hoạt KIR có liên quan đến giảm nguy cơ phát triển ALL tế bào B [18]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:20",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9609,
+            "snippet": ". LXM cấp dòng lympho B hay T là bệnh lý ác tính đơn dòng lympho, phát sinh từ các bất thường di truyền làm ngừng quá trình biệt hoá của dòng lympho, làm cho các tế bào lympho bất thường tăng sinh và tồn tại. So sánh quá trình bệnh và hậu quả của ALL giữa quần thể người lớn và trẻ em càng cho thấy sự khác biệt giữa các nhóm sinh học, qua đó khẳng định vai trò của các biến đổi di truyền trong bệnh sinh ALL ở trẻ em [15], [16],[17]. Tuy nhiên, các biến đổi về di truyền này không đủ gây ra bệnh mà phải có sự tương tác với các yếu tố tác động từ môi trường. Có hơn 50 biến đổi ở các vùng ADN đã được xác định, trong đó chủ yếu là ảnh hưởng tới các gen trong quá trình phát triển bình thường của dòng lympho như: Các gen chi phối các yếu tố điều hoà phiên mã phát triển dòng lympho (PAX5, IKZF1, EBF1, LEF1), yếu tố ức chế khối u (CDKN2A, CDKN2B, RB1, TP53), các 4"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:65",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8977,
+            "snippet": ". Ngoài ra, các trường hợp ALL có BCR-ABL1 like thường kèm theo mất đoạn/đột biến gen IZKF1 và có tiên lượng xấu [40]. Như vậy, trong số các đột biến gen thường gặp trong lơ xê mi cấp dòng lympho tế bào B ở trẻ em, 4 đột biến gen TEL-AML1, E2A-PBX1, MLL-AF4, BCR-ABL1 là những đột biến dung hợp gen có giá trị trong chẩn đoán cũng như có ý nghĩa tiên lượng trong điều trị và dự đoán nguy cơ tái phát (tủy xương và thần kinh trung ương). Do đó, 4 đột biến gen này được xét nghiệm thường qui tại thời điểm chẩn đoán và được thực hiện trong nghiên cứu. 1.3.2. Bất thƣờng di truyền trong lơ xê mi cấp dòng lympho T T-ALL chiếm khoảng 10-15% ALL ở trẻ em và thường có tiên lượng xấu hơn so với B-ALL. Các bất thường di truyền được phát hiện ở khoảng 50% các trường hợp T-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:14",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8753,
+            "snippet": ". Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]. Các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp loại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất sống thêm toàn bộ đã tăng lên đều đặn kể từ những năm đầu của thập niên 1960 đến nay, từ xấp xỉ 10% đã lên đến gần 80% trong các nghiên cứu [7]. Theo nghiên cứu của Hunger P Stephen và cộng sự, xác suất sống thêm 5 năm không bệnh ở trẻ em ALL tại Mỹ từ năm 2006-2009 thậm chí đã đạt được tỷ lệ lên đến trên 90% [1]. Nhiều nghiên cứu trên thế giới đã cho thấy, có những biến đổi di truyền đặc trưng cho dòng tế bào lympho B hay T"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:217",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7848,
+            "snippet": "4.2.2. Một số đặc điểm lâm sàng, xét nghiệm các nhóm lơ xê mi cấp dòng lympho B theo nguy cơ di truyền và lơ xê mi cấp dòng lympho T a. Đặc điểm về tuổi Tuổi bệnh nhi tại thời điểm chẩn đoán có ý nghĩa quan trong trong xếp loại nhóm nguy cơ của phác đồ FRALLE 2000. Theo đó, các bệnh nhi có 1<tuổi<10 được xếp vào nhóm nguy cơ chuẩn. Tìm hiểu đặc điểm liên quan đến tuổi của các nhóm trên biểu đồ 3.4 cho thấy, tỷ lệ bệnh nhi có độ tuổi từ 1-10 đều chiếm tỷ lệ khá cao ở các nhóm theo kết quả nghiên cứu, đặc biệt là nhóm B-ALL nguy cơ thấp và nguy cơ trung bình. Nhóm B- ALL nguy cơ cao theo biến đổi di truyền và nhóm T-ALL có tỷ lệ bệnh nhi ≥ 10 tuổi cao hơn nhóm B-ALL nguy cơ thấp và nguy cơ trung bình. Nghiên cứu chỉ gặp 2 bệnh nhi dưới 1 tuổi có biến đổi di truyền thuộc nhóm nguy cơ thấp và nguy cơ cao. Trong nhóm B-ALL nguy cơ thấp, có 39 bệnh nhi đột biến gen TEL-AML1"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9804,
+          "min": 0.7848,
+          "avg": 0.8998
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 46340,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "07-05-2026-session-001",
+  "date_folder": "07-05-2026",
+  "sequence": 1,
+  "file_name": "session_001.json",
+  "created_at": "2026-05-07T10:14:53.462583",
+  "updated_at": "2026-05-07T10:14:53.462583"
+}

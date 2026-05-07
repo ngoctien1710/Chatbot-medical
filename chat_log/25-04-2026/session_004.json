@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Hội chứng phân giải khối u trong ALL được dự phòng và điều trị bằng biện pháp nào, chỉ định khi nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Hội chứng phân giải khối u trong ALL được dự phòng và điều trị bằng cách sử dụng hóa chất, nếu có biểu hiện tăng số lượng bạch cầu lớn hoặc số lượng bạch cầu ≥ 50.000/mm . Trong trường hợp này, điều trị và dựphòng gồm:\n- Truyền dịch 3.000 mL/m /24 giờ (Glucose 5%: 1/3 Natriclorua 0,9%, hoặc theo điện giải đồ)\n- Allopurinol 10 mg/kg/ngày, 12 giờ/lần, uống; điều trị tăng Kali máu ồ 2 hoặc giảm Can xi máu theo phác đồ.\nNếu có biểu hiện tăng số lượng bạch cầu từ 500 đến < 750 và TC từ 50.000 đến < 75.000, liều nếu giảm 50%. Nếu có biểu hiện tăng số lượng bạch cầu ≥ 2.000/mm và tiểu cầu ≥ 100.000/mm, xạ trị chỉ định khi có các biến chứng cấp tính đe dọa tính mạng như hội chứng trung thất trước hoặc trong phác đồ điều trị lymphoblastic lymphoma giai đoạn tiến triển có biểu hiện thâm nhiễm TKTW.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:25",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9254,
+            "snippet": ". G-CSF (Granulocyte-Colony Stimulating Factor) khi sốt giảm bạch cầu hạt (bạch cầu hạt < 500/mm ). Không dùng trong giai đoạn Tấn công/Cảm ứng. Điều trị và dựphòng hội chứng phân giải khối u khi có u trung thất lớn hoặc số lượng bạch cầu ≥ 50.000/mm : truyền dịch 3.000 mL/m /24 giờ (Glucose 5%: 1/3 Natriclorua 0,9%, hoặc theo điện giải đồ), Allopurinol 10 mg/kg/ngày, 12 giờ/lần, uống; điều trị tăng Kali máu ồ 2 hoặc giảm Can xi máu theo phác đồ."
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:21",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9079,
+            "snippet": ". Giảm 50% liều nếu BCTT từ 500 đến < 750 và TC từ 50.000 đến < 75.000. Giữ nguyên liều và xét nghiệm BCTT và TC hàng tuần nếu BCTT 750 - < 1.000 và TC 75.000 - < 100.000. Tăng liều thêm 25% nếu BCTT ≥ 2.000/mm và tiểu cầu ≥ 100.000/mm Xạ trị Chỉ định điều trị: ALL có thâm nhiễm thầ n9n kinh trung ương (TKTƯ 3) hoặc tinh hoàn ngay khi chẩn đoán hoặc khi tái phát. Chỉ định dựphòng: ALL nguy cơ cao tái phát thần kinh trung ương như ALL dòng T có số 3 lượng bạch cầu > 200.000/mm , ALL dòng tiền B đáp ứng điều trị chậm, TKTƯ – 2 hoặc chọc dò dịch não tủy có máu và có BCN. Liều xạ trị sọ não điều trị cho ALL nhóm nguy cơ không cao hoặc xạ trị dựphòng: tổng liều 1800 cGy, 180 cGy/liều/ngày, 5 ngày/tuần. Liều xạ trị tinh hoàn: tổng liều 2400 cGy cho cả 2 tinh hoàn, 300 cGy/liều/ngày. Nếu tinh hoàn vẫn to sau xạ trị 2400 cGy, thêm 300 cGy/liều x 2 liều"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:42",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.671,
+            "snippet": ". Xếp loại theo nhóm nguy cơ trong ALL trẻ em là xếp loại được áp dụng chủ yếu hiện nay do liên quan trực tiếp đến việc lựa chọn phác đồ điều trị. 1.2.4. Nguyên tắc và các phƣơng pháp điều trị a. Nguyên tắc điều trị: Mục tiêu điều trị LXM cấp nói chung và ALL ở trẻ em là làm lui bệnh tới khỏi bệnh, gồm: - Làm lui các biểu hiện lâm sàng và huyết học; - Duy trì tình trạng lui bệnh bằng hóa trị liệu hệ thống và điều trị dự phòng thâm nhiễm thần kinh trung ương; - Điều trị hỗ trợ: giảm độc tính của hóa chất: chống thiếu máu, xuất huyết, nhiễm trùng; - Điều trị các biến chứng của bệnh và biến chứng do điều trị, chú trọng đến tăng chất lượng cuộc sống của trẻ. b. Các phương pháp điều trị - Điều trị hóa chất Điều trị hóa chất là phương pháp điều trị tiên phong và chủ yếu trong ALL trẻ em. Có nhiều phác đồ điều trị, song tất cả các phác đồ đều bao gồm 4"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:446",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6138,
+            "snippet": ". (xem phần điều trị U lumpho không Hodgkin người lớn). 3.5. Xạ trị Nói chung, xạ trị không được sử dụng rộng rãi. Xạ trị chỉ được chỉ định khi có các biến chứng cấp tính đe dọa tính mạng như hội chứng trung thất trước, hoặc trong phác đồ điều trị lymphoblastic lymphoma giai đoạn tiến triển có biểu hiện thâm nhiễm TKTW. Trong U lympho không Hodgkin dòng tế bào B có biểu hiện TKTW, xạ trị cũng không được sử dụng để điều trị hoặc dự phòng. 3.6. Điều trị bệnh tái phát Bệnh nhân tái phát có tiên lượng xấu, bất kể vị trí tái phát, mô học khối u, các yếu tố tiên lượng ban đầu, phác đồ điều trị trước đó, hoặc thời gian từ lúc chẩn đoán đến khi tái phát. Vì lý do này, việc lựa chọn phác đồ điều trị ban đầu sao cho có hiệu quả nhất là rất quan trọng. Bệnh nhân tái phát được điều trị lại để tạo ra sự lui bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5523,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9254,
+          "min": 0.5523,
+          "avg": 0.7341
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 41560,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "25-04-2026-session-004",
+  "date_folder": "25-04-2026",
+  "sequence": 4,
+  "file_name": "session_004.json",
+  "created_at": "2026-04-25T16:15:06.929858",
+  "updated_at": "2026-04-25T16:15:06.929858"
+}

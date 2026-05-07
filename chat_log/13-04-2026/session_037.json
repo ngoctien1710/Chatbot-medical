@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_rrf",
+  "query": "Bệnh bạch cầu cấp dòng lympho được phân loại dựa trên các dấu ấn miễn dịch như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh bạch cầu cấp dòng lympho được chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. Dấu ấn miễn dịch của NBLP bao gồm CD34, HLA-DR, TdT; và dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_hybrid_rrf",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:37",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0313,
+            "snippet": ". Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. - Một số phác đồ điều trị trên thế giới lấy ngưỡng NBLP để chẩn đoán và điều trị ALL trẻ em là NBLP chiếm trên 25% tế bào có nhân trong tuỷ (Phác đồ BFM-ALL, phác đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em a. Xếp loại theo FAB 1986 Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc điểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:36",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.0302,
+            "snippet": "+ Huyết sắc tố: Thường giảm, mức độ từ nhẹ đến nặng; + Tiểu cầu: Thường giảm hoặc có thể bình thường. - Tủy đồ: Tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…). - Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho (được trình bày ở phần sau). c. Chẩn đoán xác định - Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:3",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.0299,
+            "snippet": "PHÂN LOẠI Theo miễn dịch tế bào: dựa vào dấu ấn miễn dịch + ALL dòng tiền B hay gặp hơn dòng T: CD19, CD20, và CD22 (+) + ALL dòng T: CD3, CD5, CD7 (+) + ALL phối hợp 2 dòng T và B hoặc phối hợp dòng tủy. Theo di truyền tế bào (nhuộm băng G, FISH): bất thường số lượng hoặc cấu trúc nhiễm sắc thể (chuyển đoạn, mất đoạn, đảo đoạn...) Theo nhóm nguy cơ: + Nguy cơ không cao: tuổi từ 1 đến dưới 10 tuổi, số lượng bạch cầu ban đầu trong máu < 50.000/mm , không có bất thường nhiễm sắc thể có tiên lượng xấu như thiểu bội ≤ 44 nhiễm sắc thể, chuyển đoạn t (9;22), t (4;11), t (1;19) + Nguy cơ cao: tuổi dưới 1 và trên 10, hoặc số lượng bạch cầu ban đầu trong máu ≥ 50.000/mm , hoặc có bất thường nhiễm sắc thể có tiên lượng xấu."
+          }
+        ],
+        "retrieval_mode": "hybrid_rrf",
+        "score_summary": {
+          "max": 0.0313,
+          "min": 0.0299,
+          "avg": 0.0305
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5491,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_rrf",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-037",
+  "date_folder": "13-04-2026",
+  "sequence": 37,
+  "file_name": "session_037.json",
+  "created_at": "2026-04-13T02:49:08.456576",
+  "updated_at": "2026-04-13T02:49:08.456576"
+}

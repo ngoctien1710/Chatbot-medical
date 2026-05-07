@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Cần tư vấn cho bệnh nhân 45 tuổi đa u tủy xương mới chẩn đoán, với: đột biến t(11;14), calci huyết thanh 0,35 mmol/l, creatinin 1,1 (bình thường), Hb 75 g/L, có tổn thương xương đa ổ, tế bào dòng plasmo trong tủy xương ở mức 20% . Tiên lượng và điều trị?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân 45 tuổi có triệu chứng đa u tủy xương mới chẩn đoán, với đột biến t(11;14), calci huyết thanh 0,35 mmol/l, creatinin 1,1 (bình thường), Hb 75 g/L, có tổn thương xương đa ổ, tế bào dòng plasmo trong tủy xương ở mức 20%. Tiên lượng và điều trị là:\n\nTiên lượng của u plasmo tại xương là xấu hơn u tại mô mềm, nguy cơ tiến triển thành đa u tủy xương cao hơn và thời gian sống toàn thể ngắn hơn.\n\nĐiều trị cho bệnh nhân này là kết hợp cùng xạ trị hoặc điều trị Lenalidomide tuỳ theo tình trạng bệnh nhân, dựa vào khả năng thực hiện ghép tế bào gốc tự thân và nhóm nguy cơ theo phân loại di truyền cho từng ca bệnh để lựa chọn các phác đồ điều trị cho thích hợp và hiệu quả.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:601",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9897,
+            "snippet": "3.3. Hoá trị - Chỉ định: + Người bệnh không đáp ứng với xạ trị; + Kết hợp cùng xạ trị khi kích thước khối u > 5cm, khối u có độ ác tính cao; + Người bệnh thuộc nhóm nguy cơ cao (xem mục 4). - Có thể điều trị u plasm tại dạ dày ruột với phác đồ kết hợp bortezomib với dexamethasone. 4. TIẾN TRIỂN VÀ TIÊN LƯỢNG - Có 3 dạng tiến triển xấu: Tiến triển thành bệnh đa u tủy xương, tái phát tại chỗ, có tổn thương xương mới dù chưa tiến triển thành đa u tủy xương. - U plasmo tại xương có tiên lượng xấu hơn u tại mô mềm về mọi mặt: Nguy cơ tiến triển thành đa u tủy xương cao hơn, thời gian sống toàn thể ngắn hơn"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:554",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9847,
+            "snippet": "3. ĐIỀU TRỊ 3.1. Điều trị ban đầu cho bệnh nhân mới chẩn đoán - U tương bào đơn độc hoặc u tương bào đơn độc có tổn thương tuỷ xương tối thiểu điều trị: Xạ trị và/hoặc phẫu thuật, theo dõi mỗi 3-6 tháng trong vòng 5 năm. - Người bệnh thuộc nhóm MGUS và SMM: Không có chỉ định điều trị ngay. Nguy cơ thấp theo dõi 3-6 tháng, nguy cơ cao theo dõi mỗi 3 tháng hoặc điều trị Lenalidomide tuỳ theo tình trạng bệnh nhân. - Chỉ định điều trị cho người bệnh Đa u tủy xương có triệu chứng: Calci máu > 2,75 mmol/L, creatinine > 2,0 mg/ml, Hb < 100 g/l, tổn thương xương hoạt động. - Cần dựa vào khả năng thực hiện ghép tế bào gốc tự thân và nhóm nguy cơ theo phân loại di truyền cho từng ca bệnh để lựa chọn các phác đồ điều trị cho thích hợp và hiệu quả (xem bảng 48). Bảng 48. Phác đồ điều trị ban đầu Đa u tủy xương có triệu chứng"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:602",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9846,
+            "snippet": ". - U plasmo tại xương có tiên lượng xấu hơn u tại mô mềm về mọi mặt: Nguy cơ tiến triển thành đa u tủy xương cao hơn, thời gian sống toàn thể ngắn hơn. - Một số yếu tố có ảnh hưởng xấu đến kết quả điều trị cũng như có nguy cơ cao tiến triển thành đa u tủy xương: + Kích thước khối u > 5 cm; + Tổn thương tại gai cột sống; + Liều tia xạ (liều cao trên 45 Gy có thể xuất hiện tổn thương tại chỗ hoặc tổn thương lan toả); + Protein huyết thanh tăng cao, tăng chuỗi nhẹ, tăng Ig đơn dòng dai dẳng (1 năm) sau điều trị. Dựa trên tỷ lệ chuỗi nhẹ và protein đơn dòng, Dengli phân các nhóm nguy cơ (bảng 52). Bảng 52. Phân nhóm nguy cơ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:529",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9769,
+            "snippet": "- Đa u tủy xương IgM: Tăng sinh tế bào plasmo trong tủy xương > 10%; nồng độ IgG, IgA giảm thấp; có tổn thương xương; bất thường nhiễm sắc thể t(11;14), del13q. - Tăng IgM đơn dòng chưa có ý nghĩa về mặt lâm sàng (IgM MGUS): Xuất hiện IgM đơn dòng trong huyết thanh, nhưng thường < 3g/dL; không có biểu hiện xâm lấn tủy xương của tế bào lymphoplasmo và không có triệu chứng liên quan đến tăng IgM. 5. ĐIỀU TRỊ 5.1. Điều trị bệnh chính - Đối với những người bệnh không có triệu chứng lâm sàng: Theo dõi 3 tháng một lần: lâm sàng, xét nghiệm tổng phân tích tế bào máu, protein máu, định lượng IgM, độ nhớt huyết tương. - Chỉ định điều trị hóa chất khi người bệnh có: Hb < 100 g/L, Tiểu cầu < 100 G/L, IgM > 6.000 mg/dL, gan lách hạch to nhiều, tăng độ nhớt huyết tương có triệu chứng, tổn thương thần kinh ngoại vi mức độ vừa đến nặng, amyloidosis, có ngưng kết lạnh"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:541",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9496,
+            "snippet": "1. ĐẠI CƯƠNG Đa u tủy xương (Multiple Myeloma: MM), còn gọi là bệnh Kahler, là một bệnh máu ác tính, đặc trưng bởi sự tăng sinh ác tính tế bào dòng plasmo trong tuỷ xương, xuất hiện protein đơn dòng trong huyết thanh và nước tiểu, tổn thương các cơ quan đích. 2. CHẨN ĐOÁN 2.1. Lâm sàng - Khoảng 70% có thiếu máu lúc chẩn đoán; khoảng 60% biểu hiện đau xương, gãy xương và u xương; có 20% suy thận, trong đó 10% người bệnh mới chẩn đoán suy thận nặng cần thận nhân tạo; ngoài ra gặp khoảng 15 - 20 % có táo bón, buồn nôn; đa niệu, loạn thần, hôn mê, rối loạn nhịp tim do tăng calci máu. Biểu hiện thần kinh: Chèn ép rễ - tuỷ sống; bệnh lý thần kinh ngoại biên; thâm nhiễm thần kinh trung ương. Biến chứng nặng là khối u chèn ép tủy sống (chiếm khoảng 10%), chẩn đoán dựa vào chụp cộng hưởng từ. - Nhiễm trùng tái diễn, là nguyên nhân chính gây tử vong"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9897,
+          "min": 0.9496,
+          "avg": 0.9771
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 42434,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-023",
+  "date_folder": "23-04-2026",
+  "sequence": 23,
+  "file_name": "session_023.json",
+  "created_at": "2026-04-23T13:43:14.133339",
+  "updated_at": "2026-04-23T13:43:14.133339"
+}

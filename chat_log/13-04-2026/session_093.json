@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "xếp loại ALL theo FAB (French-American-British) được chia thành các thể như nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "ALL (Acute Lymphoblastic Leukemia) theo FAB được chia thành ba loại:\n1. L1: Tế bào có kích thước nhỏ, đồng đều.\n2. L2: Các tế bào có kích thước lớn; to nhỏ không đồng đều.\n3. L3: Các tế bào có kích thước lớn, nhiều hốc trong nguyên sinh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:35",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9891,
+            "snippet": ". Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. - Một số phác đồ điều trị trên thế giới lấy ngưỡng NBLP để chẩn đoán và điều trị ALL trẻ em là NBLP chiếm trên 25% tế bào có nhân trong tuỷ (Phác đồ BFM-ALL, phác đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em a. Xếp loại theo FAB 1986 Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc điểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:11",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6214,
+            "snippet": "Thể bệnh theo FAB Đặc điểm hình thái tế bào - ALL thể L1 Các tế bào có kích thước nhỏ, đồng đều - ALL thể L2 Các tế bào có kích thước lớn; to nhỏ không đồng đều - ALL thể L3 Các tế bào có kích thước lớn, nhiều hốc trong nguyên sinh chất b. Xếp loại LXM lympho cấp theo WHO 2016 Đặc điểm dấu ấn miễn dịch theo dòng lympho B và T Bảng 20. Xếp loại LXM lympho cấp (Acute lymphoblastic leukemia-ALL) theo đặc trưng dấu ấn miễn dịch Thể bệnh Đặc điểm dấu ấn miễn dịch Dòng lympho B ALL tế bào B sớm (pro-B) CD 19 (+), CD79a (+), CD22 (+), TdT (+), CD10 (-), sIg (-) ALL tế bào tiền B (pre-B) CD 19 (+), CD79a (+), CD22 (+), cIg (+), CD10 (+) [CD10 còn gọi là kháng nguyên B phổ biến (Common B ALL antigen - CALLA)] ALL tế bào B trưởng thành (mature B/Burkitt) TdT (-), sIg (+) ALL tế bào T sớm (pro-T) cCD3 (+), CD7 (+), TdT (+) ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 164"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:40",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4215,
+            "snippet": "Bảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)\n\nT sớm CD2-, CD7+, CD4-, CD8- T trung gian Tiền T CD2+, CD7+, CD4-, CD8- T ở tuyến ức CD7+, CD2+, CD5+, CD4+, CD8+, CD1a+ T trưởng thành CD3+, CD2+, CD7+, CD4+ hoặc CD8+, TdT/CD34/CD1a-\n\nGhi chú: - :< 10%, +/- : 10-25%, + : 25-75%, ++ : > 75% quần thể tế bào non ác tính dương tính.\n\nd. Xếp loại theo nhóm nguy cơ Xếp loại theo nhóm nguy cơ tái phát lần đầu tiên được đưa ra tại Roma (1986) dựa vào tiêu chuẩn lâm sàng cơ bản là tuổi và số lượng bạch cầu tại thời điểm chẩn đoán. Tiêu chuẩn này đã được xem xét lại tại hội thảo của Viện Ung thư Quốc gia Hoa Kỳ - National Cancer Institute, NCI (1996). Tùy theo các nhóm nghiên cứu khác nhau mà ALL được chia ra 2 nhóm nguy cơ 13"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9891,
+          "min": 0.4215,
+          "avg": 0.6773
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 30134,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-093",
+  "date_folder": "13-04-2026",
+  "sequence": 93,
+  "file_name": "session_093.json",
+  "created_at": "2026-04-13T14:09:14.286457",
+  "updated_at": "2026-04-13T14:09:14.286457"
+}

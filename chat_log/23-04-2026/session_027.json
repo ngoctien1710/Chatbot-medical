@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Kỹ thuật flow cytometry có vai trò gì trong chẩn đoán và theo dõi ALL?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Flow cytometry có vai trò quan trọng trong chẩn đoán và theo dõi ALL (Lơ xê mi cấp dòng lympho) bởi việc nó giúp xác định các tế bào dương tính mạnh với các marker như CD45, CD19, CD20, CD22, CD11c, CD25, CD103, CD123; âm tính với CD5 và CD23. Đây là xét nghiệm quan trọng giúp chẩn đoán cũng như theo dõi tồn dư tối thiểu của bệnh sau điều trị.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7089,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:491",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6734,
+            "snippet": "- Hoá học tế bào và hóa mô miễn dịch: Hầu hết các tế bào dương tính với acid phosphate kháng tartrate (Tartrate-resistant acid photphate - TRAP), CD20, DBA.44; dương tính đồng thời 2 marker TRAP và DBA.44 có độ đặc hiệu cao trong chẩn đoán. - Sử dụng kỹ thuật đếm tế bào dòng chảy (Flow Cytometry): Cho thấy tế bào tóc dương tính mạnh với các marker: CD45, CD19, CD20, CD22, CD11c, CD25, CD103, CD123; âm tính với CD5 và CD23. Đây là xét nghiệm quan trọng giúp chẩn đoán cũng như theo dõi tồn dư tối thiểu của bệnh sau điều trị. - Bất thường nhiễm sắc thể (NST): Gặp khoảng 2/3 người bệnh, thường là các NST 1, 2, 5, 6, 11, 14, 19 và 20. Trong đó, bất thường nhiễm sắc thể số 5 gặp ở 40% trường hợp, thường là trisomy 5 hoặc mất đoạn gen trong vùng 5q13"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.503,
+            "snippet": "ĐIỀU TRỊ Hóa trị liệu toàn thân Bạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời lần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao . TX: tình trạng của tủy xương. TX1: BCN ≤ 5% tế bào tủy; TX2: 5 - ≤ 25%; TX3: > 25%. Xét nghiệm tủy đồ ngày thứ 7, 14 và 28 của giai đoạn điều trị cảm ứng để đánh giá đáp ứng điều trị. Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.7089,
+          "min": 0.503,
+          "avg": 0.6284
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35723,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-027",
+  "date_folder": "23-04-2026",
+  "sequence": 27,
+  "file_name": "session_027.json",
+  "created_at": "2026-04-23T13:59:58.828634",
+  "updated_at": "2026-04-23T13:59:58.828634"
+}

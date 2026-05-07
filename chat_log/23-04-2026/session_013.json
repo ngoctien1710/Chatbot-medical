@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Cách xếp loại lơ xê mi tủy cấp theo FAB kết hợp với dấu ấn miễn dịch?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Lơ xê mi tủy cấp được xếp loại theo FAB kết hợp với dấu ấn miễn dịch bằng cách sử dụng bảng 18 trong ngữ cảnh. Nó chia thành 8 thể từ M0 đến M7, mỗi thể có các đặc điểm khác nhau.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:5",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.994,
+            "snippet": ". Xếp loại lơ xê mi tủy cấp (Bạch cầu cấp dòng tủy) - Xếp loại lơ xê mi tủy cấp theo FAB 1986 có bổ sung. - Kết hợp miễn dịch chia thành 8 thể, từ M0 đến M7 (bảng 18). Bảng 18. Xếp loại LXM tủy cấp theo FAB kết hợp dấu ấn miễn dịch"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:4",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9306,
+            "snippet": ". h. Xét nghiệm dịch não tủy: Để phát hiện thâm nhiễm thần kinh trung ương (đặc biệt trong LXM lympho cấp). i. Điện tâm đồ và siêu âm tim: Đánh giá chức năng tâm thu thất trái (đặc biệt với với các bệnh nhân có tiền sử bệnh tim mạch hoặc sẽ điều trị bằng nhóm thuốc anthracycline hoặc tia xạ vùng ngực). j. Xét nghiệm HLA: Cho bệnh nhân để tìm nguồn tế bào gốc phù hợp cho ghép tế bào gốc đồng loài. 2.3. Tiêu chuẩn chẩn đoán 2.3.1. Chẩn đoán xác định - Dựa vào triệu chứng lâm sàng điển hình của bệnh. - Xét nghiệm tuỷ đồ thấy tế bào blast  20% tế bào có nhân trong tuỷ. 2.3.2. Chẩn đoán thể bệnh và xếp loại lơ xê mi cấp Chẩn đoán thể bệnh lơ xê mi cấp dựa vào các bảng xếp loại của WHO và FAB. 2.3.2.1. Xếp loại lơ xê mi tủy cấp (Bạch cầu cấp dòng tủy) - Xếp loại lơ xê mi tủy cấp theo FAB 1986 có bổ sung. - Kết hợp miễn dịch chia thành 8 thể, từ M0 đến M7 (bảng 18). Bảng 18"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:35",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9298,
+            "snippet": ". Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. - Một số phác đồ điều trị trên thế giới lấy ngưỡng NBLP để chẩn đoán và điều trị ALL trẻ em là NBLP chiếm trên 25% tế bào có nhân trong tuỷ (Phác đồ BFM-ALL, phác đồ CCG, POG…) [13]. 1.2.3. Xếp loại lơ xê mi cấp dòng lympho ở trẻ em a. Xếp loại theo FAB 1986 Xếp loại ALL theo FAB (French-America-British) chủ yếu dựa trên đặc điểm hình thái học nguyên bào lympho và được chia thành ba thể như sau [35]:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:7",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.821,
+            "snippet": "Thể bệnh Đặc điểm hình thái, hoá học tế bào Dấu ấn miễn dịch M2 Tế bào non đầu dòng tủy < 90% các tế bào có nhân không thuộc dòng hồng cầu, nhiều thể Auer HLA-DR, CD13, CD33, CD15, CD11± M3 Lơ xê mi tiền tủy bào cấp Dưới nhóm: M3v CD33, CD13, CD15, CD11 M4 Lơ xê mi tủy-mono cấp Dưới nhóm: M4eo HLA-DR, CD34±, CD33, CD15±, CD14, CD64, CD11 M5 Lơ xê mi mono cấp HLA-DR, CD34±, CD33, CD15±, CD14, CD64, CD11 M6 > 80% là các tiền thân hồng cầu ≥ 30% là các nguyên tiền hồng cầu tỷ lệ blast dòng tủy < 20% Glycophorin A M7 ≥ 50% blast thuộc dòng mẫu tiểu cầu HLA-DR, CD61, CD42, CD34±, CD33±"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:39",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.7962,
+            "snippet": "c. Xếp loại theo dấu ấn miễn dịch Xếp loại ALL trẻ em theo kiểu hình miễn dịch có ý nghĩa rất quan trọng trong điều trị và tiên lượng. Các tiêu chuẩn xếp loại ALL theo kiểu hình miễn dịch và xếp loại dưới nhóm ALL tế bào B hay T được xác định bằng hệ thống cho điểm của nhóm EGIL (Châu Âu) [37],[38].\n\nBảng 1.3. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho B Dòng B (CD19++, và/hoặc CD79a++, và/hoặc CD22+) B sớm HLA-DR+; TdT+; CD19++; CD10-, CyIg- B chung HLA-DR+; TdT+; CD19++; CD10++ Tiền B HLA-DR+; TdT+; CD19++; CD10++; CD20+; cyIgM++ B trưởng thành HLA-DR+; CD19++; CD10+/-; CD20++; sIgM++. CD34 và TdT thường âm tính.\n\nBảng 1.4. Xếp loại miễn dịch dƣới nhóm lơ xê mi cấp dòng lympho T Dòng T (CyCD3+ và/ hoặc CD3+)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.994,
+          "min": 0.7962,
+          "avg": 0.8943
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 33760,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-013",
+  "date_folder": "23-04-2026",
+  "sequence": 13,
+  "file_name": "session_013.json",
+  "created_at": "2026-04-23T13:08:57.421730",
+  "updated_at": "2026-04-23T13:08:57.421730"
+}

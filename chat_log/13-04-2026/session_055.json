@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Người lớn bị mắc bệnh lơ xê mi lympho cấp được chia thành những nhóm điều trị nào dựa trên các tiêu chí lâm sàng, miễn dịch tế bào di truyền",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Theophylline-sensitive and corticoid-sensitive Lymphoblastic Lymphoma (LXM) in adolescent and young adult (AYA) patients aged 15-39, as well as in adults aged 40-64 with or without NST Ph, can be treated according to the NCCN guidelines. These guidelines divide the treatment into several groups based on diagnostic criteria such as lymphoblastic lymphoma sensitivity to corticoids and other factors. The treatment regimen typically includes induction (attack) therapy, consolidation, maintenance, and central nervous system prophylaxis, along with certain drugs like GRAALL 2005 or Hyper-CVAD combined with L-asparaginase.\n\nFor patients aged 10 and above who have a high-risk LXM de novo and meet at least one of the following criteria: central nervous system involvement, high white blood cell count (>50G/L), t(9;22), t(4;11) or low NST (<44), BCR-ABL or MLL-AF4 positive, or CD10 (+) with weak expression and detectable minimal residual disease (MRD) (≥ 10-2) on day 35-42, the treatment groups are divided based on corticoid sensitivity on days 8 and 21. Patients who are sensitive to corticoids on both days will be in group B1, while those who are only sensitive to corticoids on day 21 or resistant on day 8 will be in group B2.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:27",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9994,
+            "snippet": ". Trong các đợt sau làm điện tim trước mỗi đợt điều trị. 3.3. Điều trị Lơ xê mi lympho cấp ở người lớn 3.3.1. Nguyên tắc điều trị - Dựa trên các tiêu chí: Lâm sàng, miễn dịch, tế bào di truyền, NCCN guideline chia thành các nhóm điều trị sau: + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64; + LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64. - Liệu trình điều trị gồm: Tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:61",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9765,
+            "snippet": ". - Xếp nhóm B1 và B2 vào ngày 21 của điều trị tấn công dựa vào sự nhạy cảm với corticoid vào ngày 8 và nhạy cảm hóa trị vào ngày 21. Nhóm B1 (Tất cả các tiêu chuẩn sau) Nhóm B2 (Chỉ có từ 1 trong các tiêu chuẩn) - Không có thể thiểu bội < 44, hoặc t(4;11) hoặc t(9 ;22) - Không có gen MLL-AF4 hay BCR-ABL - Nhạy cảm corticoid ngày 8 - Nhạy cảm hóa trị ngày 21 - Có thể thiểu bội < 44, hoặc t(4;11) hoặc t(9 ;22) - Có gen MLL-AF4 hay BCR-ABL - Kháng corticoid ngày 8 - Kháng hóa trị ngày 21 - MRD (+) (≥ 10-2) vào ngày 35-42 c. Nhóm T: Lơ xê mi lympho T cấp. Chia nhóm T1 và T2 dựa vào tiêu chuẩn:"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:60",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9614,
+            "snippet": "+ Blast < 5% (týp M1): Nhóm A1; + Blast 6-25% (týp M2): Nhóm A2; + Blast > 25% (týp M3): Nhóm A3. - Người bệnh có MRD (+) (≥ 10-2) vào ngày 35-42 sẽ được chuyển sang nhóm A3 bất kể lúc đầu thuộc nhóm nào. b. Nhóm B: Nguy cơ cao (high risk) - Lơ xê mi lympho B cấp de novo và có từ một trong những tiêu chuẩn sau: + Tuổi > 10; + Có thâm nhiễm hệ thần kinh trung ương; + Bạch cầu > 50G/L; + Có t(9;22), t(4;11) hoặc bộ NST < 44; + BCR-ABL hay MLL-AF4 dương tính; + Hiện diện sự tái sắp xếp gen MLL phát hiện bằng kỹ thuật Southern blot hay FISH cho trường hợp CD10 (+) yếu. - Xếp nhóm B1 và B2 vào ngày 21 của điều trị tấn công dựa vào sự nhạy cảm với corticoid vào ngày 8 và nhạy cảm hóa trị vào ngày 21"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9994,
+          "min": 0.9614,
+          "avg": 0.9791
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 39894,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-055",
+  "date_folder": "13-04-2026",
+  "sequence": 55,
+  "file_name": "session_055.json",
+  "created_at": "2026-04-13T09:14:56.150053",
+  "updated_at": "2026-04-13T09:14:56.150053"
+}

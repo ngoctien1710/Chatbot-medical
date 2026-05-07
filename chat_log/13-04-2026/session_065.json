@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Trẻ em bị lơ xê mi cấp dòng lympho gặp những bất thường gì trên lưỡng bội nhiễm sắc thể (> 46 NST)",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trẻ em bị lơ xê mi cấp dòng lympho có thể gặp những bất thường trên lưỡng bội nhiễm sắc thể (> 46 NST) như giảm bội (hypodiploid) < 46NST, 46 NST với cấu trúc bất thường (pseudodiploid), trên lưỡng bội 47-50 NST (hyperdiploid), hoặc > 50 NST (hyper-hyperdiploid). Các chuyển đoạn gen của lơ xê mi lympho B cấp liên quan đến gen MYC trên NST 8q24.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:55",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 21.4628,
+            "snippet": "- Tủy đồ: Tỷ lệ tế bào non ác tính trong tủy ≥ 20%. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34 (+), HLA-DR (+), TdT (+); + Dòng lympho B (85%):  Pro B-ALL: HLA-DR+, TdT+, CD19+ (5%);  Common ALL: HLA-DR+, TdT+, CD19+, CD10+ (65%);  Pre B-ALL: HLA-DR+, TdT+, CD19+, CD10±, cytoplasmic IgM+ (15%). + Dòng Lympho T (15%):  Pre T-ALL: TdT+, Cytoplasmic CD3+, CD7+ (2%);  T cell-ALL: TdT+, Cytoplasmic CD3+, CD1a/2/3+, CD5+ (13%). - Di truyền tế bào và sinh học phân tử: + Bất thường về NST:  Giảm bội (hypodiploid) < 46NST;  46 NST với cấu trúc bất thường (pseudodiploid);  Trên lưỡng bội 47-50 NST (hyperdiploid);  > 50 NST (hyper-hyperdiploid). + Các đột biến gen:  Gen kết hợp TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:56",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 18.3704,
+            "snippet": ". + Các đột biến gen:  Gen kết hợp TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22). t(12;21), 22% của Pre-B ALL;  Gen kết hợp BCR-ABL tạo bởi chuyển đoạn t(9;22) (q34q11). t(9;22), 3% ALL trẻ em;  Tái sắp xếp gen MLL tại vị trí 11q23 ảnh hưởng 80% của trẻ nhũ nhi, 3% của ALL trẻ lớn;  Các chuyển đoạn gen của lơ xê mi lympho B cấp liên quan gen MYC trên NST 8q24. 80% B-ALL có t(8;14) (q24;q32);  > 50% trường hợp Lơ xê mi lympho T cấp có đột biến hoạt động liên quan đến gen NOTCH1. 2.3. Chẩn đoán xác định Chẩn đoán Lơ xê mi lympho cấp dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, phân loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. 3. ĐIỀU TRỊ Các phác đồ điều trị được căn cứ vào các nhóm nguy cơ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:133",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 16.8354,
+            "snippet": "1. ĐẠI CƯƠNG Lơ xê mi (LXM) tuỷ cấp là một nhóm bệnh máu ác tính. Đặc trưng của bệnh là sự tăng sinh một loại tế bào non ác tính (tế bào blast) có nguồn gốc dòng tủy tại tuỷ xương. Ở trẻ em, LXM tủy cấp hiếm gặp hơn LXM lympho cấp, chiếm khoảng 18% các LXM ở trẻ em, tỷ lệ gặp cao nhất ở trẻ dưới 1 tuổi. 2. NGUYÊN NHÂN Nguyên nhân gây LXM tủy cấp trẻ em chưa được sáng tỏ. Tuy nhiên, các yếu tố được cho là nguy cơ gây LXM tủy cấp ở trẻ bao gồm: Tia xạ, hóa chất, yếu tố di truyền (hội chứng Down, thiếu máu Fanconi…), cách sống của bố mẹ (nghiện rượu, thuốc lá…). 3. CHẨN ĐOÁN 3.1. Triệu chứng lâm sàng - Hội chứng thiếu máu. - Hội chứng xuất huyết. - Có thể gặp tình trạng đông máu rải rác trong lòng mạch (DIC), đặc biệt rất hay gặp trên người bệnh LXM cấp thể tiền tủy bào. - Hội chứng nhiễm trùng: Sốt, viêm loét miệng họng, viêm phổi, nhiễm trùng da.."
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 21.4628,
+          "min": 16.8354,
+          "avg": 18.8895
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5645,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-065",
+  "date_folder": "13-04-2026",
+  "sequence": 65,
+  "file_name": "session_065.json",
+  "created_at": "2026-04-13T09:57:44.291136",
+  "updated_at": "2026-04-13T09:57:44.291136"
+}

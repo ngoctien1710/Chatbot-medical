@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Trẻ em bị lơ xê mi cấp dòng lympho gặp những bất thường gì trên lưỡng bội nhiễm sắc thể (> 46 NST)",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trẻ em bị lơ xê mi cấp dòng lympho gặp những bất thường gì trên lưỡng bội nhiễm sắc thể (> 46 NST) không có bất kỳ bất thường nào riêng biệt so với các trẻ em không bị lơ xê mi. Tuy nhiên, nếu trẻ em đã được chẩn đoán có lơ xê mi lympho cấp, họ sẽ được điều trị theo phác đồ FRALLE 2000.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:52",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6582,
+            "snippet": "1. ĐẠI CƯƠNG Lơ xê mi lympho cấp (bệnh bạch cầu cấp dòng lympho) là bệnh lý tăng sinh ác tính các tế bào dòng lympho của hệ thống tạo máu. Bệnh chiếm tỉ lệ khoảng 75% bệnh máu ác tính và khoảng 25-30% ung thư ở trẻ em. Tần suất bệnh khoảng 3-4 trường hợp/ 100.000 em bé da trắng và khoảng 2.500-3.000 trường hợp phát hiện mới/ năm tại Hoa Kỳ. Bệnh thường gặp ở nhóm từ 2-5 tuổi. Hầu hết các trường hợp không do di truyền mà do thay đổi di truyền somatic. Cho đến nay, với sự tiến bộ của khoa học trong việc chẩn đoán sớm, xếp loại nguy cơ theo đặc điểm tế bào - sinh học phân tử và hóa trị liệu, chăm sóc hồi sức huyết học đã giúp cho bệnh lơ xê mi lympho cấp có khả năng được chữa khỏi. 2. CHẨN ĐOÁN BỆNH 2.1"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:56",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.614,
+            "snippet": ". + Các đột biến gen:  Gen kết hợp TEL-AML1 tạo bởi chuyển đoạn t(12;21) (p13q22). t(12;21), 22% của Pre-B ALL;  Gen kết hợp BCR-ABL tạo bởi chuyển đoạn t(9;22) (q34q11). t(9;22), 3% ALL trẻ em;  Tái sắp xếp gen MLL tại vị trí 11q23 ảnh hưởng 80% của trẻ nhũ nhi, 3% của ALL trẻ lớn;  Các chuyển đoạn gen của lơ xê mi lympho B cấp liên quan gen MYC trên NST 8q24. 80% B-ALL có t(8;14) (q24;q32);  > 50% trường hợp Lơ xê mi lympho T cấp có đột biến hoạt động liên quan đến gen NOTCH1. 2.3. Chẩn đoán xác định Chẩn đoán Lơ xê mi lympho cấp dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, phân loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho. 3. ĐIỀU TRỊ Các phác đồ điều trị được căn cứ vào các nhóm nguy cơ"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:58",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5523,
+            "snippet": "vincristine, methotrexate, anthracycline, cytarabine, L-asparaginase, cyclophosphamide, mercaptopurine,…, kết hợp tiêm tuỷ sống và xạ trị. Phác đồ thường được sử dụng hiện nay là phác đồ FRALLE 2000. Dưới đây là phác đồ điều trị lơ xê mi lympho cấp trẻ em mới chẩn đoán theo FRALLE 2000: 3.1.1. Phân nhóm nguy cơ tổng quát\n\nsau: Sơ đồ 4. Phân nhóm nguy cơ tổng quát ở bệnh nhân lơ xê mi lympho cấp trẻ em Ghi chú: Các nhóm cụ thể căn cứ vào kết quả điều trị tấn công a. Nhóm A: Nguy cơ chuẩn (Standard risk) - Lơ xê mi lympho B cấp, 1-10 tuổi số lượng bạch cầu ≤ 50G/L và có đủ các yếu tố"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.6582,
+          "min": 0.5523,
+          "avg": 0.6082
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5181,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-064",
+  "date_folder": "13-04-2026",
+  "sequence": 64,
+  "file_name": "session_064.json",
+  "created_at": "2026-04-13T09:56:17.762025",
+  "updated_at": "2026-04-13T09:56:17.762025"
+}

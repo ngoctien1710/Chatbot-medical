@@ -1,9 +1,62 @@
 from __future__ import annotations
 
+import logging
 import random
 import time
 from dataclasses import dataclass
 from typing import Any, Callable
+
+logger = logging.getLogger(__name__)
+
+# Backoff constants for provider retry logic
+_BACKOFF_MAX_SECONDS = 8
+_BACKOFF_JITTER = 0.5
+
+# Prompt templates (module-level so they can be read/overridden without touching __init__)
+SYSTEM_PROMPT = (
+            "Bạn là một chuyên gia y khoa.\n"
+            "Vai trò chính của bạn là hỗ trợ giải đáp các câu hỏi y tế một cách chính xác dựa trên tài liệu được cung cấp.\n"
+            "Bạn sẽ được cung cấp các thông tin ngữ cảnh (context) liên quan.\n"
+            "Nhiệm vụ của bạn là phân tích các dữ liệu này và đưa ra câu trả lời phù hợp nhất.\n"
+            "\n"
+            "*1. Nhiệm vụ cốt lõi*:\n"
+            "- Trả lời trực tiếp câu hỏi của người dùng ngay ở câu đầu tiên.\n"
+            "- Luôn đối chiếu thông tin trong ngữ cảnh và tuyệt đối không bịa đặt thêm các chi tiết nằm ngoài ngữ cảnh.\n"
+            "- Nếu ngữ cảnh yếu hoặc thiếu thông tin, hãy nêu rõ mức độ chưa chắc chắn thay vì khẳng định tuyệt đối.\n"
+            "\n"
+            "*2. Định dạng trả lời (Format)*:\n"
+            "- Trình bày câu trả lời một cách rõ ràng, mạch lạc và tự nhiên.\n"
+            "- Mở đầu bằng một câu trả lời trực diện, sau đó mới mở rộng bằng các ý chính dưới dạng gạch đầu dòng.\n"
+            "\n"
+            "---\n"
+            "\n"
+            "*Lưu ý quan trọng*:\n"
+            "- Bạn *không* được mở đầu bằng các cụm từ tham chiếu như: \"bạn đang xem tài liệu\", \"theo tài liệu\", \"dựa trên tài liệu\".\n"
+            "- Bạn *không* được giải thích về nguồn tài liệu ở phần mở đầu của câu trả lời."
+        )
+HUMAN_PROMPT_TEMPLATE = (
+            "\n"
+            "Tôi đã chuẩn bị câu hỏi và thông tin ngữ cảnh như sau:\n"
+            "\n"
+            "1. *CÂU HỎI NGƯỜI DÙNG*:\n"
+            "{query}\n"
+            "\n"
+            "2. *CONTEXT (Ngữ cảnh)*:\n"
+            "{context_block}\n"
+            "\n"
+            "---\n"
+            "\n"
+            "*Nhiệm vụ của bạn*:\n"
+            "\n"
+            "Sau khi xem xét kỹ thông tin trong phần ngữ cảnh, hãy đưa ra câu TRẢ LỜI BẰNG TIẾNG VIỆT.\n"
+            "(Lưu ý: Câu đầu tiên của bạn phải trả lời trực diện vào câu hỏi của người dùng).\n"
+        )
+
+# Shown to the user when all providers fail and no exception propagates
+_FALLBACK_ERROR_MESSAGE = (
+    'Hệ thống LLM tạm thời chưa sẵn sàng. '
+    'Vui lòng kiểm tra Python RAG service và Ollama.'
+)
 
 from langchain_community.vectorstores import Chroma
 from langchain_core.documents import Document
@@ -88,35 +141,10 @@ class RagService:
             'gemini': 0.0,
         }
 
-        self._system_prompt = (
-            'Bạn là một chuyên gia y khoa tận tâm, chính xác và chuyên nghiệp.\n\n'
-            'MỤC TIÊU:\n'
-            '1) Trả lời trực diện: Câu đầu tiên phải trả lời thẳng vào câu hỏi của người dùng.\n'
-            '2) Bao phủ thông tin liên quan: Sau câu mở đầu, tổng hợp ĐẦY ĐỦ các thông tin LIÊN QUAN TRỰC TIẾP từ Context.\n'
-            '3) Trung thực dữ liệu: Chỉ dùng dữ kiện có trong Context, không suy diễn hoặc bịa thêm.\n'
-            '4) An toàn y khoa: Không khẳng định chẩn đoán tuyệt đối khi Context chưa đủ; nêu rõ giới hạn dữ liệu khi cần.\n\n'
-            'QUY TẮC TỔNG HỢP CONTEXT:\n'
-            '- Ưu tiên thông tin liên quan trực tiếp câu hỏi; bỏ qua chi tiết không liên quan.\n'
-            '- Gộp các ý trùng lặp, tránh lặp lại cùng một thông tin.\n'
-            '- Nếu có thông tin mâu thuẫn giữa các đoạn context, nêu rõ mâu thuẫn và trả lời theo hướng thận trọng.\n\n'
-            '- Không dùng các cụm như: "Theo tài liệu", "Dựa vào context được cung cấp", "Trong văn bản có nói".\n'
-        )
-
-        self._human_prompt = (
-            'Hãy đọc kỹ toàn bộ context trước khi trả lời.\n\n'
-            '=== CONTEXT ===\n'
-            '{context_block}\n'
-            '===============\n\n'
-            'CÂU HỎI CỦA NGƯỜI DÙNG: {query}\n\n'
-            'YÊU CẦU THỰC HIỆN:\n'
-            '- Trả lời đúng trọng tâm câu hỏi.\n'
-            '- Bao phủ đủ ý liên quan trong context, không bỏ sót ý quan trọng.\n'
-            'TRẢ LỜI:'
-        )
         self._prompt = ChatPromptTemplate.from_messages(
             [
-                ('system', self._system_prompt),
-                ('human', self._human_prompt),
+                ('system', SYSTEM_PROMPT),
+                ('human', HUMAN_PROMPT_TEMPLATE),
             ]
         )
         self._output_parser = StrOutputParser()
@@ -148,7 +176,7 @@ class RagService:
                 if existing_chunks:
                     self._sparse_retriever.build_index(existing_chunks)
         except Exception as exc:
-            print(f'[RagService] Could not preload BM25 index: {exc}')
+            logger.warning('Could not preload BM25 index: %s', exc)
 
     def _resolve_mode(self, mode: str | None = None) -> str:
         selected = (mode or settings.retrieval_mode).strip().lower()
@@ -280,10 +308,11 @@ class RagService:
                     ) from exc
 
                 retry_count += 1
-                wait_seconds = retry_after_seconds
-                if wait_seconds is None:
-                    wait_seconds = int(min(8.0, (2 ** attempt) + random.uniform(0.0, 0.5)))
-                time.sleep(max(1, wait_seconds))
+                if retry_after_seconds is not None:
+                    wait_seconds: float = float(retry_after_seconds)
+                else:
+                    wait_seconds = min(_BACKOFF_MAX_SECONDS, 2 ** attempt) + random.uniform(0.0, _BACKOFF_JITTER)
+                time.sleep(max(1.0, wait_seconds))
 
         raise ProviderInvocationError(
             f'{provider_alias} provider invocation failed unexpectedly.',
@@ -321,7 +350,7 @@ class RagService:
         }
 
     def _invoke_openai(self, query: str, context_block: str) -> tuple[str, dict[str, Any]]:
-        if not settings.openai_api_key or not settings.openai_chat_model:
+        if settings.openai_api_key is None or settings.openai_chat_model is None:
             raise RuntimeError('OpenAI provider is not configured. Missing OPENAI_API_KEY or OPENAI_CHAT_MODEL.')
 
         try:
@@ -338,10 +367,10 @@ class RagService:
         response = self._openai_client.chat.completions.create(
             model=settings.openai_chat_model,
             messages=[
-                {'role': 'system', 'content': self._system_prompt},
+                {'role': 'system', 'content': SYSTEM_PROMPT},
                 {
                     'role': 'user',
-                    'content': self._human_prompt.format(
+                    'content': HUMAN_PROMPT_TEMPLATE.format(
                         query=query,
                         context_block=context_block,
                     ),
@@ -365,7 +394,7 @@ class RagService:
         }
 
     def _invoke_gemini(self, query: str, context_block: str) -> tuple[str, dict[str, Any]]:
-        if not settings.gemini_api_key or not settings.gemini_chat_model:
+        if settings.gemini_api_key is None or settings.gemini_chat_model is None:
             raise RuntimeError('Gemini provider is not configured. Missing GEMINI_API_KEY or GEMINI_CHAT_MODEL.')
 
         try:
@@ -378,8 +407,8 @@ class RagService:
             self._gemini_client = genai.GenerativeModel(settings.gemini_chat_model)
 
         prompt = (
-            f'{self._system_prompt}\n\n'
-            f"{self._human_prompt.format(query=query, context_block=context_block)}"
+            f'{SYSTEM_PROMPT}\n\n'
+            f"{HUMAN_PROMPT_TEMPLATE.format(query=query, context_block=context_block)}"
         )
         response = self._gemini_client.generate_content(
             prompt,
@@ -398,6 +427,30 @@ class RagService:
             'quota_remaining': None,
             'tokens_total': int(tokens_total) if isinstance(tokens_total, int) else None,
         }
+
+    def _fallback_to_mistral(
+        self,
+        query: str,
+        context_block: str,
+        reason: str,
+        exc: ProviderInvocationError | None = None,
+    ) -> ProviderCallResult:
+        """Invoke Mistral as a fallback and carry over error metadata from the original attempt."""
+        text, metadata = self._invoke_mistral(query, context_block)
+        return ProviderCallResult(
+            text=text,
+            provider='ollama',
+            model_alias='mistral',
+            model_name=str(metadata.get('model_name') or settings.chat_model),
+            retry_count=exc.retry_count if exc else 0,
+            error_category=exc.error_category if exc else None,
+            http_status=exc.http_status if exc else None,
+            request_id=exc.request_id if exc else None,
+            fallback_used='mistral',
+            fallback_reason=reason,
+            rate_limit_reset_seconds=exc.rate_limit_reset_seconds if exc else None,
+            source_error=str(exc) if exc else None,
+        )
 
     def _invoke_provider(self, model_alias: str, query: str, context_block: str) -> ProviderCallResult:
         if model_alias == 'mistral':
@@ -418,16 +471,8 @@ class RagService:
 
         if self._is_provider_in_cooldown(model_alias):
             if settings.fallback_on_provider_error:
-                text, metadata = self._invoke_mistral(query, context_block)
-                return ProviderCallResult(
-                    text=text,
-                    provider='ollama',
-                    model_alias='mistral',
-                    model_name=str(metadata.get('model_name') or settings.chat_model),
-                    fallback_used='mistral',
-                    fallback_reason=f'{model_alias}_cooldown',
-                    error_category='rate_limited',
-                )
+                logger.warning('%s is in cooldown, falling back to mistral', provider_name)
+                return self._fallback_to_mistral(query, context_block, reason=f'{model_alias}_cooldown')
             raise ProviderInvocationError(
                 f'{provider_name} provider is cooling down after rate limit.',
                 error_category='rate_limited',
@@ -454,20 +499,11 @@ class RagService:
                 self._set_provider_cooldown(model_alias)
 
             if settings.fallback_on_provider_error:
-                text, metadata = self._invoke_mistral(query, context_block)
-                return ProviderCallResult(
-                    text=text,
-                    provider='ollama',
-                    model_alias='mistral',
-                    model_name=str(metadata.get('model_name') or settings.chat_model),
-                    retry_count=exc.retry_count,
-                    error_category=exc.error_category,
-                    http_status=exc.http_status,
-                    request_id=exc.request_id,
-                    fallback_used='mistral',
-                    fallback_reason=f'{provider_name}_{exc.error_category}',
-                    rate_limit_reset_seconds=exc.rate_limit_reset_seconds,
-                    source_error=str(exc),
+                logger.warning('%s failed (%s), falling back to mistral', provider_name, exc.error_category)
+                return self._fallback_to_mistral(
+                    query, context_block,
+                    reason=f'{provider_name}_{exc.error_category}',
+                    exc=exc,
                 )
             raise
 
@@ -598,7 +634,7 @@ class RagService:
 
     def _context_block(self, contexts: list[RetrievalItem]) -> str:
         if not contexts:
-            return 'Khong co context nao duoc retrieve tu kho tai lieu.'
+            return 'Không có context nào được retrieve từ kho tài liệu.'
         return '\n\n'.join(
             [
                 f'[Context {idx + 1}]\n{item.text}'
@@ -640,7 +676,6 @@ class RagService:
 
     def _retrieve_hybrid_original(self, query: str) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
         if not self._is_sparse_ready():
-            # Fallback nếu index BM25 chưa load được
             return [], 'sparse_index_not_built', None
 
         hybrid_candidates = self._hybrid_retriever.hybrid_search(
@@ -757,10 +792,6 @@ class RagService:
             return self._retrieve_cross_encoder_only(query)
         return self._retrieve_hybrid_original(query)
 
-    # Backward-compatible alias for older call sites
-    def _retrieve(self, query: str, mode: str | None = None) -> tuple[list[RetrievalItem], str, dict[str, float] | None]:
-        return self.retrieve(query=query, mode=mode)
-
     def answer(self, query: str, model: str | None = None, retrieval_mode: str | None = None) -> dict:
         started = time.time()
         effective_model_alias = self._resolve_model_alias(model)
@@ -820,8 +851,9 @@ class RagService:
                 },
             }
         except Exception as exc:
+            logger.error('answer() failed for query=%r: %s', query[:80], exc)
             return {
-                'response': 'He thong local LLM tam thoi chua san sang. Vui long kiem tra Python RAG service va Ollama.',
+                'response': _FALLBACK_ERROR_MESSAGE,
                 'retrieval': {
                     'retrieval_status': 'fallback_error',
                     'top_k': 0,

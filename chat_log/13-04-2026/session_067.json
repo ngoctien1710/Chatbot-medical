@@ -1,0 +1,59 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Giai đoạn test corticoid trong phác đồ GRAALL 2005 được thực hiện trong bao nhiêu ngày?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The test corticoid phase in the GRAALL 2005 treatment regimen is carried out over a period of 7 days, with a maximum duration of 10 days.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 1,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:32",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9932,
+            "snippet": "dụng liệu trình điều trị quay vòng nhiều đợt, mỗi đợt ngắn ngày nhưng hoá chất sử dụng liều rất cao. Phác đồ thường dùng là Hyper-CVAD, bao gồm 8 đợt điều trị liều cao phân liều, không điều trị duy trì; - Phác đồ Hyper-CVAD: Gồm 8 đợt điều trị, chia thành 2 liệu trình A và B, điều trị xen kẽ. b. Điều trị bệnh nhân LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (AYA) Phác đồ GRAALL 2005 Giai đoạn test corticoid: Thực hiện từ ngày 1-7, tối đa là ngày thứ 10. - Methylprednisone: liều 60 mg/m2 đường uống hoặc methylprednisolone liều 48mg/m2 đường tĩnh mạch từ ngày 1-7 (hoặc đến ngày thứ 10). Sau đó bệnh nhân được chia thành 2 nhóm để lựa chọn phác đồ điều trị là nhóm có NST Ph(+) và nhóm có NST Ph(-)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9932,
+          "min": 0.9932,
+          "avg": 0.9932
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 26313,
+        "context_used": 1,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-067",
+  "date_folder": "13-04-2026",
+  "sequence": 67,
+  "file_name": "session_067.json",
+  "created_at": "2026-04-13T10:17:30.396018",
+  "updated_at": "2026-04-13T10:17:30.396018"
+}

@@ -1,13 +1,15 @@
-from typing import Any, Literal
+from typing import Any, Literal, TypeAlias
+
 from pydantic import BaseModel, Field
 
 
-ModelAlias = Literal['mistral', 'gpt', 'gemini']
-RetrievalMode = Literal['hybrid_original', 'dense_only', 'sparse_only', 'hybrid_rrf', 'cross_encoder_only']
+ModelAlias: TypeAlias = Literal['mistral', 'gpt', 'gemini']
+RetrievalMode: TypeAlias = Literal['hybrid_original', 'dense_only', 'sparse_only', 'hybrid_rrf', 'cross_encoder_only']
 
 
 class AnswerRequest(BaseModel):
     query: str = Field(min_length=1)
+    # None means: use the service default from settings.default_chat_model_alias
     model: ModelAlias | None = None
     retrieval_mode: RetrievalMode | None = None
 
@@ -64,6 +66,8 @@ class HealthResponse(BaseModel):
 
 class ChatRequest(BaseModel):
     query: str = Field(min_length=1)
+    # Explicit default 'mistral' so callers don't need to specify a model for basic usage.
+    # AnswerRequest uses None instead, letting the service resolve the default internally.
     model: ModelAlias = Field(default='mistral')
     retrieval_mode: RetrievalMode | None = None
 
@@ -86,7 +90,9 @@ class FeedbackRequest(BaseModel):
 
 
 class FeedbackResponse(BaseModel):
-    status: Literal['agreed', 'pending']
+    # 'agreed': user confirmed the previous answer
+    # 'regenerated': user disagreed and a new answer was generated
+    status: Literal['agreed', 'regenerated']
     response: str | None = None
     retrieval: RetrievalPayload | None = None
     diagnostics: DiagnosticsPayload | None = None
@@ -95,7 +101,7 @@ class FeedbackResponse(BaseModel):
 
 
 class SessionHistoryItem(BaseModel):
-    llm: str
+    llm_response: str  # The LLM-generated answer text for this turn
     client: str | None = None
     retrieval: RetrievalPayload | None = None
     diagnostics: DiagnosticsPayload | None = None

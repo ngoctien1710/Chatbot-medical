@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Các nhà khoa học đã có bước tiến quan trọng nào trong quá trình điều trị ALL thay cho việc điều trị bằng hóa chất?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị ALL, nhà khoa học đã có bước tiến quan trọng nhằm thay thế việc sử dụng hóa chất. Những yếu tố môi trường như tiếp xúc với benzen, lối sống không an toàn hoặc uống rượu quá nhiều có thể làm tăng nguy cơ phát triển bệnh ALL. Các yếu tố tiên lượng đang được áp dụng trong việc chẩn đoán và điều trị bệnh ALL mới được phát hiện.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:27",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 25.9621,
+            "snippet": "leukemia - AML) và ALL trong số những người sống sót từ vụ nổ bom nguyên tử và các chuyên gia X-quang đã tiếp xúc với mức bức xạ cao. Tương tự như vậy, bức xạ được sử dụng trong điều trị ung thư là yếu tố nguy cơ cho sự phát triển của bệnh LXM cấp [22],[23]. - Tiếp xúc với benzen Tiếp xúc với benzen được biết trong vài thập kỷ gần đây là làm tăng nguy cơ phát triển LXM cấp dòng tủy và rối loạn sinh tủy (MDS). Ngoài ra còn có mối liên hệ với sự phát triển của ALL, và ở nhiều nước, bệnh lý LXM cấp sau khi tiếp xúc với benzen trong công việc đã được công nhận là một bệnh nghề nghiệp [22]. - Lối sống Bên cạnh việc tiếp xúc với hóa chất, lối sống có thể ảnh hưởng đến nguy cơ phát triển LXM cấp. Trong khi các cơ chế sinh lý bệnh chưa được biết đến, các nhà khoa học đã chứng minh thừa cân và hút thuốc cũng làm tăng nguy cơ mắc bệnh LXM cấp"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:47",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 24.6469,
+            "snippet": ". Từ các thử nghiệm lâm sàng đó, dựa trên phân tích ảnh hưởng của các yếu tố đến kết quả điều trị, các nhà khoa học đã rút ra được các yếu tố có ý nghĩa tiên lượng. Các yếu tố tiên lượng hiện đang được áp dụng bởi hầu hết các nhóm thử nghiệm lâm sàng trong thiết kế và thực hiện phác đồ điều trị phân tầng nguy cơ cho trẻ em mới được chẩn đoán ALL được tóm tắt trong bảng 1.5 [45]."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:28",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 23.5102,
+            "snippet": ". Trong khi các cơ chế sinh lý bệnh chưa được biết đến, các nhà khoa học đã chứng minh thừa cân và hút thuốc cũng làm tăng nguy cơ mắc bệnh LXM cấp. Không có bằng chứng rõ ràng về vai trò của việc uống rượu ở người lớn, nhưng việc uống rượu của cha mẹ có thể làm tăng nguy cơ phát triển bệnh LXM cấp ở trẻ em. - Điều trị hóa trị trƣớc đó Các tác nhân gây độc tế bào thường được sử dụng trong điều trị các bệnh ác tính có liên quan đến phát sinh ALL, đặc biệt là các tác nhân alkyl hóa (ví dụ: melphalan, busulfan, cyclophosphamide, carbo- và cisplatin) và chất ức chế topoisomerase II (ví dụ, etoposide và doxorubicin). - Virus Nhiễm virus có liên quan đến bệnh sinh ALL, ví dụ bệnh LXM cấp tế bào T người lớn (do loại virus T-lymphotropic người I (HTLV-I)) và u lympho/lơ xê mi Burkitt, có liên quan với virus Epstein Barr (EBV)\n. Như vậy, thông qua nhiều cơ chế khác nhau, rõ ràng biến đổi di truyền cùng với các yếu tố môi trường là cơ sở phát sinh bệnh ALL [24]."
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 25.9621,
+          "min": 23.5102,
+          "avg": 24.7064
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 7739,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-101",
+  "date_folder": "13-04-2026",
+  "sequence": 101,
+  "file_name": "session_101.json",
+  "created_at": "2026-04-13T14:25:43.559043",
+  "updated_at": "2026-04-13T14:25:43.559043"
+}

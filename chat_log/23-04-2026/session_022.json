@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân M, bé trai 9 tuổi, vừa chẩn đoán ALL tiền B có chuyển đoạn t(9;22)(q34;q11.2) dương tính (Ph+), gen BCR-ABL1 dương tính. Bạch cầu ban đầu 28 G/L. Phác đồ điều trị đặc biệt nào cần áp dụng cho bé?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bé M, 9 tuổi, đã chẩn đoán có ALL tiền B với gen BCR-ABL1 dương tính. Phác đồ điều trị cần áp dụng cho bé này là kết hợp thuốc ức chế Tyrosine Kinase với phác đồ hóa chất cơ bản hoặc kết hợp điều trị ghép tế bào gốc ngay sau khi đạt lui bệnh lần 1, do vậy hiệu quả điều trị của bé sẽ được nâng cao.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:200",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.99,
+            "snippet": "tế bào và hạn chế quá trình chết tế bào theo chương trình, qua đó phát sinh các tế bào LXM. Cho đến nay, bệnh nhân ALL có chuyển đoạn t(9;22) tạo NST Ph vẫn luôn được xếp nhóm nguy cơ rất cao, đáp ứng kém với điều trị. Hiện nay, việc phối hợp thêm các thuốc ức chế Tyrosine Kinase (thuốc nhắm đích) trong phác đồ điều trị được khuyến cáo đã nâng hiệu quả điều trị ở nhóm bệnh nhân có đột biến này, tuy nhiên tỷ lệ đáp ứng vẫn thấp so với các nhóm khác. Do đó, chỉ định ghép tế bào gốc cũng được khuyến cáo cho những bệnh nhi này khi đạt được lui bệnh hoàn toàn [103]. Chuyển đoạn t(9;22) được phát hiện nhiều nhất trong các đột biến cấu trúc trong nghiên cứu này, tuy nhiên không phải trường hợp nào cũng dễ quan sát được trên xét nghiệm NST. Trong nghiên cứu này có 24 trường hợp có đột biến gen BCR-ABL1 (biểu đồ 3.3) nhưng chỉ có 6 trường hợp phát hiện chuyển đoạn t(9;22) trên bộ NST"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:239",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9884,
+            "snippet": "số lượng lớn bệnh nhi có đột biến gen BCR-ABL1. Theo nghiên cứu của các tác giả trên thế giới, nhóm có BCR-ABL1 luôn là nhóm có tiên lượng xấu nhất trong các nhóm có đột biến gen [1],[130],[90],[91]. Vì lý do đó, các bệnh nhi ALL có đột biến gen BCR-ABL1 thường được khuyến cáo điều trị kết hợp thuốc ức chế Tyrosine Kinase với phác đồ hóa chất cơ bản hoặc kết hợp điều trị ghép tế bào gốc ngay sau khi đạt lui bệnh lần 1 [129]. 4.3.2. Đánh giá đáp ứng sau điều trị tấn công Mục tiêu của điều trị hóa chất trong ALL là đạt được lui bệnh hoàn toàn về huyết học ngay sau điều trị tấn công và tiếp tục duy trì tình trạng lui bệnh bền vững. Vì vậy, đánh giá kết quả điều trị tấn công không những giúp tiên lượng bệnh mà còn giúp cho các bác sỹ lâm sàng lựa chọn phác đồ điều trị tiếp theo cho bệnh nhi"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:275",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9861,
+            "snippet": ". Tác giả Kirsten và Martin trong một báo cáo tổng quan đã có những so sánh về hiệu quả điều trị ở những bệnh nhi ALL có BCR-ABL1 trước khi được điều trị kết hợp Imatinib và sau điều trị Imatinib đã cho thấy hiệu quả điều trị được nâng lên rõ rệt từ tỷ lệ sống thêm không sự cố ở mức 30 - 40% lên mức 70 - 80 % trong một số các thử nghiệm của COG, EsPhALL…Tuy nhiên, tác giả cũng khẳng định, để nâng cao hiệu quả điều trị ở những bệnh nhi này, cần kết hợp phương pháp ghép tế bào gốc sau khi đạt được lui bệnh hoàn toàn [149]. Nghiên cứu này cho thấy các bệnh nhi có đột biến gen BCR-ABL1 có kết quả điều trị thấp nhất, phù hợp với kết quả của nhiều nghiên cứu. Đồng thời cho thấy sự phù hợp trong xếp nhóm nguy cơ của phác đồ FRALLE 2000, các bệnh nhi có BCR-ABL1 được xếp vào nhóm nguy cơ rất cao (B2) ngay cả khi chưa đánh giá đáp ứng sớm với điều trị"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:14",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9539,
+            "snippet": ". Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]. Các phác đồ điều trị ALL mà đặc biệt là ALL ở trẻ em được áp dụng hiện nay đều dựa trên các chia nhóm nguy cơ, trong đó xếp loại miễn dịch, xếp loại nguy cơ theo biến đổi di truyền là một trong những yếu tố quan trọng để lựa chọn phác đồ điều trị. Các phác đồ điều trị theo chia nhóm nguy cơ ngày càng chứng minh được hiệu quả. Xác suất sống thêm toàn bộ đã tăng lên đều đặn kể từ những năm đầu của thập niên 1960 đến nay, từ xấp xỉ 10% đã lên đến gần 80% trong các nghiên cứu [7]. Theo nghiên cứu của Hunger P Stephen và cộng sự, xác suất sống thêm 5 năm không bệnh ở trẻ em ALL tại Mỹ từ năm 2006-2009 thậm chí đã đạt được tỷ lệ lên đến trên 90% [1]. Nhiều nghiên cứu trên thế giới đã cho thấy, có những biến đổi di truyền đặc trưng cho dòng tế bào lympho B hay T"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:247",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9524,
+            "snippet": ". Nghiên cứu của Ravandi và cộng sự trên 122 bệnh nhân ALL có Ph dương tính từ 2001- 2011 được điều trị bằng hóa chất và kết hợp với imatinib (n=54) hoặc dasatinib (n=68) cho kết quả lui bệnh tới 94% [137]. Trong nghiên cứu của tác giả Trần Quỳnh Mai, các bệnh nhi có gen BCR-ABL1 chưa được điều trị kết hợp imatinib. Trong nghiên cứu này, 24 bệnh nhi có gen BCR-ABL1 thuộc 120"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.99,
+          "min": 0.9524,
+          "avg": 0.9742
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 33248,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-022",
+  "date_folder": "23-04-2026",
+  "sequence": 22,
+  "file_name": "session_022.json",
+  "created_at": "2026-04-23T13:37:13.471530",
+  "updated_at": "2026-04-23T13:37:13.471530"
+}

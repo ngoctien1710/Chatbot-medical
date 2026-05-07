@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Khi nào ghép tế bào gốc được chỉ định sau tái phát, và trường hợp nào KHÔNG được chỉ định ghép?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Khi nào ghép tế bào gốc được chỉ định sau tái phát là khi bệnh nhi thuộc nhóm nguy cơ cao hoặc rất cao và đã đạt lui bệnh hoàn toàn lần 1 hoặc lần 2. Trường hợp không được chỉ định ghép là trong các trường hợp AML nguy cơ thấp và bệnh nhi thuộc nhóm nguy cơ thấp hoặc thất bại với điều trị hóa chất tấn công.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:258",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.927,
+            "snippet": ". Tỷ lệ tái phát thấp nhất ở nhóm A (nguy cơ chuẩn). Như vậy, mặc dù kết quả điều trị tấn công của nhóm T-ALL tương tự nhóm B-ALL nhưng tỷ lệ tái phát cao hơn có ý nghĩa thống kê. Đây cũng là dữ liệu cho thấy với nhóm bệnh nhi T-ALL nên có chỉ định ghép tế bào gốc sớm ngay sau khi đạt lui bệnh lần 1. Chia lại nhóm nguy cơ sau điều trị và kết quả đánh giá tái phát sau đó trên bảng 3.20 thì thấy tỷ lệ tái phát TX và TKTW đều cao nhất ở nhóm nguy cơ rất cao (34,1% và 17,1%). Điều này cho thấy xếp lại nhóm nguy cơ sau khi đánh giá đáp ứng sớm trong điều trị tấn công ở phác đồ FRALLE 2000 có giá trị tiên lượng nguy cơ tái phát và là cơ sở để lập kế hoạch điều trị tiếp theo bao gồm liệu pháp ghép tế bào gốc cho những bệnh nhi thuộc nhóm nguy cơ cao và rất cao"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:19",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8994,
+            "snippet": ". 3.1.3. Điều trị LXM tủy cấp tái phát, kháng thuốc Với LXM tủy cấp tái phát hoặc kháng thuốc, có thể sử dụng các phác đồ hóa trị liệu liều cao như phác đồ ADE, MEC, HAM, FLAG ± Daunorubicin hoặc Idarubicin hoặc Mitoxantron, Hi-DAC ± Daunorubicin hoặc Mitoxantron; nên tiến tới ghép đồng loài nếu đủ điều kiện. 3.1.4. Chỉ định ghép tế bào gốc tạo máu đồng loài (chi tiết xin xem bài Ghép tế bào gốc tạo máu) - AML nguy cơ thấp nên được điều trị hóa chất. Ghép tế bào gốc tạo máu đồng loài được chỉ định sau khi tái phát và đã điều trị đạt lui bệnh hoàn toàn lần 2. - AML nguy cơ hoặc cao ít khi đáp ứng tốt với hóa trị liệu vì thế nên chỉ định ghép tế bào gốc tạo máu đồng loài sau lui bệnh hoàn toàn lần 1. 3.2. Điều trị Lơ xê mi cấp thể tiền tủy bào (APL) a"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:153",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.894,
+            "snippet": "4.2. Ghép tế bào gốc Chỉ định ghép tế bào gốc tạo máu cho LXM tủy cấp trẻ em trong các trường hợp: - Nhóm nguy cơ cao: Sau khi đạt Lui bệnh hoàn toàn lần 1. - Bệnh nhi thất bại với điều trị hóa chất tấn công. - Bệnh nhi tái phát: Sau khi đạt lui bệnh lần 2. 4.3. Điều trị nhắm đích và một số thuốc điều trị mới - Hoá chất thế hệ mới: Một số hoá chất thế hệ mới đang được nghiên cứu áp dụng điều trị nhằm giảm độc tính của hoá chất trên bệnh nhân. Một số đang được nghiên cứu trên bệnh nhân nhi có hiệu quả là: + Các thuốc nucleoside analogs mới: Clofarabine. + Thuốc ức chế Proteazome: Bortezomib. - Điều trị nhắm đích: + Thuốc ức chế FLT3: Sorafenib và một số thuốc đang trong giai đoạn thử nghiệm; + Thuốc ức chế IDH: IDH 1, IDH 2; + Liệu pháp tế bào CAR-T cell. 4.4"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:345",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8872,
+            "snippet": "- Đánh giá lui bệnh hoặc tái phát dựa trên: Lâm sàng (hạch to, hội chứng B) và thang điểm Lugano trên PET/CT, PET (theo NCCN - National Comprehensive Cancer Network, 1.2020). - Phải sinh thiết hạch làm lại chẩn đoán. - Phác đồ đa hóa trị liệu hàng hai với trường hợp có chỉ định ghép tế bào gốc tạo máu.\n\ngốc:\n\n+ Brentuximab với trường hợp có CD30+; + Pralatrexate; + DHAP; + ESHAP; + GDP; + GemOx; + ICE. + GVD - Phác đồ đa hóa trị liệu hàng hai với trường hợp không có chỉ định ghép tế bào"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:565",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8871,
+            "snippet": "- Sử dụng nguồn tế bào gốc máu ngoại vi là chính. Có thể truyền tươi hoặc được bảo quản âm sâu -196oC. - Sau truyền tế bào gốc theo dõi mọc mảnh ghép và các biến chứng như nhiễm trùng, xuất huyết... Chăm sóc người bệnh theo chế độ chăm sóc cấp 1. - Ghép tự thân hai lần: Được chỉ định ở người bệnh không đạt được lui bệnh một phần rất tốt sau ghép đầu tiên hoặc sau tái phát. c. Điều trị duy trì sau ghép - Mục đích: Giúp đạt lui bệnh thêm, kéo dài thời gian bệnh không tiến triển và tái phát. - Nhóm nguy cơ tốt: Duy trì thalidomide 100 mg/ngày cho đến khi bệnh tiến triển hay có độc tính không uống được thalidomide. - Nhóm nguy cơ tốt không đạt CR hoặc VGPR: Lenalidomide cho đến khi bệnh tiến triển hay có độc tính không uống được lenalidomide"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.927,
+          "min": 0.8871,
+          "avg": 0.899
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 34076,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-017",
+  "date_folder": "24-04-2026",
+  "sequence": 17,
+  "file_name": "session_017.json",
+  "created_at": "2026-04-24T17:31:22.276985",
+  "updated_at": "2026-04-24T17:31:22.276985"
+}

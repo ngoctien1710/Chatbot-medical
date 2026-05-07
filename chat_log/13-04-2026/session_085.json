@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Có những điều gì cần thực hiện trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn tấn công từ ngày 8 đến 29 của phác đồ FRALLE 2000, nhóm bệnh nhân sẽ được đánh giá nhạy cảm corticoid ngày 8, sau đó tiến hành tấn công với VCR (Vincristine), PRED (Prednisone) và DNR (Dexamethasone). Ngày 8 và 15 sẽ được cấp DNR thêm, trong khi L-Aspa sẽ được cấp liên tục từ ngày 8 đến ngày 20. Nhóm B2 có tuổi nhỏ hơn 4 tuổi sẽ không được xạ trị dự phòng trên hệ thần kinh trung ương.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:79",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.483,
+            "snippet": ". Chia nhóm T1 và T2 dựa trên sự đánh giá nhạy cảm corticoid ngày 8, nhạy cảm hóa trị ngày 21, MRD ngày 35 - 42 (xin tham khảo bảng 2.5). 1.4.2. Điều trị các nhóm trong phác đồ FRALLE 2000 Dựa trên kiểu hình miễn dịch và chia nhóm nguy cơ, phác đồ FRALLE 2000 có các nhánh áp dụng riêng cho các nhóm A, B và T và đều bao gồm các giai đoạn: Tấn công, củng cố, tăng cường 1, tích cực muộn, tăng cường 2 và duy trì trong 24 tháng. Sau khi đánh giá đáp ứng sớm với điều trị, phác đồ FRALLE 2000 tiếp tục được phân nhóm nguy cơ lại với từng nhóm A, B, T để lựa chọn phác đồ tiếp theo. Điều trị theo phân nhóm nguy cơ của phác đồ FRALLE 2000 được mô tả tổng quát như sau:"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:76",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4451,
+            "snippet": "Phác đồ FRALLE 2000 (French acute lymphoblastic leukemia study group) là phác đồ điều trị theo phân tầng nguy cơ cho các bệnh nhi ALL ở lứa tuổi 1-20 của Pháp. Các phác đồ FRALLE được cải biên từ phác đồ có nguồn gốc từ nhóm BFM (Berlin-Frankfurt-Mu nster), được ứng dụng khá rộng rãi tại Pháp và một số các nước Châu Âu. Tại Việt Nam, phác đồ FRALLE 2000 được áp dụng điều trị tại Viện Huyết học – Truyền máu Trung ương và Bệnh viện Truyền máu – Huyết học thành phố Hồ Chí Minh. Phác đồ đã được Bộ Y tế phê duyệt [34]. 1.4.1. Xếp loại nhóm nguy cơ điều trị theo phác đồ FRALLE 2000 a"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:121",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.4279,
+            "snippet": "(*) Những người bệnh thuộc nhóm B2 nhưng nhỏ hơn 4 tuổi: Không xạ trị dự phòng trên hệ thần kinh trung ương.\n\nSơ đồ 2.2. PHÁC ĐỒ FRALLE 2000 - NHÓM B Cảm ứng: Ngày 1-7 Corticoid + IT MTX\n\nNgày 8-21: Tấn công VCR, PRED, DNR (Ngày 8 và 15), L-Aspa x 6 (ngày 8 - 20)\n\nNHÓM B1\n\nNHÓM B2 Tiếp tục tấn công VCR, PRED + DNR ngày 22 + L-Aspa x 3 (ngày 22-26) Chú ý: MRD Ngày 35-42 >10-2, chuyển nhóm B2\n\nTiếp tục tấn công VCR, PRED + DNR ngày 22 + 23 + Endoxan (ngày 22) + L-Aspa x 3 (Ngày 22-26)\n\nCủng cố (8 tuần) VP16, ARAC, 6TG rồi đến VCR, PRED, 6MP, MTX + 2 đợt MTX-HD (5.000 mg/m2)\n\nCủng cố (9 tuần) 3 đợt: VEDA, COPADM2000, VEDA\n\nTăng cƣờng 1 (8 tuần) VDS/ ADRIA/ PRED/ L-Aspa rồi đến 6-TG/ AraC/ VP-16\n\nTrung gian (8 tuần) VCR, PRED, 6-MP, MTX + 2 đợt MTX-HD (5.000 mg/m2) XẠ TRỊ (*)\n\nTrung gian (8 tuần) VCR, PRED, 6-MP, MTX + 3 đợt MTX-HD (5.000 mg/m2) XẠ TRỊ (*)"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.483,
+          "min": 0.4279,
+          "avg": 0.452
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 9426,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-085",
+  "date_folder": "13-04-2026",
+  "sequence": 85,
+  "file_name": "session_085.json",
+  "created_at": "2026-04-13T11:23:39.681640",
+  "updated_at": "2026-04-13T11:23:39.681640"
+}

@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác nhau như nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, chỉ số blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng Lympho \"đã lui bệnh hoàn toàn về mặt huyết học\" so với bệnh nhân \"lui bệnh không hoàn toàn\" có sự khác nhau như sau:\n\n- Bệnh nhân lui bệnh không hoàn toàn về mặt huyết học (CRi) có chỉ số blast trong tủy xương lớn hơn so với bệnh nhân lui bệnh hoàn toàn về mặt huyết học.\n- Trong trường hợp CRi, chỉ số blast trong tủy xương có thể lên đến 20%, khi ở bệnh nhân lui bệnh hoàn toàn về mặt huyết học, chỉ số blast trong tủy xương phải nhỏ hơn 5%.\n- Các tiêu chuẩn khác cho luôn được đạt được trong cả hai trường hợp.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:113",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 43.7326,
+            "snippet": ". - Lui bệnh không hoàn toàn về mặt huyết học (CRi): Có đầy đủ tiêu chuẩn lui bệnh hoàn toàn ngoại trừ: + Số lượng bạch cầu hạt máu ngoại vi < 1 G/l; + Số lượng tiểu cầu < 100 G/l; + Không lui bệnh về mặt huyết học (NR): Không đạt được các tiêu chuẩn CR khi kết thúc điều trị cảm ứng. 3.3.2. Tiêu chuẩn tái phát - Tái phát tuỷ xương đơn độc: Sau khi đạt lui bệnh hoàn toàn, bệnh nhi có biểu hiện thiếu máu, xuất huyết dưới da, sốt, hạch to trở lại..., xuất hiện tế bào blast trong máu ngoại vi, tuỷ xương có ≥ 25% tế bào blast. - Tái phát tuỷ xương kết hợp: Tái phát tuỷ xương + có ít nhất 1 vị trí tái phát ngoài tuỷ xương. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:122",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 41.0172,
+            "snippet": " Số lượng tiểu cầu > 100 G/l;  Không tái phát trong vòng 4 tuần. + Lui bệnh không hoàn toàn về mặt huyết học (CRi): Có đầy đủ tiêu chuẩn lui bệnh hoàn toàn ngoại trừ:  Số lượng bạch cầu hạt máu ngoại vi < 1 G/l;  Số lượng tiểu cầu < 100 G/l; + Tỷ lệ đáp ứng toàn bộ (ORR) = CR + CRi + Không lui bệnh về mặt huyết học: Không đạt được các tiêu chuẩn CR khi kết thúc điều trị cảm ứng. + Tiêu chuẩn đánh giá bệnh tiến triển: Tăng ít nhất trên 25% số lượng tế bào ác tính trong máu ngoại vi hoặc tuỷ xương hoặc tiến triển các triệu chứng thâm nhiễm ngoài tuỷ. + Tiêu chuẩn tái phát bệnh:  Tái phát tuỷ xương đơn độc: Sau khi đạt lui bệnh hoàn toàn, bệnh nhi có biểu hiện thiếu máu, xuất huyết dưới da, sốt, hạch to trở lại..., xuất hiện tế bào blast trong máu ngoại vi, tuỷ xương có ≥ 25% tế bào blast.  Tái phát tuỷ xương kết hợp: tái phát tuỷ xương + có ít nhất 1 vị trí tái phát ngoài tuỷ xương"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:45",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 38.574,
+            "snippet": "- Tiêu chuẩn lui bệnh về huyết học: Bằng xét nghiệm tủy đồ (3-4 tuần sau điều trị) theo tiêu chuẩn của Viện Ung thư quốc gia Hoa Kỳ (1990): + Lui bệnh hoàn toàn: Lâm sàng ổn định, số lượng bạch cầu trung tính > 1,5G/L, Hematocrit > 0,3 l/l, số lượng tiểu cầu > 100G/L, không còn tế bào blast ở máu ngoại vi, tỷ lệ tế bào blast trong tủy xương < 5% (trên nền tủy sinh máu bình thường); + Lui bệnh không hoàn toàn: Tỷ lệ tế bào blast ở tủy xương từ 5-20%; + Không lui bệnh: Tỷ lệ tế bào blast ở tủy xương > 20%. - Phát hiện tồn dư tối thiểu của bệnh: Kỹ thuật đếm tế bào dòng chảy đa màu (ngưỡng phát hiện < 1 x 10-4.), kỹ thuật PCR định lượng (ngưỡng phát hiện < 1 x 10-5/6). - Xét nghiệm đánh giá lại gen bệnh sau 2-3 chu kỳ hoá chất hoặc trước khi ghép tế bào gốc tạo máu. - Bệnh nhân tái phát cần làm lại xét nghiệm chẩn đoán như bệnh nhân mới. 3.6"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 43.7326,
+          "min": 38.574,
+          "avg": 41.1079
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 8520,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-047",
+  "date_folder": "13-04-2026",
+  "sequence": 47,
+  "file_name": "session_047.json",
+  "created_at": "2026-04-13T03:29:16.892120",
+  "updated_at": "2026-04-13T03:29:16.892120"
+}

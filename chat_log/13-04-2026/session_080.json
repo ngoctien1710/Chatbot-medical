@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Điều trị bệnh lơ xê mi lympho theo phác đồ FRALLE 2000 bao gồm các giai đoạn điều trị nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị lơ xê mi cấp dòng lympho theo phác đồ FRALLE 2000, có 5 giai đoạn khác nhau: Giai đoạn cảm ứng, Điều trị tấn công, Điều trị củng cố, Điều trị tăng cường 1 và Điều trị trung gian. Tuy nhiên, không có thông tin chính xác về việc sử dụng điều trị tăng cường 2 hoặc Điều trị duy trì trong phác đồ này.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 22.4421,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:80",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 21.5279,
+            "snippet": "Sơ đồ 1.1. Chia nhóm điều trị lơ xê mi cấp dòng lympho trẻ em theo phác đồ FRALLE 2000 Các phác đồ chi tiết cho các nhóm bao gồm các giai đoạn được trình bày trong phần đối tượng và phương pháp nghiên cứu. 1.5. MỘT SỐ NGHIÊN CỨU VỀ ĐIỀU TRỊ LƠ XÊ MI CẤP DÒNG LYMPHO TRẺ EM 1.5.1. Nghiên cứu về điều trị lơ xê mi cấp dòng lympho trẻ em trên thế giới Trong vòng hơn 50 năm qua, thế giới đã chứng kiến sự thay đổi đáng kinh ngạc trong hiệu quả điều trị ALL trẻ em. Kết quả điều trị đã tăng từ xác suất sống thêm toàn bộ 5 năm (OS) 10% ở những năm 1960, lên tới trên 90% sống thêm toàn bộ 10 năm trong những nghiên cứu gần đây [1]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:152",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 20.4475,
+            "snippet": "3.2.3. Liên quan giữa nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B và xếp loại nhóm nguy cơ theo phác đồ FRALLE 2000 Nghiên cứu mối liên quan giữa xếp loại nhóm nguy cơ theo biến đổi di truyền và xếp loại nguy cơ theo phác đồ FRALLE với nhóm lơ xê mi cấp dòng lympho B được trình bày trong bảng 3.14: Bảng 3.14. Tỷ lệ xếp loại nguy cơ theo phác đồ FRALLE 2000 ở các nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B (n=244) Nhóm di truyền B-ALL"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 22.4421,
+          "min": 20.4475,
+          "avg": 21.4725
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 4876,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-080",
+  "date_folder": "13-04-2026",
+  "sequence": 80,
+  "file_name": "session_080.json",
+  "created_at": "2026-04-13T11:02:26.604547",
+  "updated_at": "2026-04-13T11:02:26.604547"
+}

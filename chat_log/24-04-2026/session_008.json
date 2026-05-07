@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Một bệnh nhân AML có đột biến FLT3-ITD mức cao và NPM1 dương tính. Đây là nhóm tiên lượng nào và có thể phối hợp thuốc nhắm đích nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Một bệnh nhân AML có đột biến FLT3-ITD mức cao và NPM1 dương tính thuộc vào nhóm tiên lượng xấu. Vì vậy, phối hợp thuốc nhắm đích có thể là Sorafenib (thuốc ức chế FLT3) hoặc các thuốc đang trong giai đoạn thử nghiệm.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:17",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9415,
+            "snippet": "Nhóm tiên lượng Bất thường NST và gen Tốt t(8;21)(q22;q22.1); RUNX1-RUNX1T1 inv(16)(p13.1q22) hoặc t(16 ;16)(p13.1;q22); CBFB-MYH11 Đột biến kép CEBPA Đột biến NPM1 không kèm FLT3-ITD hoặc có FLT3-ITD mức thấp Trung bình Đột biến NPM1 kèm FLT3-ITD mức cao Không có đột biến NPM1 và FLT3-ITD hoặc FLT3-ITD mức thấp (không kèm các tổn thương di truyền xấu khác) t(9;11)(p21.3;q23.3); MLLT3-KMT2A Các bất thường di truyền tế bào không thuộc nhóm xấu hoặc tốt Xấu t(6;9)(p23;q34.1); DEK-NUP214 t(v;11q23.3); tái sắp xếp KMT2A t(9;22)(q34.1;q11.2) ; BCR-ABL1 inv(3)(q21.3q26.2) hoặc t(3;3)(q21.3 ;q26.2); GATA2, MECOM(EVI1) -5 hoặc del(5q); -7 hoặc -17/bất thường 17p Đa tổn thương NST; có NST đơn (monosomies) Đột biến RUNX1 Đột biến ASXL1 Đột biến TP53 3.1.2. Phác đồ hóa trị liệu tiêu chuẩn a. Đối với người bệnh dưới 60 tuổi ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 166"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:154",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.6788,
+            "snippet": ". - Điều trị nhắm đích: + Thuốc ức chế FLT3: Sorafenib và một số thuốc đang trong giai đoạn thử nghiệm; + Thuốc ức chế IDH: IDH 1, IDH 2; + Liệu pháp tế bào CAR-T cell. 4.4. Điều trị LXM tuỷ cấp trẻ em tái phát, kháng thuốc Với LXM tủy cấp tái phát hoặc kháng thuốc, có thể sử dụng các phác đồ hóa trị liệu liều cao như phác đồ ADE, FLAG-IDA, Mito-FLAG, CLAG, HAM, Cytarabin + Mitoxantron; hoặc phác đồ Cytarabin liều cao; nên tiến tới ghép đồng loại nếu đủ điều kiện. Một số nghiên cứu sử dụng thuốc nucleoside analogs mới như Clofarabine kết hợp cytarabine hoặc các thuốc điều trị nhắm đích (thuốc ức chế FLT3, kháng thể đơn dòng…) trên bệnh nhi LXM cấp dòng tủy tái phát/kháng thuốc cũng đang được nghiên cứu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:260",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5574,
+            "snippet": ". Không gặp bất thường đặc hiệu của lơ xê mi dòng tủy: t(8;21); t(15;17), inv(16). - Sinh học phân tử: + Phát hiện các đột biến gen có giá trị tiên lượng bệnh:  Tiên lượng xấu: ASXL1, EZH2, SRSF2, U2AF1, RUNX1, ZRSR2, TP53, STAG2, NRAS , ETV8, GATA2, BCOR, IDH2, NPM1, WT1, PRPF8, FLT3, CBL;  Tiên lượng tốt: SF3B1. + Phát hiện các gen khác có ý nghĩa chẩn đoán bệnh: IDH1, NEDD, ICPI, TET2, DNMT3A, NF1, JAK2, CALR, MPL, DDX41, SETBP1, PHF6, STAT3, PPM1D, PDGFRβ. đ. Xét nghiệm phân loại miễn dịch (FCM): Nên được cân nhắc trong trường hợp cần phân biệt với bệnh tế bào lympho dạng hạt lớn (LGL) và bệnh đái huyêt sắc tố kịch phát (PNH), hay phát hiện các kháng thể đơn dòng nhắm đích (CD47, CD3, CD123,…). e. Sinh hóa máu - Đo nồng độ Erythropoietin trước khi truyền khối hồng cầu. - Folat hồng cầu, Vitamin B12 huyết thanh. - Ferritin huyết thanh, sắt huyết thanh và TIBC"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:200",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.5328,
+            "snippet": "tế bào và hạn chế quá trình chết tế bào theo chương trình, qua đó phát sinh các tế bào LXM. Cho đến nay, bệnh nhân ALL có chuyển đoạn t(9;22) tạo NST Ph vẫn luôn được xếp nhóm nguy cơ rất cao, đáp ứng kém với điều trị. Hiện nay, việc phối hợp thêm các thuốc ức chế Tyrosine Kinase (thuốc nhắm đích) trong phác đồ điều trị được khuyến cáo đã nâng hiệu quả điều trị ở nhóm bệnh nhân có đột biến này, tuy nhiên tỷ lệ đáp ứng vẫn thấp so với các nhóm khác. Do đó, chỉ định ghép tế bào gốc cũng được khuyến cáo cho những bệnh nhi này khi đạt được lui bệnh hoàn toàn [103]. Chuyển đoạn t(9;22) được phát hiện nhiều nhất trong các đột biến cấu trúc trong nghiên cứu này, tuy nhiên không phải trường hợp nào cũng dễ quan sát được trên xét nghiệm NST. Trong nghiên cứu này có 24 trường hợp có đột biến gen BCR-ABL1 (biểu đồ 3.3) nhưng chỉ có 6 trường hợp phát hiện chuyển đoạn t(9;22) trên bộ NST"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:153",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4448,
+            "snippet": "4.2. Ghép tế bào gốc Chỉ định ghép tế bào gốc tạo máu cho LXM tủy cấp trẻ em trong các trường hợp: - Nhóm nguy cơ cao: Sau khi đạt Lui bệnh hoàn toàn lần 1. - Bệnh nhi thất bại với điều trị hóa chất tấn công. - Bệnh nhi tái phát: Sau khi đạt lui bệnh lần 2. 4.3. Điều trị nhắm đích và một số thuốc điều trị mới - Hoá chất thế hệ mới: Một số hoá chất thế hệ mới đang được nghiên cứu áp dụng điều trị nhằm giảm độc tính của hoá chất trên bệnh nhân. Một số đang được nghiên cứu trên bệnh nhân nhi có hiệu quả là: + Các thuốc nucleoside analogs mới: Clofarabine. + Thuốc ức chế Proteazome: Bortezomib. - Điều trị nhắm đích: + Thuốc ức chế FLT3: Sorafenib và một số thuốc đang trong giai đoạn thử nghiệm; + Thuốc ức chế IDH: IDH 1, IDH 2; + Liệu pháp tế bào CAR-T cell. 4.4"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9415,
+          "min": 0.4448,
+          "avg": 0.6311
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 35848,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-008",
+  "date_folder": "24-04-2026",
+  "sequence": 8,
+  "file_name": "session_008.json",
+  "created_at": "2026-04-24T15:29:47.776738",
+  "updated_at": "2026-04-24T15:29:47.776738"
+}

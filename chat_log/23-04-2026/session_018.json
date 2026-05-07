@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân B là bé gái 3 tuổi có tiền sử gia đình không có ai bị bệnh máu. 2 tuần gần đây bé hay than đau khớp gối, sốt thất thường, mệt mỏi, biếng ăn. Khám phát hiện hạch cổ 1cm, không gan lách to. Công thức máu: Hb 95 g/L, BC 12 G/L (BCTT 1,2 G/L), TC 90 G/L. Bé nhập viện nghi ngờ ALL. Cần thực hiện bộ xét nghiệm nào để chẩn đoán xác định và lập kế hoạch điều trị?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bé gái 3 tuổi có triệu chứng như sốt thất thường, mệt mỏi, biếng ăn, than đau khớp gối và hạch cổ 1cm. Công thức máu của bé có Hb 95g/L, BC 12G/L (BCTT 1,2G/L), TC 90g/L, nhập viện nghi ngờ ALL. Để chẩn đoán xác định và lập kế hoạch điều trị cho bé, cần thực hiện bộ xét nghiệm phân tích dung hợp gen (với 4 gen đột biến) và xét nghiệm công thức NST.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:368",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8693,
+            "snippet": ". CHẨN ĐOÁN 2.1. Chẩn đoán xác định a. Lâm sàng - Biểu hiện lâm sàng không đặc hiệu và phù hợp với tình trạng nhiễm khuẩn hơn là bệnh lý ác tính. - Hạch to chiếm khoảng 70%. Thường gặp tại vùng cổ, nách, bẹn, trung thất và hạch ổ bụng. Số lượng hạch nhiều, mật độ chắc, thường không đau. - Khối u trung thất hay gặp thứ hai nhưng hầu hết không có biểu hiện lâm sàng hoặc biểu hiện không đặc hiệu như: Đau sau xương ức, ho, thở nông, hiếm gặp hơn là tràn dịch màng phổi, màng tim, chèn ép tĩnh mạch chủ trên... - Triệu chứng toàn thân khá thường gặp như: Ngứa, mệt mỏi, triệu chứng B (gồm có sốt, ra mồ hôi đêm, sút cân trên 10% trọng lượng cơ thể trong 6 tháng không giải thích được nguyên nhân). - Gan hoặc lách có thể to nhưng ít khi to nhiều. - Biểu hiện ban đầu ngoài hạch hiếm gặp"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:372",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8593,
+            "snippet": ". - Xét nghiệm khác: + Tế bào máu ngoại vi (huyết đồ) có thể gặp giảm lượng huyết sắc tố, giảm số lượng tiểu cầu, số lượng bạch cầu có thể tăng hoặc giảm; + Tốc độ máu lắng và protein C phản ứng thường tăng; + LDH tăng trong khoảng 30% trường hợp, có thể tăng calci và giảm albumin. Beta 2 microglobulin thường tăng; + Các phương pháp chẩn đoán hình ảnh như siêu âm, X-quang, CT, PET, PET- CT, MRI giúp phát hiện hạch sâu, vị trí di căn khác và theo dõi sau điều trị"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:89",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8171,
+            "snippet": "2.1. ĐỐI TƢỢNG NGHIÊN CỨU Đối tượng nghiên cứu là 288 bệnh nhi được chẩn đoán ALL, điều trị tại Viện Huyết học - Truyền máu Trung ương từ 1/8/2016 đến 1/8/2019. Trong số 288 bệnh nhi nghiên cứu, tất cả các bệnh nhi được thực hiện xét nghiệm xác định đột biến dung hợp gen (với 4 gen đột biến) và xét nghiệm công thức NST (có 188 bệnh nhi trong nghiên cứu có kết quả phân tích công thức NST). Tất cả các bệnh nhi được điều trị bằng phác đồ FRALLE 2000 theo các nhóm nguy cơ. 2.1.1. Tiêu chuẩn lựa chọn bệnh nhi - Bệnh nhi được chẩn đoán xác định là ALL; - Tuổi < 16 tuổi; - Gia đình bệnh nhi chấp nhận điều trị hoá chất và đồng ý tham gia nghiên cứu. 2.1.2. Tiêu chuẩn loại trừ bệnh nhi - Lơ xê mi cấp thể L3; - Lơ xê mi cấp có hội chứng Down; - Lơ xê mi cấp thứ phát; - Bệnh nhi bỏ điều trị. 2.2. PHƢƠNG PHÁP NGHIÊN CỨU 2.2.1"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:220",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8098,
+            "snippet": "b. Một số đặc điểm lâm sàng giữa các nhóm Thiếu máu và sốt là triệu chứng phổ biến nhất ở các nhóm. Triệu chứng xuất huyết dao động trong khoảng 50% ở các nhóm. Các triệu chứng lách, hạch to có xu hướng cao hơn ở nhóm B-ALL nguy cơ cao và nhóm T-ALL. Ngược lại, nhóm B-ALL nguy cơ thấp và trung bình có tỷ lệ bệnh nhi có biểu hiện đau xương có xu hướng cao hơn hai nhóm còn lại. Tuy nhiên, sự khác biệt về các triệu chứng lâm sàng giữa các nhóm không có ý nghĩa thống kê với p > 0,05 (biểu đồ 3.5). Theo nghiên cứu của tác giả Võ Thị Thanh Trúc, thiếu máu và sốt cũng là hai triệu chứng thường gặp nhất ở các bệnh nhi, gan lách hạch to và triệu chứng xuất huyết gặp với tỷ lệ dao động từ 50 - 70%, các triệu chứng còn lại ít gặp hơn"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:294",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7969,
+            "snippet": ". - Hạch to chiếm khoảng 70% người bệnh; thường gặp tại vùng cổ, nách, bẹn, trung thất và hạch ổ bụng. Số lượng hạch nhiều, mật độ chắc, thường không đau. - Khối u trung thất hay gặp thứ hai nhưng hầu hết người bệnh không có biểu hiện lâm sàng hoặc biểu hiện không đặc hiệu như: Đau sau xương ức, ho, thở nông, hiếm gặp hơn là tràn dịch màng phổi, màng tim, chèn ép tĩnh mạch chủ trên... - Triệu chứng toàn thân khá thường gặp như: Ngứa, mệt mỏi, triệu chứng B (gồm có sốt, ra mồ hôi đêm, sút cân trên 10% trọng lượng cơ thể trong 6 tháng không giải thích được nguyên nhân). - Gan hoặc lách có thể to nhưng ít khi to nhiều. - Biểu hiện ban đầu ngoài hạch hiếm gặp. Nếu có thì vị trí hay gặp là: Phổi, gan, xương và tủy xương"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.8693,
+          "min": 0.7969,
+          "avg": 0.8305
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 41570,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-018",
+  "date_folder": "23-04-2026",
+  "sequence": 18,
+  "file_name": "session_018.json",
+  "created_at": "2026-04-23T13:24:18.855365",
+  "updated_at": "2026-04-23T13:24:18.855365"
+}

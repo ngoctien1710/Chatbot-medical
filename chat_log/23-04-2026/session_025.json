@@ -1,0 +1,65 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh Waldenström (tăng sinh globulin đại phân tử) là gì và thuộc nhóm u lympho nào theo WHO?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh Waldenström là một loại bệnh lympho tăng sinh globulin đại phân tử, nằm trong nhóm u lympho tế bào lymphoplasmo theo WHO. Nó được gây ra do sự tăng sinh của các tế bào lymphoplasmo đơn dòng trong tủy xương và tổ chức lympho kèm theo xuất hiện IgM đơn dòng trong huyết thanh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 2,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:523",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9989,
+            "snippet": "1. ĐẠI CƯƠNG Bệnh tăng sinh globulin đại phân tử (Waldenström’s macroglobulinemia) là bệnh lý dòng tế bào lympho B đặc trưng bởi sự tăng sinh, tích lũy các tế bào lymphoplasmo đơn dòng trong tủy xương và tổ chức lympho kèm theo xuất hiện IgM đơn dòng trong huyết thanh. Theo Tổ chức Y tế thế giới, bệnh Waldenström được xếp vào nhóm u lympho tế bào lymphoplasmo, có độ ác tính thấp. 2. NGUYÊN NHÂN GÂY BỆNH - Đến nay còn chưa rõ, một số yếu tố có thể làm tăng nguy cơ mắc bệnh: Viêm gan virus C, tiếp xúc với hóa chất nông nghiệp, thuốc nhuộm tóc, bụi gỗ… 3. TRIỆU CHỨNG 3.1. Lâm sàng a. Triệu chứng do xâm lấn của tế bào u - Triệu chứng B: Sốt, ra mồ hôi đêm, sút cân, mệt mỏi. - Thiếu máu do xâm lấn tủy xương của tế bào u và do tan máu tự miễn. - Có thể có gan lách hạch to, thâm nhiễm da, đường tiêu hóa và phổi. b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:553",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.3836,
+            "snippet": ". Không có tổn thương xương, ngoại trừ khối u xương đơn độc. - Lơ xê mi tế bào dòng plasmo: Có thể nguyên phát hay thứ phát sau Đa u tủy xương, được chẩn đoán khi máu ngoại vi có tỷ lệ tế bào dòng plasmo trên 20% hay số lượng tuyệt đối > 2 G/L. - Bệnh Waldenstrom: Tăng IgM > 3 g/dl, tăng sinh lympho và tế bào lympho dạng tế bào dòng plasmo trong tuỷ xương. Không có tổn thương xương. Thường biểu hiện triệu chứng của tăng độ quánh huyết tương; người bệnh hay có gan, lách và hạch to. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 360"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9989,
+          "min": 0.3836,
+          "avg": 0.6913
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 27803,
+        "context_used": 2,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-025",
+  "date_folder": "23-04-2026",
+  "sequence": 25,
+  "file_name": "session_025.json",
+  "created_at": "2026-04-23T13:51:12.205041",
+  "updated_at": "2026-04-23T13:51:12.205041"
+}

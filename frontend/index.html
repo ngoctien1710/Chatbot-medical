@@ -443,7 +443,6 @@
         let selectedSessionId = null;
         let sessionSummaries = [];
         let selectedDate = null;
-        let waitingForFeedback = false;
         let currentMessageIndex = null;
         let currentModel = 'mistral';
         let currentRetrievalMode = 'hybrid_original';
@@ -480,7 +479,7 @@
             currentSessionId = null;
             currentSessionStatus = 'idle';
             selectedSessionId = null;
-            waitingForFeedback = false;
+
             currentMessageIndex = null;
         }
 
@@ -589,7 +588,7 @@
         window.handleAgree = (messageIndex) => {
             document.querySelectorAll('.comment-box').forEach((node) => node.remove());
             addCommentInput(messageIndex, true);
-            waitingForFeedback = true;
+
             currentMessageIndex = messageIndex;
         };
 
@@ -597,7 +596,7 @@
         window.handleDisagree = (messageIndex) => {
             document.querySelectorAll('.comment-box').forEach((node) => node.remove());
             addCommentInput(messageIndex, false);
-            waitingForFeedback = true;
+
             currentMessageIndex = messageIndex;
         };
 
@@ -680,7 +679,8 @@
                 const history = Array.isArray(session.history) ? session.history : [];
 
                 history.forEach((item) => {
-                    lastAiMessage = addMessage(item.llm || '', 'ai', new Date(), session.model || currentModel, item.retrieval || null);
+                    const aiResponse = item.llm_response || item.llm || '';
+                    lastAiMessage = addMessage(aiResponse, 'ai', new Date(), session.model || currentModel, item.retrieval || null);
                     if (item.client) {
                         addMessage(`Feedback: ${item.client}`, 'user');
                     }
@@ -699,7 +699,7 @@
                 }
 
                 setComposerEnabled(true);
-                waitingForFeedback = false;
+    
                 renderSessionList();
             } catch (error) {
                 console.error('Error loading session:', error);
@@ -736,7 +736,7 @@
 
                 if (action === 'agree') {
                     addMessage('✓ Bạn đã đồng ý với câu trả lời', 'user');
-                    waitingForFeedback = false;
+        
                     currentSessionStatus = 'agreed';
                     setComposerEnabled(true);
                 } else if (action === 'disagree' && data.response) {
@@ -752,7 +752,7 @@
                     // Add the new AI response
                     const newAIMessage = addMessage(data.response, 'ai', new Date(), currentModel, data.retrieval);
                     addFeedbackButtons(newAIMessage, messageIndex + 1);
-                    waitingForFeedback = false;
+        
                     currentSessionStatus = 'pending';
                 }
 

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Một bệnh nhân lớn tuổi có triệu chứng thiếu máu, giảm 3 dòng tế bào máu, tủy đồ có blast 15% và hồng cầu non có vệ tinh. Chẩn đoán phân biệt chính giữa MDS và AML dựa trên tiêu chí gì?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Một chứng tình thiếu máu, giảm 3 dòng tế bào máu, tủy đồ có blast 15% và hồng cầu non có vệ tinh được chẩn đoán phân biệt chính giữa MDS và AML dựa trên tiêu chí gì?\n\nChứng tình thiếu máu, giảm 3 dòng tế bào máu, tủy đồ có blast 15% và hồng cầu non có vệ tinh có thể phân biệt chính giữa MDS (Hội chứng rối loạn sinh tủy) và AML (Leukemia mi) dựa trên tiêu chí của FAB 1982, WHO 2001, WHO 2008, WHO 2016. Nếu blast từ 5% đến 9%, thì bệnh có thể phân loại là MDS (Refractory anemia with excess blasts - 1: RAEB-1). Nếu blast từ 10% đến 19%, thì bệnh có thể phân loại là MDS (Refractory anemia with excess blasts - 2: RAEB-2). Nếu blast < 5%, không thấy thể Auer và chỉ rối loạn dòng bạch cầu hạt hoặc mẫu tiểu cầu, thì bệnh có thể phân loại là MDS unclassified (MDS - U). Nếu không gặp blast và chỉ rối loạn dòng tế bào tủy, thì bệnh có thể phân loại là MDS.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:255",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.7448,
+            "snippet": "1. ĐẠI CƯƠNG - Hội chứng rối loạn sinh tủy (Myelodysplastic Syndrome - MDS) là một nhóm các bệnh ác tính tế bào sinh máu có đặc điểm: Tủy sinh máu không hiệu lực; bất thường hình thái và chức năng tế bào máu; bệnh tiến triển âm ỉ, dai dẳng và thường kết thúc bằng lơ xê mi cấp nên còn gọi là tiền lơ xê mi (pre-leukemia). - Nguyên nhân chưa rõ, được cho là tương tự các nguyên nhân gây ra bệnh lơ xê mi cấp. - Chẩn đoán và tiên lượng dựa vào các tiêu chuẩn của FAB 1982, WHO 2001 và WHO 2008, WHO 2016, tùy vào điều kiện chẩn đoán của cơ sở y tế hiện có. 2. CHẨN ĐOÁN Căn cứ vào lâm sàng và xét nghiệm. 2.1. Lâm sàng - Thường gặp trên 50 tuổi, nam nhiều hơn nữ. - Thiếu máu (> 90% người bệnh) thường là biểu hiện đầu tiên, dai dẳng và đáp ứng kém với điều trị. - Nhiễm trùng (gặp ở khoảng 15% người bệnh). - Có thể gặp xuất huyết do giảm tiểu cầu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:267",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5193,
+            "snippet": "TT Thể bệnh Máu ngoại vi Tủy xương Thiếu máu dai dẳng có tăng quá mức blast - 1(Refractory anemia with exccess blasts1: RAEB - 1) Giảm tế bào Blasts < 5% Tế bào mono < 1G/L - Rối loạn một dòng hay nhiều dòng tế bào tủy - Blasts 5% đến 9% - Không thấy thể Auer Thiếu máu dai dẳng có tăng quá mức blast - 2 (Refractory anemia with excces blasts2: RAEB - 2) Giảm tế bào Blasts 5% đến 19% Có khi thấy thể Auer Tế bào mono < 1G/L - Rối loạn một dòng hay nhiều dòng tế bào tủy - Blasts 10% đến 19% - Có khi thấy thể Auer Hội chứng rối loạn sinh tủy không xếp loại(Myelodysplastic syndrome unclassified: MDS - U) Giảm tế bào Không có hoặc hiếm gặp blast Không thấy thể Auer - Chỉ rối loạn dòng bạch cầu hạt hoặc mẫu tiểu cầu. - Blasts < 5% - Không thấy thể Auer Hội chứng rối loạn sinh tủy có kết hợp mất nhánh dài nhiếm sắc thể số 5(del 5q) (MDS associated with isolatsed del(5q)) Thiếu máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:269",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5119,
+            "snippet": "Nhóm Thể bệnh Các yếu tố về tủy xương Giảm tế bào dai dẳng loạn sản đơn dòng ≥ 10% tế bào một dòng bị rối loạn < 5% blast < 15% nguyên hồng cầu sắt vòng (RS) bao gồm: thiếu máu dai dẳng, giảm bạch cầu trung tính, giảm tiểu cầu (Refractory cytopenias with unilineage dysplasia: RCUD) Thiếu máu dai dẳng tăng nguyên hồng cầu sắt vòng (Refractory anemia with ringed sideroblasts: RARS) < 5% blast ≥ 15% RS Giảm tế bào dai dẳng có rối loạn nhiều dòng tế bào (Refractory cytopenia with multilineage dysplastic: RCMD) ≥ 10% tế bào bất thường ở ≥ 2 dòng tế bào < 5% blast Không kèm hoặc kèm tăng RS Hội chứng rối loạn sinh tủy có kết hợp mất nhánh dài nhiếm sắc thể số 5(del 5q) (MDS associated with isolatsed del(5q)) < 5% blast del(5q) - Thiếu máu dai dẳng có tăng quá mức blast -1 (Refractory anemia with exccess 5-9% blast, thể Auer (-) blasts1: RAEB - 1) - Thiếu máu dai dẳng có tăng quá"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:256",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4329,
+            "snippet": ". - Nhiễm trùng (gặp ở khoảng 15% người bệnh). - Có thể gặp xuất huyết do giảm tiểu cầu. - Gan lách có thể to (gặp 10 - 15% người bệnh). 2.2. Xét nghiệm a. Máu ngoại vi - Giảm hồng cầu (90%) và/ hoặc tiểu cầu (25%), đôi khi có giảm cả 3 dòng. MCV thường cao, thường thiếu máu bình sắc, có thể gặp hồng cầu non ra máu (10%). - Hình thái bạch cầu hạt có thể bất thường: Giảm, mất hạt đặc hiệu, giảm đoạn, dị thường kiểu Pelger Huët, hoặc nhân dạng vòng (Ring- Slaped nucle), nhân hình gậy, hình ảnh nhân bị đứt đoạn; hoặc tăng hạt đặc hiệu, tăng đoạn (ít gặp hơn). Có thể có tế bào non ác tính (blast). - Có 25% người bệnh lúc chẩn đoán giảm tiểu cầu từ nhẹ đến trung bình, nhưng cũng có gặp tăng tiểu cầu; hay gặp tiểu cầu kích thước to (tiểu cầu khổng lồ); có thể giảm độ tập trung của tiểu cầu. b"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:268",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4196,
+            "snippet": ". - Blasts < 5% - Không thấy thể Auer Hội chứng rối loạn sinh tủy có kết hợp mất nhánh dài nhiếm sắc thể số 5(del 5q) (MDS associated with isolatsed del(5q)) Thiếu máu. Blasts < 5% Tiểu cầu bình thường hoặc tăng - Mẫu tiểu cầu bình thường hoặc tăng, giảm chia thùy - Blasts < 5% - Không thấy thể Auer - del (5q) đơn độc ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 253\nc. Xếp loại của tổ chức y tế thế giới WHO (2008)"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.7448,
+          "min": 0.4196,
+          "avg": 0.5257
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 43851,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-002",
+  "date_folder": "24-04-2026",
+  "sequence": 2,
+  "file_name": "session_002.json",
+  "created_at": "2026-04-24T15:06:22.842541",
+  "updated_at": "2026-04-24T15:06:22.842541"
+}

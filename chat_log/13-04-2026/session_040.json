@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Để đạt được tiêu chuẩn \"Lui bệnh hoàn toàn về mặt huyết học\", chỉ số về bạch cầu đoạn máu ngoại vi và tỉ lệ blast trong tủy xương của bệnh nhân lơ xê mi cấp dòng lympho phải đạt mức nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, để đạt được tiêu chuẩn \"Lui bệnh hoàn toàn về mặt huyết học\" cho lơ xê mi cấp dòng lympho, tỷ lệ blast trong tủy xương của bệnh nhân phải đạt mức < 5%. Và chỉ số về bạch cầu đoạn máu ngoại vi của bệnh nhân không có yêu cầu nhất định.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:121",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.981,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:122",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9791,
+            "snippet": " Số lượng tiểu cầu > 100 G/l;  Không tái phát trong vòng 4 tuần. + Lui bệnh không hoàn toàn về mặt huyết học (CRi): Có đầy đủ tiêu chuẩn lui bệnh hoàn toàn ngoại trừ:  Số lượng bạch cầu hạt máu ngoại vi < 1 G/l;  Số lượng tiểu cầu < 100 G/l; + Tỷ lệ đáp ứng toàn bộ (ORR) = CR + CRi + Không lui bệnh về mặt huyết học: Không đạt được các tiêu chuẩn CR khi kết thúc điều trị cảm ứng. + Tiêu chuẩn đánh giá bệnh tiến triển: Tăng ít nhất trên 25% số lượng tế bào ác tính trong máu ngoại vi hoặc tuỷ xương hoặc tiến triển các triệu chứng thâm nhiễm ngoài tuỷ. + Tiêu chuẩn tái phát bệnh:  Tái phát tuỷ xương đơn độc: Sau khi đạt lui bệnh hoàn toàn, bệnh nhi có biểu hiện thiếu máu, xuất huyết dưới da, sốt, hạch to trở lại..., xuất hiện tế bào blast trong máu ngoại vi, tuỷ xương có ≥ 25% tế bào blast.  Tái phát tuỷ xương kết hợp: tái phát tuỷ xương + có ít nhất 1 vị trí tái phát ngoài tuỷ xương"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:45",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9781,
+            "snippet": "- Tiêu chuẩn lui bệnh về huyết học: Bằng xét nghiệm tủy đồ (3-4 tuần sau điều trị) theo tiêu chuẩn của Viện Ung thư quốc gia Hoa Kỳ (1990): + Lui bệnh hoàn toàn: Lâm sàng ổn định, số lượng bạch cầu trung tính > 1,5G/L, Hematocrit > 0,3 l/l, số lượng tiểu cầu > 100G/L, không còn tế bào blast ở máu ngoại vi, tỷ lệ tế bào blast trong tủy xương < 5% (trên nền tủy sinh máu bình thường); + Lui bệnh không hoàn toàn: Tỷ lệ tế bào blast ở tủy xương từ 5-20%; + Không lui bệnh: Tỷ lệ tế bào blast ở tủy xương > 20%. - Phát hiện tồn dư tối thiểu của bệnh: Kỹ thuật đếm tế bào dòng chảy đa màu (ngưỡng phát hiện < 1 x 10-4.), kỹ thuật PCR định lượng (ngưỡng phát hiện < 1 x 10-5/6). - Xét nghiệm đánh giá lại gen bệnh sau 2-3 chu kỳ hoá chất hoặc trước khi ghép tế bào gốc tạo máu. - Bệnh nhân tái phát cần làm lại xét nghiệm chẩn đoán như bệnh nhân mới. 3.6"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.981,
+          "min": 0.9781,
+          "avg": 0.9794
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 34571,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-040",
+  "date_folder": "13-04-2026",
+  "sequence": 40,
+  "file_name": "session_040.json",
+  "created_at": "2026-04-13T03:12:26.947373",
+  "updated_at": "2026-04-13T03:12:26.947373"
+}

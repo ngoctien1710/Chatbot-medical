@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Cần thực hiện nhiệm vụ gì trong giai đoạn test corticoid của phác đồ GRAALL 2005?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong giai đoạn test corticoid của phác đồ GRAALL 2005, bạn cần thực hiện việc điều trị bệnh nhân với Methylprednisone liều 60 mg/m2 đường uống hoặc methylprednisolone liều 48mg/m2 đường tĩnh mạch từ ngày 1-7 (hoặc đến ngày thứ 10). Sau khi đó, bệnh nhân sẽ được chia thành hai nhóm để lựa chọn phác đồ điều trị là nhóm có NST Ph(+) và nhóm có NST Ph(-).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:32",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 18.2454,
+            "snippet": "dụng liệu trình điều trị quay vòng nhiều đợt, mỗi đợt ngắn ngày nhưng hoá chất sử dụng liều rất cao. Phác đồ thường dùng là Hyper-CVAD, bao gồm 8 đợt điều trị liều cao phân liều, không điều trị duy trì; - Phác đồ Hyper-CVAD: Gồm 8 đợt điều trị, chia thành 2 liệu trình A và B, điều trị xen kẽ. b. Điều trị bệnh nhân LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (AYA) Phác đồ GRAALL 2005 Giai đoạn test corticoid: Thực hiện từ ngày 1-7, tối đa là ngày thứ 10. - Methylprednisone: liều 60 mg/m2 đường uống hoặc methylprednisolone liều 48mg/m2 đường tĩnh mạch từ ngày 1-7 (hoặc đến ngày thứ 10). Sau đó bệnh nhân được chia thành 2 nhóm để lựa chọn phác đồ điều trị là nhóm có NST Ph(+) và nhóm có NST Ph(-)"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:28",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 9.9965,
+            "snippet": ". Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase. Với ALL có NST Ph(+) hóa trị liệu phối hợp với các thuốc ức chế hoạt tính tyrosine kinase (TKIs) và phối hợp với rituximab cho ALL có CD20(+). 3.3.2. Phác đồ điều trị a. Điều trị LXM lympho cấp người lớn (adult) ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 169"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:88",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 8.4869,
+            "snippet": ". - Daunorubicine: 40mg/m2, ngày 8, 15, 22 (B1, B2). Với nhóm B2, bệnh nhân được điều trị thêm Daunorubicin vào ngày 23. Truyền tĩnh mạch chậm trong 1 giờ. - Cyclophosphamide: 1.000 mg/m2, + ngày 22 (Riêng nhóm B2) truyền tĩnh mạch chậm 30 phút. - Tiêm tủy sống 3 thuốc theo tuổi, ngày 8, 15 (với MTX, DEPO, cytarabin). Ngày 22 nếu người bệnh có tổn thương thần kinh trung ương lúc chẩn đoán. Lưu ý: - IT chỉ với methotrexate vào ngày 1 (không có corticoid) với điều kiện tiểu cầu > 100G/L. IT mũi 1 nên được thực hiện sớm khi có thể (không chậm quá ngày 4 của điều trị cảm ứng bằng corticoid) trừ trường hợp chống chỉ định (bạch cầu cao có triệu chứng, u trung thất to...). - Trường hợp BC tăng cao (> 500G/L): Có thể bổ sung vincristine trước ngày 8"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 18.2454,
+          "min": 8.4869,
+          "avg": 12.2429
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5120,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-070",
+  "date_folder": "13-04-2026",
+  "sequence": 70,
+  "file_name": "session_070.json",
+  "created_at": "2026-04-13T10:27:20.475085",
+  "updated_at": "2026-04-13T10:27:20.475085"
+}

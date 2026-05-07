@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Thể bệnh RAEB-1 và RAEB-2 trong MDS khác nhau như thế nào về tỷ lệ blast trong máu và tủy?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Thể bệnh RAEB-1 và RAEB-2 trong MDS khác nhau về tỷ lệ blast trong máu và tủy. Trong RAEB-1, tỷ lệ blast trong máu là 5% đến 9%, trong khi trong RAEB-2, tỷ lệ blast trong máu là 10% đến 19%. Về tủy, trong RAEB-1, tỷ lệ blast trong tủy xương là không có thể xác định vì thông tin chỉ cho biết tỷ lệ blast trong máu. Trong RAEB-2, tỷ lệ blast trong tủy xương là 5% đến 19%.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:267",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.893,
+            "snippet": "TT Thể bệnh Máu ngoại vi Tủy xương Thiếu máu dai dẳng có tăng quá mức blast - 1(Refractory anemia with exccess blasts1: RAEB - 1) Giảm tế bào Blasts < 5% Tế bào mono < 1G/L - Rối loạn một dòng hay nhiều dòng tế bào tủy - Blasts 5% đến 9% - Không thấy thể Auer Thiếu máu dai dẳng có tăng quá mức blast - 2 (Refractory anemia with excces blasts2: RAEB - 2) Giảm tế bào Blasts 5% đến 19% Có khi thấy thể Auer Tế bào mono < 1G/L - Rối loạn một dòng hay nhiều dòng tế bào tủy - Blasts 10% đến 19% - Có khi thấy thể Auer Hội chứng rối loạn sinh tủy không xếp loại(Myelodysplastic syndrome unclassified: MDS - U) Giảm tế bào Không có hoặc hiếm gặp blast Không thấy thể Auer - Chỉ rối loạn dòng bạch cầu hạt hoặc mẫu tiểu cầu. - Blasts < 5% - Không thấy thể Auer Hội chứng rối loạn sinh tủy có kết hợp mất nhánh dài nhiếm sắc thể số 5(del 5q) (MDS associated with isolatsed del(5q)) Thiếu máu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:270",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8876,
+            "snippet": "< 5% blast del(5q) - Thiếu máu dai dẳng có tăng quá mức blast -1 (Refractory anemia with exccess 5-9% blast, thể Auer (-) blasts1: RAEB - 1) - Thiếu máu dai dẳng có tăng quá mức blast - 2 (Refractory anemia with excces 10-19% blast, thể Auer (±) blasts2: RAEB - 2) MDS-U: rối loạn sinh tủy chưa xếp loại <10% tế bào bất thường + < 5% blast + gen bất thường Theo xếp loại WHO 2008 thể RAEB-t của xếp loại FAB (1982) được coi là lơ xê mi tủy cấp với tổn thương đa dòng, và CMML được xếp là MDS/MPS (rối loạn sinh tủy/ tăng sinh tủy); có bất thường NST như t(15;17), t(8;21), inv16, t(16;16), được xếp là lơ xê mi tủy cấp, không tính đến tỉ lệ blast tủy và nguyên hồng cầu sắt vòng\n. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 254"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:269",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8812,
+            "snippet": "Nhóm Thể bệnh Các yếu tố về tủy xương Giảm tế bào dai dẳng loạn sản đơn dòng ≥ 10% tế bào một dòng bị rối loạn < 5% blast < 15% nguyên hồng cầu sắt vòng (RS) bao gồm: thiếu máu dai dẳng, giảm bạch cầu trung tính, giảm tiểu cầu (Refractory cytopenias with unilineage dysplasia: RCUD) Thiếu máu dai dẳng tăng nguyên hồng cầu sắt vòng (Refractory anemia with ringed sideroblasts: RARS) < 5% blast ≥ 15% RS Giảm tế bào dai dẳng có rối loạn nhiều dòng tế bào (Refractory cytopenia with multilineage dysplastic: RCMD) ≥ 10% tế bào bất thường ở ≥ 2 dòng tế bào < 5% blast Không kèm hoặc kèm tăng RS Hội chứng rối loạn sinh tủy có kết hợp mất nhánh dài nhiếm sắc thể số 5(del 5q) (MDS associated with isolatsed del(5q)) < 5% blast del(5q) - Thiếu máu dai dẳng có tăng quá mức blast -1 (Refractory anemia with exccess 5-9% blast, thể Auer (-) blasts1: RAEB - 1) - Thiếu máu dai dẳng có tăng quá"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:113",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6081,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:185",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4997,
+            "snippet": "- Không có gen PDGFRA (4q12) hoặc PDGFRB (5q31-33) hoặc FGFR1, PCM1- JAK2 (đặc biệt, trong các trường hợp tăng bạch cầu ưa acid). - Blast ở máu ngoại vi và trong tủy xương < 20%. - Rối loạn sinh sản của một hoặc nhiều dòng tế bào tủy. - Xuất hiện bất thường về di truyền tế bào hoặc bất thường di truyền phân tử mắc phải trong các tế bào tạo máu như trisomy 8, mất NST Y, monosomy, del 7q… - Tăng bạch cầu mono dai dẳng ít nhất 3 tháng mà các nguyên nhân tăng bạch cầu mono khác đã được loại trừ (như nhiễm trùng, viêm, hoặc bệnh ác tính). - Đếm tế bào mono máu ngoại vi bằng phương pháp flow cytometry có sự xuất hiện của CD14+ và CD16-. 2.4. Chẩn đoán thể bệnh: - CMML-0: Blast < 2% ở máu ngoại vi và < 5% trong tủy xương. - CMML-1: Blast < 2-4% ở máu ngoại vi và < 5-9% trong tủy xương. - CMML-2: Blast từ 5-19% ở máu ngoại vi và từ 10-19% trong tủy xương"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.893,
+          "min": 0.4997,
+          "avg": 0.7539
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 33678,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-019",
+  "date_folder": "24-04-2026",
+  "sequence": 19,
+  "file_name": "session_019.json",
+  "created_at": "2026-04-24T17:52:06.160884",
+  "updated_at": "2026-04-24T17:52:06.160884"
+}

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân A, giới tính nam, 62 tuổi, tiền sử mắc Hội chứng rối loạn sinh tủy (MDS) 3 năm. Gần đây bệnh nhân mệt mỏi nhiều, sốt thất thường và có các mảng xuất huyết dưới da. Kết quả tủy đồ cho thấy tỷ lệ tế bào non (blast) chiếm 35%, lấn át các dòng tế bào khác. Đưa ra chuẩn đoán xác định tình trạng của bệnh nhân?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân A có tính chất của Hội chứng rối loạn sinh tủy (MDS) với tỷ lệ tế bào blast chiếm 35% trong tủy. Theo tiêu chuẩn quốc tế, nếu tỷ lệ blast trong tủy của phác đồ ngày 21 không hơn 5%, bệnh nhân sẽ được xếp vào loại M1. Tuy nhiên, vì tỷ lệ blast trong tủy của bệnh nhân A là 35%, nó có thể được xếp vào một trong hai loại khác: M2 (6 - 25%) hoặc M3 (> 25%). Chúng tôi khuyên bệnh nhân A đưa ra tủy đồ cho việc xác định chính xác loại của Hội chứng rối loạn sinh tủy.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:255",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9587,
+            "snippet": "1. ĐẠI CƯƠNG - Hội chứng rối loạn sinh tủy (Myelodysplastic Syndrome - MDS) là một nhóm các bệnh ác tính tế bào sinh máu có đặc điểm: Tủy sinh máu không hiệu lực; bất thường hình thái và chức năng tế bào máu; bệnh tiến triển âm ỉ, dai dẳng và thường kết thúc bằng lơ xê mi cấp nên còn gọi là tiền lơ xê mi (pre-leukemia). - Nguyên nhân chưa rõ, được cho là tương tự các nguyên nhân gây ra bệnh lơ xê mi cấp. - Chẩn đoán và tiên lượng dựa vào các tiêu chuẩn của FAB 1982, WHO 2001 và WHO 2008, WHO 2016, tùy vào điều kiện chẩn đoán của cơ sở y tế hiện có. 2. CHẨN ĐOÁN Căn cứ vào lâm sàng và xét nghiệm. 2.1. Lâm sàng - Thường gặp trên 50 tuổi, nam nhiều hơn nữ. - Thiếu máu (> 90% người bệnh) thường là biểu hiện đầu tiên, dai dẳng và đáp ứng kém với điều trị. - Nhiễm trùng (gặp ở khoảng 15% người bệnh). - Có thể gặp xuất huyết do giảm tiểu cầu"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:1",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9423,
+            "snippet": ". - Hội chứng thâm nhiễm: Gan, lách, hạch to, phì đại lợi, thâm nhiễm da, thâm nhiễm thần kinh trung ương... - Có thể gặp triệu chứng tắc mạch do tăng bạch cầu. - Biểu hiện toàn thân do bệnh lý ác tính: Mệt mỏi, gầy sút, suy sụp nhanh. 2.2. Triệu chứng xét nghiệm a. Xét nghiệm tế bào máu ngoại vi - Thiếu máu bình sắc, hồng cầu kích thước bình thường, hồng cầu lưới giảm. - Bạch cầu thường tăng, nhưng có thể bình thường hoặc giảm, gặp một tỷ lệ tế bào non (tế bào blast) ác tính. - Số lượng tiểu cầu giảm. b. Xét nghiệm tủy xương - Tuỷ đồ là xét nghiệm quyết định chẩn đoán, cho thấy các tế bào blast chiếm tỷ lệ ≥ 20% các tế bào có nhân trong tủy; các dòng hồng cầu, bạch cầu hạt và mẫu tiểu cầu bị lấn át bởi tế bào blast. - Sinh thiết tuỷ xương được chỉ định trong trường hợp chọc hút tuỷ không chẩn đoán xác định được do tủy nghèo tế bào thấy ổ tế bào blast. c"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:113",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.884,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:274",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8694,
+            "snippet": "- Tiên lượng xấu: ASXL1, EZH2, SRSF2, U2AF1, RUNX1, ZRSR2, TP53, STAG2, NRAS , ETV6, GATA2, BCOR, IDH2, NPM1, WT1, PRPF8, FLT3, CBL. - Tiên lượng tốt: SF3B1. 3. ĐIỀU TRỊ 3.1. Nguyên tắc chung - Điều trị căn cứ theo thể bệnh hội chứng rối loạn sinh tủy (xếp loại FAB 1982 và WHO), yếu tố nguy cơ, tuổi, toàn trạng. - Các biện pháp điều trị chính là: Hóa trị liệu, sử dụng các chất cảm ứng biệt hóa, ghép tủy xương, điều trị bổ trợ cho thiếu máu, xuất huyết, nhiễm trùng. 3.2. Tiên lượng - Tiên lượng phụ thuộc vào nhiều yếu tố: Mức độ giảm tế bào, tỷ lệ blast ở máu và tủy, tăng tế bào mono trong CMML, có mặt của ALIP trong tủy, bất thường NST… Bảng 25. Hệ thống điểm tiên lượng theo tiêu chuẩn quốc tế"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:262",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.8538,
+            "snippet": "f. Vi sinh: - Xét nghiệm HIV, HCV, HBsAg, Anti-HBc IgG. - Xét nghiệm: CMV (IgG,IgM), đo tải lượng CMV. 2.3. Chẩn đoán a. Tiêu chuẩn chẩn đoán hội chứng rối loạn sinh tủy: Dựa trên lâm sàng, xét nghiệm tế bào học (bảng xếp loại mục 2.4). b. Chẩn đoán phân biệt Hội chứng rối loạn sinh tủy với - Hội chứng tăng sinh tủy: Cùng là bệnh đơn dòng, nhưng tăng sinh tế bào mạnh hơn, định hướng dòng rõ, có thể thấy tổn thương đặc hiệu như gen Jak2 V617F. - Suy tủy xương: Thiếu máu, xuất huyết, nhiễm trùng thường nặng hơn, diễn biến nhanh hơn, tủy giảm sinh nặng hơn thậm chí tuyệt sản, ít bất thường về hình thái hơn"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9587,
+          "min": 0.8538,
+          "avg": 0.9017
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 41772,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-016",
+  "date_folder": "23-04-2026",
+  "sequence": 16,
+  "file_name": "session_016.json",
+  "created_at": "2026-04-23T13:18:39.577670",
+  "updated_at": "2026-04-23T13:18:39.577670"
+}

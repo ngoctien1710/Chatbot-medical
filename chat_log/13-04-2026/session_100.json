@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Các nhà khoa học đã có bước tiến quan trọng nào trong quá trình điều trị ALL thay cho việc điều trị bằng hóa chất?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong quá trình điều trị ALL, nhà khoa học đã có bước tiến quan trọng nhất là sử dụng điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu như protein lai BCR-ABL1 bằng các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib...).",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:45",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9904,
+            "snippet": "chọn lọc trên tế bào ác tính, hoặc trên một số phân tử đặc hiệu có tính quyết định trong cơ chế bệnh sinh của bệnh, gọi là điều trị nhắm đích (targeted therapies) [43]. Một bước tiến quan trọng trong điều trị ALL là hiệu quả của điều trị nhắm đích bằng liệu pháp phân tử, tấn công vào các bản dịch mã đặc hiệu, như phân tử protein lai BCR-ABL1 bởi các thuốc ức chế Tyrosine Kinase (Imatinib, Dasatinib…). Liệu pháp kháng thể đơn dòng đặc hiệu (kháng thể kháng CD19, CD22, CD20) như Epratuzumab, Inotuzumab ozogamicin, rituximab, Ofatumumab, Obinutuzumab, Coltuximab ravtansine cũng đang được nghiên cứu điều trị kết hợp cùng các phác đồ hóa trị liệu hoặc điều trị đơn độc sau khi kết thúc hóa trị liệu [44]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:44",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9603,
+            "snippet": ". - Ghép tế bào gốc tạo máu Trong khoảng hơn 60 năm qua, điều trị ALL trẻ em đã đạt được nhiều thành công, chất lượng điều trị đã có những cải thiện rõ rệt. Hầu hết bệnh nhi ngày nay được điều trị thành công, đạt được tình trạng lui bệnh mà không cần sử dụng đến phương pháp ghép tế bào gốc tạo máu. Ghép tế bào gốc tạo máu được đặt ra với nhóm bệnh nhi nguy cơ cao, hoặc không đạt được tình trạng lui bệnh (kháng hoá trị), hoặc tái phát, đặc biệt tái phát sớm sau khi hoàn thành hóa trị liệu [23]. - Điều trị nhắm đích và hƣớng điều trị trong tƣơng lai Điều trị hóa chất có nhược điểm chung, đó là cùng một lúc làm tổn thương cả tế bào ác tính và tế bào lành, dẫn đến một số hạn chế trong hiệu quả điều trị và khả năng phục hồi sau điều trị. Từ nhiều năm nay, các nhà khoa học đã tiến hành nhiều nghiên cứu để tìm ra các loại thuốc đặc hiệu có tác dụng 15"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:13",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.924,
+            "snippet": "Lơ xê mi cấp dòng lympho (Acute Lymphoblastic Leukemia - ALL) là bệnh lý tăng sinh ác tính của các tế bào dòng lympho của hệ thống tạo máu. ALL xảy ra với tỷ lệ mắc khoảng 1-1,5 trên 100.000 người [1]. Theo các thống kê trên thế giới cũng như ở Việt Nam, bệnh ALL là bệnh ác tính thường gặp nhất ở trẻ em, chiếm khoảng 80% của tất cả các bệnh lơ xê mi ở trẻ [2]. Theo thống kê tại Mỹ, mỗi năm có khoảng 6.000 bệnh nhân ALL mới, hơn một nửa trong số đó là trẻ em [1]. Lứa tuổi mắc bệnh nhiều nhất ở trẻ em là 4 - 5 tuổi, với tỷ lệ mắc khoảng 4-5 trên 100.000 trẻ [1]. Cùng với sự tiến bộ của phương pháp miễn dịch và các kỹ thuật di truyền – sinh học phân tử, việc chẩn đoán, điều trị và theo dõi đáp ứng ALL hiện nay có những bước tiến vượt bậc [3],[4],[5]. Xác định các biến đổi di truyền đặc trưng nhằm tiên lượng, xếp loại nguy cơ bệnh có vai trò đặc biệt [6]"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9904,
+          "min": 0.924,
+          "avg": 0.9582
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 28602,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-100",
+  "date_folder": "13-04-2026",
+  "sequence": 100,
+  "file_name": "session_100.json",
+  "created_at": "2026-04-13T14:24:48.044207",
+  "updated_at": "2026-04-13T14:24:48.044207"
+}

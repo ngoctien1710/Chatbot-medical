@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Phân nhóm tiên lượng theo bất thường NST và gen trong AML (không phải APL) được chia thành 3 nhóm như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong nghiên cứu mang tên, các bất thường NST được chia thành ba nhóm theo tiên lượng AML (không phải APL) như sau:\n- Nhóm nguy cơ thấp chiếm tỷ lệ 19,7%\n- Nhóm nguy cơ trung bình chiếm tỷ lệ cao nhất với 66,0%\n- Nhóm nguy cơ cao chiếm 14,3%\n\nTrong đó, bất thường NST chủ yếu gặp ở nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:215",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9558,
+            "snippet": ". Vì vậy, việc chia nhóm nguy cơ theo biến đổi di truyền lơ xê mi cấp dòng lympho B giúp cho các nhà lâm sàng đánh giá tiên lượng, lập kế hoạch điều trị để có thể đạt được hiệu quả tốt nhất cho bệnh nhi. Nghiên cứu có 244 bệnh nhi mang dấu ấn tế bào B (bao gồm cả lơ xê mi cấp thể lai). Dựa trên kết quả phân tích NST và đột biến gen được khảo sát trong nghiên cứu, các bệnh nhi này được chia thành 3 nhóm nguy cơ: nhóm nguy cơ thấp chiếm tỷ lệ 19,7%, nhóm nguy cơ trung bình chiếm tỷ lệ cao nhất với 66,0% và nhóm nguy cơ cao chiếm 14,3% (bảng 3.8). Tổng hợp kết quả điều trị các nhóm nguy cơ theo biến đổi di truyền B- ALL ở một số nghiên cứu áp dụng phác đồ ALL97/99 và ALL2003 của tác giả A.V.Moorman, nhóm nguy cơ thấp chiếm tỷ lệ cao hơn so với nghiên cứu này [118]"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:227",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8992,
+            "snippet": ". Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi), chủ yếu thuộc nhóm tiền B. Các tổn thương khác như mất đoạn, đảo đoạn, thêm đoạn NST ít gặp hơn. Nhóm T-ALL chỉ có 4 bệnh nhi có bất thường NST, trong đó có 3 bệnh nhi được phát hiện tổn thương cấu trúc NST, bao gồm mất đoạn, thêm đoạn và đa tổn thương NST. Bất thường về số lượng NST cũng chủ yếu gặp ở bệnh nhi nhóm B chung. Chỉ phát hiện được 1 bệnh nhi có đột biến trên lưỡng bội NST thuộc nhóm T-ALL. Kết quả nghiên cứu tương tự nghiên cứu của tác giả Trần Quỳnh Mai năm 2016, An Thúy Lan năm 2018 [75],[98]. Điều này có thể giải thích là do B-ALL chiếm đến 83,0% trong nghiên cứu. Do vậy, bất thường NST được phát hiện chủ yếu thuộc nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:228",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8023,
+            "snippet": ". Do vậy, bất thường NST được phát hiện chủ yếu thuộc nhóm B-ALL. Trong T-ALL, bất thường về số lượng nhiễm sắc thể hiếm gặp và thường không liên quan đến tiên lượng bệnh. Đột biến về cấu trúc chủ yếu là chuyển đoạn NST, liên quan đến gen TCR [1],[38],[62]. Mặt khác, do số lượng bệnh nhi được phát hiện bất thường NST thấp nên không thấy sự khác biệt về các loại bất thường NST giữa các nhóm B-ALL và T- ALL. Đây là điểm hạn chế của nghiên cứu."
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:209",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6288,
+            "snippet": "Hematologique) với nhóm trên 50 NST thì các NST hay thêm đó là 4, 6, 8, 10, 14, 17, 21 còn nhóm 47-50 NST thì các NST hay thêm là 5, 8, 10, 21. Trong nghiên cứu này, các NST hay thêm là 3, 4, 6, 8, 9, 14, 16, 21 và cả NST không xếp loại được (mar) cũng khá tương đồng với nghiên cứu của nhiều tác giả [111],[112]. So với tỷ lệ phát hiện bất thường số lượng NST với các nghiên cứu trên thế giới, nghiên cứu này phát hiện được tỷ lệ bệnh nhi có bất thường NST với tỷ lệ thấp hơn, có thể do kỹ thuật nuôi cấy với tế bào LXM cấp dòng lympho còn nhiều khó khăn, nên chưa phân tích được dòng tế bào bất thường. 4.2.1.2. Tỷ lệ phát hiện đột biến dung hợp một số gen khảo sát Nghiên cứu thực hiện khảo sát các ĐBG cho 288 bệnh nhi với 4 đột biến dung hợp gen BCR-ABL1, MLL-AF4, E2A-PBX1, TEL-AML1. Đây là 4 đột biến dung hợp gen thường gặp và có ý nghĩa trong tiên lượng bệnh"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:206",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.6262,
+            "snippet": "trong điều trị và được nhiều tác giả xếp loại vào nhóm nguy cơ rất cao theo tiên lượng NST [99],[108]. Bất thường về số lượng NST có ý nghĩa đặc biệt liên quan đến tiên lượng bệnh. Bất thường số lượng NST trong bệnh ALL có thể đơn độc hoặc phối hợp với bất thường cấu trúc. Các nhóm NST được cho là có liên quan nhiều đến tiên lượng là trên lưỡng bội tăng nhiều NST (> 50 NST) và dưới lưỡng bội NST (< 46 NST). Đặc điểm bất thường về số lượng NST được phân tích trong nghiên cứu này với 11 trường hợp có bất thường về số lượng NST, chủ yếu là trên lưỡng bội NST với 10/11 bệnh nhi (bảng 3.6). Nghiên cứu cũng nhận thấy, các bất thường trên lưỡng bội NST có thể gặp cộng thêm ở nhiều NST khác nhau như NST số 4, 5, 6, 7, 9, 14, 21, thường có kết hợp với tổn thương cấu trúc NST và có cấu trúc dạng khảm"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9558,
+          "min": 0.6262,
+          "avg": 0.7825
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 36839,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-018",
+  "date_folder": "24-04-2026",
+  "sequence": 18,
+  "file_name": "session_018.json",
+  "created_at": "2026-04-24T17:50:53.564405",
+  "updated_at": "2026-04-24T17:50:53.564405"
+}

@@ -1,0 +1,48 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Trẻ em bị ALL gặp những bất thường gì trên lưỡng bội nhiễm sắc thể",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trẻ em bị ALL có thể gặp những tác động không thường xuyên như:\n- Nhiễm mắc viêm phổi, viêm miệng, viêm họng hoặc viêm cơ thể.\n- Có dị ứng với thuốc hay chất khác.\n- Bị tăng sốt, ho hoặc có mệt mỏi.\n- Mắc bệnh ung thư hoặc các bệnh viêm máu.\nNếu trẻ em bị ALL gặp những tác động không thường xuyên này, hãy liên lạc với y bác sĩ ngay lập tức.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "no_match",
+        "top_k": 0,
+        "snippets": [],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": null
+      },
+      "diagnostics": {
+        "latency_ms": 73262,
+        "context_used": 0,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-061",
+  "date_folder": "13-04-2026",
+  "sequence": 61,
+  "file_name": "session_061.json",
+  "created_at": "2026-04-13T09:45:42.348217",
+  "updated_at": "2026-04-13T09:45:42.348217"
+}

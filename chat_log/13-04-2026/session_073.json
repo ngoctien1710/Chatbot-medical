@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 được chia thành các giai đoạn nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The FRALLE 2000 treatment protocol for Lymphoma Hodgkin is divided into five stages, which include:\n\n1. Sensitization phase\n2. Induction phase\n3. Consolidation phase\n4. Intensification phase 1\n5. Maintenance phase\n6. Intensification phase 2 (if necessary)\n7. Continuation phase\n\nThe specific treatment plan may vary depending on the patient's age and NST Ph status, as well as other factors. It is essential to follow the guidelines strictly and closely to achieve the best results.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:63",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9999,
+            "snippet": "+ Kháng hóa trị ngày 21: Tủy đồ ngày 21 có blast > 5%. 3.2. Điều trị Lơ xê mi lympho cấp theo FRALLE 2000 Phác đồ điều trị thường được sử dụng là phác đồ FRALLE 2000 và được phân chia điều trị 5 giai đoạn khác nhau, có tính liên tục, bắt buộc phải tuân thủ chính xác và chặt chẽ; mỗi giai đoạn chuyển đổi đều được đánh giá và có tiêu chuẩn để bắt đầu sử dụng thuốc, các giai đoạn điều trị bao gồm: + Giai đoạn cảm ứng; + Điều trị tấn công; + Điều trị củng cố; + Điều trị tăng cường 1; + Điều trị trung gian; + Điều trị tăng cường 2; + Điều trị duy trì"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:27",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9821,
+            "snippet": ". Trong các đợt sau làm điện tim trước mỗi đợt điều trị. 3.3. Điều trị Lơ xê mi lympho cấp ở người lớn 3.3.1. Nguyên tắc điều trị - Dựa trên các tiêu chí: Lâm sàng, miễn dịch, tế bào di truyền, NCCN guideline chia thành các nhóm điều trị sau: + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân thanh thiếu niên và người trẻ tuổi (adolescent and young adult - AYA) không có NST Ph: tuổi 15-39; + LXM lympho cấp ở bệnh nhân người lớn (adult) có NST Ph: tuổi 40-64; + LXM lympho cấp ở bệnh nhân người lớn (adult) không có NST Ph: tuổi 40-64. - Liệu trình điều trị gồm: Tấn công (điều trị cảm ứng), củng cố, dự phòng thâm nhiễm hệ thần kinh trung ương, điều trị duy trì. Bên cạnh các phác đồ mô tả dưới đây, có thể sử dụng một số phác đồ như GRAALL 2005, phác đồ Hyper-CVAD phối hợp với L- asparaginase"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:84",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.9708,
+            "snippet": "- Nhóm A3 và A1/A2 có MRD dương tính (≥ 10-2): + Bắt đầu ngày 57 sau giai đoạn tăng cường II, điều trị tương tự nhóm A1 nhưng thay dexa bằng corticoid 40 mg/m2 ngày 1-7; + Tổng cộng có 6 mũi IT (duy trì tháng 3, 6, 9, 12, 15, 18). 3.2.1.2. Phác đồ điều trị lơ xê mi lympho B cấp - nhóm B a. Sơ đồ điều trị tổng quát: FRALLE 2000-B: NHÓM B"
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9999,
+          "min": 0.9708,
+          "avg": 0.9843
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 22436,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-073",
+  "date_folder": "13-04-2026",
+  "sequence": 73,
+  "file_name": "session_073.json",
+  "created_at": "2026-04-13T10:45:33.651817",
+  "updated_at": "2026-04-13T10:45:33.651817"
+}

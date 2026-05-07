@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "sparse_only",
+  "query": "Dấu ấn miễn dịch đóng vai trò gì trong việc chẩn đoán và phân định các dòng tế bào (B-ALL và T-ALL) của bệnh bạch cầu cấp dòng lympho?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Dấu ấn miễn dịch là một yếu tố quan trọng trong việc chẩn đoán và phân định các dòng tế bào (B-ALL và T-ALL) của bệnh bạch cầu cấp dòng lympho. Nó giúp xếp loại tế bào và thể hiện giai đoạn biệt hóa của dòng tế bào LXM. Dấu ấn miễn dịch cho phép chia nhóm ALL theo một trong những yếu tố tiên lượng độc lập và cũng là một trong những tiêu chuẩn để chia nhóm nguy cơ và lựa chọn điều trị trong phác đồ FRALLE 2000.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_sparse_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:238",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 27.1026,
+            "snippet": "ABL1 và MLL-AF4 (thuộc nhóm B-ALL nguy cơ cao) thuộc họ gen kinase, ảnh hưởng đến nhiều con đường dẫn truyền tín hiệu qua đó tác động lên quá trình tăng sinh, biệt hóa của tế bào lympho B [53]. Có lẽ vì thế mà các bệnh nhi có gen BCR-ABL1 và MLL-AF4 thường có số lượng bạch cầu cao, với mức độ tăng sinh tế bào ác tính rất mạnh, ảnh hưởng đến đáp ứng điều trị hóa chất và được xếp vào nhóm nguy cơ cao. d. Đặc điểm bất thƣờng di truyền theo xếp loại miễn dịch Dấu ấn miễn dịch giúp xếp loại tế bào, đồng thời cũng thể hiện giai đoạn biệt hóa của dòng tế bào LXM. Nghiên cứu về đặc điểm xếp loại và dấu ấn miễn dịch theo các nhóm nhận thấy: Đa số bất thường NST thuộc nhóm lơ xê mi cấp tế bào B (B-ALL). Các bất thường chuyển đoạn trong nghiên cứu này chỉ gặp ở nhóm B-ALL, trong đó chuyển đoạn t(9;22) chiếm tỷ lệ cao nhất (6 bệnh nhi), chủ yếu thuộc nhóm tiền B"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:36",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 26.7369,
+            "snippet": "+ Huyết sắc tố: Thường giảm, mức độ từ nhẹ đến nặng; + Tiểu cầu: Thường giảm hoặc có thể bình thường. - Tủy đồ: Tỷ lệ tế bào non ác tính (blast) dòng lympho trong tủy ≥ 20% tế bào có nhân trong tuỷ. Mẫu tiểu cầu giảm. + Hóa học tế bào: PAS (+), Soudan - black (-), Peroxydase (-). - Miễn dịch tế bào: + Dấu ấn tế bào non: CD34, HLA-DR, TdT; + Dấu ấn dòng lympho B (CD19, CD79a, CD10, CD20…), dòng lympho T (CD3, CD7, CyCD3, CD2, CD5…). - Di truyền tế bào và sinh học phân tử: Một số đột biến có ý nghĩa tiên lượng trong lơ xê mi cấp dòng lympho (được trình bày ở phần sau). c. Chẩn đoán xác định - Chẩn đoán ALL dựa trên các tiêu chuẩn lâm sàng, hình thái học, nhuộm hoá học tế bào, xếp loại miễn dịch và các biến đổi di truyền đặc trưng của dòng lympho. Chẩn đoán xác định khi nguyên bào lympho (NBLP) chiếm trên 20% tế bào có nhân trong tuỷ, mang dấu ấn miễn dịch đặc trưng dòng lympho"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:200",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 26.5163,
+            "snippet": ". 4.1.3. Đặc điểm xếp loại thể bệnh theo dấu ấn miễn dịch Xếp loại thể bệnh dựa trên các dấu ấn miễn dịch để chia nhóm ALL là một trong những yếu tố tiên lượng độc lập, cũng là một trong những tiêu chuẩn để chia nhóm nguy cơ và lựa chọn điều trị trong phác đồ FRALLE 2000. Trong nghiên cứu này, tỷ lệ bệnh nhi có dấu ấn miễn dịch tế bào được xếp vào nhóm B-ALL chiếm chủ yếu với 83%. Tỷ lệ bệnh nhi T-ALL chiếm 15,3% bệnh nhi trong nghiên cứu (bảng 3.2). LXM cấp thể lai hiếm gặp nhất"
+          }
+        ],
+        "retrieval_mode": "sparse_only",
+        "score_summary": {
+          "max": 27.1026,
+          "min": 26.5163,
+          "avg": 26.7852
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 6468,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "sparse_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-036",
+  "date_folder": "13-04-2026",
+  "sequence": 36,
+  "file_name": "session_036.json",
+  "created_at": "2026-04-13T02:48:16.491608",
+  "updated_at": "2026-04-13T02:48:16.491608"
+}

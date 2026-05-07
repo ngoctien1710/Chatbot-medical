@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhân E, bé gái 5 tuổi ALL dòng B đang điều trị giai đoạn tấn công theo phác đồ FRALLE 2000. Ngày thứ 8 của phác đồ, huyết đồ phát hiện bạch cầu non (tế bào blast) trong máu ngoại vi là 2,5 G/L. Cần theo dõi bất thường gì, phân loại đáp ứng thế nào và cần thực hiện gì ở các giai đoạn tiếp theo?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Bệnh nhân E có tế bào blast trong máu ngoại vi là 2,5 G/L sau khi 8 ngày điều trị theo phác đồ FRALLE 2000. Nếu số lượng tế bào blast máu ngoại vi vẫn cao hơn 1 G/L, có thể không đáp ứng được corticoid. Bệnh nhân E cần theo dõi sự biến động của tế bào blast trong máu ngoại vi và tủy đồ, đánh giá đáp ứng hóa trị trên tủy đồ ngày 21. Nếu không đáp ứng được tiêu chuẩn hóa trị, bệnh nhân có thể cần thay đổi phác đồ hoặc thêm liệu trình khác.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:112",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9522,
+            "snippet": "+ CNS3: Có ≥ 5 bạch cầu/ml với sự hiện diện nguyên bào lympho trong dịch não tuỷ; + Nếu dịch não tuỷ có lẫn máu: so sánh tỷ lệ bạch cầu/hồng cầu dịch não tuỷ và máu ngoại vi, nếu bạch cầu/hồng cầu dịch não tuỷ > máu ngoại vi ít nhất 2 lần, được tính giai đoạn CNS3, dưới mức đó được tính CNS2. - Đánh giá đáp ứng sau điều trị theo phác đồ FRALLE 2000 [34]: + Tiêu chuẩn đánh giá đáp ứng corticoid trên huyết đồ ngày 8:  Nhạy với cortioid: Số lượng tế bào blast máu ngoại vi ngày 8 của phác đồ < 1 G/L;  Kháng với corticoid: Số lượng tế bào blast máu ngoại vi ngày 8 của phác đồ ≥ 1 G/L"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:113",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9358,
+            "snippet": ". + Tiêu chuẩn đánh giá đáp ứng hóa trị trên tủy đồ ngày 21:  Nhạy với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ ≤ 5% (Type M1);  Đáp ứng kém với hóa trị: tỷ lệ tế bào blast trong tủy đồ ngày 21 của phác đồ > 5 %, chia làm 2 loại: Type M2: Tế bào blast trong tủy từ 6 - 25%; Type M3: Tế bào blast trong tủy > 25%. - Tiêu chuẩn lui bệnh về huyết học sau điều trị tấn công theo NCCN 2.2016 [82]: + Tiêu chuẩn lui bệnh hoàn toàn về mặt huyết học (CR):  Không phát hiện tế bào ác tính trong máu ngoại vi hay biểu hiện thâm nhiễm ngoài tủy (hết các triệu chứng gan to, lách, hạch to, thâm nhiễm thần kinh trung ương);  Phục hồi các dòng tế bào sinh máu trong tuỷ; Tỷ lệ blast < 5% tổng số tế bào có nhân trong tủy;  Số lượng tuyệt đối bạch cầu đoạn máu ngoại vi > 1 G/l;"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:233",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.9002,
+            "snippet": "giá mức độ nhạy cảm với corticoid. Đánh giá sự nhạy cảm với corticoid dựa trên đếm số lượng tế bào blast ở máu ngoại vi ngày 8 cũng là một trong những yếu tố tiên lượng quan trọng và được đưa vào xếp loại trong phác đồ FRALLE 2000. Những bệnh nhi nhạy cảm với corticoid trong giai đoạn điều trị cảm ứng được cho là có khả năng đáp ứng tốt với điều trị, là yếu tố tiên lượng tốt trong xếp nhóm nguy cơ [34]. Kết quả bảng 3.15 cho thấy tỷ lệ đáp ứng nhạy cảm với corticoid theo huyết đồ ngày 8 với tất cả bệnh nhi là 79,9%. Kết quả nghiên cứu tương tự nghiên cứu của tác giả Võ Thị Thanh Trúc năm 2010 trên 120 bệnh nhi ALL được điều trị bằng phác đồ FRALLE 2000 với tỷ lệ nhạy cảm với corticoid trên huyết đồ ngày 8 là 83,3% [73]. Sự nhạy cảm với corticoid cao nhất ở nhóm A (89,3%). Nhóm B và nhóm T có tỷ lệ nhạy cảm corticoid gần tương tự nhau"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:102",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8925,
+            "snippet": "+ Dấu ấn dòng lympho B: CD19, CD20, CD22, CD10, CD79a; + Dấu ấn dòng lympho T: CD3, CD7, CD4, CD8. o Vòng 2: (xếp loại dưới nhóm) Dựa vào gợi ý của bước 1 hướng đến dòng tế bào nào, tiếp tục thiết kế thêm một số ống để xác định chính xác: CD71, CD235a, CD5, CyCD3, TdT, CD1a, CD2, CD38, IgM, FMC7, Kappa, Lamda, CD11b, CD41, CD61, CD16, CD56, CD138, CD38. – Giai đoạn 2: (sau hóa trị liệu): Xác định MRD: o Sử dụng mẫu tủy của bệnh nhi đã trải qua giai đoạn điều trị theo các phác đồ chuẩn đối với từng nhóm bệnh và được xác định lui bệnh hoàn toàn theo tiêu chuẩn của Hiệp hội chống ung thư quốc tế UICC/WHO. o Tiến hành khảo sát dấu ấn miễn dịch của bệnh nhi bao gồm cả dấu ấn miễn dịch bất thường: Số lượng tế bào blast, sự tái hoạt hóa tế bào trong tủy, kiểu hình dấu ấn miễn dịch bất thường (nếu có)"
+          },
+          {
+            "id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md:109",
+            "doc_id": "NghienCuuMotSoBienDoiDiTruyenVaLienQuanToiKetQuaDieuTriSomOBenhLoXeMiCapDongLymphoTreEmTheoPhacDoFralle2000.md",
+            "score": 0.8796,
+            "snippet": " BCR-ABL1 hay MLL-AF4 âm tính;  Không hiện diện sự tái sắp xếp gen MLL phát hiện bằng kỹ thuật Southern blot hay FISH cho trường hợp CD10 (+) yếu;  CD10 (+). Nhóm A sẽ được chia ra 3 phân nhóm A1, A2, A3 dựa vào sự đánh giá tế bào blast trong tủy vào ngày 21 (bất kể sự nhạy cảm với corticoid vào ngày 8 hay không):  Blast ≤5% (type M1): Nhóm A1  Blast 6-25% (type M2): Nhóm A2  Blast >25% (type M3): Nhóm A3 Bệnh nhi có MRD (+) (≥10-2) vào ngày 35 - 42 sẽ được chuyển sang nhóm A3 bất kể lúc đầu thuộc nhóm nào. + Nhóm B: Nguy cơ cao (high risk): Lơ xê mi cấp dòng lympho B de novo và có một trong những tiêu chuẩn sau:  Tuổi > 10;  Có thâm nhiễm hệ thần kinh trung ương;  Bạch cầu > 50G/L;  Có t(9;22), t(4;11) hoặc bộ NST < 44;  BCR-ABL1 hay MLL-AF4 dương tính;  Hiện diện sự tái sắp xếp gen MLL phát hiện bằng kỹ thuật Southern blot hay FISH cho trường hợp CD10 (+) yếu\n. Chia nhóm B1 và B2 vào ngày 21 của điều trị tấn công dựa vào sự nhạy cảm với corticoid vào ngày 8 và nhạy cảm hóa trị vào ngày 21."
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.9522,
+          "min": 0.8796,
+          "avg": 0.9121
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 39067,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "23-04-2026-session-020",
+  "date_folder": "23-04-2026",
+  "sequence": 20,
+  "file_name": "session_020.json",
+  "created_at": "2026-04-23T13:31:46.782333",
+  "updated_at": "2026-04-23T13:31:46.782333"
+}

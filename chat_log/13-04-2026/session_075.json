@@ -1,0 +1,71 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "dense_only",
+  "query": "Điều trị ALL theo phác đồ FRALLE 2000 bao gồm các giai đoạn nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "The ALL-REZ-BFM 85 protocol, which is an amended version of the FRALLE 2000 protocol, consists of nine phases (sensitization and induction R1, R2, each phase consisting of four cycles). Each cycle is spaced 21 days or one week after the bone marrow recovery following the previous treatment (white blood cell count > 1.5G/L; platelet count > 100G/L). These phases include methylprednisone, vincristine, methotrexate, leucovorin, and cytarabine. The specific phases of the ALL-REZ-BFM 85 protocol within the FRALLE 2000 are not explicitly stated in the provided context, but it can be inferred that they are part of the treatment regimen mentioned in Context 2 and Context 3.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success_dense_only",
+        "top_k": 3,
+        "snippets": [
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:131",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.5051,
+            "snippet": ". Leukemia. 2010; 24: 265-284. 5. Pui C, Carroll W, Meshinchi S, Arceci RJ. Biology, risk stratification and therapy of pediatric acute leukemia: an update. J Clin Oncol. 2010 In press. 6. Pui CH, Campana D, Pei D, et al. Treating childhood acute lymphoblastic leukemia without cranial irradiation. N Engl J Med. 2009; 360:2730-2741. 7. Pui CH, Evans WE. Treatment of acute lymphoblastic leukemia. N Engl J Med. 2006; 354:166-178. 8. Tallen G, Ratei R, Mann G, et al. Long-term outcome in children with relapsed acute lymphoblastic leukemia after time-point and site-of-relapse stratification and intensified short-course multidrug chemotherapy: results of trial ALL-REZ BFM 90. J Clin Oncol. 2010; 28:2339-2347. 9. FRALLE 2000-B/T. Version amendée mars 2003. 10. Cooprall version 2005 11"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:116",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4631,
+            "snippet": ". Phác đồ cụ thể: 3.5.1. Phác đồ ALL- REZ-BFM 85 có cải tiến: Bao gồm 9 đợt (cảm ứng + luân phiên R1, R2, mỗi đợt 4 lần). Mỗi đợt điều trị cách nhau 21 ngày hoặc 1 tuần sau khi tủy xương hồi phục sau đợt điều trị trước đó (số lượng bạch cầu hạt > 1,5G/L; số lượng tiểu cầu > 100G/L). a. Cảm ứng P: - Methylprednisone 100 mg/m2, uống hoặc tiêm, truyền TM ngày 1-7 và 15-21. - Vincristine 1,5 mg/m2 tiêm tĩnh mạch chậm hoặc truyền tĩnh mạch ngày 1, 8, 15, 22. - Methotrexate 1 g/m2 truyền tĩnh mạch trong 36h, ngày 1. - Leucovorin 15 mg/m2, tiêm tĩnh mạch chậm giờ 48 và 54 sau khi bắt đầu truyền Methotrexat (Có thể tiêm tăng số liều trong trường hợp bệnh nhân có nguy cơ loét hoặc có loét niêm mạc). - Cytarabine liều cao 3g/m2/12h truyền tĩnh mạch ngày 15, 16. ngoctlv.kcb_Truong Le Van Ngoc_04/07/2022 08:49:53 199"
+          },
+          {
+            "id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md:78",
+            "doc_id": "HuongDanChanDoanVaDieuTriMotSoBenhLyHuyetHoc_shortened.md",
+            "score": 0.4615,
+            "snippet": "+ Methotrexate: 5.000mg/m2/ngày (truyền tĩnh mạch/ 24 giờ) ngày 1, 15; (Thuốc giải Acid folinic bắt đầu từ giờ thứ 36 của MTX) + Methotrexat: 25mg/m2/lần (uống) ngày 8, 22; + Tiêm tủy sống 3 thuốc: Vào giờ 24 của MTX ngày 2, 16. ĐỢT 2: Bắt đầu ngay khi bạch cầu trung tính > 1G/L và TC > 100G/L + Vincristine: 1,5mg/m2/lần (tĩnh mạch chậm hoặc truyền tĩnh mạch), ngày 29 (không quá 2mg); + Dexamethasone: 6mg/m2/ngày (chia 3 lần, uống), ngày 29-33; + Mercaptopurine: 50mg/m2/ngày (uống), ngày 29-49; + Methotrexate: 5.000mg/m2/ngày (truyền tĩnh mạch/ 24 giờ), ngày 29; (Thuốc giải Acid folinic bắt đầu từ giờ thứ 36 của MTX) + Methotrexat: 25mg/m2/lần (uống), ngày 36, 43, 50; + Tiêm tủy sống 3 thuốc: Vào giờ 24 của MTX ngày 30. Lưu ý: + Liều mercaptopurine ở đây chỉ 50mg/m2/ngày vì giai đoạn này có MTX liều cao; + Ngày 15: Bắt đầu khi bạch cầu trung tính > 0,5G/L và tiểu cầu > 50G/L. b.6"
+          }
+        ],
+        "retrieval_mode": "dense_only",
+        "score_summary": {
+          "max": 0.5051,
+          "min": 0.4615,
+          "avg": 0.4766
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 5172,
+        "context_used": 3,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "dense_only",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "13-04-2026-session-075",
+  "date_folder": "13-04-2026",
+  "sequence": 75,
+  "file_name": "session_075.json",
+  "created_at": "2026-04-13T10:49:18.828174",
+  "updated_at": "2026-04-13T10:49:18.828174"
+}

@@ -1,0 +1,83 @@
+{
+  "model": "mistral",
+  "retrieval_mode": "hybrid_original",
+  "query": "Bệnh nhi ALL tiền B nguy cơ không cao đang điều trị, ngày 7 có tủy đồ TX1 (blast ≤5%) và ngày 28 có MRD 0,02%. Xử trí tiếp theo như thế nào?",
+  "status": "pending",
+  "history": [
+    {
+      "llm_response": "Trong trường hợp này, bệnh nhân đang điều trị ALL (bệnh ung thư đột biến) với nguy cơ không cao. Vì vậy, theo phác đồ đã được đề xuất, bạn nên duy trì điều trị hiện tại với các giai đoạn cụ thể: Cảm ứng, củng cố, duy trì tạm thời lần I, tích cực muộn lần 1, duy trì tạm thời lần II và duy trì. Vì bệnh nhân đã có MRD (bệnh tồn dư tối thiểu) 0,02% ngày 28 của giai đoạn cảm ứng, nhưng lần cuối cùng kiểm tra MRD trong phác đồ cho phép mức tối đa là 0,01%, do đó không có yếu tố gây lo ngại về việc tiếp tục điều trị theo phác đồ hiện tại.",
+      "client": null,
+      "retrieval": {
+        "retrieval_status": "success",
+        "top_k": 5,
+        "snippets": [
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:6",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.989,
+            "snippet": "ĐIỀU TRỊ Hóa trị liệu toàn thân Bạch cầu cấp dòng lympho L3: điều trị theo phác đồ U lympho không Hodgkin tế bào B (xem phác đồ UK CCSG NHL 902 hoặc 903). Bạch cầu cấp dòng lympho tiền B: đáp ứng điều trị sớm nếu tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX1/TX2. Các giai đoạn cụ thể: Cảm ứng  Củng cố  Duy trì tạm thời lần I  Tích cực muộn lần 1  Duy trì tạm thời lần II  Tích cực muộn lần II  Duy trì. * Chỉ áp dụng cho ALL nguy cơ cao hoặc phác đồ tăng cường cho ALL nguy cơ không cao . TX: tình trạng của tủy xương. TX1: BCN ≤ 5% tế bào tủy; TX2: 5 - ≤ 25%; TX3: > 25%. Xét nghiệm tủy đồ ngày thứ 7, 14 và 28 của giai đoạn điều trị cảm ứng để đánh giá đáp ứng điều trị. Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau)"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:8",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9866,
+            "snippet": ". Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường. Bạch cầu cấp dòng lympho T: điều trị theo phác đồ AZNCCSG Study VII (chi tiết xem sau). Các giai đoạn cụ thể: Cảm ứng  Củng cố  Tích cực muộn  Tái tấn công / Tái củng cố  Duy trì Lưu ý: Chọc dò tuỷ sống có máu do chạm ven (>10 hồng cầu/mm ) và có BCN sẽ điều trị như TKTƯ-2 (tăng cường tiêm tủy sống, không xạ trị). Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:7",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9837,
+            "snippet": ". Xét nghiệm MRD (bệnh tồn dư tối thiểu) ngày 28 của giai đoạn cảm ứng bằng kỹ thuật Flow cytometry. Nhóm nguy cơ không cao: điều trị phác đồ CCG 1991, nhánh OS (chi tiết xem sau). Bệnh nhân đáp ứng điều trị chậm nếu xét nghiệm tủy đồ ngày thứ 7 của giai đoạn cảm ứng là TX3 và ngày thứ 14 là TX2 hoặc ngày thứ 14 là TX3, chuyển sang phác đồ tăng cường. Nhóm nguy cơ cao: điều trị phác đồ CCG 1961, nhánh B (chi tiết xem sau). Bệnh nhân đáp ứng điều trị chậm nếu xét nghiệm tủy đồ ngày thứ 7 là TX3, chuyển sang phác đồ đáp ứng chậm. Bệnh nhân có tủy đồ ngày thứ 28 của giai đoạn cảm ứng là TX3 sẽ không tiếp tục điều trị * theo phác đồ. Nếu MRD > 0,01% vào ngày 28 của giai đoạn cảm ứng , chuyển sang phác đồ tăng cường. Bạch cầu cấp dòng lympho T: điều trị theo phác đồ AZNCCSG Study VII (chi tiết xem sau)"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:9",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9367,
+            "snippet": ". Cảm ứng / Tấn công: tiền B, nguy cơ không cao - 3 thuốc; tiền B, nguy cơ cao và dòng T - 4 thuốc. DXM 6mg/m uống hàng ngày, ngày 0-27 VCR 1,5 mg/m (tối đa 2mg) tiêm TM, ngày 0, 7, 14, 21 ASP 6.000 UI/m /liều, TB, từ ngày 3, thứ 2, 4, 6, tổng số 9 liều DAUNO** 25 mg/m , truyền TMC, ngày 0, 7, 14, 21 MTX tiêm TS, liều theo tuổi (tối đa 12 mg), ngày 0, 7, 14*, 21*, 28 (tiền B) / ngày 0, 14 (tế bào T) Liều MTX theo tuổi: 1 đến < 2 tuổi: 8 mg; 2 đến <3 tuổi: 10 mg; ≥3 tuổi: g, pha trong dung dịch Ringer lactat hoặc Natriclorua 0,9% vừa đủ 4-5 ml *.Chỉ điều trị bệnh nhân thâm nhiễm TKTƯ ngay khi chẩn đoán bệnh *.Chỉ điều trị bệnh nhân ALL nhóm nguy cơ cao x 4 liều hoặc bệnh nhân nhóm nguy cơ không cao đáp ứng điều trị chậm (phác đồ tăng cường) x 2 liều (ngày 14, 21). Nếu không có DAUNO, thay bằng DOXO với liều và ngày dùng tương tựDAUNO"
+          },
+          {
+            "id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md:17",
+            "doc_id": "UngThuBachCauCapDongLymphoBVNguyenTriPhuong.md",
+            "score": 0.9151,
+            "snippet": "ng ngày 0 của giai đoạn Duy trì tạm thời lần 2) Tích cực muộn lần I, II (8 tuần): ngày thứ 56 của Duy trì tạm thời hoặc khi BCTT ≥ 1.000 và TC ≥ 100.000 (tiền B, nguy cơ không cao) và BC hạt ≥ 750/mm và TC ≥ 75.000/mm (cho các nhóm còn lại). Tạm ngừng điều trị nếu ngày thứ 28 có giảm sản tủy. Ngừng điều trị nếu sốt, giảm BC hạt hoặc nhiễm trùng nặng. Tiền B: VCR 1,5 mg/m (tối đa 2 mg), tiêm TM, ngày 0, 7, 14, 42*, 49* (*, chỉ áp dụng cho phác đồ tăng cường nguy cơ không cao và phác đồ nguy cơ cao đáp ứng chậm) DXM 10 mg/m uống, ngày 0-6 và 14-20 ASP 6.000 UI/m /lần x 6 liều, TB, từ ngày thứ 3, thứ 2, 4, 6 DOXO 25 mg/m , truyền TM ngày 0, 7, 14 CPM 1.000 mg/m , truyền TMC ngày 28 6 MP 75 mg/m /ngày, uống hàng ngày, từ ngày 28-41 ARA-C tiêm dưới da hoặc TM 75 mg/m /ngày, ngày 28-31 và 35-38 (nguy cơ không cao) / ngày 29-32 và 36-39 (nguy cơ cao)."
+          }
+        ],
+        "retrieval_mode": "hybrid_original",
+        "score_summary": {
+          "max": 0.989,
+          "min": 0.9151,
+          "avg": 0.9622
+        }
+      },
+      "diagnostics": {
+        "latency_ms": 42105,
+        "context_used": 5,
+        "error": null,
+        "provider": "ollama",
+        "model_alias": "mistral",
+        "model_name": "mistral",
+        "error_category": null,
+        "http_status": null,
+        "retry_count": 0,
+        "request_id": null,
+        "fallback_used": null,
+        "fallback_reason": null,
+        "quota_remaining": null,
+        "rate_limit_reset_seconds": null
+      },
+      "model_alias": "mistral",
+      "model_provider": "ollama",
+      "model_name": "mistral",
+      "retrieval_mode": "hybrid_original",
+      "provider_metadata": {
+        "retry_count": 0
+      }
+    }
+  ],
+  "id": "24-04-2026-session-004",
+  "date_folder": "24-04-2026",
+  "sequence": 4,
+  "file_name": "session_004.json",
+  "created_at": "2026-04-24T15:20:15.345827",
+  "updated_at": "2026-04-24T15:20:15.345827"
+}
